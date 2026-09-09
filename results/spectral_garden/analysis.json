@@ -1,0 +1,292 @@
+{
+  "completed": true,
+  "episodes": 18,
+  "protocol": {
+    "seeds": [
+      201,
+      202,
+      203
+    ],
+    "steps": 24,
+    "decision_dt_s": 0.1,
+    "physics_dt_s": 0.0001,
+    "conditions": [
+      "paired",
+      "delayed",
+      "frozen"
+    ],
+    "positions_swapped": [
+      false,
+      true
+    ],
+    "acquisition": "Saved stationary blue 450 nm conditioning weights from spectral_memory",
+    "blue_cue_index": 0,
+    "green_cue_index": 1,
+    "reward_during_body_test": false,
+    "learning_during_body_test": false,
+    "motor_readout": "Unchanged fixed normalized hemispheric MBON difference plus matched random exploration",
+    "metric": "Mean over decisions of distance to green minus distance to blue (mm); positive favors blue.",
+    "success": "After averaging swapped positions, paired score exceeds BOTH controls for every fixed seed.",
+    "limitation": "Exploratory transfer; not spontaneous acquisition in the body or improved plasticity. Three seeds give a pilot, not robust statistical validation."
+  },
+  "effects": [
+    {
+      "seed": 201,
+      "scores_mm": {
+        "paired": -1.3739944623604516,
+        "delayed": -0.7420461018481392,
+        "frozen": -1.0574535103261322
+      },
+      "paired_minus_delayed_mm": -0.6319483605123124,
+      "paired_minus_frozen_mm": -0.3165409520343194,
+      "paired_beats_both_controls": false,
+      "paired_absolute_blue_preference": false
+    },
+    {
+      "seed": 202,
+      "scores_mm": {
+        "paired": -1.0754823731291019,
+        "delayed": -0.7744092849377782,
+        "frozen": -2.277807688395828
+      },
+      "paired_minus_delayed_mm": -0.3010730881913237,
+      "paired_minus_frozen_mm": 1.2023253152667261,
+      "paired_beats_both_controls": false,
+      "paired_absolute_blue_preference": false
+    },
+    {
+      "seed": 203,
+      "scores_mm": {
+        "paired": -1.491689024094321,
+        "delayed": -1.073123888405508,
+        "frozen": -1.3558601984965357
+      },
+      "paired_minus_delayed_mm": -0.41856513568881293,
+      "paired_minus_frozen_mm": -0.1358288255977853,
+      "paired_beats_both_controls": false,
+      "paired_absolute_blue_preference": false
+    }
+  ],
+  "summary": {
+    "paired": {
+      "mean_score_mm": -1.313721953194625,
+      "episodes_entering_blue": 0,
+      "episodes_entering_green": 0
+    },
+    "delayed": {
+      "mean_score_mm": -0.8631930917304752,
+      "episodes_entering_blue": 0,
+      "episodes_entering_green": 1
+    },
+    "frozen": {
+      "mean_score_mm": -1.5637071324061653,
+      "episodes_entering_blue": 0,
+      "episodes_entering_green": 1
+    }
+  },
+  "rows": [
+    {
+      "seed": 201,
+      "condition": "paired",
+      "swapped": false,
+      "blue_approach_score_mm": -1.067823649197545,
+      "entered_blue_radius": false,
+      "entered_green_radius": false,
+      "final_blue_distance_mm": 26.469786655682384,
+      "max_feature": 1.0,
+      "fraction_features_at_one": 0.04583333333333333
+    },
+    {
+      "seed": 201,
+      "condition": "paired",
+      "swapped": true,
+      "blue_approach_score_mm": -1.6801652755233583,
+      "entered_blue_radius": false,
+      "entered_green_radius": false,
+      "final_blue_distance_mm": 26.236345483025463,
+      "max_feature": 1.0,
+      "fraction_features_at_one": 0.05
+    },
+    {
+      "seed": 201,
+      "condition": "delayed",
+      "swapped": false,
+      "blue_approach_score_mm": -2.1124828273800946,
+      "entered_blue_radius": false,
+      "entered_green_radius": false,
+      "final_blue_distance_mm": 27.590987553624807,
+      "max_feature": 1.0,
+      "fraction_features_at_one": 0.058333333333333334
+    },
+    {
+      "seed": 201,
+      "condition": "delayed",
+      "swapped": true,
+      "blue_approach_score_mm": 0.6283906236838163,
+      "entered_blue_radius": false,
+      "entered_green_radius": false,
+      "final_blue_distance_mm": 25.096624559356954,
+      "max_feature": 1.0,
+      "fraction_features_at_one": 0.0625
+    },
+    {
+      "seed": 201,
+      "condition": "frozen",
+      "swapped": false,
+      "blue_approach_score_mm": -3.3993631966850053,
+      "entered_blue_radius": false,
+      "entered_green_radius": false,
+      "final_blue_distance_mm": 27.39540640934671,
+      "max_feature": 1.0,
+      "fraction_features_at_one": 0.05
+    },
+    {
+      "seed": 201,
+      "condition": "frozen",
+      "swapped": true,
+      "blue_approach_score_mm": 1.2844561760327406,
+      "entered_blue_radius": false,
+      "entered_green_radius": false,
+      "final_blue_distance_mm": 25.369130251824945,
+      "max_feature": 1.0,
+      "fraction_features_at_one": 0.058333333333333334
+    },
+    {
+      "seed": 202,
+      "condition": "paired",
+      "swapped": false,
+      "blue_approach_score_mm": -0.4243369656798241,
+      "entered_blue_radius": false,
+      "entered_green_radius": false,
+      "final_blue_distance_mm": 25.81907690249616,
+      "max_feature": 1.0,
+      "fraction_features_at_one": 0.05
+    },
+    {
+      "seed": 202,
+      "condition": "paired",
+      "swapped": true,
+      "blue_approach_score_mm": -1.7266277805783796,
+      "entered_blue_radius": false,
+      "entered_green_radius": false,
+      "final_blue_distance_mm": 27.092448233913945,
+      "max_feature": 1.0,
+      "fraction_features_at_one": 0.041666666666666664
+    },
+    {
+      "seed": 202,
+      "condition": "delayed",
+      "swapped": false,
+      "blue_approach_score_mm": -1.989443659186307,
+      "entered_blue_radius": false,
+      "entered_green_radius": false,
+      "final_blue_distance_mm": 26.47574698081873,
+      "max_feature": 1.0,
+      "fraction_features_at_one": 0.05
+    },
+    {
+      "seed": 202,
+      "condition": "delayed",
+      "swapped": true,
+      "blue_approach_score_mm": 0.44062508931075056,
+      "entered_blue_radius": false,
+      "entered_green_radius": false,
+      "final_blue_distance_mm": 25.398377424818744,
+      "max_feature": 1.0,
+      "fraction_features_at_one": 0.06666666666666667
+    },
+    {
+      "seed": 202,
+      "condition": "frozen",
+      "swapped": false,
+      "blue_approach_score_mm": -3.979174854469804,
+      "entered_blue_radius": false,
+      "entered_green_radius": false,
+      "final_blue_distance_mm": 28.345311134215308,
+      "max_feature": 1.0,
+      "fraction_features_at_one": 0.05416666666666667
+    },
+    {
+      "seed": 202,
+      "condition": "frozen",
+      "swapped": true,
+      "blue_approach_score_mm": -0.5764405223218525,
+      "entered_blue_radius": false,
+      "entered_green_radius": false,
+      "final_blue_distance_mm": 26.618707303625335,
+      "max_feature": 1.0,
+      "fraction_features_at_one": 0.05
+    },
+    {
+      "seed": 203,
+      "condition": "paired",
+      "swapped": false,
+      "blue_approach_score_mm": -3.294496407515568,
+      "entered_blue_radius": false,
+      "entered_green_radius": false,
+      "final_blue_distance_mm": 27.594872412508806,
+      "max_feature": 1.0,
+      "fraction_features_at_one": 0.05
+    },
+    {
+      "seed": 203,
+      "condition": "paired",
+      "swapped": true,
+      "blue_approach_score_mm": 0.31111835932692605,
+      "entered_blue_radius": false,
+      "entered_green_radius": false,
+      "final_blue_distance_mm": 25.715524756477652,
+      "max_feature": 1.0,
+      "fraction_features_at_one": 0.0375
+    },
+    {
+      "seed": 203,
+      "condition": "delayed",
+      "swapped": false,
+      "blue_approach_score_mm": -4.922507299710293,
+      "entered_blue_radius": false,
+      "entered_green_radius": true,
+      "final_blue_distance_mm": 29.513368838724123,
+      "max_feature": 1.0,
+      "fraction_features_at_one": 0.0625
+    },
+    {
+      "seed": 203,
+      "condition": "delayed",
+      "swapped": true,
+      "blue_approach_score_mm": 2.7762595228992772,
+      "entered_blue_radius": false,
+      "entered_green_radius": false,
+      "final_blue_distance_mm": 23.64340288118742,
+      "max_feature": 1.0,
+      "fraction_features_at_one": 0.06666666666666667
+    },
+    {
+      "seed": 203,
+      "condition": "frozen",
+      "swapped": false,
+      "blue_approach_score_mm": -5.231910299385068,
+      "entered_blue_radius": false,
+      "entered_green_radius": true,
+      "final_blue_distance_mm": 29.429214266235952,
+      "max_feature": 1.0,
+      "fraction_features_at_one": 0.058333333333333334
+    },
+    {
+      "seed": 203,
+      "condition": "frozen",
+      "swapped": true,
+      "blue_approach_score_mm": 2.5201899023919965,
+      "entered_blue_radius": false,
+      "entered_green_radius": false,
+      "final_blue_distance_mm": 24.276641777122702,
+      "max_feature": 1.0,
+      "fraction_features_at_one": 0.075
+    }
+  ],
+  "relative_pilot_gate_passed": false,
+  "consistent_absolute_blue_preference": false,
+  "improved_plasticity_demonstrated": false,
+  "biological_pathway_validated": false,
+  "note": "Relative improvement can reduce an existing green bias without producing an absolute blue preference. Proximity is measured in xy as in the original pilot."
+}

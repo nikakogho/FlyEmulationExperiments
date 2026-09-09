@@ -1,0 +1,50 @@
+[2026-09-09 00:57:05] network_view:122 Initialized network view at C:\Users\nikak\source\repos\FlyEmulationExperiments\data\flyvis\results\flow\0000\000
+[2026-09-09 00:57:05] logging_utils:23 epe not in C:\Users\nikak\source\repos\FlyEmulationExperiments\data\flyvis\results\flow\0000\000\validation, but 'loss' is. Falling back to 'loss'. You can rerun the ensemble validation to make appropriate recordings of the losses.
+[2026-09-09 00:57:09] network:222 Initialized network with NumberOfParams(free=734, fixed=2959) parameters.
+[2026-09-09 00:57:09] chkpt_utils:36 Recovered network state.
+Replayed model 000
+[2026-09-09 00:57:12] network_view:122 Initialized network view at C:\Users\nikak\source\repos\FlyEmulationExperiments\data\flyvis\results\flow\0000\001
+[2026-09-09 00:57:12] logging_utils:23 epe not in C:\Users\nikak\source\repos\FlyEmulationExperiments\data\flyvis\results\flow\0000\001\validation, but 'loss' is. Falling back to 'loss'. You can rerun the ensemble validation to make appropriate recordings of the losses.
+[2026-09-09 00:57:16] network:222 Initialized network with NumberOfParams(free=734, fixed=2959) parameters.
+[2026-09-09 00:57:16] chkpt_utils:36 Recovered network state.
+Replayed model 001
+[2026-09-09 00:57:19] network_view:122 Initialized network view at C:\Users\nikak\source\repos\FlyEmulationExperiments\data\flyvis\results\flow\0000\002
+[2026-09-09 00:57:20] logging_utils:23 epe not in C:\Users\nikak\source\repos\FlyEmulationExperiments\data\flyvis\results\flow\0000\002\validation, but 'loss' is. Falling back to 'loss'. You can rerun the ensemble validation to make appropriate recordings of the losses.
+[2026-09-09 00:57:23] network:222 Initialized network with NumberOfParams(free=734, fixed=2959) parameters.
+[2026-09-09 00:57:23] chkpt_utils:36 Recovered network state.
+Replayed model 002
+[2026-09-09 00:57:27] network_view:122 Initialized network view at C:\Users\nikak\source\repos\FlyEmulationExperiments\data\flyvis\results\flow\0000\003
+[2026-09-09 00:57:27] logging_utils:23 epe not in C:\Users\nikak\source\repos\FlyEmulationExperiments\data\flyvis\results\flow\0000\003\validation, but 'loss' is. Falling back to 'loss'. You can rerun the ensemble validation to make appropriate recordings of the losses.
+[2026-09-09 00:57:31] network:222 Initialized network with NumberOfParams(free=734, fixed=2959) parameters.
+[2026-09-09 00:57:31] chkpt_utils:36 Recovered network state.
+Replayed model 003
+[2026-09-09 00:57:34] network_view:122 Initialized network view at C:\Users\nikak\source\repos\FlyEmulationExperiments\data\flyvis\results\flow\0000\004
+[2026-09-09 00:57:34] logging_utils:23 epe not in C:\Users\nikak\source\repos\FlyEmulationExperiments\data\flyvis\results\flow\0000\004\validation, but 'loss' is. Falling back to 'loss'. You can rerun the ensemble validation to make appropriate recordings of the losses.
+[2026-09-09 00:57:38] network:222 Initialized network with NumberOfParams(free=734, fixed=2959) parameters.
+[2026-09-09 00:57:38] chkpt_utils:36 Recovered network state.
+Replayed model 004
+[2026-09-09 00:57:42] network_view:122 Initialized network view at C:\Users\nikak\source\repos\FlyEmulationExperiments\data\flyvis\results\flow\0000\005
+[2026-09-09 00:57:42] logging_utils:23 epe not in C:\Users\nikak\source\repos\FlyEmulationExperiments\data\flyvis\results\flow\0000\005\validation, but 'loss' is. Falling back to 'loss'. You can rerun the ensemble validation to make appropriate recordings of the losses.
+[2026-09-09 00:57:46] network:222 Initialized network with NumberOfParams(free=734, fixed=2959) parameters.
+[2026-09-09 00:57:46] chkpt_utils:36 Recovered network state.
+Replayed model 005
+[2026-09-09 00:57:49] network_view:122 Initialized network view at C:\Users\nikak\source\repos\FlyEmulationExperiments\data\flyvis\results\flow\0000\007
+[2026-09-09 00:57:49] logging_utils:23 epe not in C:\Users\nikak\source\repos\FlyEmulationExperiments\data\flyvis\results\flow\0000\007\validation, but 'loss' is. Falling back to 'loss'. You can rerun the ensemble validation to make appropriate recordings of the losses.
+[2026-09-09 00:57:53] network:222 Initialized network with NumberOfParams(free=734, fixed=2959) parameters.
+[2026-09-09 00:57:53] chkpt_utils:36 Recovered network state.
+Replayed model 007
+[2026-09-09 00:57:56] network_view:122 Initialized network view at C:\Users\nikak\source\repos\FlyEmulationExperiments\data\flyvis\results\flow\0000\009
+[2026-09-09 00:57:56] logging_utils:23 epe not in C:\Users\nikak\source\repos\FlyEmulationExperiments\data\flyvis\results\flow\0000\009\validation, but 'loss' is. Falling back to 'loss'. You can rerun the ensemble validation to make appropriate recordings of the losses.
+[2026-09-09 00:58:00] network:222 Initialized network with NumberOfParams(free=734, fixed=2959) parameters.
+[2026-09-09 00:58:00] chkpt_utils:36 Recovered network state.
+Replayed model 009
+[2026-09-09 00:58:04] network_view:122 Initialized network view at C:\Users\nikak\source\repos\FlyEmulationExperiments\data\flyvis\results\flow\0000\006
+[2026-09-09 00:58:04] logging_utils:23 epe not in C:\Users\nikak\source\repos\FlyEmulationExperiments\data\flyvis\results\flow\0000\006\validation, but 'loss' is. Falling back to 'loss'. You can rerun the ensemble validation to make appropriate recordings of the losses.
+[2026-09-09 00:58:08] network:222 Initialized network with NumberOfParams(free=734, fixed=2959) parameters.
+[2026-09-09 00:58:08] chkpt_utils:36 Recovered network state.
+Replayed model 006
+[2026-09-09 00:58:11] network_view:122 Initialized network view at C:\Users\nikak\source\repos\FlyEmulationExperiments\data\flyvis\results\flow\0000\013
+[2026-09-09 00:58:11] logging_utils:23 epe not in C:\Users\nikak\source\repos\FlyEmulationExperiments\data\flyvis\results\flow\0000\013\validation, but 'loss' is. Falling back to 'loss'. You can rerun the ensemble validation to make appropriate recordings of the losses.
+[2026-09-09 00:58:15] network:222 Initialized network with NumberOfParams(free=734, fixed=2959) parameters.
+[2026-09-09 00:58:15] chkpt_utils:36 Recovered network state.
+Replayed model 013

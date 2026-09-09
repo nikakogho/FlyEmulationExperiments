@@ -1,0 +1,170 @@
+{
+  "seed": 101,
+  "training": "0.5 s bilateral green; paired external PAM input 60 Hz",
+  "testing": "0.5 s each color and eye separately, fresh state, no food or updates",
+  "rows": [
+    {
+      "condition": "frozen",
+      "responses": [
+        {
+          "color": "green",
+          "eye": "left",
+          "mean_mbon_hz": [
+            57.166666666666664,
+            14.541666666666666
+          ],
+          "action_from_mean_rates": [
+            1.3,
+            0.7
+          ]
+        },
+        {
+          "color": "green",
+          "eye": "right",
+          "mean_mbon_hz": [
+            14.208333333333332,
+            55.33333333333333
+          ],
+          "action_from_mean_rates": [
+            0.7,
+            1.3
+          ]
+        },
+        {
+          "color": "blue",
+          "eye": "left",
+          "mean_mbon_hz": [
+            57.33333333333333,
+            14.916666666666666
+          ],
+          "action_from_mean_rates": [
+            1.3,
+            0.7
+          ]
+        },
+        {
+          "color": "blue",
+          "eye": "right",
+          "mean_mbon_hz": [
+            17.833333333333336,
+            56.041666666666664
+          ],
+          "action_from_mean_rates": [
+            0.7,
+            1.3
+          ]
+        }
+      ],
+      "retained_weight_fraction": 1.0
+    },
+    {
+      "condition": "paired",
+      "responses": [
+        {
+          "color": "green",
+          "eye": "left",
+          "mean_mbon_hz": [
+            28.083333333333332,
+            7.041666666666667
+          ],
+          "action_from_mean_rates": [
+            1.3,
+            0.7
+          ]
+        },
+        {
+          "color": "green",
+          "eye": "right",
+          "mean_mbon_hz": [
+            6.208333333333333,
+            27.666666666666668
+          ],
+          "action_from_mean_rates": [
+            0.7,
+            1.3
+          ]
+        },
+        {
+          "color": "blue",
+          "eye": "left",
+          "mean_mbon_hz": [
+            57.33333333333333,
+            14.916666666666666
+          ],
+          "action_from_mean_rates": [
+            1.3,
+            0.7
+          ]
+        },
+        {
+          "color": "blue",
+          "eye": "right",
+          "mean_mbon_hz": [
+            17.833333333333336,
+            56.041666666666664
+          ],
+          "action_from_mean_rates": [
+            0.7,
+            1.3
+          ]
+        }
+      ],
+      "retained_weight_fraction": 0.5883240044055098
+    },
+    {
+      "condition": "no_external_reward",
+      "responses": [
+        {
+          "color": "green",
+          "eye": "left",
+          "mean_mbon_hz": [
+            56.916666666666664,
+            14.541666666666666
+          ],
+          "action_from_mean_rates": [
+            1.3,
+            0.7
+          ]
+        },
+        {
+          "color": "green",
+          "eye": "right",
+          "mean_mbon_hz": [
+            14.125,
+            54.75
+          ],
+          "action_from_mean_rates": [
+            0.7,
+            1.3
+          ]
+        },
+        {
+          "color": "blue",
+          "eye": "left",
+          "mean_mbon_hz": [
+            57.33333333333333,
+            14.916666666666666
+          ],
+          "action_from_mean_rates": [
+            1.3,
+            0.7
+          ]
+        },
+        {
+          "color": "blue",
+          "eye": "right",
+          "mean_mbon_hz": [
+            17.833333333333336,
+            56.041666666666664
+          ],
+          "action_from_mean_rates": [
+            0.7,
+            1.3
+          ]
+        }
+      ],
+      "retained_weight_fraction": 0.9926913453344722
+    }
+  ],
+  "limitation": "Synthetic isolated-cue diagnostic; mixed MBON activity is not a behavioral valence measure"
+}

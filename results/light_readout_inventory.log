@@ -1,0 +1,6 @@
+[subnet] 8991 neurons, 791613 synapses
+{
+  "output_cells": 96,
+  "output_types": 35,
+  "note": "All these cell types are pooled equally by hemisphere in the current decoder. Transmitter alone does not establish behavioral valence."
+}

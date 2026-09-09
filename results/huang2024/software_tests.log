@@ -1,0 +1,19 @@
+test_batch_matches_single_samples (test_huang2024.PublishedModelTests.test_batch_matches_single_samples) ... ok
+test_decay_split_and_semigroup (test_huang2024.PublishedModelTests.test_decay_split_and_semigroup) ... ok
+test_direct_neural_solver_matches_iterative_under_saturation (test_huang2024.PublishedModelTests.test_direct_neural_solver_matches_iterative_under_saturation) ... ok
+test_full_protocol_solver_equivalence (test_huang2024.PublishedModelTests.test_full_protocol_solver_equivalence) ... ok
+test_invalid_input_rejected (test_huang2024.PublishedModelTests.test_invalid_input_rejected) ... ok
+test_learning_disabled_freezes_weights_not_sensory_adaptation (test_huang2024.PublishedModelTests.test_learning_disabled_freezes_weights_not_sensory_adaptation) ... ok
+test_native_matlab_saved_figures_144_values (test_huang2024.PublishedModelTests.test_native_matlab_saved_figures_144_values) ... ok
+test_no_input_is_zero_evoked_activity (test_huang2024.PublishedModelTests.test_no_input_is_zero_evoked_activity) ... ok
+test_odor_swap_equivariance (test_huang2024.PublishedModelTests.test_odor_swap_equivariance) ... ok
+test_parameter_mapping_matches_published_table (test_huang2024.PublishedModelTests.test_parameter_mapping_matches_published_table) ... ok
+test_protocol_matches_author_indices_and_imaging_times (test_huang2024.PublishedModelTests.test_protocol_matches_author_indices_and_imaging_times) ... ok
+test_rates_bounded_and_input_parameters_unchanged (test_huang2024.PublishedModelTests.test_rates_bounded_and_input_parameters_unchanged) ... ok
+test_signed_dopamine_gives_opposite_plasticity (test_huang2024.PublishedModelTests.test_signed_dopamine_gives_opposite_plasticity) ... ok
+test_zero_dopamine_blocks_update (test_huang2024.PublishedModelTests.test_zero_dopamine_blocks_update) ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 0.378s
+
+OK

@@ -1,0 +1,163 @@
+{
+  "passed": false,
+  "whole_brain_simulated": false,
+  "visual_subsystem_simulated": true,
+  "dt": 0.0025,
+  "checkpoint": "flow/0000/000",
+  "nodes": 45669,
+  "device": "cpu",
+  "finite": true,
+  "parameters_unchanged": true,
+  "parameter_sha256": "f7f8252191ac4bfc38e18cc03a55061f603e68cc03a402eaf363d2141d53baa9",
+  "gray_drift": 1.2142700143158436e-05,
+  "metrics": [
+    {
+      "cell": "T4a",
+      "preferred_angle": 180,
+      "preferred_peak": 1.2756969928741455,
+      "null_peak": 0.23064137995243073,
+      "direction_index": 0.6937721509150131,
+      "expected_polarity_peak": 1.2756969928741455,
+      "other_polarity_peak": 0.27571624517440796,
+      "direction_pass": true,
+      "polarity_pass": true
+    },
+    {
+      "cell": "T4b",
+      "preferred_angle": 0,
+      "preferred_peak": 1.1866588592529297,
+      "null_peak": 0.058569010347127914,
+      "direction_index": 0.9059304537314297,
+      "expected_polarity_peak": 1.1866588592529297,
+      "other_polarity_peak": 0.18416020274162292,
+      "direction_pass": true,
+      "polarity_pass": true
+    },
+    {
+      "cell": "T4c",
+      "preferred_angle": 90,
+      "preferred_peak": 0.9832450151443481,
+      "null_peak": 9.462237358093262e-07,
+      "direction_index": 0.9999980753061329,
+      "expected_polarity_peak": 0.9832450151443481,
+      "other_polarity_peak": 0.2621808350086212,
+      "direction_pass": true,
+      "polarity_pass": true
+    },
+    {
+      "cell": "T4d",
+      "preferred_angle": 270,
+      "preferred_peak": 0.10409396886825562,
+      "null_peak": 0.00016203522682189941,
+      "direction_index": 0.9968915895400301,
+      "expected_polarity_peak": 0.10409396886825562,
+      "other_polarity_peak": 0.2951030731201172,
+      "direction_pass": true,
+      "polarity_pass": false
+    },
+    {
+      "cell": "T5a",
+      "preferred_angle": 180,
+      "preferred_peak": 0.7699772715568542,
+      "null_peak": 2.0910287275910378e-05,
+      "direction_index": 0.9999456874372721,
+      "expected_polarity_peak": 0.7699772715568542,
+      "other_polarity_peak": 0.3666270971298218,
+      "direction_pass": true,
+      "polarity_pass": true
+    },
+    {
+      "cell": "T5b",
+      "preferred_angle": 0,
+      "preferred_peak": 0.5162597894668579,
+      "null_peak": 0.0375693142414093,
+      "direction_index": 0.864328855273741,
+      "expected_polarity_peak": 0.5162597894668579,
+      "other_polarity_peak": 0.16555997729301453,
+      "direction_pass": true,
+      "polarity_pass": true
+    },
+    {
+      "cell": "T5c",
+      "preferred_angle": 90,
+      "preferred_peak": 0.8214981555938721,
+      "null_peak": 0.11619585752487183,
+      "direction_index": 0.7521667923667175,
+      "expected_polarity_peak": 0.8214981555938721,
+      "other_polarity_peak": 0.00021135248243808746,
+      "direction_pass": true,
+      "polarity_pass": true
+    },
+    {
+      "cell": "T5d",
+      "preferred_angle": 270,
+      "preferred_peak": 1.6460374593734741,
+      "null_peak": 0.354548841714859,
+      "direction_index": 0.6455550640110033,
+      "expected_polarity_peak": 1.6460374593734741,
+      "other_polarity_peak": 0.1256624311208725,
+      "direction_pass": true,
+      "polarity_pass": true
+    }
+  ],
+  "stimuli": [
+    {
+      "angle": 0,
+      "width": 80,
+      "intensity": 0,
+      "t_stim": 0.42876588021778583,
+      "speed": 19
+    },
+    {
+      "angle": 0,
+      "width": 80,
+      "intensity": 1,
+      "t_stim": 0.42876588021778583,
+      "speed": 19
+    },
+    {
+      "angle": 90,
+      "width": 80,
+      "intensity": 0,
+      "t_stim": 0.42876588021778583,
+      "speed": 19
+    },
+    {
+      "angle": 90,
+      "width": 80,
+      "intensity": 1,
+      "t_stim": 0.42876588021778583,
+      "speed": 19
+    },
+    {
+      "angle": 180,
+      "width": 80,
+      "intensity": 0,
+      "t_stim": 0.42876588021778583,
+      "speed": 19
+    },
+    {
+      "angle": 180,
+      "width": 80,
+      "intensity": 1,
+      "t_stim": 0.42876588021778583,
+      "speed": 19
+    },
+    {
+      "angle": 270,
+      "width": 80,
+      "intensity": 0,
+      "t_stim": 0.42876588021778583,
+      "speed": 19
+    },
+    {
+      "angle": 270,
+      "width": 80,
+      "intensity": 1,
+      "t_stim": 0.42876588021778583,
+      "speed": 19
+    }
+  ],
+  "elapsed_s": 52.752070800052024,
+  "protocol_sha256": "ac94ee11d284ac1add5eb1ffa12d1c059ff6f0625b1dec7255c3a70d4e2ad122"
+}

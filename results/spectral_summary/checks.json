@@ -1,0 +1,92 @@
+{
+  "seeds": [
+    201,
+    202,
+    203
+  ],
+  "trained_cues_nm": [
+    "365",
+    "450",
+    "525"
+  ],
+  "mean_mbon_reduction_hz": [
+    [
+      32.083333333333336,
+      26.388888888888886,
+      25.289351851851848
+    ],
+    [
+      21.909722222222225,
+      25.787037037037035,
+      24.6875
+    ],
+    [
+      19.016203703703706,
+      22.442129629629623,
+      23.796296296296294
+    ]
+  ],
+  "mean_fractional_reduction": [
+    [
+      0.5340976239334907,
+      0.5251519575766975,
+      0.541407321186733
+    ],
+    [
+      0.36475653117633006,
+      0.5130831344425827,
+      0.5285037400846225
+    ],
+    [
+      0.3165700285714284,
+      0.446612647812706,
+      0.5094117489338078
+    ]
+  ],
+  "paired_cue_largest_fractional_effect_each_seed": [
+    false,
+    false,
+    true
+  ],
+  "counterbalanced_interactions": [
+    {
+      "cues_nm": [
+        "365",
+        "450"
+      ],
+      "fractional_interaction_by_seed": [
+        0.15156321779999415,
+        0.14733825338652673,
+        0.17291533768261697
+      ],
+      "positive_all_seeds": true
+    },
+    {
+      "cues_nm": [
+        "365",
+        "525"
+      ],
+      "fractional_interaction_by_seed": [
+        0.18115455881413306,
+        0.1872043442594934,
+        0.18823716625378478
+      ],
+      "positive_all_seeds": true
+    },
+    {
+      "cues_nm": [
+        "450",
+        "525"
+      ],
+      "fractional_interaction_by_seed": [
+        0.03968074219470874,
+        0.04380545514295103,
+        0.05864928909952605
+      ],
+      "positive_all_seeds": true
+    }
+  ],
+  "improved_plasticity_demonstrated": false,
+  "embodied_learning_demonstrated": false,
+  "interpretation": "Suppression includes generalization. Positive counterbalanced interaction indicates stimulus-dependent plasticity in this engineered adapter, not learned navigation or validated biological accuracy."
+}

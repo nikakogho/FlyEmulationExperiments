@@ -1,0 +1,14 @@
+{
+  "brain_build_sec": 1.4805305000045337,
+  "first_sniff_sec": 0.6436971999937668,
+  "warm_sniff_sec": [
+    0.4097155000199564,
+    0.3934556000167504,
+    0.3828650999930687
+  ],
+  "gl_vendor": "Intel",
+  "gl_renderer": "Intel(R) RaptorLake-S Mobile Graphics Controller",
+  "body_step_sec": 5.100270801165607,
+  "render_sec": 0.5229092987719923,
+  "note": "One 150ms body segment under cProfile, straight walking; not a full-run benchmark"
+}

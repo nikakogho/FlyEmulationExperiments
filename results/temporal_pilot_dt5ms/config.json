@@ -1,0 +1,11 @@
+{
+  "seed": 0,
+  "dt": 0.005,
+  "tau_e": 0.1,
+  "tau_d": 0.05,
+  "eta_per_sec": 4.0,
+  "gain": 20,
+  "pairs": 3,
+  "episode_sec": 2.5,
+  "limitation": "Pooled PAMs, no compartment mapping or LTP; hypothesis pilot only"
+}

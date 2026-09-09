@@ -1,0 +1,31 @@
+WARNING:imageio_ffmpeg:IMAGEIO FFMPEG_WRITER WARNING: input image is not divisible by macro_block_size=16, resizing from (800, 600) to (800, 608) to ensure video compatibility with most codecs and players. To prevent resizing, make your input image divisible by the macro_block_size or set the macro_block_size to 1 (risking incompatibility).
+[subnet] 8991 neurons, 791613 synapses
+seed 0 plastic training 0: contacts=3
+WARNING:absl:Nan, Inf or huge value in QACC at DOF 60. The simulation is unstable. Time = 1.0408.
+ERROR      Brian 2 encountered an unexpected error. If you think this is a bug in Brian 2, please report this issue either to the discourse forum at <http://brian.discourse.group/>, or to the issue tracker at <https://github.com/brian-team/brian2/issues>. Please include this file with debug information in your report: C:\Users\nikak\AppData\Local\Temp\brian_debug_z1w1cx7m.log  Additionally, you can also include a copy of the script that was run, available at: C:\Users\nikak\AppData\Local\Temp\brian_script__2s1d6y4.py Thanks! [brian2]
+Traceback (most recent call last):
+  File "C:\Users\nikak\source\repos\FlyEmulationExperiments\scripts\light_garden.py", line 138, in <module>
+    if __name__=='__main__': main()
+                             ^^^^^^
+  File "C:\Users\nikak\source\repos\FlyEmulationExperiments\scripts\light_garden.py", line 122, in main
+    r=episode(brain,args.seed*100+ep,heading,24,training_swap,condition!='yoked',condition!='frozen',
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nikak\source\repos\FlyEmulationExperiments\scripts\light_garden.py", line 72, in episode
+    obs,_,terminated,truncated,info=sim.step(action)
+                                    ^^^^^^^^^^^^^^^^
+  File "C:\Users\nikak\source\repos\FlyEmulationExperiments\.venv\Lib\site-packages\flygym\examples\locomotion\turning_controller.py", line 455, in step
+    obs, reward, terminated, truncated, info = super().step(action)
+                                               ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nikak\source\repos\FlyEmulationExperiments\.venv\Lib\site-packages\flygym\simulation.py", line 451, in step
+    obs, reward, terminated, truncated, info = super().step({key: action})
+                                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nikak\source\repos\FlyEmulationExperiments\.venv\Lib\site-packages\flygym\simulation.py", line 217, in step
+    self.physics.step()
+  File "C:\Users\nikak\source\repos\FlyEmulationExperiments\.venv\Lib\site-packages\dm_control\mujoco\engine.py", line 172, in step
+    with self.check_invalid_state():
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nikak\AppData\Local\Programs\Python\Python312\Lib\contextlib.py", line 144, in __exit__
+    next(self.gen)
+  File "C:\Users\nikak\source\repos\FlyEmulationExperiments\.venv\Lib\site-packages\dm_control\mujoco\engine.py", line 344, in check_invalid_state
+    raise _control.PhysicsError(message)
+dm_control.rl.control.PhysicsError: Physics state is invalid. Warning(s) raised: mjWARN_BADQACC

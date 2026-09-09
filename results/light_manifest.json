@@ -1,0 +1,20 @@
+{
+  "python": "3.12.10",
+  "arena_revision": 2,
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "physics_dt": 0.0001,
+  "decision_seconds": 0.1,
+  "decisions_per_episode": 24,
+  "script_sha256": {
+    "scripts/light_garden.py": "c758cb0324a12f7630f45184b04009f56913f36dd8788739d308feae7a42695a",
+    "scripts/light_brain.py": "94f3160abf15db19ec8499b686f34faaeee031bc40918bcf27b561ced4526bb9",
+    "flyplasticity/light_task.py": "1a34f00ca4eabec0d216f68240caaeeace2d5c465727ff77bc3d58749f454c47",
+    "scripts/analyze_light_garden.py": "c0014239bdeb114df5b8cd9596f602618264a9fb96d5d9c99d10b64bea3d0ee9",
+    "research/light_protocol.md": "c5a8fadc65233464b9bf334bb455f4466836bb301d7942f69c7afecd95f48d2d",
+    "requirements-lock.txt": "e33aa4695abe737add3789450048c3cf006c1315cf1c398ab009d45908b2cd95"
+  }
+}

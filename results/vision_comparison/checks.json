@@ -1,0 +1,48 @@
+{
+  "passed": false,
+  "numerical_tolerance_pass": true,
+  "coarse_qualitative_pass": false,
+  "fine_qualitative_pass": false,
+  "rows": [
+    {
+      "cell": "T4a",
+      "direction_index_change": 0.004020467585588383,
+      "relative_peak_change": 0.029018003570026207
+    },
+    {
+      "cell": "T4b",
+      "direction_index_change": 0.007215719549210076,
+      "relative_peak_change": 0.026691972688302357
+    },
+    {
+      "cell": "T4c",
+      "direction_index_change": 8.514509233226164e-07,
+      "relative_peak_change": 0.024933266101337562
+    },
+    {
+      "cell": "T4d",
+      "direction_index_change": 0.0003293647319153603,
+      "relative_peak_change": 0.054731085021990866
+    },
+    {
+      "cell": "T5a",
+      "direction_index_change": 0.00018410205624497245,
+      "relative_peak_change": 0.018137841744996837
+    },
+    {
+      "cell": "T5b",
+      "direction_index_change": 0.006955253615138046,
+      "relative_peak_change": 0.023190356480394282
+    },
+    {
+      "cell": "T5c",
+      "direction_index_change": 0.001338387473721836,
+      "relative_peak_change": 0.02693062163394438
+    },
+    {
+      "cell": "T5d",
+      "direction_index_change": 0.00048771274815906374,
+      "relative_peak_change": 0.022859852680659702
+    }
+  ]
+}

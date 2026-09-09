@@ -1,0 +1,43 @@
+{
+  "reference_commit": "4328b1d5549749f1014c4d73cccc0c5241d98ae4",
+  "sources": {
+    "feco_annotation_table": {
+      "url": "https://raw.githubusercontent.com/sagrawal/Lee_2024/4328b1d5549749f1014c4d73cccc0c5241d98ae4/synapse_tables/feco_annotation_table.csv",
+      "sha256": "478eece92cc641b03ab69f85904ca84da094c05fd7dfcc69070d9e9d268e1b4c"
+    },
+    "downstream_feco_annotation_table": {
+      "url": "https://raw.githubusercontent.com/sagrawal/Lee_2024/4328b1d5549749f1014c4d73cccc0c5241d98ae4/synapse_tables/downstream_feco_annotation_table.csv",
+      "sha256": "6ac62817f16916810b42651caa398a8f435cbfaaed77f5e52bf1a90d1d6eebc1"
+    },
+    "feco_downstream_connections": {
+      "url": "https://raw.githubusercontent.com/sagrawal/Lee_2024/4328b1d5549749f1014c4d73cccc0c5241d98ae4/synapse_tables/feco_downstream_connections.csv",
+      "sha256": "c48bce9f989084b41c5ed19fdb89a58c4e8f1cb14fbb91a88784d5f0d5fab7f3"
+    }
+  },
+  "valid_synapse_records": 18502,
+  "selected_reference_records": 613,
+  "target_counts": {
+    "MN": 480,
+    "13B": 133
+  },
+  "ambiguous_target_ids": [
+    "648518346501545571",
+    "648518346504315944"
+  ],
+  "unknown_pre_records": 0,
+  "unknown_post_records": 334,
+  "joint_source": "C:\\Users\\nikak\\source\\repos\\FlyEmulationExperiments\\.venv\\Lib\\site-packages\\flygym\\data\\mjcf\\neuromechfly_seqik_kinorder_ypr.xml",
+  "joint_xml_sha256": "413b3a1dcb7537d08122e16f256f27ec0d8bb9f52c58670345b6c24c9e72e05a",
+  "geometry": {
+    "qpos_rad": 0.2,
+    "interior_angle_deg": 168.90310961285644,
+    "femur_length_native": 0.7052395502301981,
+    "tibia_length_native": 0.5183977064754438
+  },
+  "increasing_qpos_means": "anatomical flexion over audited interval",
+  "muscle_force_calibrated": false,
+  "malecns_cell_matches_verified": false,
+  "neural_steps": 0,
+  "physics_steps": 0,
+  "limitation": "13B is a hemilineage class, not an identification of the physiological 13B-alpha subtype; MN labels do not specify muscle targets."
+}

@@ -1,0 +1,64 @@
+{
+  "status": "M3_incomplete_calibration_required",
+  "neural_steps": 0,
+  "mechanical_steps": 500,
+  "reference_angle_deg": 134.52572227808824,
+  "initial_displacement_deg": 0.999997655351109,
+  "final_displacement_deg": 0.999997655351109,
+  "passive_correction_deg": 0.0,
+  "identical_trace_negative_control": {
+    "numerical_criterion_passed": false,
+    "metrics": {
+      "intact": {
+        "mean_error_deg": 0.9999976553511087,
+        "final_error_deg": 0.999997655351109
+      },
+      "sensory_cut": {
+        "mean_error_deg": 0.9999976553511087,
+        "final_error_deg": 0.999997655351109
+      },
+      "motor_cut": {
+        "mean_error_deg": 0.9999976553511087,
+        "final_error_deg": 0.999997655351109
+      }
+    },
+    "improvement_over_cuts_deg": {
+      "sensory_cut": 0.0,
+      "motor_cut": 0.0
+    },
+    "biological_validation": false,
+    "welfare_assessment": "not_assessed_by_trace_metric"
+  },
+  "motor_id": "648518346496932836",
+  "source_rank": "3",
+  "unresolved": [
+    "Exact motor ID to physiological slow/intermediate/fast identity",
+    "Sensory response calibration; calcium cannot be silently converted to spikes",
+    "Synapse efficacy, recruitment threshold, latency and force response",
+    "Biological mechanics and independent held-out response validation",
+    "Actual neural telemetry interpretation and protocol-specific limits"
+  ],
+  "welfare": {
+    "scope": "mechanical_only",
+    "guard_events": 500,
+    "stop_events": 0,
+    "neural_assessment": "not_run",
+    "modeled_needs_or_valence": false,
+    "interpretation": "Engineering checks only; not evidence of absence of suffering"
+  },
+  "sources": [
+    {
+      "url": "https://elifesciences.org/articles/56754",
+      "role": "motor recruitment and proprioceptive physiology"
+    },
+    {
+      "url": "https://datadryad.org/dataset/doi:10.5061/dryad.dbrv15f6q",
+      "role": "candidate sensory calcium data; not fitted",
+      "file_id": 2453318,
+      "bytes": 6113303,
+      "expected_sha256": "866e8487b51b8e2cbc1c9ec7d875a33f918249d14c76c115e37601b05cf59862",
+      "access_observed_2026_09_09": "metadata available; file stream HTTP403, API download HTTP401"
+    }
+  ],
+  "pathway_sha256": "1ff2d1a27de98e4659915aa6e5397b9bb0d12bcb67c0a93c9bc7815c77672c43"
+}

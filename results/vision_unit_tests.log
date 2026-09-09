@@ -1,0 +1,57 @@
+test_flyvis_storage (unittest.loader._FailedTest.test_flyvis_storage) ... ERROR
+test_batch_matches_single_samples (test_huang2024.PublishedModelTests.test_batch_matches_single_samples) ... ok
+test_decay_split_and_semigroup (test_huang2024.PublishedModelTests.test_decay_split_and_semigroup) ... ok
+test_direct_neural_solver_matches_iterative_under_saturation (test_huang2024.PublishedModelTests.test_direct_neural_solver_matches_iterative_under_saturation) ... ok
+test_full_protocol_solver_equivalence (test_huang2024.PublishedModelTests.test_full_protocol_solver_equivalence) ... ok
+test_invalid_input_rejected (test_huang2024.PublishedModelTests.test_invalid_input_rejected) ... ok
+test_learning_disabled_freezes_weights_not_sensory_adaptation (test_huang2024.PublishedModelTests.test_learning_disabled_freezes_weights_not_sensory_adaptation) ... ok
+test_native_matlab_saved_figures_144_values (test_huang2024.PublishedModelTests.test_native_matlab_saved_figures_144_values) ... ok
+test_no_input_is_zero_evoked_activity (test_huang2024.PublishedModelTests.test_no_input_is_zero_evoked_activity) ... ok
+test_odor_swap_equivariance (test_huang2024.PublishedModelTests.test_odor_swap_equivariance) ... ok
+test_parameter_mapping_matches_published_table (test_huang2024.PublishedModelTests.test_parameter_mapping_matches_published_table) ... ok
+test_protocol_matches_author_indices_and_imaging_times (test_huang2024.PublishedModelTests.test_protocol_matches_author_indices_and_imaging_times) ... ok
+test_rates_bounded_and_input_parameters_unchanged (test_huang2024.PublishedModelTests.test_rates_bounded_and_input_parameters_unchanged) ... ok
+test_signed_dopamine_gives_opposite_plasticity (test_huang2024.PublishedModelTests.test_signed_dopamine_gives_opposite_plasticity) ... ok
+test_zero_dopamine_blocks_update (test_huang2024.PublishedModelTests.test_zero_dopamine_blocks_update) ... ok
+test_color_and_eye_swap (test_light_task.LightBoundaryTests.test_color_and_eye_swap) ... ok
+test_controller_cannot_receive_goal_or_reward (test_light_task.LightBoundaryTests.test_controller_cannot_receive_goal_or_reward) ... ok
+test_no_dopamine_no_update (test_light_task.LightBoundaryTests.test_no_dopamine_no_update) ... ok
+test_pixels_only_and_neutral_background (test_light_task.LightBoundaryTests.test_pixels_only_and_neutral_background) ... ok
+test_reward_changes_active_connection_preserves_sign (test_light_task.LightBoundaryTests.test_reward_changes_active_connection_preserves_sign) ... ok
+test_rule_sees_counts_and_weights_only (test_light_task.LightBoundaryTests.test_rule_sees_counts_and_weights_only) ... ok
+test_temporal_decay_reduces_delayed_association (test_light_task.LightBoundaryTests.test_temporal_decay_reduces_delayed_association) ... ok
+test_body_and_retina_are_separate_channels (test_sensory.SensoryTests.test_body_and_retina_are_separate_channels) ... ok
+test_global_coordinates_and_rewards_cannot_change_packet (test_sensory.SensoryTests.test_global_coordinates_and_rewards_cannot_change_packet) ... ok
+test_inconsistent_duplicate_rejected (test_sensory.SensoryTests.test_inconsistent_duplicate_rejected) ... ok
+test_invalid_values_and_layout_changes (test_sensory.SensoryTests.test_invalid_values_and_layout_changes) ... ok
+test_no_aliasing_and_contact_magnitude (test_sensory.SensoryTests.test_no_aliasing_and_contact_magnitude) ... ok
+test_reset_has_no_cross_episode_motion (test_sensory.SensoryTests.test_reset_has_no_cross_episode_motion) ... ok
+test_rest_is_default_even_with_turn_request (test_sensory.SensoryTests.test_rest_is_default_even_with_turn_request) ... ok
+test_spatial_information_survives_equal_global_means (test_sensory.SensoryTests.test_spatial_information_survives_equal_global_means) ... ok
+test_stale_sample_is_not_fake_motion_measurement (test_sensory.SensoryTests.test_stale_sample_is_not_fake_motion_measurement) ... ok
+test_stationary_scene_has_zero_temporal_change (test_sensory.SensoryTests.test_stationary_scene_has_zero_temporal_change) ... ok
+test_temporal_derivative_uses_acquisition_interval (test_sensory.SensoryTests.test_temporal_derivative_uses_acquisition_interval) ... ok
+test_timestamp_contract (test_sensory.SensoryTests.test_timestamp_contract) ... ok
+test_invalid_commands (test_standing.StandingTests.test_invalid_commands) ... ok
+test_resume_clears_old_corrections (test_standing.StandingTests.test_resume_clears_old_corrections) ... ok
+test_stance_uses_42_actuators_and_advances_physics (test_standing.StandingTests.test_stance_uses_42_actuators_and_advances_physics) ... ok
+
+======================================================================
+ERROR: test_flyvis_storage (unittest.loader._FailedTest.test_flyvis_storage)
+----------------------------------------------------------------------
+ImportError: Failed to import test module: test_flyvis_storage
+Traceback (most recent call last):
+  File "C:\Users\nikak\AppData\Local\Programs\Python\Python312\Lib\unittest\loader.py", line 396, in _find_test_path
+    module = self._get_module_from_name(name)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nikak\AppData\Local\Programs\Python\Python312\Lib\unittest\loader.py", line 339, in _get_module_from_name
+    __import__(name)
+  File "C:\Users\nikak\source\repos\FlyEmulationExperiments\tests\test_flyvis_storage.py", line 5, in <module>
+    import h5py
+ModuleNotFoundError: No module named 'h5py'
+
+
+----------------------------------------------------------------------
+Ran 37 tests in 0.438s
+
+FAILED (errors=1)

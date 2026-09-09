@@ -1,0 +1,26 @@
+{
+  "neural_steps": 0,
+  "graph_rows_scanned": 151856684,
+  "premotor_candidates": 1120,
+  "candidates_with_selected_sensory_input": 293,
+  "annotated_vnc_contacts_to_motors": 26154,
+  "fraction_motor_input_from_annotated_vnc": 0.7903420766348362,
+  "premotor_incoming_contacts": 1762494,
+  "premotor_excluded_contacts": 1169423,
+  "premotor_excluded_fraction": 0.6635046700868201,
+  "candidate_consensus_transmitters": {
+    "acetylcholine": 654,
+    "gaba": 263,
+    "glutamate": 198,
+    "unclear": 5
+  },
+  "nt_source": "https://storage.googleapis.com/flyem-male-cns/v1.0/connectome-data/flat-connectome/body-neurotransmitters-male-cns-v1.0.feather",
+  "nt_sha256": "95c9289220663abeb3409f3ad9e5a7f8a53f8093f5139d15502cd08da8879621",
+  "ready_for_neural_execution": false,
+  "limitations": [
+    "Two-hop connectivity is not validated reflex physiology.",
+    "Predicted transmitter does not establish receptor-specific functional sign.",
+    "Candidate pool omits recorded external inputs and unobserved synapses.",
+    "Muscle recruitment, afferent tuning and welfare telemetry remain uncalibrated."
+  ]
+}

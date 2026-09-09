@@ -1,0 +1,33 @@
+{"experiment": "learning", "brian_seed": 2, "backend": "numpy", "argv": ["C:\\Users\\nikak\\source\\repos\\FlyEmulationExperiments\\upstream\\fly-api\\experiments\\learning\\learning_driver_mb.py", "--model-dir", "C:\\Users\\nikak\\source\\repos\\FlyEmulationExperiments\\upstream\\Drosophila_brain_model", "--seed", "2", "--orn-hz", "500", "--n-classes", "6", "--eta", "0.5", "--n-pair", "5", "--kc-thresh", "1", "--kcmbon-gain", "20", "--out", "results/baseline_s2"]}
+[subnet] 8991 neurons, 791613 synapses
+[edit] zeroed: dan_out=50155 kc_kc=293762 orn_in=65429 eln_out=37892
+[odors] A=['ORN_VL2a', 'ORN_DL1', 'ORN_VA1v', 'ORN_DA1', 'ORN_DL5', 'ORN_V'] B=['ORN_DL4', 'ORN_VM5d', 'ORN_VA2', 'ORN_DM6', 'ORN_DM2', 'ORN_DM3'] fresh=['ORN_VM4', 'ORN_VA6', 'ORN_DL3', 'ORN_VL1', 'ORN_DM1', 'ORN_VA1d']
+[build] 62261 plastic KC->MBON synapses
+WARNING    'rates' is an internal variable of group 'poissongroup', but also exists in the run namespace with the value array([  0.,   0.,   0., ..., 500.,   0.,   0.]). The internal variable will be used. [brian2.groups.group.Group.resolve.resolution_conflict]
+[epi] pre_A0       KCact= 536 PAM=   0.4 MBONspk= 4313 plast=0 wfrac=1.000 trace=0.000
+WARNING    'rates' is an internal variable of group 'poissongroup', but also exists in the run namespace with the value array([500., 500.,   0., ...,   0.,   0.,   0.]). The internal variable will be used. [brian2.groups.group.Group.resolve.resolution_conflict]
+[epi] pre_B0       KCact= 460 PAM=   0.0 MBONspk= 3645 plast=0 wfrac=1.000 trace=0.000
+[epi] pre_A1       KCact= 523 PAM=   0.4 MBONspk= 4321 plast=0 wfrac=1.000 trace=0.000
+[epi] pre_B1       KCact= 457 PAM=   0.0 MBONspk= 3576 plast=0 wfrac=1.000 trace=0.000
+WARNING    'rates' is an internal variable of group 'poissongroup', but also exists in the run namespace with the value array([  0.,   0.,   0., ..., 500.,  60.,  60.]). The internal variable will be used. [brian2.groups.group.Group.resolve.resolution_conflict]
+[epi] train0_A+US  KCact= 530 PAM=  59.5 MBONspk= 4304 plast=1 wfrac=0.956 trace=0.500
+[epi] train0_B     KCact= 455 PAM=   0.1 MBONspk= 3562 plast=0 wfrac=0.956 trace=0.045
+[epi] train1_A+US  KCact= 462 PAM=  58.8 MBONspk= 2501 plast=1 wfrac=0.936 trace=0.750
+[epi] train1_B     KCact= 415 PAM=   0.0 MBONspk= 3374 plast=0 wfrac=0.936 trace=0.065
+[epi] train2_A+US  KCact= 374 PAM=  59.5 MBONspk= 1212 plast=1 wfrac=0.928 trace=0.875
+[epi] train2_B     KCact= 434 PAM=   0.0 MBONspk= 3460 plast=0 wfrac=0.928 trace=0.073
+[epi] train3_A+US  KCact= 337 PAM=  58.9 MBONspk=  479 plast=1 wfrac=0.925 trace=0.937
+[epi] train3_B     KCact= 429 PAM=   0.0 MBONspk= 3459 plast=0 wfrac=0.925 trace=0.075
+[epi] train4_A+US  KCact= 230 PAM=  58.9 MBONspk=  120 plast=1 wfrac=0.924 trace=0.969
+[epi] train4_B     KCact= 472 PAM=   0.1 MBONspk= 3560 plast=0 wfrac=0.924 trace=0.073
+[epi] post_A0      KCact= 223 PAM=   0.0 MBONspk=   55 plast=0 wfrac=0.924 trace=0.969
+[epi] post_B0      KCact= 421 PAM=   0.0 MBONspk= 3464 plast=0 wfrac=0.924 trace=0.078
+[epi] post_A1      KCact= 221 PAM=   0.0 MBONspk=   55 plast=0 wfrac=0.924 trace=0.969
+[epi] post_B1      KCact= 446 PAM=   0.0 MBONspk= 3512 plast=0 wfrac=0.924 trace=0.076
+[epi] probe_4      KCact= 415 PAM=   0.0 MBONspk= 1581 plast=0 wfrac=0.924 trace=0.572
+WARNING    'rates' is an internal variable of group 'poissongroup', but also exists in the run namespace with the value array([0., 0., 0., ..., 0., 0., 0.]). The internal variable will be used. [brian2.groups.group.Group.resolve.resolution_conflict]
+[epi] probe_3      KCact= 422 PAM=   0.1 MBONspk= 1924 plast=0 wfrac=0.924 trace=0.510
+[epi] probe_2      KCact= 350 PAM=   0.0 MBONspk= 1588 plast=0 wfrac=0.924 trace=0.501
+WARNING    'rates' is an internal variable of group 'poissongroup', but also exists in the run namespace with the value array([  0.,   0., 500., ...,   0.,   0.,   0.]). The internal variable will be used. [brian2.groups.group.Group.resolve.resolution_conflict]
+[epi] probe_0      KCact= 528 PAM=   0.2 MBONspk= 4116 plast=0 wfrac=0.924 trace=0.070
+[done] results\baseline_s2\episodes.jsonl

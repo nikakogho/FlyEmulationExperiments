@@ -1,0 +1,24 @@
+{
+  "steps": 24,
+  "decision_sec": 0.15,
+  "seed": 0,
+  "sources": [
+    [
+      17.0,
+      7.0,
+      1.5
+    ],
+    [
+      20.0,
+      -8.0,
+      1.5
+    ]
+  ],
+  "odor_sigma": [
+    10,
+    10,
+    5
+  ],
+  "learning": "upstream episodic LTD",
+  "notes": "Ground walking in physical 3D geometry; analytic odor field; no coordinate-based stopping"
+}

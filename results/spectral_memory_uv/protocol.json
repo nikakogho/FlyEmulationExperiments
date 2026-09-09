@@ -1,0 +1,80 @@
+{
+  "seeds": [
+    201,
+    202,
+    203
+  ],
+  "paired_cue_nm": 365,
+  "gain": 30,
+  "drive_hz": 250,
+  "cue_steps": 5,
+  "delayed_gap_steps": 10,
+  "reward_steps": 5,
+  "total_steps": 20,
+  "test_steps": 3,
+  "dt_s": 0.1,
+  "channels": [
+    "Rh1",
+    "Rh3",
+    "Rh4",
+    "Rh5",
+    "Rh6"
+  ],
+  "features": {
+    "365": [
+      [
+        0.33710957457382634,
+        0.1800537840850783,
+        0.40034423713077594,
+        0.12090547306043783,
+        0.24272641571795323
+      ],
+      [
+        0.3389897431795079,
+        0.19317660132013642,
+        0.4008355094263326,
+        0.12971739797361062,
+        0.24302427129418586
+      ]
+    ],
+    "450": [
+      [
+        0.22619273723713537,
+        0.008903181399600519,
+        0.050222487781842046,
+        0.20999443891870692,
+        0.2785897879374256
+      ],
+      [
+        0.2274542869392581,
+        0.009552069857631008,
+        0.05028411703630064,
+        0.22529941379780485,
+        0.2789316523429671
+      ]
+    ],
+    "525": [
+      [
+        0.18509019038213578,
+        0.008246301874840285,
+        0.027846406350913216,
+        0.04766717431215749,
+        0.3941835391896963
+      ],
+      [
+        0.18612249795042707,
+        0.00884731513828553,
+        0.02788057736351243,
+        0.0511412896704579,
+        0.394667251540738
+      ]
+    ]
+  },
+  "conditions": [
+    "paired",
+    "delayed",
+    "frozen"
+  ],
+  "success": "Paired-minus-control reduction in reward-free mean MBON response is larger for the trained cue than BOTH untrained cues, for every fixed seed. This absolute-response screen alone does not exclude broad generalization.",
+  "interpretation": "Exploratory neural memory with a synthetic sensory and reward adapter; no locomotion, full-pathway fidelity or improved plasticity claim."
+}

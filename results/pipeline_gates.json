@@ -1,0 +1,13 @@
+{
+  "components_passed": true,
+  "anatomy_integration_passed": false,
+  "improved_biological_learning_demonstrated": false,
+  "new_embodied_learning_experiment_run": false,
+  "reason": "No validated cross-specimen retinotopic identity map or functional model of the intermediate neurons.",
+  "evidence_sha256": {
+    "anatomy": "2a7a8d02a8835f61e6a063d69641cf8a691100d0df5f92d6834ee248bae89529",
+    "retinal_transport": "a8212bcc49ba41b2354633fb1210a389e189897edf082d1e256bdd52bbb11f5d",
+    "visual_replay": "c3f21f5c9de4eb1a6346ec935ae856c3df90a1a2dd5d00c96d9c0525e57e1df7",
+    "synthetic_locality": "5c247368aeddf3f548402daf4eb9a51c0b7f1ffc1ed92092faa177bb92eee797"
+  }
+}

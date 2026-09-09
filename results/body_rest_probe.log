@@ -1,0 +1,13 @@
+{
+  "completed": true,
+  "brain_simulated": false,
+  "protocol": "rest 0-.3 s, activity .6 from .3-.7 s, rest .7-1.4 s",
+  "rest_gate": "last .3 s XY displacement <= .2 mm and median speed <= .5 mm/s",
+  "limitation": "Mechanical capability, not a neural decision to rest or a welfare assay",
+  "passed": false,
+  "settled_displacement_mm": 0.002677409368105026,
+  "settled_median_speed_mm_s": 0.504147082567215,
+  "samples": 70,
+  "joint_count": 42,
+  "contact_sensor_count": 36
+}

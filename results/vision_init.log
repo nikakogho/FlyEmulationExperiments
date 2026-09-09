@@ -1,0 +1,57 @@
+Traceback (most recent call last):
+  File "C:\Users\nikak\source\repos\FlyEmulationExperiments\.venv-vision\Lib\site-packages\datamate\io.py", line 163, in _write_h5
+    if f["data"].dtype != val.dtype:
+       ~^^^^^^^^
+  File "C:\Users\nikak\source\repos\FlyEmulationExperiments\.venv-vision\Lib\site-packages\h5py\_hl\group.py", line 407, in __getitem__
+    return self._get(name)
+           ^^^^^^^^^^^^^^^
+  File "h5py/_objects.pyx", line 54, in h5py._objects.with_phil.wrapper
+  File "h5py/_objects.pyx", line 55, in h5py._objects.with_phil.wrapper
+  File "C:\Users\nikak\source\repos\FlyEmulationExperiments\.venv-vision\Lib\site-packages\h5py\_hl\group.py", line 421, in _get
+    oid = h5o.open(self.id, self._e(name), lapl=lapl)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "h5py/_objects.pyx", line 54, in h5py._objects.with_phil.wrapper
+  File "h5py/_objects.pyx", line 55, in h5py._objects.with_phil.wrapper
+  File "h5py/h5o.pyx", line 255, in h5py.h5o.open
+KeyError: "Unable to synchronously open object (object 'data' doesn't exist)"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "C:\Users\nikak\source\repos\FlyEmulationExperiments\upstream\flyvis\flyvis\network\network_view.py", line 104, in __init__
+    self.connectome_view: ConnectomeView = connectome_getter(
+                                           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nikak\source\repos\FlyEmulationExperiments\upstream\flyvis\flyvis\connectome\connectome.py", line 1374, in get_avgfilt_connectome
+    return ConnectomeView(ConnectomeFromAvgFilters(**config))
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nikak\source\repos\FlyEmulationExperiments\.venv-vision\Lib\site-packages\datamate\directory.py", line 124, in __call__
+    return cls.__new__(cls, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nikak\source\repos\FlyEmulationExperiments\.venv-vision\Lib\site-packages\datamate\context.py", line 129, in function
+    _return = new(*args, **kwargs)
+              ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nikak\source\repos\FlyEmulationExperiments\.venv-vision\Lib\site-packages\datamate\directory.py", line 255, in __new__
+    cls = _directory_from_config(cls, config)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nikak\source\repos\FlyEmulationExperiments\.venv-vision\Lib\site-packages\datamate\directory.py", line 1414, in _directory_from_config
+    return _new_directory()
+           ^^^^^^^^^^^^^^^^
+  File "C:\Users\nikak\source\repos\FlyEmulationExperiments\.venv-vision\Lib\site-packages\datamate\directory.py", line 1384, in _new_directory
+    _build(directory)
+  File "C:\Users\nikak\source\repos\FlyEmulationExperiments\.venv-vision\Lib\site-packages\datamate\directory.py", line 1516, in _build
+    raise e
+  File "C:\Users\nikak\source\repos\FlyEmulationExperiments\.venv-vision\Lib\site-packages\datamate\directory.py", line 1511, in _build
+    directory.__init__(*build_args, **build_kwargs)
+  File "C:\Users\nikak\source\repos\FlyEmulationExperiments\upstream\flyvis\flyvis\connectome\connectome.py", line 182, in __init__
+    self.unique_cell_types = np.bytes_([n["name"] for n in spec["nodes"]])
+    ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nikak\source\repos\FlyEmulationExperiments\.venv-vision\Lib\site-packages\datamate\directory.py", line 805, in __setattr__
+    self.__setitem__(key.replace("__", "."), value)
+  File "C:\Users\nikak\source\repos\FlyEmulationExperiments\.venv-vision\Lib\site-packages\datamate\directory.py", line 578, in __setitem__
+    _write_h5(path.with_suffix(".h5"), val)
+  File "C:\Users\nikak\source\repos\FlyEmulationExperiments\.venv-vision\Lib\site-packages\datamate\io.py", line 174, in _write_h5
+    path.unlink()
+  File "C:\Users\nikak\AppData\Local\Programs\Python\Python312\Lib\pathlib.py", line 1342, in unlink
+    os.unlink(self)
+PermissionError: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\nikak\\source\\repos\\FlyEmulationExperiments\\data\\flyvis\\connectome\\ConnectomeFromAvgFilters_0000\\unique_cell_types.h5'

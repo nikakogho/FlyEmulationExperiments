@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "official_permutation_matches": true,
+  "round_trip_exact": true,
+  "gradient_axes_preserved": true,
+  "eyes_independent": true,
+  "max_mapping_error_pixels": 0.8460281153264897,
+  "source_frames": 70,
+  "held_integrator_frames": 277,
+  "max_age_s": 0.015000000000000124,
+  "limitation": "Image-axis convention only; world-bearing and biological spectral calibration remain unvalidated."
+}

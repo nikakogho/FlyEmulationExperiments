@@ -1,0 +1,6 @@
+[subnet] 8991 neurons, 791613 synapses
+seed 1 frozen training 0: contacts=0
+seed 1 frozen training 1: contacts=0
+seed 1 frozen training 2: contacts=0
+seed 1 frozen test swap=False: final=[32.10794448852539, -11.06145191192627, 1.093849778175354]
+seed 1 frozen test swap=True: final=[30.8088436126709, -13.766535758972168, 1.071649193763733]

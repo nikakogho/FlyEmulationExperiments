@@ -1,0 +1,14 @@
+{
+  "neural_model_instantiated": false,
+  "simulated_seconds": 2.9999999999997806,
+  "steps": 3000,
+  "rendering_preserves_dynamics": true,
+  "injected_fault_stops_before_step": true,
+  "final_guard": {
+    "status": "STOP",
+    "reason": "incoherent_sensors",
+    "time_s": 2.9999999999997806
+  },
+  "biological_muscle_calibration": false,
+  "suffering_assessed": false
+}

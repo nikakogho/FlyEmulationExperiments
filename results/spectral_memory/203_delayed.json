@@ -1,0 +1,15 @@
+{
+  "seed": 203,
+  "condition": "delayed",
+  "weight_fraction": 0.9985350752033428,
+  "reward_free_mbon_hz": {
+    "365": 60.104166666666664,
+    "450": 51.18055555555555,
+    "525": 46.59722222222222
+  },
+  "acquisition_spikes": {
+    "kc_spikes": 5191,
+    "pam_spikes": 9303,
+    "mbon_spikes": 2468
+  }
+}

@@ -1,0 +1,1171 @@
+Supplementary Appendix |
+Computational model of PPL1-DAN/MBON dynamics and plasticity
+Contents
+
+§1. Overview...................................................................................................................................2
+§2. A neural network model comprised of KCs, DANs and MBONs. ...................................... 4
+§3. Modeling synaptic plasticity: sensory adaptation and an anti-Hebbian learning rule. .... 8
+§4. Mathematical simplifications of the neural network dynamics. ....................................... 11
+§5. Mathematical simplifications of the synaptic plasticity dynamics....................................14
+§6. Theoretical analysis of the recurrent circuitry connecting DANs and MBONs..............20
+§7. Estimating the parameter values of the model. .................................................................. 22
+§8. Supplementary Tables and Figure.......................................................................................26
+
+  Supplementary Table 1 | Synapse numbers in the MB circuit of the fly connectome. ............................ 26
+  Supplementary Table 2 | Empirically measured parameter values input directly into the model. ....... 27
+  Supplementary Table 3 | Definitions and values of parameters found by model fitting. ........................ 28
+  Supplementary Figure 1 | Comparisons of parameter values in the 2- and 3-module model variants. 29
+
+§9. References. ............................................................................................................................. 30
+
+                                                                                p. A1
+§1. Overview.
+To simulate associative conditioning and extinction processes in Drosophila melanogaster, we created
+a computational model of the Drosophila mushroom body's neural circuit dynamics. The model
+describes the activity and plasticity patterns of Kenyon cells (KCs), mushroom body output neurons
+(MBONs), and dopamine neurons (DANs) in 3 interconnected learning modules (1, 2, and 3) of the
+mushroom body (MB) (Fig. 5a). The KCs sparsely encode the odor stimuli used in our conditioning
+experiments. The DANs encode shock punishments received by the fly and modulate the strengths of
+synaptic connections between KCs and MBONs, thereby shaping the storage and extinction of memories
+stored in the MB. The MBONs gather signals from the KCs to control motor behaviors. The model thus
+depicts how associative information is stored and retrieved in both the short-term (1 module) and long-
+term (2 and 3 modules) learning compartments, including via the interactions between compartments.
+The implementation of associative learning and memory in the model depends crucially on both the
+network architecture, which is based on the fly connectome, and two different forms of neural plasticity,
+sensory adaptation that affects the incoming olfactory signals and anti-Hebbian plasticity that modifies
+the strengths of KCMBON synapses. As the modeling results reveal, the feedback connection from
+the output of the 1 module to the input of the 3 module is pivotal for a previously unknown gating
+effect, through which an existing short-term memory trace gates the formation of a long-term memory.
+Specifically, after a short-term associative memory trace has been formed, during subsequent
+conditioning the expression of the short-term memory trace gates the initial encoding of the long-term
+memory trace. This gating effect is distinct from memory consolidation, in that the gating is only active
+during additional bouts of conditioning, whereas memory consolidation typically occurs offline, between
+bouts of conditioning. Experimental data strongly support the model's predictions regarding the
+influence of this feedback-mediated gating (Fig. 4i-m).
+
+                                                                                p. A2
+         In §2, we first model the circuit comprised of KCs, DANs and MBONs as a recurrent network
+by using data from the fly connectome1,2 to define the set of neural connections in the model. We
+mathematically model the dynamical interactions between the different neurons in the model using a
+coupled set of ordinary differential equations, one equation for each neuron.
+
+         In §3, we mathematically model the two forms of plasticity. We implement an adaptation of
+olfactory sensory neuron activity, such that sensory neurons decrease the amplitudes of their odor-
+evoked responses during a sustained odor presentation (Fig. 5b); further, after the termination of an odor
+cue, these neurons gradually recover their odor sensitivity3. In addition to this form of sensory adaptation,
+we implement an anti-Hebbian plasticity rule that modifies the strengths of KCMBON synaptic
+connections. Specifically, if a KC spikes just before its corresponding DAN activates, the strength of the
+corresponding KCMBON connection decreases; if the KC spikes just after DAN activation, the
+strength of the KCMBON connection increases4,5 (Extended Data Fig. 10b). The inclusion of both
+forms of plasticity in the model is important to account for the full range of phenomena seen in our
+experimental data. For instance, both forms of plasticity are needed for the model to capture the influence
+of odor valence on the formation and extinction of long-term memory in the 3 compartment (Fig. 5g-
+k and Extended Data Fig. 10l, m).
+
+         In §4 and §5, we describe several mathematical simplifications and approximations that we used
+to speed the solution of the ordinary differential equations developed in §2 and §3. While these
+differential equations provide a rigorous and complete definition of the model, in practice we found that
+full simulations of the model dynamics were unduly time-consuming. Using the fact that our experiments
+had temporally defined bouts of conditioning, rest, and extinction training, one can simplify the
+differential equations governing the network interactions and plasticity processes into a set of recursive
+equations, for which the discrete time steps correspond to the different bouts of our experiments. In §4,
+
+                                                                                p. A3
+we first transform the differential equations governing the neural dynamics into recursive equations. We
+also use several additional approximations to simplify the activation functions of the KCs, DANs, and
+MBONs. In §5, we transform the differential equations that describe the plasticity dynamics into
+recursive equations. This transformation makes use of the fact that our experiments had a fixed interval
+(3 s) between the onset of the CS+ odor stimulus and that of the US electric shock. This fixed interval
+implies that, by design, our experiments did not explore how anti-Hebbian plasticity at the KCMBON
+synapse depends on the CS+-US interval; the fixed interval also reduces to two the number of anti-
+Hebbian plasticity-related parameters needed to fit our spiking data. Readers wishing to apply our model
+to more variable experimental conditions should use the general formulations of §2 and §3, while those
+seeking mainly to understand our fits of the model to experimental data can concentrate on §4 and §5.
+
+         In §6, we analyze the recurrent feedforward and feedback interactions between the DANs and
+MBONs in the model, with the aim of understanding how a previously formed short-term memory gates
+the formation of a long-term memory during subsequent rounds of associative conditioning. In §7, we
+describe the statistical procedures used to fit model parameters to the experimental data, for both the full,
+three-compartment version of the model and a two-compartment version in which the 2 compartment
+is omitted. §8 presents tables showing how the fly connectome constrained the neural connections in the
+model, the values of numerical parameters that we input directly into the model, and the values of
+parameters determined for both model versions through statistical fits to the experimental data.
+
+§2. A neural network model comprised of KCs, DANs and MBONs.
+In this section, we formulate a recurrent neural network to characterize the dynamics of the individual
+neurons in the model and their interactions. The recurrent circuit architecture of the model is based
+directly on the physical connections revealed in recent electron microscopy studies of the fly brain
+connectome1,2 (Fig. 5a).
+
+                                                                                p. A4
+The fly connectome data show the feedback and feedforward interactions between MBONs and
+
+DANs. For each MBONDAN or MBONMBON interaction, if the number of synapses between
+each pair of cells is <5 in the electron microscopy data2, we set the corresponding synaptic weights in
+
+our model to be zero (Supplementary Table 1). However, after applying the threshold, we did not use
+
+the numbers of synapses found in the connectome data to determine the model's non-zero synaptic
+
+weight values (Supplementary Tables 1, 3). The rationale for this choice was that we did not want to
+
+over-constrain or oversimplify the important role that synaptic plasticity might play in setting the
+
+functional strengths of the MB neural connections. Instead, we determined the values of all non-zero
+
+synaptic weights in the model through parametric fits to the spiking rate data recorded experimentally.
+
+We did, however, set the signs of the MBONDAN and MBONMBON connections in the model
+
+based on the neurotransmitter used by each pre-synaptic neuron.
+
+The fly connectome data also show that KCs influence DANs and MBONs via combinations of
+
+direct and indirect neural activation and inhibition. Consequently, unlike for MBONDAN and
+
+MBONMBON connections, we did not constrain the signs of the KCDAN and KCMBON
+
+connections. This lack of constraint allows the model to capture the net effects of how the KCs influence
+
+the DANs and MBONs via direct and indirect interactions; thus, the synaptic weight values in the model
+
+for these connections can be thought of as characterizing the effective functional interactions.
+
+In our experiments, olfactory conditioning involved odor pairs with distinct molecular structures,
+
+implying that the two odors were likely to be encoded orthogonally. To capture this, the model has 4
+KCs, each of which responds to a single odor. The 4 odors included in the model are an attractive CS+
+odor, an attractive CS- odor, a repulsive CS+ odor, and a repulsive CS- odor. Using the subscript i to
+
+refer to an individual KC, Eq. (2.1) describes the sparse activation of each KC by its preferred odor input,
+
+t KC,i d xKC,i = fa,KC,i ( wodor,i (t ) xodor,i (t ) + bKC,i ) - xKC,i ,                          (2.1)
+
+      dt
+
+p. A5
+where xKC,i (t ) is the spiking rate of the ith KC, fa,KC,i is the activation function of this KC, t KC,i is a
+
+time-constant characterizing the rate at which the cell's spiking rate converges to its steady state value,
+
+xodor,i (t ) equals 1 when the cell's preferred odor is presented to the fly and 0 otherwise, wodor,i (t ) is the
+
+time-dependent amplitude of neural input signals conveying the presence of odor i, and bKC,i is a bias
+
+term that sets the cell's baseline spiking rate ( BKC,i) in the absence of odor i and prior to any conditioning,
+
+BKC,i = fa,KC,i (bKC,i ).
+
+         DANs are activated by electric shocks and receive feedforward, feedback, and cross-module
+signals from KCs and MBONs (Fig. 5a). The MBONs gather signals from the KCs and transmit signals
+between different MB learning units. For the DANs, we used the subscripts 1, 2, and 3 to refer to PPL1-
+1pedc, -'22, and -3. For the MBONs, these subscripts refer to each DAN's corresponding MBON,
+
+namely MBON-1pedc>/, -2sc and -3. Defining xDAN , j as the spike rate of DAN j, xMBON , j as the
+
+spike rate of MBON j, and fa,DAN, j and fa,MBON, j as activation functions, the dynamics of xDAN , j and
+
+xMBON , j are governed by
+
+d ç i ÷ æ wpunish, j xpunish (t ) + åwKD,i, j ( xKC,i - BKC,i )...ö
+t DAN , j xDAN , j = fa,DAN , j ç                                                      ÷ - xDAN , j  (2.2)
+dt                               ç +åwMD,l, j ( xMBON ,l - BMBON ,l ) + bDAN , j
+                                                                                       ÷
+                           èl                                                          ø
+
+                           d ç i ÷ æ åwKM ,i, j ( xKC,i - BKC,i )... ö
+t MBON , j xMBON , j = fa,MBON , j ç                                                   ÷ - xMBON , j , (2.3)
+dt                                  ç +åwMM ,l, j ( xMBON ,l - BMBON ,l ) + bMBON , j ÷
+
+                                    èl                                                 ø
+
+where t DAN , j and t MBON , j are time-constants of spiking adaptation, wKD,i, j is the synaptic weight from
+
+KC i to DAN j, wKM ,i, j is the synaptic weight from KC i to MBON j, wMD,l, j is the synaptic weight from
+
+                                        p. A6
+MBON l to DAN j, wMM ,l, j is the synaptic weight from MBON l to MBON j, BKC,i , BDAN, j and BMBON , j
+are baseline spiking rates, and bDAN , j and bMBON , j are bias terms analogous to that in Eq. (2.1).
+
+        For the MBONs, the signs of wMD,l, j and wMM ,l, j are set according to the MBON
+neurotransmitters. MBON-1pedc>/ neurotransmission is GABAergic6; thus, wMD,1, j and wMM ,1, j are
+set to be non-positive. MBON-2sc and -3 signaling are cholinergic6-8. Thus, wMD,2, j , wMM ,2, j, wMD,3, j
+and wMM ,3, j are set to be non-negative. We did not set sign constraints on wKD,i, j and wKM ,i, j based on
+KC neurotransmission, because these two weights reflect the net results of direct and indirect neural
+activation and inhibition. KCs may activate or inhibit DANs through various indirect pathways, such as
+through lateral horn, anterior paired lateral (APL), and dorsal paired medial neurons1,2. One subtype of
+KCs releases neurotransmitter at the synapses between KCs and MBONs. However, another subtype of
+KCs also regulates the dynamics of other KCs through the APL neurons9-11. The weight wKM ,i, j
+summarizes the net effect of the direct and indirect inputs from KC i to MBON j. Similarly, we also
+refrained from constraining the sign of wKD,i, j based on the valence of odor i. While it is true that the
+DANs represent an odor's net valence, DAN activity is shaped by both inputs from KCs and feedback
+from MBONs. These two sources of input could in principle oppose each other. Hence, we left the sign
+of wKD,i, j unconstrained during parametric fitting of the model to empirical data.
+
+      When a fly receives an electric shock punishment, xpunish (t ) equals 1; otherwise, it equals 0.
+
+wpunish, j is the weight of punishment signals received by DAN j. Because the spiking rate of PPL1-´22
+did not significantly increase during electric shocks (Fig. 2a,d), this DAN received no punishment
+signals in the model. We also found that the change in the spike rate of PPL1-1pedc is ~2.44-fold that
+of PPL1-3 during the electric shocks (Fig. 2a,d). Thus, we manually set wpunish,1 / wpunish,3= 2.44, and
+
+                                                                                p. A7
+wpunish,2= 0 as input values to the model (Supplemental Table 2). Further, since the presentation of
+different odors with similar innate valences led to comparable levels of DAN activation (Fig. 2i;
+Extended Data Fig. 3), we modeled this empirical result by setting wKD,1, j = wKD,2, j and wKD,3, j = wKD,4, j.
+In other words, the model incorporates the finding that each odor of an attractive odor pair with similar
+innate valences drives equivalent levels of DAN spiking, as do the two odors of a repulsive odor pair
+with similar innate valences.
+
+§3. Modeling synaptic plasticity: sensory adaptation and an anti-Hebbian learning rule.
+Our model has two types of plasticity in the circuit of KCs, DANs and MBONs (Fig. 5b): the adaptation
+of olfactory sensory neurons and the anti-Hebbian plasticity rules of the KCMBON synaptic weights.
+By combining the network architecture articulated in §2 and the plasticity here in §3, we will arrive at a
+full set of ordinary differential equations that characterize both the firing rate dynamics and the neural
+plasticity in the model. In §4 and §5, we will simplify these dynamics into a set of recursive equations
+that we used for parametric fitting of the experimental data. Readers wishing to apply the more general
+formulation of the model to their own experiments, e.g., for studies with variable CS+-US intervals,
+should use the equations developed in §2 and here in §3, where we treat the plasticity dynamics.
+
+         When odor is present continuously at a uniform level, the activity levels of olfactory sensory
+neurons do not stay uniform but instead adapt over time3 (Fig. 5b). The model captures this phenomenon
+
+through the time-dependence of wodor,i (t ):
+
+( ) d wodor,i = - xodor,i (t ) wodor,i + 1- xodor,i (t ) Aodor,i - wodor,i ,  (3.1)
+dt  t KC,adapt                                       t KC ,recover
+
+where Aodor,i denotes the amplitude of odor i, and t KC,adapt and t KC,recover are time-constants that
+
+respectively characterize the rates of adaptation in the presence of odor and following the offset of odor
+presentation.
+
+                                              p. A8
+         Based on the biological finding that concurrent activation of a DAN and KCs leads to plasticity
+of the odor-evoked spiking responses by the DAN's corresponding MBON4,5, in our model the
+
+concurrent activation of KC i and DAN j modifies the weight of the KC i to MBON j synapse, wKM ,i, j ,
+
+according to an anti-Hebbian rule (Extended Data Fig. 10b). If the fly receives a punishment following
+
+odor presentation (a forward pairing), wKM ,i, j decreases, whereas wKM ,i, j increases if the punishment
+
+occurs before odor presentation (a backward pairing) (Extended Data Fig. 10b). We modeled these
+effects as follows12:
+
+d yKC,i = kKC ( xKC,i - BKC,i ) - g KC yKC,i                                                        (3.2)
+
+dt
+
+( ) d                - g DAN yDAN , j                                                               (3.3)
+
+   yDAN , j = kDAN
+dt
+xDAN , j - BDAN , j
+
+( ) ddt uKM ,i, j = éë( xKC,i - BKC,i ) yDAN , j - xDAN , j - BDAN , j yKC,i ùû - uKM ,i, j t u, j  (3.4)
+
+t w, j d wKM ,i, j = uKM ,i, j - wKM ,i, j .                                                        (3.5)
+     dt
+
+In Eqs. (3.2) and (3.3), yKC,i and yDAN , j are low-pass filtered versions of the spiking signals conveyed
+
+to the MBON by KC i and DAN j. Unlike past modeling studies12 but in accord with prior experimental
+
+findings4,5, our model has distinct amplitudes ( kKC and kDAN ) and time-constants ( g KC and g DAN )
+
+characterizing the plasticity that arises from forward vs. backward pairings. In Eq. (3.4), tu, j is a
+
+plasticity time constant for MBON j. wKM ,i, j is the synaptic weight between KC i and MBON j. uKM ,i, j
+
+is an intermediate variable used to calculate wKM ,i, j and t w, j is the time-constant of the low-pass filter
+
+in Eq. (3.5), which ensures that the synaptic weight wKM ,i, j is a temporally low-pass filtered version of
+
+uKM ,i, j . This prevents rapid fluctuations of the synaptic weights in the model, which might have occurred
+
+p. A9
+if we had directly used uKM ,i, j as the synaptic weight between KC i and MBON j.
+         The KCMBON-1pedc>/ synaptic connections store short-term memories, and the
+
+KCMBON-2sc and KCMBON-3 connections store long-term memories5,13,14. In our experiments,
+learning-induced plasticity in MBON-1pedc>/ persisted for <1 hr (Fig. 3f and Extended Data Fig.
+7a), whereas MBON-3 plasticity lasted >24 hrs (Fig. 4a-d). Our modeling efforts accounted for this
+difference between short- and long-term memory in two ways.
+
+         First, we assigned distinct time-constants for the weights of the KCMBON-1pedc>/
+
+synapse ( t u,1) and those of the KCMBON-2sc and -3 synapses ( tu,2 and t u,3). Parametric fits of
+
+the model to the spiking data confirmed that the KCMBON-1pedc>/ synaptic time-constant is
+much briefer than the time-constants of the KCMBON-2sc and KCMBON-3 connections
+(Supplementary Table 3).
+
+         Second, to allow for the possibility of long-term memory consolidation processes, we let the
+
+model use two different sets of values for the time-constants, tu,2 and t u,3. When we parametrically fit
+the model to the experimental spiking data, one pair of values for tu,2 and t u,3 was used for data
+
+collected in the first 3 hours after associative conditioning; these time-constant values were relatively
+
+brief. Another set of values for tu,2 and t u,3 was used for data collected at time points after 3 hours;
+these values for tu,2 and t u,3 were considerably longer (Supplementary Table 3). The rationale for
+implementing this switch in the values of tu,2 and t u,3 was the key finding that memory decay in the
+
+first 3 hours after conditioning is much faster than that afterward (Fig. 4c,d). Notably, we were unable
+to fit the empirical data by modeling memory decay with a single decaying exponential function; this
+inability led us to introduce the second set of time-constant values, which in actuality could arise from a
+bi-exponential memory decay process15-17.
+
+                                                                               p. A10
+§4. Mathematical simplifications of the neural network dynamics.
+We simulated the differential equations governing the neuronal firing rate (2.1-2.3) and plasticity (3.1-
+3.5) dynamics using the MATLAB (Mathworks Inc.) function ode15s(), which solves differential
+equations numerically. This approach was time-consuming and required ~14 s to provide results for a
+single, fixed set of parameter values. To accelerate the simulations and analyze key features of the neural
+network across many different sets of parameter values, we simplified the model by applying several
+approximations regarding the spiking dynamics (§4) and plasticity processes (§5).
+
+         Here, in §4, we simplify equations 2.1-2.3 into recursive equations. We also simplify the
+activation functions of the KCs, DANs, and MBONs based on the following three observations. (1) In
+our experiments, we set the odorant concentrations within ranges that do not saturate the flies' odorant
+receptors (Extended Data Fig. 3). (2) Our voltage imaging studies of DANs showed that the spiking
+rate changes triggered by an odor and shock presented jointly approximately equal the sum of the spiking
+rate changes triggered by the individual stimuli (Fig. 4e-h). This indicates that DANs operate
+approximately in their activation functions' linear range. This is a key property of our model and implies
+that DANs linearly integrate the valences of jointly presented stimuli. (3) Our experiments showed that,
+unlike for KCs and DANs, the spiking rates of MBONs can attain upper and lower bounds (Fig. 4a-d;
+Extended Data Figs. 4,6). Hence, while we approximated the activation functions of KCs and DANs as
+linear functions, this approximation would be incorrect for MBONs, for which we retain baseline and
+maximum firing rates in the model (Supplementary Table 2). Further, after transforming the model
+equations from a continuous time formulation to a recursive version with discrete time steps, at each
+time step we describe each cell's activity using mean values of its spike rate, time-averaged across each
+individual training, testing, or resting bout.
+
+         First, we approximated the activation functions of KCs and DANs as linear functions. This
+
+                                                                               p. A11
+approximation allows us to cancel the baseline firing rates of KCs and DANs from their respective
+dynamical equations and reduces the number of parameters needed to fit the model to data. In multiple
+of this paper's figures and extended data figures, we plotted changes in neural spiking rates from baseline
+levels prior to conditioning:
+
+    DxKC,i = xKC,i - BKC,i                                                                                (4.1)
+
+    DxDAN , j = xDAN , j - BDAN , j                                                                       (4.2)
+
+    DxMBON ,l = xMBON ,l - BMBON ,l .                                                                     (4.3)
+
+In our studies, we did not use extremely high concentrations of odorants, which might have saturated the
+flies' odorant receptors (Extended Data Fig. 3). Thus, we approximated KC activation functions as
+
+linear, fa,KC,i ( x) = x. Using this approximation and combining equations (2.1) and (4.1) yields:
+
+    t KC,i d DxKC,i = wodor,i (t ) xodor,i (t ) - DxKC,i .                                                (4.4)
+
+          dt
+
+In our imaging studies of DANs, we found that they linearly integrate the valences of jointly presented
+
+stimuli, such that spiking rate changes triggered by an odor and shock presented jointly approximately
+
+equal the sum of the spiking rate changes triggered by the individual stimuli (Fig. 4e-h). Thus, DANs
+
+operate approximately in the linear range of their activation function, i.e., fa,DAN, j ( x) = x, implying that
+
+Eq. (2.2) can be simplified as follows:
+
+å å t DAN , j d DxDAN , j = wpunish, j xpunish (t ) + wKD,i, j DxKC,i + wMD,l, j DxMBON ,l - DxDAN , j .  (4.5)
+dt
+    i                                l
+
+Unlike our results from DANs, we observed experimentally that MBON spiking rates could
+
+attain upper and lower bounds (Fig. 4a-d; Extended Data Figs. 4,6). Thus, we did not approximate
+
+MBON activation functions as linear. Instead, we used piecewise linear functions:
+
+    p. A12
+                                       ì0           x<0
+
+                    ï                               0 £ x < M MBON , j ,                              (4.6)
+
+    fa,MBON, j ( x) = í x
+
+                                       ï            x ³ M MBON , j
+                                       îM MBON , j
+
+where M MBON, j is the maximum spiking rate of MBON j. Based on our empirically measured values, we
+
+set M MBON ,1 = 71.6 s-1, M MBON ,2 = 17.9 s-1, M MBON ,3 = 31.2 s-1, BMBON ,1 = 35.2 s-1, BMBON ,2 = 9.0 s-1, and
+
+BMBON,3 = 11.25 s-1 (Extended Data Figs. 4,6; Supplementary Table 2). Plainly, the baseline spiking
+
+rates of MBONs do not reach the upper and lower limits. Thus, we concluded that bMBON, j = BMBON, j.
+
+Combining (2.3), (4.1) and (4.3) yields (4.7), which describes the spike rate changes:
+
+d ç i ÷ æ åwKM ,i, jDxKC,i ö
+t MBON , j DxMBON , j = fa,MBON , j ç                                      ÷ - BMBON , j - DxMBON , j . (4.7)
+dt                                   ç +åwMM ,l, j DxMBON ,l + BMBON , j ÷
+
+                                     èl                                    ø
+
+The time-constants t KC,i, t DAN , j and t MBON , j are sufficiently brief (~10 ms) that the dynamics of Eqs.
+
+(4.4) and (4.5) quickly reach steady-state values when the input values of xodor,i (t ) and xpunish (t )
+
+change. This allows us to simplify (4.4), (4.5), and (4.7) as follows:
+
+        DxKC,i = wodor,i (t ) xodor,i (t )                                                            (4.8)
+
+    DxDAN, j = wpunish, j xpunish (t ) + åwKD,i, j DxKC,i + åwMD,l, j DxMBON,l                        (4.9)
+
+                                           i                            l
+
+               å å æ                                wMM ,l, j DxMBON ,l + BMBON , j ÷ö - BMBON , j .  (4.10)
+
+DxMBON , j = fa,MBON , j ç
+    èi  wKM ,i, j DxKC,i +                                                    ø
+
+                                                 l
+
+During resting bouts, xodor,i (t ) = 0 and xpunish (t ) = 0. From Eqs. (4.8), (4.9), and (4.10), one
+
+finds that DxKC,i, DxDAN, j and DxMBON , j are all zero during resting bouts. During training, testing and
+
+imaging bouts, at least one of xodor,i (t ) and xpunish (t ) is non-zero, implying that DxKC,i , DxDAN, j and
+
+DxMBON , j may be non-zero. Since the durations of training, testing and imaging bouts are much less than
+
+                                         p. A13
+the rest intervals between them (Figs. 3a, 3d, 4k and 5j,k), we focused on the set of discrete time points,
+{ tk }, corresponding to each training, testing, and imaging bout, and we used a single, time-averaged
+mean spiking rate to represent each cell's activity level at each time point. With this approach, Eqs. (4.8),
+(4.9) and (4.10) become:
+
+DxKC,i (tk ) = wodor,i (tk )xodor,i (tk )                                                        (4.11)
+
+DxDAN , j (tk ) = wpunish, j xpunish (tk ) + åwKD,i, j DxKC,i (tk ) + åwMD,l, j DxMBON ,l (tk )  (4.12)
+
+                                    i                           l
+
+                                æ åwKM ,i, j (tk )DxKC,i (tk )     ö
+
+DxMBON , j (tk ) = fa,MBON , j ççi                                 ÷
+                                                                   ÷ - BMBON , j ,               (4.13)
+
+                                ç +åwMM ,l, j DxMBON ,l (tk ) + BMBON , j ÷
+                                èl                                 ø
+
+where, for any variable a (t ), the notation a(tk ) denotes the mean value of a (t ), time-averaged over
+
+the kth training, testing, or imaging bout, i.e., at time-point tk . Hence, DxKC,i (tk ) , DxDAN, j (tk ) and
+
+DxMBON, j (tk ) denote mean spike rates for the kth bout. wodor,i (tk ) is the mean weight of odor i on KC i,
+
+and wKM ,i, j (tk ) is the mean connection weight from KC i to MBON j at the kth bout.
+
+§5. Mathematical simplifications of the synaptic plasticity dynamics.
+Having simplified the neural dynamics and interactions into a coupled set of recursive equations in §4,
+in this section we reduce the plasticity dynamics to a set of recursive equations. The plasticity rule
+derived here in §5 shows how the linear integration of innate and learnt valences by the DANs shapes
+plasticity in the long-term (3) memory module. Altogether, the use of the combined set of recursive
+equations developed in §4 and §5 accelerated our simulations of the model, facilitated fits to
+experimental data, and yielded a clearer understanding of the model dynamics.
+
+         To simplify the model's implementation of KCMBON synaptic plasticity, we exploited the
+
+                                    p. A14
+linear dependence of the anti-Hebbian plasticity rule as a function of its input levels of neural spiking,
+the finding that DANs linearly integrate the valences of jointly presented stimuli (Fig. 4e-h), and the
+observation that odors' innate and learnt valences concurrently activate the DANs and KCs (Fig. 5b).
+
+These observations imply that, during associative conditioning, the plasticity induced at a KCMBON
+
+connection is the linear sum of the plasticity that would be induced by the US valence and the innate and
+learnt odor valences, if these were hypothetically presented individually to the fly in conjunction with
+odor delivery (Extended Data Fig. 10a). The innate and learnt odor valences are signaled concurrently
+by the DAN and hence use a shared weighting parameter in the computation of plasticity induction.
+
+Since our experiments used a fixed value ( Dtpunish= 3 s) for the CS+-US interval, the weight of the US
+
+on plasticity induction in our model is determined by a single fitted parameter value.
+
+In equations (4.11-4.13) above, wodor,i and wKM ,i, j change with time, due to sensory adaptation
+
+and anti-Hebbian plasticity, respectively, whereas the other synaptic weights remain constant. First, we
+
+sought recursive equations from which we could calculate the mean weight, wodor,i , of the odor input:
+
+wodor,i (t1, start ) = Aodor,i                                                                          (5.1)
+
+             ( ) ì -ton,k /t KC ,adapt                       e-ton,k /t KC ,recover  xodor,i (tk ) = 1  (5.2)
+                                                                                     xodor,i (tk ) = 0
+               ïwodor,i (tk , start ) e
+wodor,i (tk , end ) = í
+
+               ïî Aodor,i - Aodor,i - wodor,i (tk , start )
+
+( ) wodor,i (tk+1, start ) = Aodor,i - Aodor,i - wodor,i (tk , end ) e-toff ,k /tKC,recover             (5.3)
+
+wodor,i (tk ) » éëwodor,i (tk , start ) + wodor,i (tk , end )ùû 2 ,                                     (5.4)
+
+where wodor,i (tk , start ) and wodor,i (tk , end ) are the weights with which odor i activates KC i at the
+
+starting and ending time-points of the kth training, testing or imaging bout. ton,k is the duration of the kth
+
+p. A15
+such bout. toff ,k is the duration of the rest interval after the kth experimental bout. Since Aodor,i can be
+
+absorbed into wodor,i, we set Aodor,i = 1. We set t KC,adapt = 20 s based on past results from fly olfactory
+receptor neurons3 (Supplementary Table 2) and determined the value of t KC,recover via our fits to data
+
+(Supplementary Table 3).
+         We used the changes in the time-averaged KC and DAN spike rates to calculate the changes in
+
+the KCMBON synaptic weights. Since the durations of training, testing and imaging bouts are much
+
+less than the time constant, tu, j , we approximated uKM ,i, j as follows:
+
+                    uKM ,i, j (tk , end ) » ò0ton,k (DxKC,i yDAN , j - DxDAN , j yKC,i ) dt + uKM ,i, j (tk , start )  (5.5)
+                                                                                                                       (5.6)
+                               uKM ,i, j (tk+1, start ) » uKM ,i, j (tk , end ) e-toff ,k /tu, j ,
+
+where uKM ,i, j (tk , start ) and uKM ,i, j (tk , end ) are the values of uKM ,i, j (t ) at the starting and ending time-
+
+points of the kth training, testing or imaging bout.
+
+Because the time constant t w, j is much greater than ton,k but much smaller than toff ,k, the weight
+
+wKM ,i, j does not significantly change during the kth experimental bout but instead converges to uKM ,i, j at
+
+the end of the subsequent resting bout:
+
+                             wKM ,i, j (tk ) » uKM ,i, j (tk , start ) .                                               (5.7)
+                                                                                                                       (5.8)
+By combining Eqs. (5.5-5.7), we derived the recursion formula Eq. (5.8):
+
+             ( ) wKM ,i, j (tk+1 ) » DwKM ,i, j (tk ) + wKM ,i, j (tk ) e-toff /tu,j ,
+
+where DwKM ,i, j (tk ) is the change of the time-averaged weight from KC i to MBON j at the kth
+
+experimental bout:
+
+                    DwKM ,i, j (tk ) =   ( ) òton,k
+                                            DxKC,i yDAN , j - DxDAN , j yKC,i dt .                                     (5.9)
+
+                                         0
+
+                                            p. A16
+         The initial value of the formula Eq. (5.8) is the synaptic weight from KC i to MBON j at the start
+of our experiments. Before our experiments, flies had no preference between the CS+ and CS- odors.
+Therefore, we set the initial values of synaptic weights from all KCs to MBON j to be the same:
+
+                                   wKM ,i, j (t1 ) = wKM ,initial, j .                                    (5.10)
+
+To perform the integration in Eq. (5.9), we derived the analytic solution of Eqs. (3.2) and (3.3),
+
+and defined a functional W:
+
+                                yKC (t ) = kKCe-gKCt òt egKCt1 xKC (t1 ) dt1                              (5.11)
+                                                                    0
+
+                             yDAN (t ) = kDAN e-gDANt òt egDANt1 xDAN (t1 ) dt1                           (5.12)
+                                                                       0
+
+  ( ) ton                       0                                                                         . (5.13)
+
+DW (DxKC (t ), DxDAN (t )) = ò (DxKC (t ) yDAN (t ) - DxDAN (t ) yKC (t )) dttt  t
+= ò on DxKC (t ) kDAN e-gDANt ò egDANt1 xDAN (t1 ) dt1 - DxDAN (t ) kKCe-gKCt ò eg KCt1 xKC (t1 ) dt1 dt
+0                            0                                                   0
+
+The DwKM ,i, j (tk ) defined in Eq. (5.9) equals DW (DxKC,i (t ), DxDAN, j (t )). The W defined by Eq. (5.13)
+
+is a linear functional of the two input functions DxKC (t ) and DxDAN (t ). Eq. (4.9) implies that the spike
+
+rate of each DAN is a linear combination of the punishment-related (US) input and the spike rates of KC
+
+and MBON inputs to the DAN. Thus, the changes in the KCMBON synaptic weights are linear sums
+
+of the contributions from the punishment and the spike rates of KCs and MBONs:
+
+   DW (DxKC,i (t ), DxDAN, j (t ))
+
+   = DW çæ DxKC,i (t ) , wpunish, j xpunish (t ) + åwKD,i', jDxKC,i' (t ) + åwMD,l, jDxMBON ,l (t ) ÷ö
+   è                                i' l ø.
+                                                                                                          (5.14)
+
+   = wpunish, jDW (DxKC,i (t ) , xpunish (t )) + åwKD,i', jDW (DxKC,i (t ) , DxKC,i' (t ))
+
+                                    i'
+
+   +åwMD,l, jDW (DxKC,i (t ) , DxMBON,l (t ))
+
+        l
+
+Because in each training or imaging bout, we perfuse only one kind of odor, when DxKC,i (t ) ¹ 0,
+
+                                    p. A17
+DxKC,i' (t ) = 0 if i ' ¹ i . Thus, the term åwKD,i', jDW (DxKC,i (t ), DxKC,i' (t )) can be simplified into
+
+                                                                                        i'
+
+wKD,i, jDW (DxKC,i (t ), DxKC,i (t )) . To calculate the terms DW (DxKC,i (t ), xpunish (t )) ,
+
+DW (DxKC,i (t ), DxKC,i (t )), and DW (DxKC,i (t ), DxMBON,l (t )) from the mean spike rates of KCs, DANs
+
+and MBONs, we first defined two square-wave functions [Eqs. (5.15) and (5.16)] to describe the time-
+dependence of CS and US presentation:
+
+                                                           ìïDxKC      0<t £t                          (5.15)
+                                                                       otherwise
+                                               DxKC (t ) = í
+
+                                                           ïî0
+
+                                               DxDAN (t ) = íìïDxDAN Dt < t £ Dt +t  ,                 (5.16)
+
+                                                             ïî0       otherwise
+
+where DxKC and DxDAN are constants that set the square-wave amplitudes, t is the time interval
+between KC and DAN activity, and  is the duration of odor or punishment delivery. (In our experiments,
+odor and shock delivery were of equal durations). We then inserted (5.15) and (5.16) into Eq. (5.13),
+used the linear dependence of W on its inputs, and defined the anti-Hebbian amplitude function
+
+AAH (Dt ) as follows in Eq. (5.17):
+
+AAH (Dt ) = DW (DxKC (t ), DxDAN (t ))
+
+                     DxKC DxDAN
+
+( ) ì kDAN                2 e-g DAN (-Dt -t )
+
+ïïg DAN 2
+            1 - e-g DANt                                                                               Dt £ -t
+                                                                                                       -t < Dt £ 0 , (5.17)
+  ïæ kDAN   - kKC   ÷ö (Dt +t ) + 2 kDAN       ( ) ( ) e-g DAN (t -Dt) - 2e-g DAN (-Dt) +1 - 2 kKC     0 < Dt £ t
+  ïç          g KC                                                                                     Dt > t .
+  ïè g DAN                                                                      g KC
+=í          - kKC         g DAN                                                   e-g KC (Dt+t ) -1
+  ïæ kDAN     g KC
+  ïç                ø
+   è g DAN
+  ï                 ÷ö (t - Dt ) + 2 kDAN      ( ) ( ) e-gDAN (t -Dt) -1 - 2 kKC
+
+                                                                  g KC
+                          g DAN                                        e-g KC (Dt+t ) - 2e-g KCDt + 1
+
+                    ø
+
+( ) ïï- 2 kKC             2 e-g KC (Dt-t )
+
+î g KC
+            1 - e-g KCt
+
+                                                               p. A18
+Given the fixed value of Dtpunish= 3 s (Extended Data Fig. 10b), a single parameter value,
+
+AAH (Dtpunish ), characterizes the joint influence of the CS and US on the plasticity of the KCMBON
+
+synapses. In addition to the US, the odor used for conditioning also has a valence and drives DAN
+activity, which is shaped by the concurrent odor-evoked inputs from KCs and MBONs (Fig. 5a,b;
+Eq. (5.14)). The influence of this concurrent odor-evoked KC and DAN activity on plasticity of the
+
+KCMBON synapse can also be characterized by a single parameter value, AAH (0) . We thereby
+
+achieved Eq. (5.18) using (5.8) and (5.14):
+
+é AAH ( Dt punish ) wpunish, j xpunish (tk )                       ù
+
+ê                                                                   ú
+DwKM ,i, j (tk ) = DxKC,i (tk ) ê                                  öú . (5.18)
+ê+ AAH (0) ç wKD,i, j DxKC,i (tk ) + åwMD,l, j DxMBON ,l (tk ) ÷úæ
+
+ë                                  è          l                    øû
+
+Overall, we see that owing to the fixed value of Dtpunish = 3 s in our studies, the effects of the
+
+parameters kCS , kUS , g CS and gUS in Eqs. (3.2) and (3.3) can be summarized with just two parameters,
+
+AAH (Dtpunish ) and AAH (0). The values of these latter two parameter were determined directly through
+
+fits to experimental data (see §7).
+         Notably, (5.18) can be more easily understood by converting it into a form that highlights the
+
+role of odor valence on the change in the KCMBON synaptic weights. Here, we define the component
+of firing by DAN j that is triggered by the net valence of odor i:
+
+vi, j (tk ) = wKD,i, j DxKC,i (tk ) + åwMD,l, j DxMBON ,l (tk ) .      (5.19)
+
+                                                            l
+
+The first term of (5.19) is shaped purely by the innate odor valence, because the KCDAN
+
+weight, wKD,i, j , does not change during training. The second term of Eq. (5.19) is influenced by both the
+
+innate and learnt valences, since the KCMBON weight, wKM ,i, j , changes from its initial value during
+
+                                   p. A19
+training and causes DxMBON,l (tk ) to differ between the CS+ and CS- odors. Using (5.19), Eq. (5.18)
+
+simplifies into (5.20), which describes plasticity at the KCMBON synapse in the models' recursive
+formulation:
+
+DwKM  ,i,  j  (tk  )  =  DxKC ,i  (tk  )  é  AAH  ( Dt punish  )  wpunish,  j  x punish  (tk  )  +  AAH  (0) vi,  j  (tk  )ù  .  (5.20)
+                                          ë
+                                                                                                                           û
+
+In Extended Data Fig. 10a, we plot Eq. (5.20) with vi, j (tk ) on the x-axis and DwKM ,i, j (tk ) on
+
+the y-axis (in units of DxKC,i (tk ) ) for different DANs, either with or without electric shock. The plots
+
+are linear with a slope of AAH (0) and y-intercepts of AAH (Dtpunish ) wpunish, j xpunish (tk ). The plots are
+
+distinct for different DANs, because wpunish, j differs between DANs.
+         Altogether, through the above approximations we achieved a complete set of recursive equations
+
+[Eqs. (4.11), (4.12), (4.13), (5.1), (5.2), (5.3), (5.4), (5.8) and (5.18)]. The time needed to simulate the
+model with this equation set and one set of parameter values was ~0.02 s, about ~700-fold faster than
+simulating the full set of differential equations, (2.1-2.3) and (3.1-3.5). We used the recursive
+formulation for fits of the experimental data to two different versions of the model, one with three
+memory modules (1, 2, and 3 compartments; Fig. 5a) and one with just two modules (1 and 3;
+Extended Data Fig. 10i). Results from these fits are discussed below in §7 and §8.
+
+§6. Theoretical analysis of the recurrent circuitry connecting DANs and MBONs.
+In this section, we show why it was important to represent the MBON activation functions as nonlinear
+(piecewise linear) functions and to include the baseline and maximum MBON spike rates in the set of
+model parameters (Supplementary Table 2). This was not the case for KCs and DANs, for which we
+used linear activation functions.
+
+                                                  p. A20
+       The main nonlinearity in the model indeed arises via the piecewise linear MBON activation
+
+function in Eq. (4.6). If the MBON spike rates are between their lower and upper bounds, we find from
+
+Eq. (4.7)
+
+                                           !                        !                                     T!
+                                        DxMBON (tk ) = åwKM ,i (tk )DxKC,i (tk ) + WMM DxMBON (tk ) ,                                                  (6.1)
+
+                                                                 i
+
+where   !      (tk    )  is  a    column      vector           whose    jth  element    is  DxMBON, j (tk ),            !
+       DxMBON
+                                                                                                                        wKM ,i (tk ) is a column vector
+
+whose jth element is wKM ,i, j (tk ), and WMM is a matrix whose element in row i and column j is wMM ,i, j .
+
+The reason for using these vector and matrix forms is that they allow us to simplify the format of (5.18)
+
+through  the  use  of    the  expression         for        the  inverse     matrix,    (I                 -1
+
+                                                                                            -WMM ) :
+
+                   !         (tk  )              (tk    )AAH     (Dt punish  )  !                (tk   )     é DxKC ,i  (tk  )ù  2  AAH (0) wKD,i!
+                                                                                                             ë
+              DwKM ,i                =  DxKC ,i                                 wpunish xpunish           +                   û
+
+                                                                2 T T -1 ! .                                                                           (6.2)
+
+                                     +  é  DxKC  ,i  (  tk  )ù   AAH (0)WMD ( I -WMM )                    wKM ,i (tk )
+                                        ë
+                                                             û
+
+Here,    !             is a column vector whose jth element is                          DwKM ,i, j (tk ),       !
+                                                                                                                wpunish is a column vector whose
+       DwKM ,i (tk )
+
+jth element is wpunish, j , and WMD is a weight matrix whose element in row i and column j is wMD,i, j . To
+
+identify the temporal stability or instability (6.2), we must determine whether the matrix in front of
+ !
+
+wKM ,i (tk ) has a positive eigenvalue or not. This matrix is:
+
+               éëDxKC,i (tk )ùû AAH 2 (0)WMD T ( I -WMM T )-1
+
+                                                            æ wMD,1,1           0           0 öæ 1 0 0ö                                -1
+
+               = éëDxKC,i (tk )ùû AAH 2 (0) çç wMD,1,2 wMD,2,2                                      ÷ç                              ÷               .  (6.3)
+                                                                                            0 ÷ ç -wMM ,1,2 1 0 ÷
+                                                            çw                                      ÷  ç                0 1 ÷ø                0ö
+                                                            è MD,1,3       wMD,2,3      wMD,3,3     ø  è  -wMM  ,1,3                               ÷
+
+                                                            æ                       wMD,1,1                                     0             0÷
+                                                                                                                             wMD,2,2       w÷
+               = éDxKC,i (tk )ù AAH 2 (0) ççëû                          wMD,1,2 + wMM ,1,2 wMD,2,2                           wMD,2,3
+                                                                                                                                            MD,3,3 ø
+                                                            ç  wMD,1,3  +  wMM ,1,2 wMD,2,3      +  wMM ,1,3wMD,3,3
+                                                            è
+
+                                                                                p. A21
+                                          2
+We note that éDxKC,i (tk )ù is non-negative, AAH (0) is negative owing to the anti-Hebbian plasticity rule,
+                   ë                   û
+
+and wMD,1,1 is negative owing to the GABAergic transmission at the MBON-1PPL1-1 synapse6.
+
+                                                                                 2
+Thus, at least one eigenvalue of the matrix, éDxKC,i (tk )ù AAH (0) wMD,1,1 , is non-negative. This implies
+                                                                 ë            û
+
+that the connection from MBON-1pedc>/ to PPL1-1pedc constitutes a positive feedback loop that
+
+steadily increases the weight of the KCMBON-1 synapse. Further, we can again use the known
+
+neurotransmitter identities within the MB circuitry6-8 (Supplementary Table 3; Fig 5a) to conclude that
+
+wMD,1,2 + wMM ,1,2wMD,2,2 and wMD,1,3 + wMM ,1,2wMD,2,3 + wMM ,1,3wMD,3,3 are also negative. Therefore, the
+
+feedback connections from MBON-1pedc>/ to PPL1-'22 and -3 have the net effect of increasing
+KCMBON synaptic weights and memory formation in the MB -lobe.
+
+         Crucially, however, this positive feedback does not lead to a divergence of the weight values.
+When the absolute values of the KCMBON weights are very large, MBON spike rates reach their
+lower bounds, and activity in the circuit's feedback and feedforward pathways becomes saturated,
+precluding any further increases in DAN activity (Extended Data Fig. 11). This crucial prevention of
+divergence in the model stems directly from the piecewise linear form of the MBON activation function.
+
+§7. Estimating the parameter values of the model.
+
+We fit the experimental data (Figs. 2i, 3e, 3f, 4c, 4d, 5c; Extended Data Figs. 8b,c and 10c,d,j) using
+
+the recursive model equations to estimate values for the set of model parameters, . We assumed that
+
+the measured spike rates of neuron i at time point k were drawn from independent normal distributions,
+
+N  (  µi,k  (q  )  ,s  2    ).  Thus,  the   log-likelihood  of  the  empirical     data  given  a  set  of  parameter  values,  ,  is:
+                       i,k
+
+                                                                                 ö 1 æ xi,k - µi,k ( ) ö        2
+
+                                             æ                        1
+                                          ln L ( ) = -åç lnsi,k + ln 2p ÷ - åçç                              ÷,                     (7.1)
+                                                                                                 s i,k       ÷
+                                             i,k è                    2          ø 2 i,k è                   ø
+
+                                                                      p. A22
+where, xi,k and s i,k are the mean and SEM values of the spike rate of neuron i at time point k, and
+
+µi,k (q ) is the spike rate of neuron i at time point k as computed from the model with parameter set .
+
+Maximum likelihood estimation of the model's parameters is equivalent to minimizing the weighted
+sum of squared errors (WSSE):
+
+WSSE = å( xi,k - µi,k ( ))2 si,k2 .                                                               (7.2)
+
+                  i,k
+
+To find the parameter set minimizing the WSSE in Eq. (7.2), we used an algorithm that combined
+
+the MATLAB (Mathworks) genetic algorithm function ga() and the gradient descent algorithm function
+
+fmincon(). Although gradient descent optimized the parameter set faster than the genetic algorithm, it
+
+sometimes caused the parameter set to be trapped in a local minimum of the WSSE. Therefore, we first
+
+used the genetic algorithm to find a rough estimate of the parameter set, and then we used gradient
+
+descent to fine-tune the parameters (Supplementary Table 3). The function fmincon() provides the
+
+matrix of second derivatives of the WSSE (i.e., the Hessian matrix of WSSE, HWSSE ) for the optimized
+parameter set (Eq. (7.3)):
+
+HWSSE = Ñq2 å ( xi,k - µi,k ( ))2 s i,k2 ,                                                        (7.3)
+
+i,k                                  =^
+
+where ^ is the set of optimized parameter values, and the symbol Ñq2 denotes second derivatives.
+
+        Based on Eqs. (7.1) and (7.3), HWSSE 2 equals the observed Fisher information provided by the
+optimized parameter set about the underlying, real biological parameter values. Using the Fisher
+information approach, the Hessian matrix can be used to estimate the 68% confidence interval (16th-84th
+percentiles) for each parameter:
+
+( ) CIqj = q^j ±
+     ( HWSSE 2)-1 ,                                                                               (7.4)
+                                jj
+
+     p. A23
+( ) where q^j is the optimized value of the jth parameter and ( HWSSE 2)-1 is the element in the jth row and
+                                                                                                                                               jj
+
+the jth column of the covariance matrix ( HWSSE 2)-1.
+
+         Supplementary Table 3 below shows the optimized values and confidence intervals of the
+parameter set for the two- and three-module versions of the model. Supplementary Fig. 1 shows that
+the fit parameters used in both model variants were statistically indistinguishable and unchanged by the
+omission of the 2 module in the simpler variant. This indicates that inclusion of the 2 compartment is
+not needed to account for our results about the other compartments, suggesting a minimal role for 2 in
+the conditioning and extinction protocols explored in this paper.
+
+         We compared the numbers of synapses between pairs of neurons, as found in the connectome
+data, to the synaptic weight values found via parametric fits. Linear regression analyses showed that
+these two sets of synaptic weights are uncorrelated, regardless of whether the model has two or three
+modules (P = 0.319 and P = 0.572, respectively). There are several reasons why it may be hard to infer
+the relative weights of synapses in the model directly from synapse number counts. One possibility is
+that while there may be several types of synapses that use different neurotransmitters or neuromodulators,
+these distinctions and their impact on functional connection strengths cannot be readily inferred from
+the electron microscopy data. Another possible reason is that the connectome data are from a single fly,
+but the synaptic weight values in the fitted models were determined from the large number (>500) of
+flies tested in our experiments. A third possibility is that, in our model, the synaptic weights represent
+functional connection strengths that summarize the cumulative impact of both direct and indirect
+connections between two neurons, the latter of which is not reflected in the synapse counts.
+
+         When we used our model to predict neural spike rates, we determined the spike rate values
+generated from the model with the maximum a posteriori probability by inputting the values of the
+optimized parameter set into our model (Fig. 5; Extended Data Fig. 10). To estimate the confidence
+
+                                                                               p. A24
+intervals of the predicted spike rate values, we sampled 10,000 different sets of parameters from the
+
+normal distribution with the covariance matrix (HWSSE 2)-1 and ran the model simulation with each of
+
+them. We used the 16th-84th percentiles of the distribution of the model-predicted values to determine
+the confidence intervals.
+
+         To evaluate whether the fitted parameter values for the two-module model differed significantly
+from the values of the corresponding parameters in the three-module model, we calculated the ratios of
+the parameter values for the two models and tested whether these ratios were significantly different from
+one (Supplementary Figure 1). To do this, we took 10,000 sets of parameters for each model and
+calculated the ratios of the parameter values between the two models. We used the 50th percentile value
+of each parameter ratio to determine its median value. We used the 16th-84th percentile range for each
+parameter ratio to determine its 68% confidence interval. As shown in Supplementary Figure 1, all of
+the 68% confidence intervals flank unity, implying that none of the parameter values in the two-module
+model differ significantly (P > 0.32) from the corresponding values in the three-module model.
+
+                                                                               p. A25
+§8. Supplementary Tables and Figure.
+
+Supplementary Table 1 | Synapse numbers in the MB circuit of the fly connectome.
+
+Pre-synaptic neuron Connectome ID#* Post-synaptic neuron Connectome ID#* Number of synapses
+
+                                      PPL1-1pedc    393766777                     71
+
+                                      PPL1-'22      5813019513                    12
+
+                                      PPL1-3        331662710                     25
+
+MBON-1pedc>/  424767514               MBON-1pedc>/  424767514                     0
+
+                                      MBON-2sc      5813020828                    48
+
+                                      MBON-3        300972942                     40
+
+                                      MBON-3        5813068729                    51
+
+                                      PPL1-1pedc    393766777                     0
+
+                                      PPL1-'22      5813019513                    12
+
+                                      PPL1-3        331662710                     17
+
+MBON-2sc      5813020828              MBON-1pedc>/  424767514                     1
+
+                                      MBON-2sc      5813020828                    0
+
+                                      MBON-3        300972942                     0
+
+                                      MBON-3        5813068729                    0
+
+                                      PPL1-1pedc    393766777                     0
+
+                                      PPL1-'22      5813019513                    0
+
+                                      PPL1-3        331662710                     4
+
+MBON-3        300972942               MBON-1pedc>/  424767514                     0
+
+                                      MBON-2sc      5813020828                    0
+
+                                      MBON-3        300972942                     0
+
+                                      MBON-3        5813068729                    41
+
+                                      PPL1-1pedc    393766777                     2
+
+                                      PPL1-'22      5813019513                    0
+
+                                      PPL1-3        331662710                     24
+
+MBON-3        5813068729              MBON-1pedc>/  424767514                     0
+
+                                      MBON-2sc      5813020828                    0
+
+                                      MBON-3        300972942                     97
+
+                                      MBON-3        5813068729                    0
+
+* The Connectome ID# is the neuron ID# in the fly hemi-brain connectome database (version 1.2.1)1,2.
+
+                                      p. A26
+Supplementary Table 2 | Empirically measured parameter values input directly into the model.
+
+ Category             Neuron(s)         Symbol              Equation    Value          Source
+
+  Ratios of    PPL1-1pedc / PPL1-3  wpunish,1 / wpunish ,3     (5.18)     2.44          Fig. 2a,d
+Punishment      PPL1-'22 / PPL1-3   wpunish,2 / wpunish,3      (5.18)       0
+                                                                (4.6)              Extended Data
+   weights        MBON-1pedc>/          M MBON ,1               (4.6)  7.17E+01         Figs. 4,6
+                       MBON-2sc         M MBON ,2               (4.6)  1.79E+01
+  Maximum               MBON-3          M MBON ,3              (4.13)  3.12E+01    Extended Data
+spiking rates                            BMBON ,1              (4.13)  3.52E+01         Figs. 4,6
+                  MBON-1pedc>/          BMBON ,2               (4.13)  0.90E+01
+      (s-1)            MBON-2sc          BMBON ,3               (5.2)  1.12E+01  Murmu, M. S. et al.,
+                        MBON-3          t KC ,adapt                    2.00E+01         (2011) 3
+   Baseline           Kenyon cells
+spiking rates
+
+      (s-1)
+
+     Time-
+constants (s)
+
+                                    p. A27
+Supplementary Table 3 | Definitions and values of parameters found by model fitting.
+
+                                                                                    Three-module model                Two-module model
+
+ Category      Name                    Symbol                       Equation        Value      16th       84th        Value      16th       84th
+
+Anti-Hebbian   Anti-Hebbian                                                                    percentile percentile             percentile percentile
+ amplitudes    amplitude of KCs and
+               MBONs                   AAH (0)                      (5.18)          -7.12      -9.21      -5.50       -7.04      -8.78      -5.64
+   Synaptic
+   weights     Anti-Hebbian            AAH ( Dt punish ) wpunish,3  (5.18)          -2.13E+01 -2.73E+01 -1.65E+01 -2.02E+01 -2.40E+01 -1.70E+01
+               amplitude on PPL1-3
+                                       wKD,1,1 , wKD,2,1            (4.12), (5.18)  -2.11      -3.25      -9.79E-01   -1.94      -2.55      -1.34
+               KC to PPL1-1pedc
+               (Attractive odor)       wKD,1,2 , wKD,2,2            (4.12), (5.18)  -3.75      -6.10      -1.41
+
+               KC to PPL1-'22          wKD,1,3 , wKD,2,3            (4.12), (5.18)  4.68       3.77       5.59        3.97       2.43       5.52
+               (Attractive odor)
+                                       wKD,3,1 , wKD,4,1            (4.12), (5.18)  5.14       3.97       6.31        5.02       4.02       6.02
+               KC to PPL1-3
+               (Attractive odor)       wKD,3,2 , wKD,4,2            (4.12), (5.18)     2.94       1.37       4.51
+                                                                                    1.37E+01   1.22E+01   1.52E+01
+               KC to PPL1-1pedc        wKD,3,3 , wKD,4,3            (4.12), (5.18)                                    1.26E+01   1.08E+01   1.43E+01
+               (Repulsive odor)
+                                       wKM ,initial ,1              (5.10)          2.54E+01 2.36E+01 2.73E+01 2.48E+01 2.30E+01 2.67E+01
+               KC to PPL1-'22
+               (Repulsive odor)        wKM ,initial ,2              (5.10)          1.73E+01   1.48E+01   1.99E+01
+                                                                                    1.63E+01   1.50E+01   1.77E+01
+               KC to PPL1-3            wKM ,initial ,3              (5.10)                                            1.66E+01   1.53E+01   1.78E+01
+               (Repulsive odor)
+                                       wMD ,1,1                     (4.12), (5.18)  -3.83E-02  -1.16E-01  -1.27E-02   -3.68E-02  -7.29E-02  -1.86E-02
+               Initial value of KC to                                               -7.48E-02  -1.35E-01  -4.15E-02
+               MBON-1pedc>/            wMD ,1,2                     (4.12), (5.18)
+
+               Initial value of KC to  wMD ,1,3                     (4.12), (5.18)  -3.82E-01 -4.41E-01 -3.30E-01 -3.50E-01 -4.22E-01 -2.90E-01
+               MBON-'22
+                                       wMM ,1,2                     (4.13)          -3.09E-01  -3.99E-01  -2.39E-01
+               Initial value of KC to                                               -2.09E-09  -8.61E-09  -5.07E-10
+               MBON-3                  wMM ,1,3                     (4.13)                                            -2.07E-09  -8.62E-09  -4.99E-10
+
+               MBON-1pedc>/ to         wMD ,2,2                     (4.12), (5.18)  1.55E-01   8.21E-02   2.92E-01
+               PPL1-1pedc                                                           2.09E-09   5.04E-10   8.66E-09
+                                       wMD ,2,3                     (4.12), (5.18)
+               MBON-1pedc>/ to
+               PPL1-'22
+
+               MBON-1pedc>/ to
+               PPL1-3
+
+               MBON-1pedc>/ to
+               MBON-2sc
+
+               MBON-1pedc>/ to
+               MBON-3
+
+               MBON-2sc to PPL1-
+               '22
+
+               MBON-2sc to PPL1-
+               3
+
+               MBON-3 to PPL1-3        wMD ,3,3                     (4.12), (5.18)  2.09E-09 5.04E-10 8.67E-09 2.07E-09 4.95E-10 8.69E-09
+
+               MBON-STM (KC to         t (5.18) u ,1                                2.02E+03 1.73E+03 2.37E+03 1.87E+03 1.64E+03 2.14E+03
+               MBON-1pedc>/)
+                                       t u,2 ,t u,3 (t  3 hrs)      (5.18)          6.22E+03 5.53E+03 7.00E+03 6.30E+03 5.70E+03 6.96E+03
+               MBON-STM (KC to
+     Time-     MBON-'22 and KC
+constants (s)  to MBON-3)
+
+               MBON-LTM (KC to         t u,2 ,t u,3 (t > 3 hrs)        (5.18)       2.43E+05 1.22E+05 4.82E+05 2.61E+05 1.30E+05 5.21E+05
+               MBON-'22 and KC         t KC ,recover                (5.2), (5.3)    7.92E+02 6.75E+02 9.29E+02 7.12E+02 5.85E+02 8.68E+02
+               to MBON-3)
+
+               KC-recover
+
+                                                                            p. A28
+Supplementary Figure 1 | Comparisons of parameter values in the 2- and 3-module model variants.
+
+To compare parameter values in the two-module model with the corresponding values in the three-
+module model, we plotted the ratios of the parameter values obtained by fitting the two different models
+to the experimental spike rate data. We then tested whether each ratio differed significantly from unity.
+In this plot, the data points (´ symbols) mark the median values of the parameter ratios, and the error
+bars denote the 68% confidence intervals, based on 10,000 sets of parameters for each model. All of
+these confidence intervals flank unity (vertical dashed line). Thus, all fitted parameter values in the two-
+module model are statistically indistinguishable (P > 0.32; Monte Carlo testing) from the corresponding
+parameter values in the three-module model.
+
+                                                                               p. A29
+§9. References.
+1. Scheffer, L. K. et al. A connectome and analysis of the adult Drosophila central brain. Elife 9,
+
+      (2020).
+2. Li, F. et al. The connectome of the adult Drosophila mushroom body provides insights into function.
+
+      Elife 9, (2020).
+3. Murmu, M. S., Stinnakre, J., Réal, E. & Martin, J.-R. Calcium-stores mediate adaptation in axon
+
+      terminals of olfactory receptor neurons in Drosophila. BMC Neurosci. 12, 105 (2011).
+4. Gerber, B. et al. Pain-relief learning in flies, rats, and man: basic research and applied perspectives.
+
+      Learn. Mem. 21, 232-252 (2014).
+5. Aso, Y. & Rubin, G. M. Dopaminergic neurons write and update memories with cell-type-specific
+
+      rules. Elife 5, (2016).
+6. Tanaka, N. K., Tanimoto, H. & Ito, K. Neuronal assemblies of the Drosophila mushroom body. J.
+
+      Comp. Neurol. 508, 711-755 (2008).
+7. Séjourné, J. et al. Mushroom body efferent neurons responsible for aversive olfactory memory
+
+      retrieval in Drosophila. Nat. Neurosci. 14, 903-910 (2011).
+8. Chiang, A.-S. et al. Three-dimensional reconstruction of brain-wide wiring networks in Drosophila
+
+      at single-cell resolution. Curr. Biol. 21, 1-11 (2011).
+9. Takemura, S.-Y. et al. A connectome of a learning and memory center in the adult Drosophila brain.
+
+      Elife 6, e26975 (2017).
+10. Wang, G. et al. The reconstruction and functional mapping of a recurrent microcircuit in Drosophila
+
+      mushroom body. bioRxiv (2019) doi:10.1101/819227.
+11. Amin, H., Apostolopoulou, A. A., Suárez-Grimalt, R., Vrontou, E. & Lin, A. C. Localized
+
+      inhibition in the Drosophila mushroom body. Elife 9, (2020).
+
+                                                                               p. A30
+12. Eschbach, C. et al. Recurrent architecture for adaptive regulation of learning in the insect brain.
+      Nat. Neurosci. 23, 544-555 (2020).
+
+13. Aso, Y. et al. Mushroom body output neurons encode valence and guide memory-based action
+      selection in Drosophila. Elife 3, e04580 (2014).
+
+14. Siegenthaler, D., Escribano, B., Bräuler, V. & Pielage, J. Selective suppression and recall of long-
+      term memories in Drosophila. PLoS Biol. 17, e3000400 (2019).
+
+15. Candia, C., Jara-Figueroa, C., Rodriguez-Sickert, C., Barabási, A.-L. & Hidalgo, C. A. The
+      universal decay of collective memory and attention. Nat. Hum. Behav. 3, 82-91 (2019).
+
+16. Igarashi, N., Okada, Y., Sayama, H. & Sano, Y. A two-phase model of collective memory decay
+      with a dynamical switching point. Sci. Rep. 12, 21484 (2022).
+
+17. Margulies, C., Tully, T. & Dubnau, J. Deconstructing memory in Drosophila. Curr. Biol. 15, R700-
+      13 (2005).
+
+                                                                               p. A31
+

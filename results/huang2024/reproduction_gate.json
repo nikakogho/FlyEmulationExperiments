@@ -1,0 +1,499 @@
+{
+  "gate": "Figure 5c published model medians, 48 cells, tolerance 0.05 Hz",
+  "passed": false,
+  "passed_cells": 21,
+  "total_cells": 48,
+  "max_abs_error_Hz": 0.4399999999999977,
+  "rmse_Hz": 0.1845991267502531,
+  "samples": 10000,
+  "runtime_sec": 0.7035433999844827,
+  "refitted": false,
+  "rows": [
+    {
+      "neuron": "PPL1 gamma1",
+      "odor": "CS+",
+      "time": "Pre",
+      "source_cell": "H4",
+      "published": -2.95117555193435,
+      "reproduced": -3.0895440660927447,
+      "error": -0.1383685141583948,
+      "passed": false
+    },
+    {
+      "neuron": "PPL1 gamma1",
+      "odor": "CS+",
+      "time": "Mid",
+      "source_cell": "I4",
+      "published": -0.883565052218712,
+      "reproduced": -0.9480528964841972,
+      "error": -0.06448784426548526,
+      "passed": false
+    },
+    {
+      "neuron": "PPL1 gamma1",
+      "odor": "CS+",
+      "time": "5 min",
+      "source_cell": "J4",
+      "published": -0.617494617931048,
+      "reproduced": -0.6779651566995957,
+      "error": -0.06047053876854769,
+      "passed": false
+    },
+    {
+      "neuron": "PPL1 gamma1",
+      "odor": "CS+",
+      "time": "1 h",
+      "source_cell": "K4",
+      "published": -2.60205633584556,
+      "reproduced": -2.713194730748074,
+      "error": -0.1111383949025142,
+      "passed": false
+    },
+    {
+      "neuron": "PPL1 gamma1",
+      "odor": "CS-",
+      "time": "Pre",
+      "source_cell": "H7",
+      "published": -2.95117555193435,
+      "reproduced": -3.0895440660927447,
+      "error": -0.1383685141583948,
+      "passed": false
+    },
+    {
+      "neuron": "PPL1 gamma1",
+      "odor": "CS-",
+      "time": "Mid",
+      "source_cell": "I7",
+      "published": -1.58905941687204,
+      "reproduced": -1.6402596909809588,
+      "error": -0.05120027410891881,
+      "passed": false
+    },
+    {
+      "neuron": "PPL1 gamma1",
+      "odor": "CS-",
+      "time": "5 min",
+      "source_cell": "J7",
+      "published": -1.60364070636001,
+      "reproduced": -1.6540543068512528,
+      "error": -0.05041360049124277,
+      "passed": false
+    },
+    {
+      "neuron": "PPL1 gamma1",
+      "odor": "CS-",
+      "time": "1 h",
+      "source_cell": "K7",
+      "published": -2.9923278384411,
+      "reproduced": -3.136368944560268,
+      "error": -0.14404110611916776,
+      "passed": false
+    },
+    {
+      "neuron": "PPL1 alpha2",
+      "odor": "CS+",
+      "time": "Pre",
+      "source_cell": "H12",
+      "published": -3.63589786710087,
+      "reproduced": -3.7915902809226014,
+      "error": -0.15569241382173127,
+      "passed": false
+    },
+    {
+      "neuron": "PPL1 alpha2",
+      "odor": "CS+",
+      "time": "Mid",
+      "source_cell": "I12",
+      "published": 0.0134475649121734,
+      "reproduced": -0.0012103360260965479,
+      "error": -0.014657900938269948,
+      "passed": true
+    },
+    {
+      "neuron": "PPL1 alpha2",
+      "odor": "CS+",
+      "time": "5 min",
+      "source_cell": "J12",
+      "published": 0.547724636112368,
+      "reproduced": 0.5305148889022283,
+      "error": -0.01720974721013968,
+      "passed": true
+    },
+    {
+      "neuron": "PPL1 alpha2",
+      "odor": "CS+",
+      "time": "1 h",
+      "source_cell": "K12",
+      "published": -2.92842463043646,
+      "reproduced": -2.9655246253394383,
+      "error": -0.03709999490297822,
+      "passed": true
+    },
+    {
+      "neuron": "PPL1 alpha2",
+      "odor": "CS-",
+      "time": "Pre",
+      "source_cell": "H15",
+      "published": -3.63589786710087,
+      "reproduced": -3.7915902809226014,
+      "error": -0.15569241382173127,
+      "passed": false
+    },
+    {
+      "neuron": "PPL1 alpha2",
+      "odor": "CS-",
+      "time": "Mid",
+      "source_cell": "I15",
+      "published": -1.39626206442521,
+      "reproduced": -1.42858630183767,
+      "error": -0.032324237412460155,
+      "passed": true
+    },
+    {
+      "neuron": "PPL1 alpha2",
+      "odor": "CS-",
+      "time": "5 min",
+      "source_cell": "J15",
+      "published": -1.3933366630606,
+      "reproduced": -1.4194641886982358,
+      "error": -0.026127525637635873,
+      "passed": true
+    },
+    {
+      "neuron": "PPL1 alpha2",
+      "odor": "CS-",
+      "time": "1 h",
+      "source_cell": "K15",
+      "published": -3.61664328056066,
+      "reproduced": -3.8075016152231145,
+      "error": -0.1908583346624546,
+      "passed": false
+    },
+    {
+      "neuron": "PPL1 alpha3",
+      "odor": "CS+",
+      "time": "Pre",
+      "source_cell": "H20",
+      "published": -4.57647801679066,
+      "reproduced": -4.477361401259303,
+      "error": 0.09911661553135698,
+      "passed": false
+    },
+    {
+      "neuron": "PPL1 alpha3",
+      "odor": "CS+",
+      "time": "Mid",
+      "source_cell": "I20",
+      "published": 2.80365895694289,
+      "reproduced": 2.8389649762866465,
+      "error": 0.035306019343756656,
+      "passed": true
+    },
+    {
+      "neuron": "PPL1 alpha3",
+      "odor": "CS+",
+      "time": "5 min",
+      "source_cell": "J20",
+      "published": 5.1549026293687,
+      "reproduced": 5.147157239651131,
+      "error": -0.007745389717569218,
+      "passed": true
+    },
+    {
+      "neuron": "PPL1 alpha3",
+      "odor": "CS+",
+      "time": "1 h",
+      "source_cell": "K20",
+      "published": -1.66204631129048,
+      "reproduced": -1.6278167570140498,
+      "error": 0.03422955427643015,
+      "passed": true
+    },
+    {
+      "neuron": "PPL1 alpha3",
+      "odor": "CS-",
+      "time": "Pre",
+      "source_cell": "H23",
+      "published": -4.57647801679066,
+      "reproduced": -4.477361401259303,
+      "error": 0.09911661553135698,
+      "passed": false
+    },
+    {
+      "neuron": "PPL1 alpha3",
+      "odor": "CS-",
+      "time": "Mid",
+      "source_cell": "I23",
+      "published": -3.74570054052499,
+      "reproduced": -3.7399938010276763,
+      "error": 0.005706739497313595,
+      "passed": true
+    },
+    {
+      "neuron": "PPL1 alpha3",
+      "odor": "CS-",
+      "time": "5 min",
+      "source_cell": "J23",
+      "published": -3.93448660769001,
+      "reproduced": -3.9164205648465944,
+      "error": 0.01806604284341562,
+      "passed": true
+    },
+    {
+      "neuron": "PPL1 alpha3",
+      "odor": "CS-",
+      "time": "1 h",
+      "source_cell": "K23",
+      "published": -5.28948375915922,
+      "reproduced": -5.2425317181196025,
+      "error": 0.04695204103961714,
+      "passed": true
+    },
+    {
+      "neuron": "MBON gamma1",
+      "odor": "CS+",
+      "time": "Pre",
+      "source_cell": "H28",
+      "published": 22.6285136674264,
+      "reproduced": 22.63460991302481,
+      "error": 0.006096245598410377,
+      "passed": true
+    },
+    {
+      "neuron": "MBON gamma1",
+      "odor": "CS+",
+      "time": "Mid",
+      "source_cell": "I28",
+      "published": -1.89447960468005,
+      "reproduced": -1.8743596402383993,
+      "error": 0.02011996444165076,
+      "passed": true
+    },
+    {
+      "neuron": "MBON gamma1",
+      "odor": "CS+",
+      "time": "5 min",
+      "source_cell": "J28",
+      "published": -8.08168968269966,
+      "reproduced": -7.930324963027022,
+      "error": 0.1513647196726371,
+      "passed": false
+    },
+    {
+      "neuron": "MBON gamma1",
+      "odor": "CS+",
+      "time": "1 h",
+      "source_cell": "K28",
+      "published": 14.8236196277111,
+      "reproduced": 15.047314443005064,
+      "error": 0.22369481529396396,
+      "passed": false
+    },
+    {
+      "neuron": "MBON gamma1",
+      "odor": "CS-",
+      "time": "Pre",
+      "source_cell": "H31",
+      "published": 22.6285136674264,
+      "reproduced": 22.63460991302481,
+      "error": 0.006096245598410377,
+      "passed": true
+    },
+    {
+      "neuron": "MBON gamma1",
+      "odor": "CS-",
+      "time": "Mid",
+      "source_cell": "I31",
+      "published": 15.0313209075933,
+      "reproduced": 15.255592064612678,
+      "error": 0.22427115701937872,
+      "passed": false
+    },
+    {
+      "neuron": "MBON gamma1",
+      "odor": "CS-",
+      "time": "5 min",
+      "source_cell": "J31",
+      "published": 15.5198814294667,
+      "reproduced": 15.74058518831945,
+      "error": 0.22070375885274984,
+      "passed": false
+    },
+    {
+      "neuron": "MBON gamma1",
+      "odor": "CS-",
+      "time": "1 h",
+      "source_cell": "K31",
+      "published": 24.3237748950463,
+      "reproduced": 24.526632594010152,
+      "error": 0.20285769896385375,
+      "passed": false
+    },
+    {
+      "neuron": "MBON alpha2",
+      "odor": "CS+",
+      "time": "Pre",
+      "source_cell": "H36",
+      "published": 8.18788242670139,
+      "reproduced": 8.233659166670803,
+      "error": 0.045776739969412006,
+      "passed": true
+    },
+    {
+      "neuron": "MBON alpha2",
+      "odor": "CS+",
+      "time": "Mid",
+      "source_cell": "I36",
+      "published": 8.46,
+      "reproduced": 8.899999999999999,
+      "error": 0.4399999999999977,
+      "passed": false
+    },
+    {
+      "neuron": "MBON alpha2",
+      "odor": "CS+",
+      "time": "5 min",
+      "source_cell": "J36",
+      "published": 8.46,
+      "reproduced": 8.899999999999999,
+      "error": 0.4399999999999977,
+      "passed": false
+    },
+    {
+      "neuron": "MBON alpha2",
+      "odor": "CS+",
+      "time": "1 h",
+      "source_cell": "K36",
+      "published": 8.46,
+      "reproduced": 8.899999999999999,
+      "error": 0.4399999999999977,
+      "passed": false
+    },
+    {
+      "neuron": "MBON alpha2",
+      "odor": "CS-",
+      "time": "Pre",
+      "source_cell": "H39",
+      "published": 8.18788242670139,
+      "reproduced": 8.233659166670803,
+      "error": 0.045776739969412006,
+      "passed": true
+    },
+    {
+      "neuron": "MBON alpha2",
+      "odor": "CS-",
+      "time": "Mid",
+      "source_cell": "I39",
+      "published": 8.35062414912406,
+      "reproduced": 8.598943053108163,
+      "error": 0.24831890398410295,
+      "passed": false
+    },
+    {
+      "neuron": "MBON alpha2",
+      "odor": "CS-",
+      "time": "5 min",
+      "source_cell": "J39",
+      "published": 8.46,
+      "reproduced": 8.899999999999999,
+      "error": 0.4399999999999977,
+      "passed": false
+    },
+    {
+      "neuron": "MBON alpha2",
+      "odor": "CS-",
+      "time": "1 h",
+      "source_cell": "K39",
+      "published": 8.46,
+      "reproduced": 8.899999999999999,
+      "error": 0.4399999999999977,
+      "passed": false
+    },
+    {
+      "neuron": "MBON alpha3",
+      "odor": "CS+",
+      "time": "Pre",
+      "source_cell": "H44",
+      "published": 14.532274541036,
+      "reproduced": 14.520635290912926,
+      "error": -0.011639250123073097,
+      "passed": true
+    },
+    {
+      "neuron": "MBON alpha3",
+      "odor": "CS+",
+      "time": "Mid",
+      "source_cell": "I44",
+      "published": 3.64324444495376,
+      "reproduced": 3.4923209176797316,
+      "error": -0.15092352727402858,
+      "passed": false
+    },
+    {
+      "neuron": "MBON alpha3",
+      "odor": "CS+",
+      "time": "5 min",
+      "source_cell": "J44",
+      "published": -10.1036614439543,
+      "reproduced": -10.476027877285336,
+      "error": -0.37236643333103636,
+      "passed": false
+    },
+    {
+      "neuron": "MBON alpha3",
+      "odor": "CS+",
+      "time": "1 h",
+      "source_cell": "K44",
+      "published": -7.18808013499709,
+      "reproduced": -7.358057173519835,
+      "error": -0.16997703852274437,
+      "passed": false
+    },
+    {
+      "neuron": "MBON alpha3",
+      "odor": "CS-",
+      "time": "Pre",
+      "source_cell": "H47",
+      "published": 14.532274541036,
+      "reproduced": 14.520635290912926,
+      "error": -0.011639250123073097,
+      "passed": true
+    },
+    {
+      "neuron": "MBON alpha3",
+      "odor": "CS-",
+      "time": "Mid",
+      "source_cell": "I47",
+      "published": 17.5411486165333,
+      "reproduced": 17.549321582203497,
+      "error": 0.008172965670198096,
+      "passed": true
+    },
+    {
+      "neuron": "MBON alpha3",
+      "odor": "CS-",
+      "time": "5 min",
+      "source_cell": "J47",
+      "published": 19.96,
+      "reproduced": 19.96,
+      "error": 0.0,
+      "passed": true
+    },
+    {
+      "neuron": "MBON alpha3",
+      "odor": "CS-",
+      "time": "1 h",
+      "source_cell": "K47",
+      "published": 19.96,
+      "reproduced": 19.96,
+      "error": 0.0,
+      "passed": true
+    }
+  ],
+  "source_hashes": {
+    "upstream\\Luo_Huang_2024_MB_model\\data_and_parameters\\Dx_steady_state_nonlinear_3_27-Mar-2023_3modules.mat": "cb7b555026f97b59678adf8902b9f4a02975413a7eed9d6e03f2e2864821915d",
+    "research\\huang2024\\figure5.xlsx": "45818df8dcf3f2da1a2099979d0b1d01db61236ff5ad7c5488424faad01635cf",
+    "research\\huang2024\\supplement.pdf": "fc2b546b3a76b25a44c16ebf32cea42ac927252e817bf580f54b8017a763d870",
+    "research\\huang2024\\validation_plan.md": "78fce5bcaea1720da3b23cd26be370e487f866d28d9e6eda5e1e54ba44d4c753"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "source": "https://raw.githubusercontent.com/tuthill-lab/Lesser_Azevedo_2023/93cafa55b8bbdb1493e8d73c941035969349b223/pkls/pre_to_mn_df_matched_typed_with_nt_v604_20230525.pkl",
+  "sha256": "191de09af38f831f01ce5bb8ba85d39cd4e47c0a0f23044c70403bed87b2f01d",
+  "sensory_source_commit": "4328b1d5549749f1014c4d73cccc0c5241d98ae4",
+  "dataset": "FANC",
+  "sensory_type": "claw_ext",
+  "target": "main_tibia_flexor",
+  "sensory_ids": [
+    "648518346481759933",
+    "648518346487912272",
+    "648518346488815453",
+    "648518346503978080",
+    "648518346508752447"
+  ],
+  "motor_ids": [
+    "648518346496932836"
+  ],
+  "synaptic_contacts": 58,
+  "same_identifier_join": true,
+  "unmatched_other_motor_contacts": 347,
+  "physiological_reflex_validated": false,
+  "whole_circuit": false,
+  "neural_steps": 0,
+  "expected_action": "Decrease anatomical femur-tibia angle; positive audited left-front FlyGym tibia qpos.",
+  "unknown": [
+    "single-cell receptor tuning",
+    "synaptic dynamics and gains",
+    "motor recruitment and force per spike",
+    "omitted circuit inputs"
+  ]
+}

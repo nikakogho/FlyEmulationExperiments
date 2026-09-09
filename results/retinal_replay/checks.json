@@ -1,0 +1,61 @@
+{
+  "passed": true,
+  "rows": [
+    {
+      "model": "000",
+      "finite": true,
+      "parameters_unchanged": true
+    },
+    {
+      "model": "001",
+      "finite": true,
+      "parameters_unchanged": true
+    },
+    {
+      "model": "002",
+      "finite": true,
+      "parameters_unchanged": true
+    },
+    {
+      "model": "003",
+      "finite": true,
+      "parameters_unchanged": true
+    },
+    {
+      "model": "004",
+      "finite": true,
+      "parameters_unchanged": true
+    },
+    {
+      "model": "005",
+      "finite": true,
+      "parameters_unchanged": true
+    },
+    {
+      "model": "007",
+      "finite": true,
+      "parameters_unchanged": true
+    },
+    {
+      "model": "009",
+      "finite": true,
+      "parameters_unchanged": true
+    },
+    {
+      "model": "006",
+      "finite": true,
+      "parameters_unchanged": true
+    },
+    {
+      "model": "013",
+      "finite": true,
+      "parameters_unchanged": true
+    }
+  ],
+  "whole_brain_simulated": false,
+  "visual_subsystem_simulated": true,
+  "body_simulated": false,
+  "source_frames": 70,
+  "integration_frames": 277,
+  "limitation": "Transport/stability only. No directional ground truth or learning score."
+}

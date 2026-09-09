@@ -1,0 +1,7 @@
+WARNING:imageio_ffmpeg:IMAGEIO FFMPEG_WRITER WARNING: input image is not divisible by macro_block_size=16, resizing from (800, 600) to (800, 608) to ensure video compatibility with most codecs and players. To prevent resizing, make your input image divisible by the macro_block_size or set the macro_block_size to 1 (risking incompatibility).
+[subnet] 8991 neurons, 791613 synapses
+seed 0 plastic training 0: contacts=0
+seed 0 plastic training 1: contacts=0
+seed 0 plastic training 2: contacts=0
+WARNING:imageio_ffmpeg:IMAGEIO FFMPEG_WRITER WARNING: input image is not divisible by macro_block_size=16, resizing from (800, 600) to (800, 608) to ensure video compatibility with most codecs and players. To prevent resizing, make your input image divisible by the macro_block_size or set the macro_block_size to 1 (risking incompatibility).
+seed 0 plastic test swap=False: final=[4.378076553344727, 27.034162521362305, 0.32138317823410034]

@@ -1,0 +1,12 @@
+{
+  "preselection": "seed 0, both food-free test layouts, plastic and frozen",
+  "frames_per_source": [
+    143,
+    143,
+    143,
+    143
+  ],
+  "fps": 30,
+  "playback_speed": 0.5,
+  "note": "Full fixed-camera clips; trajectories retain positions even when the fly leaves the camera view"
+}

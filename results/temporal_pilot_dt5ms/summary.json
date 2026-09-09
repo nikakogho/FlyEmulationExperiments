@@ -1,0 +1,52 @@
+[
+  {
+    "condition": "paired",
+    "pre_A": 3725.0,
+    "post_A": 40.0,
+    "pre_B": 4236.0,
+    "post_B": 4028.0,
+    "suppression_A": 0.9892617449664429,
+    "suppression_B": 0.04910292728989618,
+    "weight_fraction": 0.9432485706874104
+  },
+  {
+    "condition": "forward_gap_100ms",
+    "pre_A": 3725.0,
+    "post_A": 3059.0,
+    "pre_B": 4236.0,
+    "post_B": 4162.0,
+    "suppression_A": 0.17879194630872486,
+    "suppression_B": 0.01746931067044377,
+    "weight_fraction": 0.9822083087934596
+  },
+  {
+    "condition": "forward_gap_1000ms",
+    "pre_A": 3725.0,
+    "post_A": 3781.0,
+    "pre_B": 4236.0,
+    "post_B": 4281.0,
+    "suppression_A": -0.01503355704697995,
+    "suppression_B": -0.010623229461756312,
+    "weight_fraction": 0.9993916145193704
+  },
+  {
+    "condition": "no_dopamine",
+    "pre_A": 3725.0,
+    "post_A": 3781.0,
+    "pre_B": 4236.0,
+    "post_B": 4281.0,
+    "suppression_A": -0.01503355704697995,
+    "suppression_B": -0.010623229461756312,
+    "weight_fraction": 0.999394438911038
+  },
+  {
+    "condition": "plasticity_off",
+    "pre_A": 3725.0,
+    "post_A": 3685.0,
+    "pre_B": 4236.0,
+    "post_B": 4318.0,
+    "suppression_A": 0.010738255033557076,
+    "suppression_B": -0.019357884796978198,
+    "weight_fraction": 1.0
+  }
+]

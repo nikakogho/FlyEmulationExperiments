@@ -1,0 +1,5 @@
+[subnet] 8991 neurons, 791613 synapses
+seed 1 plastic training 0: contacts=0
+seed 1 plastic training 1: contacts=0
+seed 1 plastic training 2: contacts=0
+seed 1 plastic test swap=False: final=[-15.28544807434082, -15.296601295471191, 0.9501540064811707]

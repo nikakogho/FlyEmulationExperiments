@@ -1,0 +1,10 @@
+WARNING    'rates' is an internal variable of group 'poissongroup', but also exists in the run namespace with the value array([500.,   0.,   0., ..., 500.,  60.,  60.]). The internal variable will be used. [brian2.groups.group.Group.resolve.resolution_conflict]
+WARNING    'rates' is an internal variable of group 'poissongroup', but also exists in the run namespace with the value array([0., 0., 0., ..., 0., 0., 0.]). The internal variable will be used. [brian2.groups.group.Group.resolve.resolution_conflict]
+[subnet] 8991 neurons, 791613 synapses
+{"condition": "paired", "pre_A": 3725.0, "post_A": 40.0, "pre_B": 4236.0, "post_B": 3911.0, "suppression_A": 0.9892617449664429, "suppression_B": 0.07672332389046266, "weight_fraction": 0.9430956102065815}
+WARNING    'rates' is an internal variable of group 'poissongroup', but also exists in the run namespace with the value array([500.,   0.,   0., ..., 500.,   0.,   0.]). The internal variable will be used. [brian2.groups.group.Group.resolve.resolution_conflict]
+WARNING    'rates' is an internal variable of group 'poissongroup', but also exists in the run namespace with the value array([ 0.,  0.,  0., ...,  0., 60., 60.]). The internal variable will be used. [brian2.groups.group.Group.resolve.resolution_conflict]
+{"condition": "forward_gap_100ms", "pre_A": 3725.0, "post_A": 3033.0, "pre_B": 4236.0, "post_B": 4290.0, "suppression_A": 0.18577181208053695, "suppression_B": -0.012747875354107707, "weight_fraction": 0.98230534006676}
+{"condition": "forward_gap_1000ms", "pre_A": 3725.0, "post_A": 3714.0, "pre_B": 4236.0, "post_B": 4386.0, "suppression_A": 0.002953020134228157, "suppression_B": -0.03541076487252126, "weight_fraction": 0.9999458227043184}
+{"condition": "no_dopamine", "pre_A": 3725.0, "post_A": 3675.0, "pre_B": 4236.0, "post_B": 4334.0, "suppression_A": 0.01342281879194629, "suppression_B": -0.02313503305004727, "weight_fraction": 0.9999439799908967}
+{"condition": "plasticity_off", "pre_A": 3725.0, "post_A": 3685.0, "pre_B": 4236.0, "post_B": 4318.0, "suppression_A": 0.010738255033557076, "suppression_B": -0.019357884796978198, "weight_fraction": 1.0}

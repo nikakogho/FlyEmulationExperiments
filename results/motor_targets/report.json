@@ -1,0 +1,47 @@
+{
+  "sources": {
+    "manc_muscle_targets.csv": {
+      "url": "https://cdn.elifesciences.org/articles/96084/elife-96084-supp3-v1.csv",
+      "sha256": "c46e3cec1a5114b8d981d5f0383012c8e7fcdebd6c4e3eaffe4ac3ba1def2e94"
+    },
+    "mn_tibia_ta_flex_A.json": {
+      "url": "https://raw.githubusercontent.com/tuthill-lab/Lesser_Azevedo_2023/93cafa55b8bbdb1493e8d73c941035969349b223/jsons/make_jsons/mn_tibia_ta_flex_A.json",
+      "sha256": "bb0d450f9586282f1778dd1956baa6975f204fe11ca7aa78d0f40a95ec4aec9a"
+    },
+    "mn_tibia_ta_flex_B.json": {
+      "url": "https://raw.githubusercontent.com/tuthill-lab/Lesser_Azevedo_2023/93cafa55b8bbdb1493e8d73c941035969349b223/jsons/make_jsons/mn_tibia_ta_flex_B.json",
+      "sha256": "9a98686cec52bf801fb9719da504c215733d0bd095ad5ac2868b42eccad0b9e6"
+    },
+    "mn_tibia_ta_flex_C.json": {
+      "url": "https://raw.githubusercontent.com/tuthill-lab/Lesser_Azevedo_2023/93cafa55b8bbdb1493e8d73c941035969349b223/jsons/make_jsons/mn_tibia_ta_flex_C.json",
+      "sha256": "e6af8c80786fecaf1e6035944c2e21ce04a193ca21775df0a6b267b06637257f"
+    },
+    "mn_tibia_extend.json": {
+      "url": "https://raw.githubusercontent.com/tuthill-lab/Lesser_Azevedo_2023/93cafa55b8bbdb1493e8d73c941035969349b223/jsons/make_jsons/mn_tibia_extend.json",
+      "sha256": "bbfb2b8d9608986b017ebc86b9c4836a778da964f77095b3af5519ce100c6812"
+    }
+  },
+  "malecns_candidates": 14,
+  "mapping_status_counts": {
+    "consistent_published_assignment_confidence_unreported": 9,
+    "unmatched": 3,
+    "target_conflict": 2
+  },
+  "malecns_with_recorded_muscle_target": 11,
+  "manc_target_counts": {
+    "Ti flexor": 7,
+    "Ti extensor": 2,
+    "Tergotr.": 1,
+    "Acc. ti flexor": 1
+  },
+  "manc_explicit_confidence_scores": 0,
+  "fanc_reference_synapses": 480,
+  "fanc_pool_synapses": {
+    "mn_tibia_ta_flex_A": 260
+  },
+  "fanc_unmatched_synapses": 220,
+  "fanc_to_malecns_cell_identity_verified": false,
+  "physiological_13B_alpha_identified": false,
+  "neural_steps": 0,
+  "muscle_force_parameters_validated": false
+}

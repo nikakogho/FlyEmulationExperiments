@@ -1,0 +1,28 @@
+{
+  "seeds": [
+    201,
+    202,
+    203
+  ],
+  "steps": 24,
+  "decision_dt_s": 0.1,
+  "physics_dt_s": 0.0001,
+  "conditions": [
+    "paired",
+    "delayed",
+    "frozen"
+  ],
+  "positions_swapped": [
+    false,
+    true
+  ],
+  "acquisition": "Saved stationary blue 450 nm conditioning weights from spectral_memory",
+  "blue_cue_index": 0,
+  "green_cue_index": 1,
+  "reward_during_body_test": false,
+  "learning_during_body_test": false,
+  "motor_readout": "Unchanged fixed normalized hemispheric MBON difference plus matched random exploration",
+  "metric": "Mean over decisions of distance to green minus distance to blue (mm); positive favors blue.",
+  "success": "After averaging swapped positions, paired score exceeds BOTH controls for every fixed seed.",
+  "limitation": "Exploratory transfer; not spontaneous acquisition in the body or improved plasticity. Three seeds give a pilot, not robust statistical validation."
+}

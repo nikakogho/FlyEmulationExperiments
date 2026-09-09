@@ -1,0 +1,775 @@
+{
+  "output_cells": 96,
+  "output_types": 35,
+  "rows": [
+    {
+      "root_id": 720575940606953858,
+      "cell_type": "MBON23",
+      "side": "right",
+      "predicted_transmitter": "acetylcholine",
+      "known_transmitter": null,
+      "visual_kc_edges": 0
+    },
+    {
+      "root_id": 720575940607155890,
+      "cell_type": "MBON26",
+      "side": "right",
+      "predicted_transmitter": "acetylcholine",
+      "known_transmitter": null,
+      "visual_kc_edges": 6
+    },
+    {
+      "root_id": 720575940608304220,
+      "cell_type": "MBON15-like",
+      "side": "right",
+      "predicted_transmitter": "acetylcholine",
+      "known_transmitter": "acetylcholine",
+      "visual_kc_edges": 0
+    },
+    {
+      "root_id": 720575940609959637,
+      "cell_type": "MBON32",
+      "side": "left",
+      "predicted_transmitter": "gaba",
+      "known_transmitter": null,
+      "visual_kc_edges": 142
+    },
+    {
+      "root_id": 720575940610647416,
+      "cell_type": "MBON10",
+      "side": "right",
+      "predicted_transmitter": "gaba",
+      "known_transmitter": "gaba",
+      "visual_kc_edges": 0
+    },
+    {
+      "root_id": 720575940610964946,
+      "cell_type": "MBON09",
+      "side": "right",
+      "predicted_transmitter": "gaba",
+      "known_transmitter": "gaba",
+      "visual_kc_edges": 122
+    },
+    {
+      "root_id": 720575940611344078,
+      "cell_type": "MBON20",
+      "side": "right",
+      "predicted_transmitter": "gaba",
+      "known_transmitter": "gaba",
+      "visual_kc_edges": 61
+    },
+    {
+      "root_id": 720575940612196850,
+      "cell_type": "MBON15-like",
+      "side": "right",
+      "predicted_transmitter": "acetylcholine",
+      "known_transmitter": "acetylcholine",
+      "visual_kc_edges": 0
+    },
+    {
+      "root_id": 720575940612455338,
+      "cell_type": "MBON15",
+      "side": "right",
+      "predicted_transmitter": "acetylcholine",
+      "known_transmitter": "acetylcholine",
+      "visual_kc_edges": 0
+    },
+    {
+      "root_id": 720575940614026193,
+      "cell_type": "MBON14",
+      "side": "right",
+      "predicted_transmitter": "acetylcholine",
+      "known_transmitter": "acetylcholine; acetylcholine",
+      "visual_kc_edges": 0
+    },
+    {
+      "root_id": 720575940614392999,
+      "cell_type": "MBON29",
+      "side": "left",
+      "predicted_transmitter": "acetylcholine",
+      "known_transmitter": "gaba-negative",
+      "visual_kc_edges": 10
+    },
+    {
+      "root_id": 720575940614595218,
+      "cell_type": "MBON28",
+      "side": "left",
+      "predicted_transmitter": "acetylcholine",
+      "known_transmitter": null,
+      "visual_kc_edges": 0
+    },
+    {
+      "root_id": 720575940614892182,
+      "cell_type": "MBON28",
+      "side": "right",
+      "predicted_transmitter": "acetylcholine",
+      "known_transmitter": null,
+      "visual_kc_edges": 0
+    },
+    {
+      "root_id": 720575940615221811,
+      "cell_type": "MBON10",
+      "side": "right",
+      "predicted_transmitter": "gaba",
+      "known_transmitter": "gaba",
+      "visual_kc_edges": 2
+    },
+    {
+      "root_id": 720575940616398303,
+      "cell_type": "MBON25,MBON34",
+      "side": "left",
+      "predicted_transmitter": "glutamate",
+      "known_transmitter": null,
+      "visual_kc_edges": 0
+    },
+    {
+      "root_id": 720575940616463477,
+      "cell_type": "MBON22",
+      "side": "left",
+      "predicted_transmitter": "acetylcholine",
+      "known_transmitter": null,
+      "visual_kc_edges": 85
+    },
+    {
+      "root_id": 720575940617302365,
+      "cell_type": "MBON07",
+      "side": "left",
+      "predicted_transmitter": "glutamate",
+      "known_transmitter": "glutamate; glutamate",
+      "visual_kc_edges": 3
+    },
+    {
+      "root_id": 720575940617552340,
+      "cell_type": "MBON02",
+      "side": "right",
+      "predicted_transmitter": "gaba",
+      "known_transmitter": "glutamate",
+      "visual_kc_edges": 0
+    },
+    {
+      "root_id": 720575940617567206,
+      "cell_type": "MBON23",
+      "side": "left",
+      "predicted_transmitter": "acetylcholine",
+      "known_transmitter": null,
+      "visual_kc_edges": 0
+    },
+    {
+      "root_id": 720575940617749538,
+      "cell_type": "MBON11",
+      "side": "right",
+      "predicted_transmitter": "gaba",
+      "known_transmitter": "gaba; gaba",
+      "visual_kc_edges": 145
+    },
+    {
+      "root_id": 720575940617760257,
+      "cell_type": "MBON17",
+      "side": "right",
+      "predicted_transmitter": "acetylcholine",
+      "known_transmitter": "acetylcholine; acetylcholine",
+      "visual_kc_edges": 0
+    },
+    {
+      "root_id": 720575940618008859,
+      "cell_type": "MBON30",
+      "side": "left",
+      "predicted_transmitter": "glutamate",
+      "known_transmitter": null,
+      "visual_kc_edges": 41
+    },
+    {
+      "root_id": 720575940618249797,
+      "cell_type": "MBON27",
+      "side": "right",
+      "predicted_transmitter": "acetylcholine",
+      "known_transmitter": null,
+      "visual_kc_edges": 134
+    },
+    {
+      "root_id": 720575940619810389,
+      "cell_type": "MBON25,MBON34",
+      "side": "right",
+      "predicted_transmitter": "glutamate",
+      "known_transmitter": null,
+      "visual_kc_edges": 0
+    },
+    {
+      "root_id": 720575940620464321,
+      "cell_type": "MBON04",
+      "side": "left",
+      "predicted_transmitter": "glutamate",
+      "known_transmitter": "glutamate",
+      "visual_kc_edges": 22
+    },
+    {
+      "root_id": 720575940620715224,
+      "cell_type": "MBON21",
+      "side": "left",
+      "predicted_transmitter": "acetylcholine",
+      "known_transmitter": null,
+      "visual_kc_edges": 34
+    },
+    {
+      "root_id": 720575940621164720,
+      "cell_type": "MBON05",
+      "side": "left",
+      "predicted_transmitter": "acetylcholine",
+      "known_transmitter": "glutamate",
+      "visual_kc_edges": 140
+    },
+    {
+      "root_id": 720575940621777391,
+      "cell_type": "MBON21",
+      "side": "right",
+      "predicted_transmitter": "acetylcholine",
+      "known_transmitter": null,
+      "visual_kc_edges": 47
+    },
+    {
+      "root_id": 720575940621828443,
+      "cell_type": "MBON12",
+      "side": "left",
+      "predicted_transmitter": "acetylcholine",
+      "known_transmitter": "acetylcholine",
+      "visual_kc_edges": 27
+    },
+    {
+      "root_id": 720575940622093436,
+      "cell_type": "MBON15",
+      "side": "right",
+      "predicted_transmitter": "acetylcholine",
+      "known_transmitter": "acetylcholine",
+      "visual_kc_edges": 0
+    },
+    {
+      "root_id": 720575940622979277,
+      "cell_type": "MBON27",
+      "side": "left",
+      "predicted_transmitter": "acetylcholine",
+      "known_transmitter": null,
+      "visual_kc_edges": 137
+    },
+    {
+      "root_id": 720575940622997453,
+      "cell_type": "MBON18",
+      "side": "right",
+      "predicted_transmitter": "acetylcholine",
+      "known_transmitter": "acetylcholine",
+      "visual_kc_edges": 0
+    },
+    {
+      "root_id": 720575940623001480,
+      "cell_type": "MBON12",
+      "side": "right",
+      "predicted_transmitter": "acetylcholine",
+      "known_transmitter": "acetylcholine",
+      "visual_kc_edges": 16
+    },
+    {
+      "root_id": 720575940623182847,
+      "cell_type": "MBON33",
+      "side": "left",
+      "predicted_transmitter": "acetylcholine",
+      "known_transmitter": "acetylcholine",
+      "visual_kc_edges": 89
+    },
+    {
+      "root_id": 720575940623201833,
+      "cell_type": "MBON11",
+      "side": "left",
+      "predicted_transmitter": "gaba",
+      "known_transmitter": "gaba; gaba",
+      "visual_kc_edges": 137
+    },
+    {
+      "root_id": 720575940623377802,
+      "cell_type": "MBON16",
+      "side": "left",
+      "predicted_transmitter": "acetylcholine",
+      "known_transmitter": "acetylcholine; acetylcholine",
+      "visual_kc_edges": 0
+    },
+    {
+      "root_id": 720575940623381956,
+      "cell_type": "MBON07",
+      "side": "right",
+      "predicted_transmitter": "glutamate",
+      "known_transmitter": "glutamate; glutamate",
+      "visual_kc_edges": 0
+    },
+    {
+      "root_id": 720575940623464316,
+      "cell_type": "MBON24",
+      "side": "right",
+      "predicted_transmitter": "acetylcholine",
+      "known_transmitter": null,
+      "visual_kc_edges": 0
+    },
+    {
+      "root_id": 720575940623750325,
+      "cell_type": "MBON25,MBON34",
+      "side": "left",
+      "predicted_transmitter": "glutamate",
+      "known_transmitter": null,
+      "visual_kc_edges": 1
+    },
+    {
+      "root_id": 720575940623841463,
+      "cell_type": "MBON19",
+      "side": "left",
+      "predicted_transmitter": "acetylcholine",
+      "known_transmitter": "acetylcholine",
+      "visual_kc_edges": 0
+    },
+    {
+      "root_id": 720575940623905719,
+      "cell_type": "MBON12",
+      "side": "right",
+      "predicted_transmitter": "acetylcholine",
+      "known_transmitter": "acetylcholine",
+      "visual_kc_edges": 9
+    },
+    {
+      "root_id": 720575940624117245,
+      "cell_type": "MBON01",
+      "side": "right",
+      "predicted_transmitter": "glutamate",
+      "known_transmitter": "glutamate; glutamate",
+      "visual_kc_edges": 139
+    },
+    {
+      "root_id": 720575940624185095,
+      "cell_type": "MBON02",
+      "side": "left",
+      "predicted_transmitter": "glutamate",
+      "known_transmitter": "glutamate",
+      "visual_kc_edges": 0
+    },
+    {
+      "root_id": 720575940624280328,
+      "cell_type": "MBON33",
+      "side": "right",
+      "predicted_transmitter": "acetylcholine",
+      "known_transmitter": "acetylcholine",
+      "visual_kc_edges": 49
+    },
+    {
+      "root_id": 720575940624489964,
+      "cell_type": "MBON25,MBON34",
+      "side": "right",
+      "predicted_transmitter": "glutamate",
+      "known_transmitter": null,
+      "visual_kc_edges": 3
+    },
+    {
+      "root_id": 720575940624539284,
+      "cell_type": "MBON18",
+      "side": "left",
+      "predicted_transmitter": "acetylcholine",
+      "known_transmitter": "acetylcholine",
+      "visual_kc_edges": 0
+    },
+    {
+      "root_id": 720575940624590316,
+      "cell_type": "MBON03",
+      "side": "right",
+      "predicted_transmitter": "glutamate",
+      "known_transmitter": "glutamate",
+      "visual_kc_edges": 0
+    },
+    {
+      "root_id": 720575940624659943,
+      "cell_type": "MBON25,MBON34",
+      "side": "left",
+      "predicted_transmitter": "glutamate",
+      "known_transmitter": null,
+      "visual_kc_edges": 1
+    },
+    {
+      "root_id": 720575940624694503,
+      "cell_type": "MBON03",
+      "side": "left",
+      "predicted_transmitter": "glutamate",
+      "known_transmitter": "glutamate",
+      "visual_kc_edges": 1
+    },
+    {
+      "root_id": 720575940624696810,
+      "cell_type": "MBON15-like",
+      "side": "left",
+      "predicted_transmitter": "acetylcholine",
+      "known_transmitter": "acetylcholine",
+      "visual_kc_edges": 0
+    },
+    {
+      "root_id": 720575940626109315,
+      "cell_type": "MBON19",
+      "side": "right",
+      "predicted_transmitter": "acetylcholine",
+      "known_transmitter": "acetylcholine",
+      "visual_kc_edges": 0
+    },
+    {
+      "root_id": 720575940626315010,
+      "cell_type": "MBON13",
+      "side": "right",
+      "predicted_transmitter": "acetylcholine",
+      "known_transmitter": "acetylcholine",
+      "visual_kc_edges": 1
+    },
+    {
+      "root_id": 720575940626744921,
+      "cell_type": "MBON16",
+      "side": "right",
+      "predicted_transmitter": "acetylcholine",
+      "known_transmitter": "acetylcholine; acetylcholine",
+      "visual_kc_edges": 0
+    },
+    {
+      "root_id": 720575940626833021,
+      "cell_type": "MBON19",
+      "side": "left",
+      "predicted_transmitter": "acetylcholine",
+      "known_transmitter": "acetylcholine",
+      "visual_kc_edges": 0
+    },
+    {
+      "root_id": 720575940627144069,
+      "cell_type": "MBON25,MBON34",
+      "side": "right",
+      "predicted_transmitter": "glutamate",
+      "known_transmitter": null,
+      "visual_kc_edges": 0
+    },
+    {
+      "root_id": 720575940628734376,
+      "cell_type": "MBON04",
+      "side": "right",
+      "predicted_transmitter": "glutamate",
+      "known_transmitter": "glutamate",
+      "visual_kc_edges": 19
+    },
+    {
+      "root_id": 720575940628757547,
+      "cell_type": "MBON15-like",
+      "side": "left",
+      "predicted_transmitter": "acetylcholine",
+      "known_transmitter": "acetylcholine",
+      "visual_kc_edges": 0
+    },
+    {
+      "root_id": 720575940628783363,
+      "cell_type": "MBON07",
+      "side": "right",
+      "predicted_transmitter": "glutamate",
+      "known_transmitter": "glutamate; glutamate",
+      "visual_kc_edges": 0
+    },
+    {
+      "root_id": 720575940629422086,
+      "cell_type": "MBON09",
+      "side": "left",
+      "predicted_transmitter": "gaba",
+      "known_transmitter": "gaba",
+      "visual_kc_edges": 144
+    },
+    {
+      "root_id": 720575940629529722,
+      "cell_type": "MBON10",
+      "side": "left",
+      "predicted_transmitter": "glutamate",
+      "known_transmitter": "gaba",
+      "visual_kc_edges": 0
+    },
+    {
+      "root_id": 720575940629585602,
+      "cell_type": "MBON10",
+      "side": "right",
+      "predicted_transmitter": "gaba",
+      "known_transmitter": "gaba",
+      "visual_kc_edges": 2
+    },
+    {
+      "root_id": 720575940629856515,
+      "cell_type": "MBON09",
+      "side": "left",
+      "predicted_transmitter": "gaba",
+      "known_transmitter": "gaba",
+      "visual_kc_edges": 142
+    },
+    {
+      "root_id": 720575940629981440,
+      "cell_type": "MBON26",
+      "side": "left",
+      "predicted_transmitter": "acetylcholine",
+      "known_transmitter": null,
+      "visual_kc_edges": 2
+    },
+    {
+      "root_id": 720575940630075703,
+      "cell_type": "MBON12",
+      "side": "left",
+      "predicted_transmitter": "acetylcholine",
+      "known_transmitter": "acetylcholine",
+      "visual_kc_edges": 43
+    },
+    {
+      "root_id": 720575940630496374,
+      "cell_type": "MBON05",
+      "side": "right",
+      "predicted_transmitter": "glutamate",
+      "known_transmitter": "glutamate",
+      "visual_kc_edges": 145
+    },
+    {
+      "root_id": 720575940630767959,
+      "cell_type": "MBON15",
+      "side": "left",
+      "predicted_transmitter": "acetylcholine",
+      "known_transmitter": "acetylcholine",
+      "visual_kc_edges": 0
+    },
+    {
+      "root_id": 720575940630864847,
+      "cell_type": "MBON09",
+      "side": "right",
+      "predicted_transmitter": "gaba",
+      "known_transmitter": "gaba",
+      "visual_kc_edges": 127
+    },
+    {
+      "root_id": 720575940631177803,
+      "cell_type": "MBON24",
+      "side": "left",
+      "predicted_transmitter": "acetylcholine",
+      "known_transmitter": null,
+      "visual_kc_edges": 1
+    },
+    {
+      "root_id": 720575940632118343,
+      "cell_type": "MBON10",
+      "side": "left",
+      "predicted_transmitter": "gaba",
+      "known_transmitter": "gaba",
+      "visual_kc_edges": 0
+    },
+    {
+      "root_id": 720575940632535756,
+      "cell_type": "MBON14",
+      "side": "left",
+      "predicted_transmitter": "acetylcholine",
+      "known_transmitter": "acetylcholine; acetylcholine",
+      "visual_kc_edges": 0
+    },
+    {
+      "root_id": 720575940632943277,
+      "cell_type": "MBON35",
+      "side": "right",
+      "predicted_transmitter": "acetylcholine",
+      "known_transmitter": null,
+      "visual_kc_edges": 62
+    },
+    {
+      "root_id": 720575940633209647,
+      "cell_type": "MBON10",
+      "side": "left",
+      "predicted_transmitter": "glutamate",
+      "known_transmitter": "gaba",
+      "visual_kc_edges": 0
+    },
+    {
+      "root_id": 720575940634482783,
+      "cell_type": "MBON19",
+      "side": "right",
+      "predicted_transmitter": "acetylcholine",
+      "known_transmitter": "acetylcholine",
+      "visual_kc_edges": 0
+    },
+    {
+      "root_id": 720575940634822751,
+      "cell_type": "MBON17-like",
+      "side": "right",
+      "predicted_transmitter": "acetylcholine",
+      "known_transmitter": "acetylcholine; acetylcholine",
+      "visual_kc_edges": 0
+    },
+    {
+      "root_id": 720575940635063135,
+      "cell_type": "MBON22",
+      "side": "right",
+      "predicted_transmitter": "acetylcholine",
+      "known_transmitter": null,
+      "visual_kc_edges": 66
+    },
+    {
+      "root_id": 720575940635082347,
+      "cell_type": "MBON15-like",
+      "side": "left",
+      "predicted_transmitter": "acetylcholine",
+      "known_transmitter": "acetylcholine",
+      "visual_kc_edges": 1
+    },
+    {
+      "root_id": 720575940635841143,
+      "cell_type": "MBON15",
+      "side": "left",
+      "predicted_transmitter": "acetylcholine",
+      "known_transmitter": "acetylcholine",
+      "visual_kc_edges": 0
+    },
+    {
+      "root_id": 720575940636992368,
+      "cell_type": "MBON31",
+      "side": "right",
+      "predicted_transmitter": "gaba",
+      "known_transmitter": null,
+      "visual_kc_edges": 1
+    },
+    {
+      "root_id": 720575940637902938,
+      "cell_type": "MBON35",
+      "side": "left",
+      "predicted_transmitter": "acetylcholine",
+      "known_transmitter": null,
+      "visual_kc_edges": 126
+    },
+    {
+      "root_id": 720575940637934308,
+      "cell_type": "MBON30",
+      "side": "right",
+      "predicted_transmitter": "glutamate",
+      "known_transmitter": null,
+      "visual_kc_edges": 18
+    },
+    {
+      "root_id": 720575940638028607,
+      "cell_type": "MBON06",
+      "side": "right",
+      "predicted_transmitter": "glutamate",
+      "known_transmitter": "glutamate; glutamate",
+      "visual_kc_edges": 1
+    },
+    {
+      "root_id": 720575940638163428,
+      "cell_type": "MBON06",
+      "side": "left",
+      "predicted_transmitter": "glutamate",
+      "known_transmitter": "glutamate; glutamate",
+      "visual_kc_edges": 0
+    },
+    {
+      "root_id": 720575940638526278,
+      "cell_type": "MBON32",
+      "side": "right",
+      "predicted_transmitter": "gaba",
+      "known_transmitter": null,
+      "visual_kc_edges": 92
+    },
+    {
+      "root_id": 720575940638774606,
+      "cell_type": "MBON17",
+      "side": "left",
+      "predicted_transmitter": "acetylcholine",
+      "known_transmitter": "acetylcholine; acetylcholine",
+      "visual_kc_edges": 0
+    },
+    {
+      "root_id": 720575940639556467,
+      "cell_type": "MBON10",
+      "side": "right",
+      "predicted_transmitter": "gaba",
+      "known_transmitter": "gaba",
+      "visual_kc_edges": 1
+    },
+    {
+      "root_id": 720575940639697827,
+      "cell_type": "MBON14",
+      "side": "right",
+      "predicted_transmitter": "acetylcholine",
+      "known_transmitter": "acetylcholine; acetylcholine",
+      "visual_kc_edges": 0
+    },
+    {
+      "root_id": 720575940642142861,
+      "cell_type": "MBON10",
+      "side": "left",
+      "predicted_transmitter": "glutamate",
+      "known_transmitter": "gaba",
+      "visual_kc_edges": 1
+    },
+    {
+      "root_id": 720575940643309197,
+      "cell_type": "MBON01",
+      "side": "left",
+      "predicted_transmitter": "glutamate",
+      "known_transmitter": "glutamate; glutamate",
+      "visual_kc_edges": 82
+    },
+    {
+      "root_id": 720575940643696288,
+      "cell_type": "MBON14",
+      "side": "left",
+      "predicted_transmitter": "acetylcholine",
+      "known_transmitter": "acetylcholine; acetylcholine",
+      "visual_kc_edges": 0
+    },
+    {
+      "root_id": 720575940643700640,
+      "cell_type": "MBON29",
+      "side": "right",
+      "predicted_transmitter": "acetylcholine",
+      "known_transmitter": "gaba-negative",
+      "visual_kc_edges": 9
+    },
+    {
+      "root_id": 720575940643863496,
+      "cell_type": "MBON20",
+      "side": "left",
+      "predicted_transmitter": "gaba",
+      "known_transmitter": "gaba",
+      "visual_kc_edges": 114
+    },
+    {
+      "root_id": 720575940644615716,
+      "cell_type": "MBON31",
+      "side": "left",
+      "predicted_transmitter": "gaba",
+      "known_transmitter": null,
+      "visual_kc_edges": 0
+    },
+    {
+      "root_id": 720575940645304430,
+      "cell_type": "MBON13",
+      "side": "left",
+      "predicted_transmitter": "acetylcholine",
+      "known_transmitter": "acetylcholine",
+      "visual_kc_edges": 0
+    },
+    {
+      "root_id": 720575940647328900,
+      "cell_type": "MBON10",
+      "side": "right",
+      "predicted_transmitter": "gaba",
+      "known_transmitter": "gaba",
+      "visual_kc_edges": 0
+    },
+    {
+      "root_id": 720575940650386553,
+      "cell_type": "MBON17-like",
+      "side": "left",
+      "predicted_transmitter": "acetylcholine",
+      "known_transmitter": "acetylcholine; acetylcholine",
+      "visual_kc_edges": 0
+    },
+    {
+      "root_id": 720575940652390134,
+      "cell_type": "MBON07",
+      "side": "left",
+      "predicted_transmitter": "glutamate",
+      "known_transmitter": "glutamate; glutamate",
+      "visual_kc_edges": 3
+    }
+  ],
+  "note": "All these cell types are pooled equally by hemisphere in the current decoder. Transmitter alone does not establish behavioral valence."
+}

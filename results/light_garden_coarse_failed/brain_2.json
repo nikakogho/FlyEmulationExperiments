@@ -1,0 +1,12 @@
+{
+  "neurons": 8991,
+  "visual_kcs": 295,
+  "plastic_edges": 2806,
+  "side_counts": [
+    147,
+    148
+  ],
+  "adapter": "random balanced green/blue selectivity within anatomical KCg-d, direct Poisson input",
+  "reward": "local contact proxy drives PAMs at 60 Hz; no recovered taste pathway",
+  "readout": "mean MBON spikes per hemisphere; fixed differential avoidance"
+}

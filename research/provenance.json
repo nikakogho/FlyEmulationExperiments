@@ -1,0 +1,20 @@
+{
+  "fly_api_commit": "a6ad07a810b1a43cd0356149c07b32105eb46d2a",
+  "shiu_commit": "91bdd1e7dcf193f3e7ca5a8933497fcef63b7960",
+  "annotation_commit": "8587524c1748ce5ef2080822a2fc890fc03bf597",
+  "annotation_note": "Downloaded from main on 2026-09-08; matches pinned commit byte-for-byte (checked separately). Original Daniel annotation checksum unavailable.",
+  "files": {
+    "data/annotations.tsv": {
+      "bytes": 31718505,
+      "sha256": "9a4f8b2f843196074431ebd7cd883536afa1be86c8a4ce90970441e8be81d1be"
+    },
+    "upstream/Drosophila_brain_model/Completeness_783.csv": {
+      "bytes": 3465987,
+      "sha256": "52b0ac6094cd32c546f8d4c341e094376f48f4e791f8db9b166de5dff8199ea4"
+    },
+    "upstream/Drosophila_brain_model/Connectivity_783.parquet": {
+      "bytes": 100804642,
+      "sha256": "efeb23fb99098e9c390f6869969b2a121a2ee92c833cfc45ecb2c1d8e1af0347"
+    }
+  }
+}

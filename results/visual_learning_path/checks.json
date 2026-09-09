@@ -1,0 +1,174 @@
+{
+  "neural_simulation": false,
+  "visual_kcs": 295,
+  "current_subnet_size": 8991,
+  "incoming_connections": 16558,
+  "incoming_synapses": 39001,
+  "incoming_synapses_from_omitted_neurons": 17443,
+  "flyvis_types_with_direct_kc_edges": [],
+  "direct_flyvis_type_overlap_synapses": 0,
+  "two_hop_type_overlap_synapses": 45169,
+  "two_hop_type_overlap_connections": 22577,
+  "candidate_bridge_neurons_at_5_synapses_each_leg": 62,
+  "candidate_bridge_upstream_edges": 1090,
+  "candidate_bridge_downstream_edges": 554,
+  "integration_gate_passed": false,
+  "integration_gate_reason": "No validated cross-specimen retinotopic identity map or functional model of the intermediate neurons.",
+  "major_input_types": [
+    {
+      "pre_type": "KCg-d",
+      "pre_class": "Kenyon_Cell",
+      "in_current_subnet": true,
+      "connections": 7516,
+      "synapses": 9826,
+      "source_neurons": 295,
+      "target_kcs": 295
+    },
+    {
+      "pre_type": "APL",
+      "pre_class": "MBIN",
+      "in_current_subnet": true,
+      "connections": 295,
+      "synapses": 3828,
+      "source_neurons": 2,
+      "target_kcs": 295
+    },
+    {
+      "pre_type": "KCg-m",
+      "pre_class": "Kenyon_Cell",
+      "in_current_subnet": true,
+      "connections": 3251,
+      "synapses": 3614,
+      "source_neurons": 1171,
+      "target_kcs": 294
+    },
+    {
+      "pre_type": "aMe12",
+      "pre_class": "",
+      "in_current_subnet": false,
+      "connections": 302,
+      "synapses": 2511,
+      "source_neurons": 7,
+      "target_kcs": 168
+    },
+    {
+      "pre_type": "MTe32",
+      "pre_class": "",
+      "in_current_subnet": false,
+      "connections": 70,
+      "synapses": 1353,
+      "source_neurons": 2,
+      "target_kcs": 70
+    },
+    {
+      "pre_type": "MTe30",
+      "pre_class": "",
+      "in_current_subnet": false,
+      "connections": 72,
+      "synapses": 1119,
+      "source_neurons": 2,
+      "target_kcs": 72
+    },
+    {
+      "pre_type": "LTe25",
+      "pre_class": "",
+      "in_current_subnet": false,
+      "connections": 65,
+      "synapses": 962,
+      "source_neurons": 2,
+      "target_kcs": 65
+    },
+    {
+      "pre_type": "PLP095",
+      "pre_class": "",
+      "in_current_subnet": false,
+      "connections": 60,
+      "synapses": 759,
+      "source_neurons": 2,
+      "target_kcs": 60
+    },
+    {
+      "pre_type": "PAM08",
+      "pre_class": "DAN",
+      "in_current_subnet": true,
+      "connections": 632,
+      "synapses": 738,
+      "source_neurons": 40,
+      "target_kcs": 259
+    },
+    {
+      "pre_type": "MTe40",
+      "pre_class": "",
+      "in_current_subnet": false,
+      "connections": 72,
+      "synapses": 734,
+      "source_neurons": 2,
+      "target_kcs": 72
+    },
+    {
+      "pre_type": "aMe20",
+      "pre_class": "",
+      "in_current_subnet": false,
+      "connections": 40,
+      "synapses": 726,
+      "source_neurons": 2,
+      "target_kcs": 40
+    },
+    {
+      "pre_type": "CL258",
+      "pre_class": "",
+      "in_current_subnet": false,
+      "connections": 46,
+      "synapses": 561,
+      "source_neurons": 4,
+      "target_kcs": 46
+    },
+    {
+      "pre_type": "AVLP043",
+      "pre_class": "",
+      "in_current_subnet": false,
+      "connections": 51,
+      "synapses": 560,
+      "source_neurons": 4,
+      "target_kcs": 40
+    },
+    {
+      "pre_type": "CL063",
+      "pre_class": "",
+      "in_current_subnet": false,
+      "connections": 199,
+      "synapses": 529,
+      "source_neurons": 2,
+      "target_kcs": 199
+    },
+    {
+      "pre_type": "LTe16",
+      "pre_class": "",
+      "in_current_subnet": false,
+      "connections": 23,
+      "synapses": 468,
+      "source_neurons": 2,
+      "target_kcs": 23
+    },
+    {
+      "pre_type": "LTe02",
+      "pre_class": "",
+      "in_current_subnet": false,
+      "connections": 38,
+      "synapses": 440,
+      "source_neurons": 4,
+      "target_kcs": 34
+    }
+  ],
+  "mapping_limit": "Cell-type overlap is not a neuron-to-neuron or retinotopic mapping across specimens.",
+  "connection_columns": [
+    "Presynaptic_ID",
+    "Postsynaptic_ID",
+    "Presynaptic_Index",
+    "Postsynaptic_Index",
+    "Connectivity",
+    "Excitatory",
+    "Excitatory x Connectivity"
+  ],
+  "compartment_resolved_synapse_coordinates_available": false
+}

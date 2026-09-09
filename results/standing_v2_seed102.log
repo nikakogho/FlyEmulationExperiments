@@ -1,0 +1,15 @@
+{
+  "completed": true,
+  "brain_simulated": false,
+  "seed": 102,
+  "controller": "explicit neutral standing",
+  "protocol": "rest 0-.3 s, activity .6 from .3-.7 s, rest .7-1.4 s",
+  "rest_gate": "last .3 s XY displacement <= .2 mm and median speed <= .5 mm/s",
+  "limitation": "Mechanical capability, not a neural decision to rest or a welfare assay",
+  "passed": true,
+  "settled_displacement_mm": 0.002010875068113888,
+  "settled_median_speed_mm_s": 0.008519107475876808,
+  "samples": 70,
+  "joint_count": 42,
+  "contact_sensor_count": 36
+}

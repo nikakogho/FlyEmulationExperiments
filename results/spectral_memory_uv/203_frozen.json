@@ -1,0 +1,15 @@
+{
+  "seed": 203,
+  "condition": "frozen",
+  "weight_fraction": 1.0,
+  "reward_free_mbon_hz": {
+    "365": 60.06944444444445,
+    "450": 51.28472222222222,
+    "525": 46.66666666666666
+  },
+  "acquisition_spikes": {
+    "kc_spikes": 8375,
+    "pam_spikes": 9245,
+    "mbon_spikes": 2904
+  }
+}

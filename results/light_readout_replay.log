@@ -1,0 +1,47 @@
+[subnet] 8991 neurons, 791613 synapses
+[subnet] 8991 neurons, 791613 synapses
+[subnet] 8991 neurons, 791613 synapses
+[
+  {
+    "seed": 0,
+    "swapped": false,
+    "fraction_decisions_with_changed_action": 0.5,
+    "mean_absolute_action_change": 0.002553052004287598,
+    "max_absolute_action_change": 0.011101892581518835
+  },
+  {
+    "seed": 0,
+    "swapped": true,
+    "fraction_decisions_with_changed_action": 0.375,
+    "mean_absolute_action_change": 0.0014957185365006866,
+    "max_absolute_action_change": 0.012886630017633016
+  },
+  {
+    "seed": 1,
+    "swapped": false,
+    "fraction_decisions_with_changed_action": 0.375,
+    "mean_absolute_action_change": 0.0012111733983662225,
+    "max_absolute_action_change": 0.008972622666305607
+  },
+  {
+    "seed": 1,
+    "swapped": true,
+    "fraction_decisions_with_changed_action": 0.5,
+    "mean_absolute_action_change": 0.009963056285427532,
+    "max_absolute_action_change": 0.1333333333333333
+  },
+  {
+    "seed": 2,
+    "swapped": false,
+    "fraction_decisions_with_changed_action": 0.4583333333333333,
+    "mean_absolute_action_change": 0.0046358526343646235,
+    "max_absolute_action_change": 0.04571428571428582
+  },
+  {
+    "seed": 2,
+    "swapped": true,
+    "fraction_decisions_with_changed_action": 0.4583333333333333,
+    "mean_absolute_action_change": 0.003274544015853887,
+    "max_absolute_action_change": 0.026873385012919915
+  }
+]

@@ -1,0 +1,20 @@
+{
+  "checks": [
+    {
+      "check": "source_provenance",
+      "passed": true,
+      "exit_code": 0
+    },
+    {
+      "check": "software_tests",
+      "passed": true,
+      "exit_code": 0
+    },
+    {
+      "check": "published_figure_gate",
+      "passed": false,
+      "exit_code": 1
+    }
+  ],
+  "promotion_allowed": false
+}

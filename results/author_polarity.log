@@ -1,0 +1,146 @@
+[2026-09-09 00:43:54] network_view:122 Initialized network view at C:\Users\nikak\source\repos\FlyEmulationExperiments\data\flyvis\results\flow\0000\000
+[2026-09-09 00:43:54] logging_utils:23 epe not in C:\Users\nikak\source\repos\FlyEmulationExperiments\data\flyvis\results\flow\0000\000\validation, but 'loss' is. Falling back to 'loss'. You can rerun the ensemble validation to make appropriate recordings of the losses.
+[2026-09-09 00:43:58] network:222 Initialized network with NumberOfParams(free=734, fixed=2959) parameters.
+[2026-09-09 00:43:58] chkpt_utils:36 Recovered network state.
+
+Flashes:   0%|          | 0/4 [00:00<?, ?it/s]
+Flashes: 100%|##########| 4/4 [00:00<00:00, 53.84it/s]
+[2026-09-09 00:43:59] network:757 Computing 4 stimulus responses.
+
+Batch:   0%|          | 0/4 [00:00<?, ?it/s]
+Batch:  25%|##5       | 1/4 [00:02<00:06,  2.30s/it]
+Batch:  50%|#####     | 2/4 [00:04<00:04,  2.28s/it]
+Batch:  75%|#######5  | 3/4 [00:06<00:02,  2.25s/it]
+Batch: 100%|##########| 4/4 [00:09<00:00,  2.25s/it]
+
+[2026-09-09 00:44:08] xarray_joblib_backend:56 Store item C:\Users\nikak\source\repos\FlyEmulationExperiments\data\flyvis\results\flow\0000\000\__cache__\flyvis\analysis\stimulus_responses\compute_responses\e098d4a21da66a2ebe7350df3545baae\output.h5
+C:\Users\nikak\source\repos\FlyEmulationExperiments\upstream\flyvis\flyvis\analysis\flash_responses.py:77: FutureWarning: dropping variables using `drop` is deprecated; use drop_vars.
+  on_peak = on_peak.drop('sample')
+C:\Users\nikak\source\repos\FlyEmulationExperiments\upstream\flyvis\flyvis\analysis\flash_responses.py:78: FutureWarning: dropping variables using `drop` is deprecated; use drop_vars.
+  off_peak = off_peak.drop('sample')
+C:\Users\nikak\source\repos\FlyEmulationExperiments\upstream\flyvis\flyvis\analysis\flash_responses.py:77: FutureWarning: dropping variables using `drop` is deprecated; use drop_vars.
+  on_peak = on_peak.drop('sample')
+C:\Users\nikak\source\repos\FlyEmulationExperiments\upstream\flyvis\flyvis\analysis\flash_responses.py:78: FutureWarning: dropping variables using `drop` is deprecated; use drop_vars.
+  off_peak = off_peak.drop('sample')
+{
+  "checkpoint": "flow/0000/000",
+  "whole_brain_simulated": false,
+  "author_function_used": true,
+  "independent_formula_check": true,
+  "rows": [
+    {
+      "cell": "T4a",
+      "radius": 6,
+      "author_fri": 0.40719300508499146,
+      "expected_sign_pass": true
+    },
+    {
+      "cell": "T4b",
+      "radius": 6,
+      "author_fri": 0.4307043254375458,
+      "expected_sign_pass": true
+    },
+    {
+      "cell": "T4c",
+      "radius": 6,
+      "author_fri": 0.43433552980422974,
+      "expected_sign_pass": true
+    },
+    {
+      "cell": "T4d",
+      "radius": 6,
+      "author_fri": -0.3119405210018158,
+      "expected_sign_pass": false
+    },
+    {
+      "cell": "T5a",
+      "radius": 6,
+      "author_fri": -0.23749485611915588,
+      "expected_sign_pass": true
+    },
+    {
+      "cell": "T5b",
+      "radius": 6,
+      "author_fri": -0.3254237771034241,
+      "expected_sign_pass": true
+    },
+    {
+      "cell": "T5c",
+      "radius": 6,
+      "author_fri": -0.3509012460708618,
+      "expected_sign_pass": true
+    },
+    {
+      "cell": "T5d",
+      "radius": 6,
+      "author_fri": -0.5100064873695374,
+      "expected_sign_pass": true
+    },
+    {
+      "cell": "T4a",
+      "radius": -1,
+      "author_fri": 0.42802584171295166,
+      "expected_sign_pass": true
+    },
+    {
+      "cell": "T4b",
+      "radius": -1,
+      "author_fri": 0.4266953766345978,
+      "expected_sign_pass": true
+    },
+    {
+      "cell": "T4c",
+      "radius": -1,
+      "author_fri": 0.39746952056884766,
+      "expected_sign_pass": true
+    },
+    {
+      "cell": "T4d",
+      "radius": -1,
+      "author_fri": -0.3120169937610626,
+      "expected_sign_pass": false
+    },
+    {
+      "cell": "T5a",
+      "radius": -1,
+      "author_fri": -0.20387251675128937,
+      "expected_sign_pass": true
+    },
+    {
+      "cell": "T5b",
+      "radius": -1,
+      "author_fri": -0.32190412282943726,
+      "expected_sign_pass": true
+    },
+    {
+      "cell": "T5c",
+      "radius": -1,
+      "author_fri": -0.3521273136138916,
+      "expected_sign_pass": true
+    },
+    {
+      "cell": "T5d",
+      "radius": -1,
+      "author_fri": -0.5111784934997559,
+      "expected_sign_pass": true
+    }
+  ],
+  "config": {
+    "dynamic_range": [
+      0,
+      1
+    ],
+    "t_stim": 1,
+    "t_pre": 1.0,
+    "dt": 0.005,
+    "radius": [
+      -1,
+      6
+    ],
+    "alternations": [
+      0,
+      1,
+      0
+    ]
+  }
+}

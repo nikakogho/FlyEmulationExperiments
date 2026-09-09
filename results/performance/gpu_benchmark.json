@@ -1,0 +1,43 @@
+{
+  "gpu": "NVIDIA GeForce RTX 5060 Laptop GPU",
+  "compute_capability": "120",
+  "vram_bytes": 8546484224,
+  "cupy": "14.2.0",
+  "runtime_version": 12090,
+  "limitation": "Weight-update kernel only; saved weights, synthetic eligibility, no live brain or body.",
+  "cases": [
+    {
+      "batch": 1,
+      "synapses": 62261,
+      "updates": 100,
+      "cpu_sec": 0.021968600049149245,
+      "gpu_resident_sec": 0.015035899996291846,
+      "upload_sec": 0.0009306999854743481,
+      "download_sec": 0.0001545000122860074,
+      "kernel_speedup": 1.4610764938957523,
+      "max_abs_error": 8.465450562766819e-16
+    },
+    {
+      "batch": 64,
+      "synapses": 62261,
+      "updates": 100,
+      "cpu_sec": 2.6103276000358164,
+      "gpu_resident_sec": 0.05510369996773079,
+      "upload_sec": 0.013720599992666394,
+      "download_sec": 0.005497700010892004,
+      "kernel_speedup": 47.37118562935787,
+      "max_abs_error": 1.6375789613221059e-15
+    },
+    {
+      "batch": 256,
+      "synapses": 62261,
+      "updates": 100,
+      "cpu_sec": 10.724419999984093,
+      "gpu_resident_sec": 0.3510324999806471,
+      "upload_sec": 0.05318980000447482,
+      "download_sec": 0.020865799975581467,
+      "kernel_speedup": 30.55107433236337,
+      "max_abs_error": 3.941291737419306e-15
+    }
+  ]
+}

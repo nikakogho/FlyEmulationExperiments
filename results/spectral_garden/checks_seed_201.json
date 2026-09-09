@@ -1,0 +1,92 @@
+{
+  "completed": true,
+  "episodes": 6,
+  "effects": [
+    {
+      "seed": 201,
+      "scores_mm": {
+        "paired": -1.3739944623604516,
+        "delayed": -0.7420461018481392,
+        "frozen": -1.0574535103261322
+      },
+      "paired_beats_both_controls": false
+    }
+  ],
+  "rows": [
+    {
+      "seed": 201,
+      "condition": "paired",
+      "swapped": false,
+      "blue_approach_score_mm": -1.067823649197545,
+      "final_xyz": [
+        34.2164192199707,
+        -3.0487146377563477,
+        1.132095456123352
+      ],
+      "runtime_sec": 60.67615579999983
+    },
+    {
+      "seed": 201,
+      "condition": "paired",
+      "swapped": true,
+      "blue_approach_score_mm": -1.6801652755233583,
+      "final_xyz": [
+        33.096778869628906,
+        5.3774309158325195,
+        1.1302939653396606
+      ],
+      "runtime_sec": 56.83482820005156
+    },
+    {
+      "seed": 201,
+      "condition": "delayed",
+      "swapped": false,
+      "blue_approach_score_mm": -2.1124828273800946,
+      "final_xyz": [
+        32.896480560302734,
+        -8.7920560836792,
+        1.1461070775985718
+      ],
+      "runtime_sec": 58.338065700023435
+    },
+    {
+      "seed": 201,
+      "condition": "delayed",
+      "swapped": true,
+      "blue_approach_score_mm": 0.6283906236838163,
+      "final_xyz": [
+        33.9776611328125,
+        -2.5593016147613525,
+        1.1216143369674683
+      ],
+      "runtime_sec": 57.45340009999927
+    },
+    {
+      "seed": 201,
+      "condition": "frozen",
+      "swapped": false,
+      "blue_approach_score_mm": -3.3993631966850053,
+      "final_xyz": [
+        31.662841796875,
+        -10.391682624816895,
+        1.1355050802230835
+      ],
+      "runtime_sec": 56.86247940000612
+    },
+    {
+      "seed": 201,
+      "condition": "frozen",
+      "swapped": true,
+      "blue_approach_score_mm": 1.2844561760327406,
+      "final_xyz": [
+        34.35710525512695,
+        -4.2189860343933105,
+        1.1557540893554688
+      ],
+      "runtime_sec": 57.31940120004583
+    }
+  ],
+  "pilot_gate_passed": false,
+  "improved_plasticity_demonstrated": false,
+  "biological_pathway_validated": false
+}

@@ -1,0 +1,29 @@
+{
+  "passed": true,
+  "actual_3d_eye_render": true,
+  "physics_steps": 0,
+  "neural_simulation": false,
+  "no_rgb_dependency": true,
+  "fisheye_matches_flygym": true,
+  "receptors_per_eye": 721,
+  "actual_channels": [
+    "R1_6",
+    "R7",
+    "R8"
+  ],
+  "pale_counts": [
+    214,
+    227
+  ],
+  "cue_background_max_difference": {
+    "365": 0.9724469437561336,
+    "450": 0.9500545393362864,
+    "525": 0.9574824423881544
+  },
+  "pairwise_max_difference": {
+    "365_450": 0.8504551671258418,
+    "450_525": 0.7343992316729697,
+    "365_525": 0.9048072720960383
+  },
+  "limitation": "Explicit uniform surface radiance, empirical ERG response filters, assumed mosaic; no full phototransduction model."
+}

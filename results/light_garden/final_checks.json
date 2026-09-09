@@ -1,0 +1,12 @@
+{
+  "completed_episodes": 45,
+  "completed_conditions": 9,
+  "finite_body_states": 1080,
+  "body_z_range_mm": [
+    0.8686230778694153,
+    1.220403790473938
+  ],
+  "source_hashes_unchanged": true,
+  "comparison_video_decoded_frames": 143,
+  "analysis_invariants_passed": true
+}

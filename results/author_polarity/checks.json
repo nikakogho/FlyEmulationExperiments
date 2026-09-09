@@ -1,0 +1,122 @@
+{
+  "checkpoint": "flow/0000/000",
+  "whole_brain_simulated": false,
+  "author_function_used": true,
+  "independent_formula_check": true,
+  "rows": [
+    {
+      "cell": "T4a",
+      "radius": 6,
+      "author_fri": 0.40719300508499146,
+      "expected_sign_pass": true
+    },
+    {
+      "cell": "T4b",
+      "radius": 6,
+      "author_fri": 0.4307043254375458,
+      "expected_sign_pass": true
+    },
+    {
+      "cell": "T4c",
+      "radius": 6,
+      "author_fri": 0.43433552980422974,
+      "expected_sign_pass": true
+    },
+    {
+      "cell": "T4d",
+      "radius": 6,
+      "author_fri": -0.3119405210018158,
+      "expected_sign_pass": false
+    },
+    {
+      "cell": "T5a",
+      "radius": 6,
+      "author_fri": -0.23749485611915588,
+      "expected_sign_pass": true
+    },
+    {
+      "cell": "T5b",
+      "radius": 6,
+      "author_fri": -0.3254237771034241,
+      "expected_sign_pass": true
+    },
+    {
+      "cell": "T5c",
+      "radius": 6,
+      "author_fri": -0.3509012460708618,
+      "expected_sign_pass": true
+    },
+    {
+      "cell": "T5d",
+      "radius": 6,
+      "author_fri": -0.5100064873695374,
+      "expected_sign_pass": true
+    },
+    {
+      "cell": "T4a",
+      "radius": -1,
+      "author_fri": 0.42802584171295166,
+      "expected_sign_pass": true
+    },
+    {
+      "cell": "T4b",
+      "radius": -1,
+      "author_fri": 0.4266953766345978,
+      "expected_sign_pass": true
+    },
+    {
+      "cell": "T4c",
+      "radius": -1,
+      "author_fri": 0.39746952056884766,
+      "expected_sign_pass": true
+    },
+    {
+      "cell": "T4d",
+      "radius": -1,
+      "author_fri": -0.3120169937610626,
+      "expected_sign_pass": false
+    },
+    {
+      "cell": "T5a",
+      "radius": -1,
+      "author_fri": -0.20387251675128937,
+      "expected_sign_pass": true
+    },
+    {
+      "cell": "T5b",
+      "radius": -1,
+      "author_fri": -0.32190412282943726,
+      "expected_sign_pass": true
+    },
+    {
+      "cell": "T5c",
+      "radius": -1,
+      "author_fri": -0.3521273136138916,
+      "expected_sign_pass": true
+    },
+    {
+      "cell": "T5d",
+      "radius": -1,
+      "author_fri": -0.5111784934997559,
+      "expected_sign_pass": true
+    }
+  ],
+  "config": {
+    "dynamic_range": [
+      0,
+      1
+    ],
+    "t_stim": 1,
+    "t_pre": 1.0,
+    "dt": 0.005,
+    "radius": [
+      -1,
+      6
+    ],
+    "alternations": [
+      0,
+      1,
+      0
+    ]
+  }
+}

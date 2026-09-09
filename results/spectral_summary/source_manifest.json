@@ -1,0 +1,9 @@
+{
+  "flyplasticity/spectral.py": "f44df13b499edd26638495c982b8410b2bce6f1d6b1b8526c637f923739c904d",
+  "flyplasticity/spectral_learning.py": "c5e95da468139ec51a50459485d919d428e9743aa3076dd1dc6dd32a88574087",
+  "scripts/spectral_brain.py": "3a416b2e754e929cbf8409ca46aae93d54412a1852dff495b1cb022e60e68c5b",
+  "scripts/probe_spectral_memory.py": "892bf11240b9a2c4bb994b9e9042a72ab94a640aa9aa7bebe2adf9d4be3525c6",
+  "scripts/spectral_garden.py": "06012b7a1ec7831cc9b8f7140cccbd6ab5258f0a1775500574bee9cbe57d2b74",
+  "data/spectral/receptor_curves.npz": "aeee0310ff83ba6c1b4f14574e58addaec6aeac58c5dde8de7b31a5b05b65edb",
+  "data/spectral/provenance.json": "d2e998ee3b304c0a548de9cbb9057cb0c5949b7f2d246e03a6feec5f1256e517"
+}

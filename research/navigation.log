@@ -1,0 +1,60 @@
+{"experiment": "navigation", "brian_seed": 0, "backend": "numpy", "argv": ["C:\\Users\\nikak\\source\\repos\\FlyEmulationExperiments\\upstream\\fly-api\\experiments\\navigation\\nav_demo.py", "--model-dir", "C:\\Users\\nikak\\source\\repos\\FlyEmulationExperiments\\upstream\\Drosophila_brain_model", "--out", "results/navigation", "--n-decisions", "40"]}
+[subnet] 8991 neurons, 791613 synapses
+[brain] built in 1s
+[train] pairing 0: 5516 synapses depressed
+[train] pairing 1: 4514 synapses depressed
+[train] pairing 2: 3469 synapses depressed
+[train] pairing 3: 2411 synapses depressed
+[train] pairing 4: 1839 synapses depressed
+[naive] dec 00 pos=(  0.02,  0.01) vL=   990 vR=   915 delta=+0.05 dA= 15.6 dB= 15.6
+[naive] dec 01 pos=(  1.40,  0.59) vL=   988 vR=  1056 delta=-0.04 dA= 14.1 dB= 14.7
+[naive] dec 02 pos=(  3.39,  0.80) vL=  1117 vR=  1113 delta=+0.00 dA= 12.3 dB= 13.2
+[naive] dec 03 pos=(  5.72,  1.00) vL=  1181 vR=  1183 delta=-0.00 dA= 10.2 dB= 11.5
+[naive] dec 04 pos=(  7.49,  1.41) vL=  1198 vR=  1242 delta=-0.02 dA=  8.6 dB= 10.6
+[naive] dec 05 pos=(  9.85,  1.84) vL=  1205 vR=  1244 delta=-0.02 dA=  6.6 dB=  9.8
+[naive] dec 06 pos=( 12.06,  1.81) vL=  1276 vR=  1266 delta=+0.00 dA=  5.5 dB=  9.0
+[naive] dec 07 pos=( 13.99,  2.12) vL=  1228 vR=  1235 delta=-0.00 dA=  4.9 dB=  9.1
+[naive] dec 08 pos=( 16.32,  2.52) vL=  1234 vR=  1232 delta=+0.00 dA=  5.0 dB=  9.8
+[naive] dec 09 pos=( 18.06,  3.03) vL=  1193 vR=  1212 delta=-0.01 dA=  5.7 dB= 10.8
+[naive] dec 10 pos=( 20.32,  3.56) vL=  1167 vR=  1122 delta=+0.02 dA=  7.2 dB= 12.3
+[naive] dec 11 pos=( 22.45,  4.09) vL=  1132 vR=  1034 delta=+0.05 dA=  8.9 dB= 13.9
+[naive] dec 12 pos=( 24.69,  4.41) vL=   978 vR=   923 delta=+0.03 dA= 11.0 dB= 15.6
+[naive] dec 13 pos=( 26.90,  4.51) vL=   829 vR=   908 delta=-0.05 dA= 13.1 dB= 17.3
+[naive] dec 14 pos=( 29.01,  5.20) vL=   560 vR=   686 delta=-0.12 dA= 15.1 dB= 19.3
+[naive] dec 15 pos=( 31.18,  5.86) vL=    25 vR=    15 delta=+0.06 dA= 17.2 dB= 21.5
+[naive] dec 16 pos=( 32.50,  6.17) vL=     5 vR=     1 delta=+0.02 dA= 18.5 dB= 22.7
+[naive] dec 17 pos=( 33.68,  6.38) vL=     1 vR=     4 delta=-0.02 dA= 19.7 dB= 23.8
+[naive] dec 18 pos=( 34.93,  6.63) vL=     0 vR=     0 delta=+0.00 dA= 20.9 dB= 25.0
+[naive] dec 19 pos=( 36.00,  7.03) vL=     0 vR=     0 delta=+0.00 dA= 22.0 dB= 26.1
+[naive] dec 20 pos=( 37.19,  7.41) vL=     0 vR=     0 delta=+0.00 dA= 23.2 dB= 27.3
+[naive] dec 21 pos=( 38.31,  7.73) vL=     0 vR=     0 delta=+0.00 dA= 24.3 dB= 28.4
+[naive] dec 22 pos=( 39.47,  7.98) vL=     0 vR=     0 delta=+0.00 dA= 25.5 dB= 29.5
+[naive] dec 23 pos=( 40.68,  8.24) vL=     0 vR=     0 delta=+0.00 dA= 26.7 dB= 30.7
+[naive] dec 24 pos=( 41.75,  8.62) vL=     0 vR=     0 delta=+0.00 dA= 27.8 dB= 31.8
+[naive] dec 25 pos=( 42.96,  9.01) vL=     0 vR=     0 delta=+0.00 dA= 29.0 dB= 33.1
+[naive] dec 26 pos=( 44.09,  9.34) vL=     0 vR=     0 delta=+0.00 dA= 30.2 dB= 34.2
+[naive] dec 27 pos=( 45.25,  9.58) vL=     0 vR=     0 delta=+0.00 dA= 31.4 dB= 35.4
+[naive] dec 28 pos=( 46.48,  9.86) vL=     0 vR=     0 delta=+0.00 dA= 32.6 dB= 36.6
+[naive] dec 29 pos=( 47.53, 10.27) vL=     0 vR=     0 delta=+0.00 dA= 33.7 dB= 37.7
+[naive] dec 30 pos=( 48.74, 10.66) vL=     0 vR=     0 delta=+0.00 dA= 34.9 dB= 39.0
+[naive] dec 31 pos=( 49.89, 10.98) vL=     0 vR=     0 delta=+0.00 dA= 36.1 dB= 40.1
+[naive] dec 32 pos=( 51.04, 11.23) vL=     0 vR=     0 delta=+0.00 dA= 37.3 dB= 41.3
+[naive] dec 33 pos=( 52.28, 11.48) vL=     0 vR=     0 delta=+0.00 dA= 38.5 dB= 42.5
+[naive] dec 34 pos=( 53.37, 11.88) vL=     0 vR=     0 delta=+0.00 dA= 39.7 dB= 43.7
+[naive] dec 35 pos=( 54.57, 12.27) vL=     0 vR=     0 delta=+0.00 dA= 40.9 dB= 44.9
+[naive] dec 36 pos=( 55.71, 12.57) vL=     0 vR=     0 delta=+0.00 dA= 42.1 dB= 46.1
+[naive] dec 37 pos=( 56.87, 12.79) vL=     0 vR=     0 delta=+0.00 dA= 43.3 dB= 47.2
+[naive] dec 38 pos=( 58.11, 13.06) vL=     0 vR=     0 delta=+0.00 dA= 44.5 dB= 48.5
+[naive] dec 39 pos=( 59.17, 13.48) vL=     0 vR=     0 delta=+0.00 dA= 45.6 dB= 49.6
+[naive] FINAL dA=46.9 dB=50.8
+[trained] dec 00 pos=(  0.02,  0.01) vL=   380 vR=   488 delta=-0.15 dA= 15.6 dB= 15.6
+[trained] dec 01 pos=(  1.38,  0.63) vL=   440 vR=   649 delta=-0.23 dA= 14.1 dB= 14.7
+[trained] dec 02 pos=(  3.30,  1.26) vL=   580 vR=   629 delta=-0.05 dA= 12.1 dB= 13.5
+[trained] dec 03 pos=(  5.45,  2.20) vL=   645 vR=   713 delta=-0.06 dA=  9.8 dB= 12.6
+[trained] dec 04 pos=(  7.15,  3.35) vL=   617 vR=   689 delta=-0.07 dA=  7.8 dB= 12.4
+[trained] dec 05 pos=(  9.22,  4.71) vL=   612 vR=   698 delta=-0.08 dA=  5.3 dB= 12.6
+[trained] dec 06 pos=( 10.88,  6.01) vL=   522 vR=   601 delta=-0.08 dA=  3.3 dB= 13.4
+[trained] dec 07 pos=( 12.33,  7.49) vL=   331 vR=   464 delta=-0.20 dA=  1.7 dB= 14.6
+[trained] reached a source � stopping
+[trained] FINAL dA=1.8 dB=15.8
+[done] {'naive': (46.85961031147379, 50.82964419924742), 'trained': (1.8326756111232971, 15.829428920582021)}

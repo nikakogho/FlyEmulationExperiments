@@ -1,0 +1,206 @@
+{
+  "completed": true,
+  "memory_specificity_gate_passed": true,
+  "full_biological_integration": false,
+  "embodied_learning_demonstrated": false,
+  "runtime_sec": 61.650753000052646,
+  "effects": [
+    {
+      "seed": 201,
+      "control": "delayed",
+      "reduction_hz": {
+        "365": 32.25694444444444,
+        "450": 26.145833333333336,
+        "525": 25.034722222222225
+      },
+      "trained_specific": true
+    },
+    {
+      "seed": 201,
+      "control": "frozen",
+      "reduction_hz": {
+        "365": 32.29166666666667,
+        "450": 26.14583333333332,
+        "525": 25.034722222222225
+      },
+      "trained_specific": true
+    },
+    {
+      "seed": 202,
+      "control": "delayed",
+      "reduction_hz": {
+        "365": 31.736111111111104,
+        "450": 25.694444444444443,
+        "525": 24.930555555555546
+      },
+      "trained_specific": true
+    },
+    {
+      "seed": 202,
+      "control": "frozen",
+      "reduction_hz": {
+        "365": 31.736111111111104,
+        "450": 25.729166666666664,
+        "525": 25.208333333333332
+      },
+      "trained_specific": true
+    },
+    {
+      "seed": 203,
+      "control": "delayed",
+      "reduction_hz": {
+        "365": 32.22222222222223,
+        "450": 27.18750000000001,
+        "525": 25.104166666666668
+      },
+      "trained_specific": true
+    },
+    {
+      "seed": 203,
+      "control": "frozen",
+      "reduction_hz": {
+        "365": 32.22222222222223,
+        "450": 27.291666666666668,
+        "525": 25.62499999999999
+      },
+      "trained_specific": true
+    }
+  ],
+  "rows": [
+    {
+      "seed": 201,
+      "condition": "paired",
+      "weight_fraction": 0.18551239592645732,
+      "reward_free_mbon_hz": {
+        "365": 28.090277777777775,
+        "450": 23.576388888888886,
+        "525": 21.215277777777775
+      },
+      "acquisition_spikes": {
+        "kc_spikes": 8295,
+        "pam_spikes": 9134,
+        "mbon_spikes": 2266
+      }
+    },
+    {
+      "seed": 201,
+      "condition": "delayed",
+      "weight_fraction": 0.994584062100762,
+      "reward_free_mbon_hz": {
+        "365": 60.34722222222222,
+        "450": 49.72222222222222,
+        "525": 46.25
+      },
+      "acquisition_spikes": {
+        "kc_spikes": 8295,
+        "pam_spikes": 9125,
+        "mbon_spikes": 2937
+      }
+    },
+    {
+      "seed": 201,
+      "condition": "frozen",
+      "weight_fraction": 1.0,
+      "reward_free_mbon_hz": {
+        "365": 60.38194444444445,
+        "450": 49.72222222222221,
+        "525": 46.25
+      },
+      "acquisition_spikes": {
+        "kc_spikes": 8295,
+        "pam_spikes": 9158,
+        "mbon_spikes": 2936
+      }
+    },
+    {
+      "seed": 202,
+      "condition": "paired",
+      "weight_fraction": 0.18561347213243964,
+      "reward_free_mbon_hz": {
+        "365": 28.020833333333332,
+        "450": 23.993055555555557,
+        "525": 22.01388888888889
+      },
+      "acquisition_spikes": {
+        "kc_spikes": 8200,
+        "pam_spikes": 9205,
+        "mbon_spikes": 2241
+      }
+    },
+    {
+      "seed": 202,
+      "condition": "delayed",
+      "weight_fraction": 0.9954895514099429,
+      "reward_free_mbon_hz": {
+        "365": 59.756944444444436,
+        "450": 49.6875,
+        "525": 46.944444444444436
+      },
+      "acquisition_spikes": {
+        "kc_spikes": 8200,
+        "pam_spikes": 9301,
+        "mbon_spikes": 2890
+      }
+    },
+    {
+      "seed": 202,
+      "condition": "frozen",
+      "weight_fraction": 1.0,
+      "reward_free_mbon_hz": {
+        "365": 59.756944444444436,
+        "450": 49.72222222222222,
+        "525": 47.22222222222222
+      },
+      "acquisition_spikes": {
+        "kc_spikes": 8200,
+        "pam_spikes": 9221,
+        "mbon_spikes": 2889
+      }
+    },
+    {
+      "seed": 203,
+      "condition": "paired",
+      "weight_fraction": 0.18253197196890986,
+      "reward_free_mbon_hz": {
+        "365": 27.847222222222218,
+        "450": 23.993055555555554,
+        "525": 21.041666666666668
+      },
+      "acquisition_spikes": {
+        "kc_spikes": 8375,
+        "pam_spikes": 9233,
+        "mbon_spikes": 2241
+      }
+    },
+    {
+      "seed": 203,
+      "condition": "delayed",
+      "weight_fraction": 0.9931380020721011,
+      "reward_free_mbon_hz": {
+        "365": 60.06944444444445,
+        "450": 51.180555555555564,
+        "525": 46.145833333333336
+      },
+      "acquisition_spikes": {
+        "kc_spikes": 8375,
+        "pam_spikes": 9325,
+        "mbon_spikes": 2899
+      }
+    },
+    {
+      "seed": 203,
+      "condition": "frozen",
+      "weight_fraction": 1.0,
+      "reward_free_mbon_hz": {
+        "365": 60.06944444444445,
+        "450": 51.28472222222222,
+        "525": 46.66666666666666
+      },
+      "acquisition_spikes": {
+        "kc_spikes": 8375,
+        "pam_spikes": 9245,
+        "mbon_spikes": 2904
+      }
+    }
+  ]
+}

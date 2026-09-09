@@ -1,0 +1,44 @@
+# Local environments, downloaded datasets and upstream checkouts
+.venv*/
+upstream/
+data/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+build/
+dist/
+*.egg-info/
+
+# Credentials and machine-local settings
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Downloaded source documents and their rendered/extracted copies
+research/pages/
+research/roadmap.txt
+research/thread.json
+research/huang2024/article.xml
+research/huang2024/source_data.json
+research/**/*.pdf
+research/**/*.png
+
+# Generated media, numerical arrays, model weights and bulky binary tables.
+# Keep compact text reports, provenance, tests and failure evidence in Git.
+results/**/*.mp4
+results/**/*.png
+results/**/*.npy
+results/**/*.npz
+results/**/*.parquet
+results/**/*.pt
+results/**/*.pth
+results/**/*.pkl
+results/**/model.xml

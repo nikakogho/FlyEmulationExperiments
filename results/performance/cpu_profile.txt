@@ -1,0 +1,36 @@
+         2755929 function calls (2536781 primitive calls) in 5.612 seconds
+
+   Ordered by: cumulative time
+   List reduced from 230 to 30 due to restriction <30>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+     1500    0.131    0.000    5.093    0.003 C:\Users\nikak\source\repos\FlyEmulationExperiments\.venv\Lib\site-packages\flygym\examples\locomotion\turning_controller.py:363(step)
+     1500    0.003    0.000    3.536    0.002 C:\Users\nikak\source\repos\FlyEmulationExperiments\.venv\Lib\site-packages\flygym\simulation.py:419(step)
+     1500    0.011    0.000    3.529    0.002 C:\Users\nikak\source\repos\FlyEmulationExperiments\.venv\Lib\site-packages\flygym\simulation.py:180(step)
+     3000    0.606    0.000    2.851    0.001 C:\Users\nikak\source\repos\FlyEmulationExperiments\.venv\Lib\site-packages\flygym\fly.py:1140(get_observation)
+     1500    0.009    0.000    2.151    0.001 C:\Users\nikak\source\repos\FlyEmulationExperiments\.venv\Lib\site-packages\flygym\fly.py:1377(post_step)
+    30000    0.017    0.000    1.399    0.000 C:\Users\nikak\source\repos\FlyEmulationExperiments\.venv\Lib\site-packages\dm_control\mjcf\physics.py:314(__getattr__)
+    30000    0.067    0.000    1.382    0.000 C:\Users\nikak\source\repos\FlyEmulationExperiments\.venv\Lib\site-packages\dm_control\mjcf\physics.py:189(_synchronize_from_backing_array)
+     1500    0.005    0.000    1.338    0.001 C:\Users\nikak\source\repos\FlyEmulationExperiments\.venv\Lib\site-packages\dm_control\mujoco\engine.py:164(step)
+     1500    0.014    0.000    1.309    0.001 C:\Users\nikak\source\repos\FlyEmulationExperiments\.venv\Lib\site-packages\dm_control\mujoco\engine.py:147(_step_with_up_to_date_position_velocity)
+     1500    0.002    0.000    1.309    0.001 C:\Users\nikak\source\repos\FlyEmulationExperiments\.venv\Lib\site-packages\dm_control\mjcf\physics.py:510(forward)
+     1500    0.006    0.000    1.307    0.001 C:\Users\nikak\source\repos\FlyEmulationExperiments\.venv\Lib\site-packages\dm_control\mujoco\engine.py:313(forward)
+     1500    1.280    0.001    1.280    0.001 {built-in method mujoco._functions.mj_forward}
+     1500    0.980    0.001    0.980    0.001 {built-in method mujoco._functions.mj_step1}
+     1500    0.004    0.000    0.713    0.000 C:\Users\nikak\source\repos\FlyEmulationExperiments\.venv\Lib\site-packages\flygym\simulation.py:454(get_observation)
+        8    0.000    0.000    0.504    0.063 C:\Users\nikak\source\repos\FlyEmulationExperiments\.venv\Lib\site-packages\dm_control\mujoco\engine.py:178(render)
+        8    0.000    0.000    0.493    0.062 C:\Users\nikak\source\repos\FlyEmulationExperiments\.venv\Lib\site-packages\dm_control\mujoco\engine.py:817(render)
+       16    0.000    0.000    0.493    0.031 C:\Users\nikak\source\repos\FlyEmulationExperiments\.venv\Lib\site-packages\dm_control\_render\executor\render_executor.py:136(call)
+        8    0.000    0.000    0.492    0.062 C:\Users\nikak\source\repos\FlyEmulationExperiments\.venv\Lib\site-packages\dm_control\mujoco\engine.py:800(_render_on_gl_thread)
+     6000    0.020    0.000    0.350    0.000 C:\Users\nikak\source\repos\FlyEmulationExperiments\.venv\Lib\site-packages\dm_control\mujoco\index.py:490(__getitem__)
+     6002    0.018    0.000    0.330    0.000 C:\Users\nikak\source\repos\FlyEmulationExperiments\.venv\Lib\site-packages\dm_control\mujoco\index.py:476(_convert_key)
+    12004    0.005    0.000    0.310    0.000 C:\Users\nikak\source\repos\FlyEmulationExperiments\.venv\Lib\site-packages\dm_control\mujoco\index.py:484(<genexpr>)
+        8    0.309    0.039    0.309    0.039 {built-in method mujoco._render.mjr_readPixels}
+     1500    0.306    0.000    0.306    0.000 {built-in method mujoco._functions.mj_step2}
+     6002    0.112    0.000    0.305    0.000 C:\Users\nikak\source\repos\FlyEmulationExperiments\.venv\Lib\site-packages\dm_control\mujoco\index.py:348(convert_key_item)
+     9000    0.010    0.000    0.248    0.000 C:\Users\nikak\source\repos\FlyEmulationExperiments\.venv\Lib\site-packages\scipy\interpolate\_polyint.py:66(__call__)
+     9000    0.034    0.000    0.237    0.000 C:\Users\nikak\source\repos\FlyEmulationExperiments\.venv\Lib\site-packages\flygym\examples\locomotion\steps.py:90(get_joint_angles)
+     9000    0.016    0.000    0.194    0.000 C:\Users\nikak\source\repos\FlyEmulationExperiments\.venv\Lib\site-packages\scipy\interpolate\_interpolate.py:1508(__call__)
+        8    0.184    0.023    0.184    0.023 {built-in method mujoco._render.mjr_render}
+     9337    0.018    0.000    0.160    0.000 C:\Users\nikak\source\repos\FlyEmulationExperiments\.venv\Lib\site-packages\numpy\_core\fromnumeric.py:3476(mean)
+     9000    0.009    0.000    0.155    0.000 C:\Users\nikak\source\repos\FlyEmulationExperiments\.venv\Lib\site-packages\scipy\interpolate\_interpolate.py:561(_evaluate)

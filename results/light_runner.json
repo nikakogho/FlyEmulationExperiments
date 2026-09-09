@@ -1,0 +1,56 @@
+[
+  {
+    "seed": 1,
+    "condition": "frozen",
+    "exit_code": 0,
+    "log": "C:\\Users\\nikak\\source\\repos\\FlyEmulationExperiments\\results\\light_seed1_frozen.log"
+  },
+  {
+    "seed": 2,
+    "condition": "frozen",
+    "exit_code": 0,
+    "log": "C:\\Users\\nikak\\source\\repos\\FlyEmulationExperiments\\results\\light_seed2_frozen.log"
+  },
+  {
+    "seed": 0,
+    "condition": "frozen",
+    "exit_code": 0,
+    "log": "C:\\Users\\nikak\\source\\repos\\FlyEmulationExperiments\\results\\light_seed0_frozen.log"
+  },
+  {
+    "seed": 2,
+    "condition": "plastic",
+    "exit_code": 0,
+    "log": "C:\\Users\\nikak\\source\\repos\\FlyEmulationExperiments\\results\\light_seed2_plastic.log"
+  },
+  {
+    "seed": 2,
+    "condition": "yoked",
+    "exit_code": 0,
+    "log": "C:\\Users\\nikak\\source\\repos\\FlyEmulationExperiments\\results\\light_seed2_yoked.log"
+  },
+  {
+    "seed": 1,
+    "condition": "plastic",
+    "exit_code": 0,
+    "log": "C:\\Users\\nikak\\source\\repos\\FlyEmulationExperiments\\results\\light_seed1_plastic.log"
+  },
+  {
+    "seed": 1,
+    "condition": "yoked",
+    "exit_code": 0,
+    "log": "C:\\Users\\nikak\\source\\repos\\FlyEmulationExperiments\\results\\light_seed1_yoked.log"
+  },
+  {
+    "seed": 0,
+    "condition": "plastic",
+    "exit_code": 0,
+    "log": "C:\\Users\\nikak\\source\\repos\\FlyEmulationExperiments\\results\\light_seed0_plastic.log"
+  },
+  {
+    "seed": 0,
+    "condition": "yoked",
+    "exit_code": 0,
+    "log": "C:\\Users\\nikak\\source\\repos\\FlyEmulationExperiments\\results\\light_seed0_yoked.log"
+  }
+]

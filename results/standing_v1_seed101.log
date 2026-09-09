@@ -1,0 +1,22 @@
+Traceback (most recent call last):
+  File "C:\Users\nikak\source\repos\FlyEmulationExperiments\scripts\check_explicit_standing.py", line 82, in <module>
+    if __name__=='__main__': main()
+                             ^^^^^^
+  File "C:\Users\nikak\source\repos\FlyEmulationExperiments\scripts\check_explicit_standing.py", line 42, in main
+    obs,_,terminated,truncated,info=sim.step(command)
+                                    ^^^^^^^^^^^^^^^^^
+  File "C:\Users\nikak\source\repos\FlyEmulationExperiments\flyplasticity\standing.py", line 41, in step
+    obs, reward, terminated, truncated, info = SingleFlySimulation.step(self, low_action)
+                                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nikak\source\repos\FlyEmulationExperiments\.venv\Lib\site-packages\flygym\simulation.py", line 451, in step
+    obs, reward, terminated, truncated, info = super().step({key: action})
+                                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nikak\source\repos\FlyEmulationExperiments\.venv\Lib\site-packages\flygym\simulation.py", line 215, in step
+    fly.pre_step(action[fly.name], self)
+  File "C:\Users\nikak\source\repos\FlyEmulationExperiments\.venv\Lib\site-packages\flygym\fly.py", line 1371, in pre_step
+    physics.bind(self.actuators).ctrl = joint_action
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nikak\source\repos\FlyEmulationExperiments\.venv\Lib\site-packages\dm_control\mjcf\physics.py", line 363, in __setattr__
+    array[index] = value
+    ~~~~~^^^^^^^
+ValueError: shape mismatch: value array of shape (42,42) could not be broadcast to indexing result of shape (42,)

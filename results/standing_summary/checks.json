@@ -1,0 +1,67 @@
+{
+  "brain_simulated": false,
+  "seeds": [
+    {
+      "completed": true,
+      "brain_simulated": false,
+      "seed": 101,
+      "controller": "explicit neutral standing",
+      "protocol": "rest 0-.3 s, activity .6 from .3-.7 s, rest .7-1.4 s",
+      "rest_gate": "last .3 s XY displacement <= .2 mm and median speed <= .5 mm/s",
+      "limitation": "Mechanical capability, not a neural decision to rest or a welfare assay",
+      "passed": true,
+      "settled_displacement_mm": 0.0065119793774959045,
+      "settled_median_speed_mm_s": 0.028632663190364838,
+      "samples": 70,
+      "joint_count": 42,
+      "contact_sensor_count": 36,
+      "walking_median_speed_mm_s": 9.584077835083008,
+      "final_height_mm": 1.020456075668335,
+      "max_image_age_s": 0.0
+    },
+    {
+      "completed": true,
+      "brain_simulated": false,
+      "seed": 102,
+      "controller": "explicit neutral standing",
+      "protocol": "rest 0-.3 s, activity .6 from .3-.7 s, rest .7-1.4 s",
+      "rest_gate": "last .3 s XY displacement <= .2 mm and median speed <= .5 mm/s",
+      "limitation": "Mechanical capability, not a neural decision to rest or a welfare assay",
+      "passed": true,
+      "settled_displacement_mm": 0.002010875068113888,
+      "settled_median_speed_mm_s": 0.008519107475876808,
+      "samples": 70,
+      "joint_count": 42,
+      "contact_sensor_count": 36,
+      "walking_median_speed_mm_s": 9.852422714233398,
+      "final_height_mm": 1.1079972982406616,
+      "max_image_age_s": 0.0
+    },
+    {
+      "completed": true,
+      "brain_simulated": false,
+      "seed": 103,
+      "controller": "explicit neutral standing",
+      "protocol": "rest 0-.3 s, activity .6 from .3-.7 s, rest .7-1.4 s",
+      "rest_gate": "last .3 s XY displacement <= .2 mm and median speed <= .5 mm/s",
+      "limitation": "Mechanical capability, not a neural decision to rest or a welfare assay",
+      "passed": true,
+      "settled_displacement_mm": 0.003155797199179582,
+      "settled_median_speed_mm_s": 0.00930555397644639,
+      "samples": 70,
+      "joint_count": 42,
+      "contact_sensor_count": 36,
+      "walking_median_speed_mm_s": 11.300145149230957,
+      "final_height_mm": 1.119490146636963,
+      "max_image_age_s": 0.0
+    }
+  ],
+  "limits": "Three short flat-floor mechanical trials; not a welfare or learning test.",
+  "passed": true,
+  "source_sha256": {
+    "flyplasticity/standing.py": "371d4940c5ef8fb9cc6beb67fed13ce41a5a2de064852ef37a2b1ac35f37c0b2",
+    "scripts/check_explicit_standing.py": "900747ae745b2503cbeaaaf8e1f3c6c5322f30134f04b5383a63b7ee4ca34a54",
+    "scripts/analyze_standing.py": "859d04c300cc4a3b035cddf34ca387dcff530ec8dfcbc3fe33c2db1583b0ad41",
+    "tests/test_standing.py": "33fd23a3e54f78d67be464252599eaa2e4ff04a4061e59175cbfbc5e42877037"
+  }
+}

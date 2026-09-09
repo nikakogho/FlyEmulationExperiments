@@ -1,0 +1,186 @@
+[2026-09-09 00:07:23] network_view:122 Initialized network view at C:\Users\nikak\source\repos\FlyEmulationExperiments\data\flyvis\results\flow\0000\000
+[2026-09-09 00:07:23] logging_utils:23 epe not in C:\Users\nikak\source\repos\FlyEmulationExperiments\data\flyvis\results\flow\0000\000\validation, but 'loss' is. Falling back to 'loss'. You can rerun the ensemble validation to make appropriate recordings of the losses.
+[2026-09-09 00:07:27] network:222 Initialized network with NumberOfParams(free=734, fixed=2959) parameters.
+[2026-09-09 00:07:27] chkpt_utils:36 Recovered network state.
+
+building stimuli:   0%|          | 0/8 [00:00<?, ?it/s]
+building stimuli:  12%|#2        | 1/8 [00:26<03:04, 26.34s/it]
+building stimuli:  25%|##5       | 2/8 [00:51<02:34, 25.69s/it]
+building stimuli:  38%|###7      | 3/8 [01:17<02:08, 25.64s/it]
+building stimuli:  50%|#####     | 4/8 [01:42<01:42, 25.67s/it]
+building stimuli:  62%|######2   | 5/8 [02:08<01:17, 25.68s/it]
+building stimuli:  75%|#######5  | 6/8 [02:33<00:50, 25.46s/it]
+building stimuli:  88%|########7 | 7/8 [02:58<00:25, 25.30s/it]
+building stimuli: 100%|##########| 8/8 [03:23<00:00, 25.20s/it]
+building stimuli: 100%|##########| 8/8 [03:23<00:00, 25.45s/it]
+Completed edge {'angle': 0, 'width': 80, 'intensity': 0, 't_stim': 0.42876588021778583, 'speed': 19}
+Completed edge {'angle': 0, 'width': 80, 'intensity': 1, 't_stim': 0.42876588021778583, 'speed': 19}
+Completed edge {'angle': 90, 'width': 80, 'intensity': 0, 't_stim': 0.42876588021778583, 'speed': 19}
+Completed edge {'angle': 90, 'width': 80, 'intensity': 1, 't_stim': 0.42876588021778583, 'speed': 19}
+Completed edge {'angle': 180, 'width': 80, 'intensity': 0, 't_stim': 0.42876588021778583, 'speed': 19}
+Completed edge {'angle': 180, 'width': 80, 'intensity': 1, 't_stim': 0.42876588021778583, 'speed': 19}
+Completed edge {'angle': 270, 'width': 80, 'intensity': 0, 't_stim': 0.42876588021778583, 'speed': 19}
+Completed edge {'angle': 270, 'width': 80, 'intensity': 1, 't_stim': 0.42876588021778583, 'speed': 19}
+{
+  "passed": false,
+  "whole_brain_simulated": false,
+  "visual_subsystem_simulated": true,
+  "dt": 0.005,
+  "checkpoint": "flow/0000/000",
+  "nodes": 45669,
+  "device": "cpu",
+  "finite": true,
+  "parameters_unchanged": true,
+  "parameter_sha256": "f7f8252191ac4bfc38e18cc03a55061f603e68cc03a402eaf363d2141d53baa9",
+  "gray_drift": 1.3168842997401953e-05,
+  "metrics": [
+    {
+      "cell": "T4a",
+      "preferred_angle": 180,
+      "preferred_peak": 1.3127151727676392,
+      "null_peak": 0.23366352915763855,
+      "direction_index": 0.6977926185006015,
+      "expected_polarity_peak": 1.3127151727676392,
+      "other_polarity_peak": 0.26203134655952454,
+      "direction_pass": true,
+      "polarity_pass": true
+    },
+    {
+      "cell": "T4b",
+      "preferred_angle": 0,
+      "preferred_peak": 1.218333125114441,
+      "null_peak": 0.06499090790748596,
+      "direction_index": 0.8987147341822196,
+      "expected_polarity_peak": 1.218333125114441,
+      "other_polarity_peak": 0.17725104093551636,
+      "direction_pass": true,
+      "polarity_pass": true
+    },
+    {
+      "cell": "T4c",
+      "preferred_angle": 90,
+      "preferred_peak": 1.0077605247497559,
+      "null_peak": 1.3988465070724487e-06,
+      "direction_index": 0.9999972238552096,
+      "expected_polarity_peak": 1.0077605247497559,
+      "other_polarity_peak": 0.28318604826927185,
+      "direction_pass": true,
+      "polarity_pass": true
+    },
+    {
+      "cell": "T4d",
+      "preferred_angle": 270,
+      "preferred_peak": 0.10979114472866058,
+      "null_peak": 0.0001890435814857483,
+      "direction_index": 0.9965622248081147,
+      "expected_polarity_peak": 0.10979114472866058,
+      "other_polarity_peak": 0.30445632338523865,
+      "direction_pass": true,
+      "polarity_pass": false
+    },
+    {
+      "cell": "T5a",
+      "preferred_angle": 180,
+      "preferred_peak": 0.7839429974555969,
+      "null_peak": 9.346287697553635e-05,
+      "direction_index": 0.9997615853810271,
+      "expected_polarity_peak": 0.7839429974555969,
+      "other_polarity_peak": 0.3674531579017639,
+      "direction_pass": true,
+      "polarity_pass": true
+    },
+    {
+      "cell": "T5b",
+      "preferred_angle": 0,
+      "preferred_peak": 0.5282320380210876,
+      "null_peak": 0.04056256264448166,
+      "direction_index": 0.857373601658603,
+      "expected_polarity_peak": 0.5282320380210876,
+      "other_polarity_peak": 0.169319748878479,
+      "direction_pass": true,
+      "polarity_pass": true
+    },
+    {
+      "cell": "T5c",
+      "preferred_angle": 90,
+      "preferred_peak": 0.8436216115951538,
+      "null_peak": 0.1185901015996933,
+      "direction_index": 0.7535051798404393,
+      "expected_polarity_peak": 0.8436216115951538,
+      "other_polarity_peak": 0.0002915468066930771,
+      "direction_pass": true,
+      "polarity_pass": true
+    },
+    {
+      "cell": "T5d",
+      "preferred_angle": 270,
+      "preferred_peak": 1.6836656332015991,
+      "null_peak": 0.3620474636554718,
+      "direction_index": 0.6460427767591623,
+      "expected_polarity_peak": 1.6836656332015991,
+      "other_polarity_peak": 0.12322769314050674,
+      "direction_pass": true,
+      "polarity_pass": true
+    }
+  ],
+  "stimuli": [
+    {
+      "angle": 0,
+      "width": 80,
+      "intensity": 0,
+      "t_stim": 0.42876588021778583,
+      "speed": 19
+    },
+    {
+      "angle": 0,
+      "width": 80,
+      "intensity": 1,
+      "t_stim": 0.42876588021778583,
+      "speed": 19
+    },
+    {
+      "angle": 90,
+      "width": 80,
+      "intensity": 0,
+      "t_stim": 0.42876588021778583,
+      "speed": 19
+    },
+    {
+      "angle": 90,
+      "width": 80,
+      "intensity": 1,
+      "t_stim": 0.42876588021778583,
+      "speed": 19
+    },
+    {
+      "angle": 180,
+      "width": 80,
+      "intensity": 0,
+      "t_stim": 0.42876588021778583,
+      "speed": 19
+    },
+    {
+      "angle": 180,
+      "width": 80,
+      "intensity": 1,
+      "t_stim": 0.42876588021778583,
+      "speed": 19
+    },
+    {
+      "angle": 270,
+      "width": 80,
+      "intensity": 0,
+      "t_stim": 0.42876588021778583,
+      "speed": 19
+    },
+    {
+      "angle": 270,
+      "width": 80,
+      "intensity": 1,
+      "t_stim": 0.42876588021778583,
+      "speed": 19
+    }
+  ],
+  "elapsed_s": 249.58963559998665,
+  "protocol_sha256": "ac94ee11d284ac1add5eb1ffa12d1c059ff6f0625b1dec7255c3a70d4e2ad122"
+}

@@ -1,0 +1,36 @@
+{
+  "posthoc": true,
+  "default_model_changed": false,
+  "refitted": false,
+  "note": "Alternate deposited samples and a ceiling inferred from published saturation values. These are diagnostic hypotheses, not independent validation.",
+  "cases": [
+    {
+      "parameter_path": "upstream\\Luo_Huang_2024_MB_model\\data_and_parameters\\Dx_steady_state_nonlinear_3_27-Mar-2023_3modules.mat",
+      "alpha2_evoked_ceiling_Hz": 8.9,
+      "passed_cells": 21,
+      "max_abs_error_Hz": 0.4399999999999977,
+      "rmse_Hz": 0.1845991267502531
+    },
+    {
+      "parameter_path": "upstream\\Luo_Huang_2024_MB_model\\data_and_parameters\\Dx_steady_state_nonlinear_3_27-Mar-2023_3modules.mat",
+      "alpha2_evoked_ceiling_Hz": 8.46,
+      "passed_cells": 21,
+      "max_abs_error_Hz": 0.3723663810868505,
+      "rmse_Hz": 0.12245963809852053
+    },
+    {
+      "parameter_path": "upstream\\Luo_Huang_2024_MB_model\\matlab_code\\model_fitting\\figures\\Dx_steady_state_nonlinear_3_17-Apr-2024_3modules.mat",
+      "alpha2_evoked_ceiling_Hz": 8.9,
+      "passed_cells": 20,
+      "max_abs_error_Hz": 0.4399999999999977,
+      "rmse_Hz": 0.18310731015177606
+    },
+    {
+      "parameter_path": "upstream\\Luo_Huang_2024_MB_model\\matlab_code\\model_fitting\\figures\\Dx_steady_state_nonlinear_3_17-Apr-2024_3modules.mat",
+      "alpha2_evoked_ceiling_Hz": 8.46,
+      "passed_cells": 20,
+      "max_abs_error_Hz": 0.35179811105403225,
+      "rmse_Hz": 0.11951066542618595
+    }
+  ]
+}

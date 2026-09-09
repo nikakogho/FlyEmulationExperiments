@@ -1,0 +1,92 @@
+[
+  {
+    "qpos_rad": 0.2,
+    "interior_angle_deg": 168.90310961285644,
+    "femur_length_native": 0.7052395502301981,
+    "tibia_length_native": 0.5183977064754438
+  },
+  {
+    "qpos_rad": 0.30000000000000004,
+    "interior_angle_deg": 163.17354681130985,
+    "femur_length_native": 0.7052395502301981,
+    "tibia_length_native": 0.5183977064754437
+  },
+  {
+    "qpos_rad": 0.4,
+    "interior_angle_deg": 157.44398224326005,
+    "femur_length_native": 0.7052395502301981,
+    "tibia_length_native": 0.5183977064754438
+  },
+  {
+    "qpos_rad": 0.5,
+    "interior_angle_deg": 151.7144171476471,
+    "femur_length_native": 0.7052395502301981,
+    "tibia_length_native": 0.5183977064754438
+  },
+  {
+    "qpos_rad": 0.6000000000000001,
+    "interior_angle_deg": 145.9848519759252,
+    "femur_length_native": 0.7052395502301981,
+    "tibia_length_native": 0.5183977064754438
+  },
+  {
+    "qpos_rad": 0.7,
+    "interior_angle_deg": 140.25528696489937,
+    "femur_length_native": 0.7052395502301981,
+    "tibia_length_native": 0.5183977064754438
+  },
+  {
+    "qpos_rad": 0.8,
+    "interior_angle_deg": 134.52572227808827,
+    "femur_length_native": 0.7052395502301981,
+    "tibia_length_native": 0.5183977064754438
+  },
+  {
+    "qpos_rad": 0.9000000000000001,
+    "interior_angle_deg": 128.79615805394732,
+    "femur_length_native": 0.7052395502301981,
+    "tibia_length_native": 0.5183977064754438
+  },
+  {
+    "qpos_rad": 1.0,
+    "interior_angle_deg": 123.06659442703283,
+    "femur_length_native": 0.7052395502301981,
+    "tibia_length_native": 0.5183977064754439
+  },
+  {
+    "qpos_rad": 1.1,
+    "interior_angle_deg": 117.33703154002609,
+    "femur_length_native": 0.7052395502301981,
+    "tibia_length_native": 0.5183977064754438
+  },
+  {
+    "qpos_rad": 1.2,
+    "interior_angle_deg": 111.60746955276095,
+    "femur_length_native": 0.7052395502301981,
+    "tibia_length_native": 0.5183977064754438
+  },
+  {
+    "qpos_rad": 1.3,
+    "interior_angle_deg": 105.87790865091581,
+    "femur_length_native": 0.7052395502301981,
+    "tibia_length_native": 0.5183977064754438
+  },
+  {
+    "qpos_rad": 1.4000000000000001,
+    "interior_angle_deg": 100.14834905595131,
+    "femur_length_native": 0.7052395502301981,
+    "tibia_length_native": 0.5183977064754438
+  },
+  {
+    "qpos_rad": 1.5,
+    "interior_angle_deg": 94.41879103766982,
+    "femur_length_native": 0.7052395502301981,
+    "tibia_length_native": 0.5183977064754437
+  },
+  {
+    "qpos_rad": 1.6,
+    "interior_angle_deg": 88.6892349310345,
+    "femur_length_native": 0.7052395502301981,
+    "tibia_length_native": 0.5183977064754438
+  }
+]

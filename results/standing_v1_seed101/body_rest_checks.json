@@ -1,0 +1,11 @@
+{
+  "completed": false,
+  "brain_simulated": false,
+  "seed": 101,
+  "controller": "explicit neutral standing",
+  "protocol": "rest 0-.3 s, activity .6 from .3-.7 s, rest .7-1.4 s",
+  "rest_gate": "last .3 s XY displacement <= .2 mm and median speed <= .5 mm/s",
+  "limitation": "Mechanical capability, not a neural decision to rest or a welfare assay",
+  "error": "ValueError('shape mismatch: value array of shape (42,42) could not be broadcast to indexing result of shape (42,)')",
+  "rows": []
+}

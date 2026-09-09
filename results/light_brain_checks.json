@@ -1,0 +1,111 @@
+{
+  "passed": true,
+  "seed": 101,
+  "metadata": {
+    "neurons": 8991,
+    "visual_kcs": 295,
+    "plastic_edges": 2806,
+    "side_counts": [
+      147,
+      148
+    ],
+    "adapter": "random balanced green/blue selectivity within anatomical KCg-d, direct Poisson input",
+    "reward": "local contact proxy drives PAMs at 60 Hz; no recovered taste pathway",
+    "readout": "mean MBON spikes per hemisphere; fixed differential avoidance"
+  },
+  "conditions": [
+    {
+      "condition": "frozen",
+      "weight_fraction": 1.0,
+      "spike_counts": [
+        {
+          "kc_spikes": 2390,
+          "pam_spikes": 1865,
+          "mbon_spikes": 648
+        },
+        {
+          "kc_spikes": 2376,
+          "pam_spikes": 1854,
+          "mbon_spikes": 656
+        },
+        {
+          "kc_spikes": 2369,
+          "pam_spikes": 1822,
+          "mbon_spikes": 644
+        },
+        {
+          "kc_spikes": 2363,
+          "pam_spikes": 1907,
+          "mbon_spikes": 652
+        },
+        {
+          "kc_spikes": 2348,
+          "pam_spikes": 1865,
+          "mbon_spikes": 649
+        }
+      ]
+    },
+    {
+      "condition": "paired",
+      "weight_fraction": 0.5883240044055098,
+      "spike_counts": [
+        {
+          "kc_spikes": 2390,
+          "pam_spikes": 1864,
+          "mbon_spikes": 627
+        },
+        {
+          "kc_spikes": 2376,
+          "pam_spikes": 1855,
+          "mbon_spikes": 558
+        },
+        {
+          "kc_spikes": 2369,
+          "pam_spikes": 1820,
+          "mbon_spikes": 484
+        },
+        {
+          "kc_spikes": 2363,
+          "pam_spikes": 1898,
+          "mbon_spikes": 405
+        },
+        {
+          "kc_spikes": 2348,
+          "pam_spikes": 1857,
+          "mbon_spikes": 337
+        }
+      ]
+    },
+    {
+      "condition": "no_external_reward",
+      "weight_fraction": 0.9926913453344722,
+      "spike_counts": [
+        {
+          "kc_spikes": 2390,
+          "pam_spikes": 25,
+          "mbon_spikes": 647
+        },
+        {
+          "kc_spikes": 2376,
+          "pam_spikes": 28,
+          "mbon_spikes": 653
+        },
+        {
+          "kc_spikes": 2369,
+          "pam_spikes": 29,
+          "mbon_spikes": 646
+        },
+        {
+          "kc_spikes": 2363,
+          "pam_spikes": 29,
+          "mbon_spikes": 650
+        },
+        {
+          "kc_spikes": 2348,
+          "pam_spikes": 27,
+          "mbon_spikes": 647
+        }
+      ]
+    }
+  ]
+}

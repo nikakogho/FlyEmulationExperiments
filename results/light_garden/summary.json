@@ -1,0 +1,403 @@
+{
+  "complete": true,
+  "missing": [],
+  "failures": [],
+  "metric": "green minus blue occupancy within 3 mm; average of original and swapped tests",
+  "rows": [
+    {
+      "seed": 0,
+      "condition": "plastic",
+      "preference": 0.041666666666666664,
+      "acquisition_contacts": 0,
+      "reinforcement_steps": 0,
+      "reinforced_mean_visual": null,
+      "weight_L1_fraction": 0.9780387475436425,
+      "changed_weights": 2806,
+      "tests": [
+        {
+          "swapped": false,
+          "green_occupancy": 0.0,
+          "blue_occupancy": 0.0,
+          "preference": 0.0,
+          "closest_distance_mm": [
+            5.976232131311467,
+            3.3342412291043986
+          ],
+          "final_distance_mm": [
+            28.58324694200994,
+            22.343469048269064
+          ]
+        },
+        {
+          "swapped": true,
+          "green_occupancy": 0.08333333333333333,
+          "blue_occupancy": 0.0,
+          "preference": 0.08333333333333333,
+          "closest_distance_mm": [
+            2.58346262588272,
+            6.228242317573972
+          ],
+          "final_distance_mm": [
+            21.526764195627873,
+            29.370730665701757
+          ]
+        }
+      ]
+    },
+    {
+      "seed": 0,
+      "condition": "frozen",
+      "preference": -0.041666666666666664,
+      "acquisition_contacts": 0,
+      "reinforcement_steps": 0,
+      "reinforced_mean_visual": null,
+      "weight_L1_fraction": 1.0,
+      "changed_weights": 0,
+      "tests": [
+        {
+          "swapped": false,
+          "green_occupancy": 0.0,
+          "blue_occupancy": 0.08333333333333333,
+          "preference": -0.08333333333333333,
+          "closest_distance_mm": [
+            6.223603992530113,
+            2.6866080425861942
+          ],
+          "final_distance_mm": [
+            28.783076975428816,
+            20.66156051358575
+          ]
+        },
+        {
+          "swapped": true,
+          "green_occupancy": 0.0,
+          "blue_occupancy": 0.0,
+          "preference": 0.0,
+          "closest_distance_mm": [
+            3.682140194392309,
+            5.754294532138123
+          ],
+          "final_distance_mm": [
+            22.454187041861307,
+            27.971891500865386
+          ]
+        }
+      ]
+    },
+    {
+      "seed": 0,
+      "condition": "yoked",
+      "preference": 0.041666666666666664,
+      "acquisition_contacts": 0,
+      "reinforcement_steps": 0,
+      "reinforced_mean_visual": null,
+      "weight_L1_fraction": 0.9780387475436425,
+      "changed_weights": 2806,
+      "tests": [
+        {
+          "swapped": false,
+          "green_occupancy": 0.0,
+          "blue_occupancy": 0.0,
+          "preference": 0.0,
+          "closest_distance_mm": [
+            5.976232131311467,
+            3.3342412291043986
+          ],
+          "final_distance_mm": [
+            28.58324694200994,
+            22.343469048269064
+          ]
+        },
+        {
+          "swapped": true,
+          "green_occupancy": 0.08333333333333333,
+          "blue_occupancy": 0.0,
+          "preference": 0.08333333333333333,
+          "closest_distance_mm": [
+            2.58346262588272,
+            6.228242317573972
+          ],
+          "final_distance_mm": [
+            21.526764195627873,
+            29.370730665701757
+          ]
+        }
+      ]
+    },
+    {
+      "seed": 1,
+      "condition": "plastic",
+      "preference": 0.0,
+      "acquisition_contacts": 1,
+      "reinforcement_steps": 1,
+      "reinforced_mean_visual": [
+        0.5,
+        0.31840788398692804
+      ],
+      "weight_L1_fraction": 0.8248506041332716,
+      "changed_weights": 2806,
+      "tests": [
+        {
+          "swapped": false,
+          "green_occupancy": 0.0,
+          "blue_occupancy": 0.0,
+          "preference": 0.0,
+          "closest_distance_mm": [
+            6.870890693697161,
+            3.228924079554096
+          ],
+          "final_distance_mm": [
+            28.687703266243737,
+            22.899177593073553
+          ]
+        },
+        {
+          "swapped": true,
+          "green_occupancy": 0.0,
+          "blue_occupancy": 0.0,
+          "preference": 0.0,
+          "closest_distance_mm": [
+            3.1694374129794074,
+            6.714787272008602
+          ],
+          "final_distance_mm": [
+            24.27411476363079,
+            26.520380220163318
+          ]
+        }
+      ]
+    },
+    {
+      "seed": 1,
+      "condition": "frozen",
+      "preference": 0.0,
+      "acquisition_contacts": 0,
+      "reinforcement_steps": 0,
+      "reinforced_mean_visual": null,
+      "weight_L1_fraction": 1.0,
+      "changed_weights": 0,
+      "tests": [
+        {
+          "swapped": false,
+          "green_occupancy": 0.0,
+          "blue_occupancy": 0.0,
+          "preference": 0.0,
+          "closest_distance_mm": [
+            6.407439465095472,
+            3.6266718730845517
+          ],
+          "final_distance_mm": [
+            28.141558876577733,
+            23.88971112770863
+          ]
+        },
+        {
+          "swapped": true,
+          "green_occupancy": 0.0,
+          "blue_occupancy": 0.0,
+          "preference": 0.0,
+          "closest_distance_mm": [
+            3.4683993170532523,
+            6.624602735906605
+          ],
+          "final_distance_mm": [
+            23.504846498866442,
+            28.771661824001708
+          ]
+        }
+      ]
+    },
+    {
+      "seed": 1,
+      "condition": "yoked",
+      "preference": 0.0,
+      "acquisition_contacts": 0,
+      "reinforcement_steps": 1,
+      "reinforced_mean_visual": [
+        0.0,
+        0.0
+      ],
+      "weight_L1_fraction": 0.9713731817666765,
+      "changed_weights": 2806,
+      "tests": [
+        {
+          "swapped": false,
+          "green_occupancy": 0.0,
+          "blue_occupancy": 0.0,
+          "preference": 0.0,
+          "closest_distance_mm": [
+            6.587155262775768,
+            3.482401807448868
+          ],
+          "final_distance_mm": [
+            27.31797690587838,
+            23.755441628708517
+          ]
+        },
+        {
+          "swapped": true,
+          "green_occupancy": 0.0,
+          "blue_occupancy": 0.0,
+          "preference": 0.0,
+          "closest_distance_mm": [
+            3.3634336215377667,
+            6.6681397855729125
+          ],
+          "final_distance_mm": [
+            23.890366063407495,
+            27.64563203009328
+          ]
+        }
+      ]
+    },
+    {
+      "seed": 2,
+      "condition": "plastic",
+      "preference": 0.0,
+      "acquisition_contacts": 0,
+      "reinforcement_steps": 0,
+      "reinforced_mean_visual": null,
+      "weight_L1_fraction": 0.9675037671580128,
+      "changed_weights": 2806,
+      "tests": [
+        {
+          "swapped": false,
+          "green_occupancy": 0.0,
+          "blue_occupancy": 0.0,
+          "preference": 0.0,
+          "closest_distance_mm": [
+            6.084284364059258,
+            3.5744037111584035
+          ],
+          "final_distance_mm": [
+            28.02087707535811,
+            23.996007194456983
+          ]
+        },
+        {
+          "swapped": true,
+          "green_occupancy": 0.0,
+          "blue_occupancy": 0.0,
+          "preference": 0.0,
+          "closest_distance_mm": [
+            4.086958110120221,
+            5.824312863500649
+          ],
+          "final_distance_mm": [
+            23.034752582622605,
+            27.402531052320704
+          ]
+        }
+      ]
+    },
+    {
+      "seed": 2,
+      "condition": "frozen",
+      "preference": 0.0,
+      "acquisition_contacts": 0,
+      "reinforcement_steps": 0,
+      "reinforced_mean_visual": null,
+      "weight_L1_fraction": 1.0,
+      "changed_weights": 0,
+      "tests": [
+        {
+          "swapped": false,
+          "green_occupancy": 0.0,
+          "blue_occupancy": 0.0,
+          "preference": 0.0,
+          "closest_distance_mm": [
+            6.029354520702743,
+            3.4192889131421498
+          ],
+          "final_distance_mm": [
+            28.597022271282746,
+            23.587976305835387
+          ]
+        },
+        {
+          "swapped": true,
+          "green_occupancy": 0.0,
+          "blue_occupancy": 0.0,
+          "preference": 0.0,
+          "closest_distance_mm": [
+            3.639035170742986,
+            5.944220660737398
+          ],
+          "final_distance_mm": [
+            23.744186350541373,
+            28.42213566336141
+          ]
+        }
+      ]
+    },
+    {
+      "seed": 2,
+      "condition": "yoked",
+      "preference": 0.0,
+      "acquisition_contacts": 0,
+      "reinforcement_steps": 0,
+      "reinforced_mean_visual": null,
+      "weight_L1_fraction": 0.9675037671580128,
+      "changed_weights": 2806,
+      "tests": [
+        {
+          "swapped": false,
+          "green_occupancy": 0.0,
+          "blue_occupancy": 0.0,
+          "preference": 0.0,
+          "closest_distance_mm": [
+            6.084284364059258,
+            3.5744037111584035
+          ],
+          "final_distance_mm": [
+            28.02087707535811,
+            23.996007194456983
+          ]
+        },
+        {
+          "swapped": true,
+          "green_occupancy": 0.0,
+          "blue_occupancy": 0.0,
+          "preference": 0.0,
+          "closest_distance_mm": [
+            4.086958110120221,
+            5.824312863500649
+          ],
+          "final_distance_mm": [
+            23.034752582622605,
+            27.402531052320704
+          ]
+        }
+      ]
+    }
+  ],
+  "paired_effects": [
+    {
+      "seed": 0,
+      "plastic_minus_frozen": 0.08333333333333333,
+      "plastic_minus_yoked": 0.0
+    },
+    {
+      "seed": 1,
+      "plastic_minus_frozen": 0.0,
+      "plastic_minus_yoked": 0.0
+    },
+    {
+      "seed": 2,
+      "plastic_minus_frozen": 0.0,
+      "plastic_minus_yoked": 0.0
+    }
+  ],
+  "limitations": [
+    "Three seeds, descriptive pilot only",
+    "Engineered camera-to-KC and taste-to-PAM adapters",
+    "Shifted reward may remain correlated with persistent cues",
+    "Revision 2 flat 3D floor, 0.1 ms physics; no obstacle-navigation or convergence claim",
+    "Prior terraced cohorts failed physically and are retained separately"
+  ],
+  "mean_plastic_minus_frozen": 0.027777777777777776,
+  "mean_plastic_minus_yoked": 0.0,
+  "all_plastic_seeds_encountered_food": false,
+  "descriptive_advantage_over_both_controls": false,
+  "learning_claim": "No biological learning or superiority claim follows from this pilot alone"
+}

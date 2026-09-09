@@ -1,0 +1,25 @@
+{
+  "step4_passed": false,
+  "step5_run": false,
+  "neural_or_body_simulation": false,
+  "diagnostics_passed": true,
+  "color_distinction_preserved": false,
+  "green_blue_max_input_difference": 0.0,
+  "separate_rgb_transport_preserves_color": true,
+  "rgb_transport_max_difference": 0.9490196078431372,
+  "recorded_scene_channel_swap_identical": true,
+  "photoreceptor_to_ame12_synapses": 933,
+  "ame12_to_visual_kc_synapses": 2511,
+  "ame12_connected_visual_kcs": 168,
+  "visual_kc_to_mbon01_synapses": 630,
+  "visual_kc_to_mbon01_edges": 221,
+  "pam01_to_mbon01_synapses": 306,
+  "coarse_gamma5_assignment_supported": true,
+  "individual_dan_subcompartment_assignment_validated": false,
+  "sensory_transfer_function_validated": false,
+  "blockers": [
+    "Current grayscale input aliases the actual green/blue task cues.",
+    "No validated spectral/receptive-field transfer function for the chosen aMe12 route.",
+    "PAM01 group contains finer functional/anatomical subdivisions not assigned here."
+  ]
+}

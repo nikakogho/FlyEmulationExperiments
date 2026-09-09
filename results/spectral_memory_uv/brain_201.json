@@ -1,0 +1,19 @@
+{
+  "neurons": 8991,
+  "visual_kcs": 295,
+  "plastic_edges": 2806,
+  "side_counts": [
+    147,
+    148
+  ],
+  "adapter": "Fixed random balanced Rh1/Rh3/Rh4/Rh5/Rh6 feature selectivity within KCg-d; direct Poisson input, exploratory only",
+  "reward": "local contact proxy drives PAMs at 60 Hz; no recovered taste pathway",
+  "readout": "mean MBON spikes per hemisphere; fixed differential avoidance",
+  "spectral_channel_counts": [
+    60,
+    60,
+    59,
+    58,
+    58
+  ]
+}

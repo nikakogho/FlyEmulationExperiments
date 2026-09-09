@@ -1,0 +1,34 @@
+{"experiment": "learning", "brian_seed": 0, "backend": "numpy", "argv": ["C:\\Users\\nikak\\source\\repos\\FlyEmulationExperiments\\upstream\\fly-api\\experiments\\learning\\learning_driver_mb.py", "--model-dir", "C:\\Users\\nikak\\source\\repos\\FlyEmulationExperiments\\upstream\\Drosophila_brain_model", "--seed", "0", "--orn-hz", "500", "--n-classes", "6", "--eta", "0.5", "--n-pair", "5", "--kc-thresh", "1", "--kcmbon-gain", "20", "--kcmbon-gain", "1", "--out", "results/baseline_gain1"]}
+[subnet] 8991 neurons, 791613 synapses
+[edit] zeroed: dan_out=50155 kc_kc=293762 orn_in=65429 eln_out=37892
+[odors] A=['ORN_VA1v', 'ORN_DL3', 'ORN_DA1', 'ORN_DL1', 'ORN_DL4', 'ORN_DM2'] B=['ORN_VM5d', 'ORN_DM3', 'ORN_VL1', 'ORN_VM4', 'ORN_VA6', 'ORN_VA2'] fresh=['ORN_VL2a', 'ORN_V', 'ORN_DL5', 'ORN_DM1', 'ORN_VA1d', 'ORN_DM6']
+[build] 62261 plastic KC->MBON synapses
+WARNING    'rates' is an internal variable of group 'poissongroup', but also exists in the run namespace with the value array([500.,   0.,   0., ..., 500.,   0.,   0.]). The internal variable will be used. [brian2.groups.group.Group.resolve.resolution_conflict]
+[epi] pre_A0       KCact= 159 PAM=   0.0 MBONspk=   40 plast=0 wfrac=1.000 trace=0.000
+WARNING    'rates' is an internal variable of group 'poissongroup', but also exists in the run namespace with the value array([  0., 500.,   0., ...,   0.,   0.,   0.]). The internal variable will be used. [brian2.groups.group.Group.resolve.resolution_conflict]
+[epi] pre_B0       KCact= 221 PAM=   0.0 MBONspk=   39 plast=0 wfrac=1.000 trace=0.000
+[epi] pre_A1       KCact= 159 PAM=   0.0 MBONspk=   41 plast=0 wfrac=1.000 trace=0.000
+[epi] pre_B1       KCact= 217 PAM=   0.0 MBONspk=   30 plast=0 wfrac=1.000 trace=0.000
+WARNING    'rates' is an internal variable of group 'poissongroup', but also exists in the run namespace with the value array([500.,   0.,   0., ..., 500.,  60.,  60.]). The internal variable will be used. [brian2.groups.group.Group.resolve.resolution_conflict]
+[epi] train0_A+US  KCact= 162 PAM=  59.9 MBONspk=   41 plast=1 wfrac=0.987 trace=0.500
+[epi] train0_B     KCact= 220 PAM=   0.0 MBONspk=   32 plast=0 wfrac=0.987 trace=0.014
+[epi] train1_A+US  KCact= 162 PAM=  59.6 MBONspk=   39 plast=1 wfrac=0.980 trace=0.743
+[epi] train1_B     KCact= 223 PAM=   0.0 MBONspk=   32 plast=0 wfrac=0.980 trace=0.021
+[epi] train2_A+US  KCact= 164 PAM=  60.7 MBONspk=   39 plast=1 wfrac=0.976 trace=0.871
+[epi] train2_B     KCact= 217 PAM=   0.0 MBONspk=   26 plast=0 wfrac=0.976 trace=0.025
+[epi] train3_A+US  KCact= 164 PAM=  58.8 MBONspk=   43 plast=1 wfrac=0.975 trace=0.933
+[epi] train3_B     KCact= 217 PAM=   0.0 MBONspk=   30 plast=0 wfrac=0.975 trace=0.027
+[epi] train4_A+US  KCact= 162 PAM=  59.3 MBONspk=   40 plast=1 wfrac=0.974 trace=0.965
+[epi] train4_B     KCact= 220 PAM=   0.0 MBONspk=   29 plast=0 wfrac=0.974 trace=0.027
+[epi] post_A0      KCact= 161 PAM=   0.0 MBONspk=   41 plast=0 wfrac=0.974 trace=0.967
+[epi] post_B0      KCact= 219 PAM=   0.0 MBONspk=   34 plast=0 wfrac=0.974 trace=0.028
+[epi] post_A1      KCact= 158 PAM=   0.0 MBONspk=   42 plast=0 wfrac=0.974 trace=0.969
+[epi] post_B1      KCact= 218 PAM=   0.0 MBONspk=   23 plast=0 wfrac=0.974 trace=0.028
+WARNING    'rates' is an internal variable of group 'poissongroup', but also exists in the run namespace with the value array([  0.,   0.,   0., ..., 500.,   0.,   0.]). The internal variable will be used. [brian2.groups.group.Group.resolve.resolution_conflict]
+[epi] probe_4      KCact= 186 PAM=   0.0 MBONspk=   39 plast=0 wfrac=0.974 trace=0.446
+[epi] probe_3      KCact= 161 PAM=   0.0 MBONspk=   13 plast=0 wfrac=0.974 trace=0.174
+WARNING    'rates' is an internal variable of group 'poissongroup', but also exists in the run namespace with the value array([0., 0., 0., ..., 0., 0., 0.]). The internal variable will be used. [brian2.groups.group.Group.resolve.resolution_conflict]
+[epi] probe_2      KCact= 264 PAM=   0.0 MBONspk=  121 plast=0 wfrac=0.974 trace=0.071
+WARNING    'rates' is an internal variable of group 'poissongroup', but also exists in the run namespace with the value array([  0.,   0., 500., ...,   0.,   0.,   0.]). The internal variable will be used. [brian2.groups.group.Group.resolve.resolution_conflict]
+[epi] probe_0      KCact= 299 PAM=   0.0 MBONspk=  184 plast=0 wfrac=0.974 trace=0.045
+[done] results\baseline_gain1\episodes.jsonl

@@ -1,0 +1,6 @@
+[subnet] 8991 neurons, 791613 synapses
+seed 0 yoked training 0: contacts=0
+seed 0 yoked training 1: contacts=0
+seed 0 yoked training 2: contacts=0
+seed 0 yoked test swap=False: final=[28.510757446289062, -15.888569831848145, 1.1478101015090942]
+seed 0 yoked test swap=True: final=[24.477169036865234, -19.961912155151367, 1.1762943267822266]

@@ -1,0 +1,11 @@
+{
+  "gate": "Figure 5c published model medians, 48 cells, tolerance 0.05 Hz",
+  "passed": false,
+  "passed_cells": 21,
+  "total_cells": 48,
+  "max_abs_error_Hz": 0.4399999999999977,
+  "rmse_Hz": 0.1845991267502531,
+  "samples": 10000,
+  "runtime_sec": 0.7035433999844827,
+  "refitted": false
+}

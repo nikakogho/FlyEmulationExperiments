@@ -1,0 +1,24 @@
+{
+  "passed": true,
+  "source": "C:\\Users\\nikak\\source\\repos\\FlyEmulationExperiments\\results\\light_flat_preflight\\preflight_0.0_eyes.png",
+  "eye_shape": [
+    2,
+    512,
+    450,
+    3
+  ],
+  "old_gray_features": [
+    [
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0
+    ]
+  ],
+  "retained_grayscale_std": 0.36407678258747955,
+  "shifted_nonzero_temporal_pixels": 19728,
+  "brain_simulated": false,
+  "limitation": "A synthetic image shift tests temporal transport, not biological motion tuning or calibrated optic flow"
+}

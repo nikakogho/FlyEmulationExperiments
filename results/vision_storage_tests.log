@@ -1,0 +1,6 @@
+test_round_trip_and_handle_closed (test_flyvis_storage.StorageTests.test_round_trip_and_handle_closed) ... ok
+
+----------------------------------------------------------------------
+Ran 1 test in 0.044s
+
+OK

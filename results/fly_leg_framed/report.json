@@ -1,0 +1,16 @@
+{
+  "source": "C:\\Users\\nikak\\source\\repos\\FlyEmulationExperiments\\.venv\\Lib\\site-packages\\flygym\\data\\mjcf\\neuromechfly_seqik_kinorder_ypr.xml",
+  "sha256": "413b3a1dcb7537d08122e16f256f27ec0d8bb9f52c58670345b6c24c9e72e05a",
+  "neural_steps": 0,
+  "physics_steps": 2400,
+  "rendering_invariant": true,
+  "fault_prevents_next_step": true,
+  "final_velocity": -1.2470843405287685e-22,
+  "final_guard": {
+    "status": "STOP",
+    "reason": "incoherent_sensors",
+    "time_s": 2.3999999999998467
+  },
+  "muscle_forces_calibrated": false,
+  "passive_model": "Source damping and zero stiffness, gravity disabled; other joints fixed."
+}

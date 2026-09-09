@@ -1,0 +1,35 @@
+{
+  "complete": true,
+  "missing": [],
+  "failures": [],
+  "metric": "green minus blue occupancy within 3 mm; average of original and swapped tests",
+  "paired_effects": [
+    {
+      "seed": 0,
+      "plastic_minus_frozen": 0.08333333333333333,
+      "plastic_minus_yoked": 0.0
+    },
+    {
+      "seed": 1,
+      "plastic_minus_frozen": 0.0,
+      "plastic_minus_yoked": 0.0
+    },
+    {
+      "seed": 2,
+      "plastic_minus_frozen": 0.0,
+      "plastic_minus_yoked": 0.0
+    }
+  ],
+  "limitations": [
+    "Three seeds, descriptive pilot only",
+    "Engineered camera-to-KC and taste-to-PAM adapters",
+    "Shifted reward may remain correlated with persistent cues",
+    "Revision 2 flat 3D floor, 0.1 ms physics; no obstacle-navigation or convergence claim",
+    "Prior terraced cohorts failed physically and are retained separately"
+  ],
+  "mean_plastic_minus_frozen": 0.027777777777777776,
+  "mean_plastic_minus_yoked": 0.0,
+  "all_plastic_seeds_encountered_food": false,
+  "descriptive_advantage_over_both_controls": false,
+  "learning_claim": "No biological learning or superiority claim follows from this pilot alone"
+}

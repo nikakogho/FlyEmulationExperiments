@@ -1,0 +1,55 @@
+[subnet] 8991 neurons, 791613 synapses
+[train] pairing 0: 5516 synapses depressed
+[train] pairing 1: 4514 synapses depressed
+[train] pairing 2: 3469 synapses depressed
+[train] pairing 3: 2411 synapses depressed
+[train] pairing 4: 1839 synapses depressed
+naive 0 [1.36 0.58 0.94]
+naive 1 [3.31 0.85 1.14]
+naive 2 [5.61 0.83 1.12]
+naive 3 [7.65 1.01 1.16]
+naive 4 [10.19  1.14  1.31]
+naive 5 [10.99  1.33  1.13]
+naive 6 [12.76  0.96  1.5 ]
+naive 7 [14.83  0.1   1.48]
+naive 8 [14.03 -0.03  1.48]
+naive 9 [15.81 -0.89  1.43]
+naive 10 [17.75 -2.26  1.39]
+naive 11 [19.55 -3.96  1.46]
+naive 12 [21.5  -5.35  1.47]
+naive 13 [23.4  -6.3   1.44]
+naive 14 [25.69 -7.74  1.47]
+naive 15 [27.83 -8.75  1.17]
+naive 16 [27.92 -9.86  1.37]
+naive 17 [27.61 -9.99  1.43]
+naive 18 [ 26.48 -11.2    1.95]
+naive 19 [ 27.47 -12.91   1.29]
+naive 20 [ 29.25 -14.36   0.95]
+WARNING:absl:Nan, Inf or huge value in QACC at DOF 17. The simulation is unstable. Time = 3.1731.
+ERROR      Brian 2 encountered an unexpected error. If you think this is a bug in Brian 2, please report this issue either to the discourse forum at <http://brian.discourse.group/>, or to the issue tracker at <https://github.com/brian-team/brian2/issues>. Please include this file with debug information in your report: C:\Users\nikak\AppData\Local\Temp\brian_debug_9m0qoayj.log  Additionally, you can also include a copy of the script that was run, available at: C:\Users\nikak\AppData\Local\Temp\brian_script_n7il97nr.py Thanks! [brian2]
+Traceback (most recent call last):
+  File "C:\Users\nikak\source\repos\FlyEmulationExperiments\scripts\garden3d.py", line 135, in <module>
+    if __name__=='__main__': main()
+                             ^^^^^^
+  File "C:\Users\nikak\source\repos\FlyEmulationExperiments\scripts\garden3d.py", line 130, in main
+    summary={which:rollout(brain,which,out,args.steps) for which in ['naive','trained']}
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nikak\source\repos\FlyEmulationExperiments\scripts\garden3d.py", line 93, in rollout
+    obs,_,_,_,_=sim.step(action)
+                ^^^^^^^^^^^^^^^^
+  File "C:\Users\nikak\source\repos\FlyEmulationExperiments\.venv\Lib\site-packages\flygym\examples\locomotion\turning_controller.py", line 455, in step
+    obs, reward, terminated, truncated, info = super().step(action)
+                                               ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nikak\source\repos\FlyEmulationExperiments\.venv\Lib\site-packages\flygym\simulation.py", line 451, in step
+    obs, reward, terminated, truncated, info = super().step({key: action})
+                                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nikak\source\repos\FlyEmulationExperiments\.venv\Lib\site-packages\flygym\simulation.py", line 217, in step
+    self.physics.step()
+  File "C:\Users\nikak\source\repos\FlyEmulationExperiments\.venv\Lib\site-packages\dm_control\mujoco\engine.py", line 172, in step
+    with self.check_invalid_state():
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nikak\AppData\Local\Programs\Python\Python312\Lib\contextlib.py", line 144, in __exit__
+    next(self.gen)
+  File "C:\Users\nikak\source\repos\FlyEmulationExperiments\.venv\Lib\site-packages\dm_control\mujoco\engine.py", line 344, in check_invalid_state
+    raise _control.PhysicsError(message)
+dm_control.rl.control.PhysicsError: Physics state is invalid. Warning(s) raised: mjWARN_BADQACC

@@ -1,0 +1,123 @@
+{
+  "passed": true,
+  "neural_or_body_simulation": false,
+  "rows": [
+    {
+      "kind": "pooled",
+      "condition": "paired",
+      "weights": [
+        0.4622854745777352,
+        1.0,
+        0.4622854745777352,
+        1.0
+      ],
+      "cue_A_readout": [
+        0.4622854745777352,
+        0.4622854745777352
+      ],
+      "cue_B_readout": [
+        1.0,
+        1.0
+      ],
+      "retained_after_quiet_s": 3.5
+    },
+    {
+      "kind": "pooled",
+      "condition": "unpaired",
+      "weights": [
+        0.999995251752201,
+        1.0,
+        0.999995251752201,
+        1.0
+      ],
+      "cue_A_readout": [
+        0.999995251752201,
+        0.999995251752201
+      ],
+      "cue_B_readout": [
+        1.0,
+        1.0
+      ],
+      "retained_after_quiet_s": 3.5
+    },
+    {
+      "kind": "pooled",
+      "condition": "frozen",
+      "weights": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "cue_A_readout": [
+        1.0,
+        1.0
+      ],
+      "cue_B_readout": [
+        1.0,
+        1.0
+      ],
+      "retained_after_quiet_s": 3.5
+    },
+    {
+      "kind": "local",
+      "condition": "paired",
+      "weights": [
+        0.4622854745777352,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "cue_A_readout": [
+        0.4622854745777352,
+        1.0
+      ],
+      "cue_B_readout": [
+        1.0,
+        1.0
+      ],
+      "retained_after_quiet_s": 3.5
+    },
+    {
+      "kind": "local",
+      "condition": "unpaired",
+      "weights": [
+        0.999995251752201,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "cue_A_readout": [
+        0.999995251752201,
+        1.0
+      ],
+      "cue_B_readout": [
+        1.0,
+        1.0
+      ],
+      "retained_after_quiet_s": 3.5
+    },
+    {
+      "kind": "local",
+      "condition": "frozen",
+      "weights": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "cue_A_readout": [
+        1.0,
+        1.0
+      ],
+      "cue_B_readout": [
+        1.0,
+        1.0
+      ],
+      "retained_after_quiet_s": 3.5
+    }
+  ],
+  "analytically_matched_dopamine_drive": true,
+  "improvement_demonstrated": "Eliminates cross-compartment updates in a labeled synthetic fixture",
+  "limitation": "Fixture compartments are supplied, not inferred from the connectome. No biological accuracy or behavioral gain established."
+}
