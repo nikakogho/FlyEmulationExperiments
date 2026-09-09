@@ -37,6 +37,8 @@ results/**/*.mp4
 results/**/*.png
 results/**/*.npy
 results/**/*.npz
+results/**/*.mjb
+results/**/*.json.gz
 results/**/*.parquet
 results/**/*.pt
 results/**/*.pth

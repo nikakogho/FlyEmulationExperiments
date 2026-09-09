@@ -1,5 +1,11 @@
 # Fly emulation experiments
 
+Current delivery: [3D mechanical preview and calibration status](research/delivery_checkpoint.md).
+Double-click `view-arena.cmd` for the recorded 3D scene. The local video is
+`results/delivery_arena/fly_in_3d.mp4`. This shows scripted mechanical walking,
+turning and rest, **not learned behavior**. The seven-step neural-learning delivery
+is incomplete: a new sensory fit failed its held-out-animal test.
+
 Checkpoint policy: significant tested milestones are committed and pushed.
 Git retains code, tests, dependency locks, research notes and text result evidence.
 Downloaded datasets, local environments/upstream checkouts, generated media and

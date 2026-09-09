@@ -1,0 +1,16 @@
+{
+  "neural_steps": 0,
+  "force_peak_un": 0.8752825171998309,
+  "force_tau_ms": 4.6682981651629545,
+  "force_delay_ms": 2.9739852746445896,
+  "evaluation_displacement_rmse_um": 0.6376168285672263,
+  "mujoco_vs_exact_ode_max_error_um": 0.007330241818830796,
+  "numerical_equivalence_pass": true,
+  "source_sha256": "68ddeb596e3c6650561f23d57a5696287c369ed0759bfe98fb27f78a6a893d99",
+  "mass_kg": 1.7e-07,
+  "damping_kg_s": 0.00014,
+  "stiffness_n_m": 0.2234,
+  "limb_contact_lever_arm": null,
+  "full_leg_calibrated": false,
+  "limitation": "Probe load is measured; experimental limb contact location/lever arm remains unmeasured. No angle or muscle calibration claim."
+}

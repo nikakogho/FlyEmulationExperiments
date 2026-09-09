@@ -1,0 +1,43 @@
+{
+  "neural_steps": 0,
+  "source_sha256": "866e8487b51b8e2cbc1c9ec7d875a33f918249d14c76c115e37601b05cf59862",
+  "download_url": "https://datadryad.org/downloads/file_stream/2453318",
+  "archive_member": "2023_Mamiya_etal_Proprioceptor_feature_selectivity/claw_activity_position_tibia_angle_Fig5_S6/claw_extension_split_gal4_(JR688_claw_extension)/all_cell_centroids_column_row_rotated_DRR_normDRR_angle_flyId_trial_type2",
+  "train_fly_ids": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "evaluation_fly_ids": [
+    6
+  ],
+  "train_cells": 24,
+  "evaluation_cells": 4,
+  "parameters": [
+    0.15965203226152527,
+    0.7031598496233152,
+    146.14949759612068,
+    9.437556028970393
+  ],
+  "parameter_names": [
+    "offset",
+    "amplitude",
+    "midpoint_degrees",
+    "slope_degrees"
+  ],
+  "evaluation_normalized_calcium_rmse": 0.3591051859090067,
+  "training_mean_baseline_rmse": 0.33431536907742665,
+  "evaluation_mse_reduction_fraction": -0.15380035730079755,
+  "validation_pass": false,
+  "measured_units": "author normalized DR/R calcium fluorescence",
+  "spike_conversion_validated": false,
+  "exact_FANC_cell_mapping_validated": false,
+  "limitations": [
+    "Position-only population fit omits hysteresis, adaptation and reporter kinetics.",
+    "One held-out animal; no claim of population validation or spike-rate prediction.",
+    "Author normalized fluorescence may use full within-cell recordings; fit predicts normalized tuning only.",
+    "No correspondence identifies the five selected FANC cells in these recordings."
+  ]
+}

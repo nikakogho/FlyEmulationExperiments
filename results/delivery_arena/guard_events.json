@@ -1,0 +1,20 @@
+{
+  "observations": 28001,
+  "first": {
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "time_s": 0.0
+  },
+  "last": {
+    "status": "STOP",
+    "reason": "incoherent_sensors",
+    "time_s": 2.8
+  },
+  "non_continue_events": [
+    {
+      "status": "STOP",
+      "reason": "incoherent_sensors",
+      "time_s": 2.8
+    }
+  ]
+}

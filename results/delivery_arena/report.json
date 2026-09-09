@@ -1,0 +1,16 @@
+{
+  "completed": true,
+  "neural_steps": 0,
+  "learning_demonstrated": false,
+  "control": "fixed scripted engineering gait",
+  "physics_steps": 28000,
+  "recorded_frames": 280,
+  "duration_s": 2.8000000000014844,
+  "final_rest_displacement_mm": 0.0007652547098177483,
+  "final_rest_median_speed_mm_s": 0.006970150396227837,
+  "max_distance_from_start_mm": 16.092360368613505,
+  "wall_seconds": 75.56178300001193,
+  "mechanical_guard_only": true,
+  "rest_pass": true,
+  "fault_prevents_next_step": true
+}
