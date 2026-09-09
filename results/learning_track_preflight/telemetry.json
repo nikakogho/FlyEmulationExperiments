@@ -1,0 +1,916 @@
+[
+  {
+    "time_s": 0.0,
+    "mean_population_hz": 0.0,
+    "ppl1_spikes": 0,
+    "total_spikes": 0,
+    "external_rate_sum_hz": 0.0,
+    "reward_rate_sum_hz": 0.0,
+    "voltage_range_v": [
+      -0.052000000000000005,
+      -0.052000000000000005
+    ],
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "mbon01_spikes": 0
+  },
+  {
+    "time_s": 0.005,
+    "mean_population_hz": 0.0,
+    "ppl1_spikes": 0,
+    "total_spikes": 0,
+    "external_rate_sum_hz": 0.0,
+    "reward_rate_sum_hz": 0.0,
+    "voltage_range_v": [
+      -0.052000000000000005,
+      -0.052000000000000005
+    ],
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "mbon01_spikes": 0
+  },
+  {
+    "time_s": 0.01,
+    "mean_population_hz": 0.0,
+    "ppl1_spikes": 0,
+    "total_spikes": 0,
+    "external_rate_sum_hz": 0.0,
+    "reward_rate_sum_hz": 0.0,
+    "voltage_range_v": [
+      -0.052000000000000005,
+      -0.052000000000000005
+    ],
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "mbon01_spikes": 0
+  },
+  {
+    "time_s": 0.015,
+    "mean_population_hz": 0.0,
+    "ppl1_spikes": 0,
+    "total_spikes": 0,
+    "external_rate_sum_hz": 0.0,
+    "reward_rate_sum_hz": 0.0,
+    "voltage_range_v": [
+      -0.052000000000000005,
+      -0.052000000000000005
+    ],
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "mbon01_spikes": 0
+  },
+  {
+    "time_s": 0.02,
+    "mean_population_hz": 0.0,
+    "ppl1_spikes": 0,
+    "total_spikes": 0,
+    "external_rate_sum_hz": 0.0,
+    "reward_rate_sum_hz": 0.0,
+    "voltage_range_v": [
+      -0.052000000000000005,
+      -0.052000000000000005
+    ],
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "mbon01_spikes": 0
+  },
+  {
+    "time_s": 0.025,
+    "mean_population_hz": 0.0,
+    "ppl1_spikes": 0,
+    "total_spikes": 0,
+    "external_rate_sum_hz": 0.0,
+    "reward_rate_sum_hz": 0.0,
+    "voltage_range_v": [
+      -0.052000000000000005,
+      -0.052000000000000005
+    ],
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "mbon01_spikes": 0
+  },
+  {
+    "time_s": 0.03,
+    "mean_population_hz": 0.0,
+    "ppl1_spikes": 0,
+    "total_spikes": 0,
+    "external_rate_sum_hz": 0.0,
+    "reward_rate_sum_hz": 0.0,
+    "voltage_range_v": [
+      -0.052000000000000005,
+      -0.052000000000000005
+    ],
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "mbon01_spikes": 0
+  },
+  {
+    "time_s": 0.035,
+    "mean_population_hz": 0.0,
+    "ppl1_spikes": 0,
+    "total_spikes": 0,
+    "external_rate_sum_hz": 0.0,
+    "reward_rate_sum_hz": 0.0,
+    "voltage_range_v": [
+      -0.052000000000000005,
+      -0.052000000000000005
+    ],
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "mbon01_spikes": 0
+  },
+  {
+    "time_s": 0.04,
+    "mean_population_hz": 0.0,
+    "ppl1_spikes": 0,
+    "total_spikes": 0,
+    "external_rate_sum_hz": 0.0,
+    "reward_rate_sum_hz": 0.0,
+    "voltage_range_v": [
+      -0.052000000000000005,
+      -0.052000000000000005
+    ],
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "mbon01_spikes": 0
+  },
+  {
+    "time_s": 0.045,
+    "mean_population_hz": 0.0,
+    "ppl1_spikes": 0,
+    "total_spikes": 0,
+    "external_rate_sum_hz": 0.0,
+    "reward_rate_sum_hz": 0.0,
+    "voltage_range_v": [
+      -0.052000000000000005,
+      -0.052000000000000005
+    ],
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "mbon01_spikes": 0
+  },
+  {
+    "time_s": 0.05,
+    "mean_population_hz": 0.0,
+    "ppl1_spikes": 0,
+    "total_spikes": 0,
+    "external_rate_sum_hz": 0.0,
+    "reward_rate_sum_hz": 0.0,
+    "voltage_range_v": [
+      -0.052000000000000005,
+      -0.052000000000000005
+    ],
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "mbon01_spikes": 0
+  },
+  {
+    "time_s": 0.055,
+    "mean_population_hz": 0.0,
+    "ppl1_spikes": 0,
+    "total_spikes": 0,
+    "external_rate_sum_hz": 0.0,
+    "reward_rate_sum_hz": 0.0,
+    "voltage_range_v": [
+      -0.052000000000000005,
+      -0.052000000000000005
+    ],
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "mbon01_spikes": 0
+  },
+  {
+    "time_s": 0.06,
+    "mean_population_hz": 0.0,
+    "ppl1_spikes": 0,
+    "total_spikes": 0,
+    "external_rate_sum_hz": 0.0,
+    "reward_rate_sum_hz": 0.0,
+    "voltage_range_v": [
+      -0.052000000000000005,
+      -0.052000000000000005
+    ],
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "mbon01_spikes": 0
+  },
+  {
+    "time_s": 0.065,
+    "mean_population_hz": 0.0,
+    "ppl1_spikes": 0,
+    "total_spikes": 0,
+    "external_rate_sum_hz": 0.0,
+    "reward_rate_sum_hz": 0.0,
+    "voltage_range_v": [
+      -0.052000000000000005,
+      -0.052000000000000005
+    ],
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "mbon01_spikes": 0
+  },
+  {
+    "time_s": 0.07,
+    "mean_population_hz": 0.0,
+    "ppl1_spikes": 0,
+    "total_spikes": 0,
+    "external_rate_sum_hz": 0.0,
+    "reward_rate_sum_hz": 0.0,
+    "voltage_range_v": [
+      -0.052000000000000005,
+      -0.052000000000000005
+    ],
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "mbon01_spikes": 0
+  },
+  {
+    "time_s": 0.075,
+    "mean_population_hz": 0.0,
+    "ppl1_spikes": 0,
+    "total_spikes": 0,
+    "external_rate_sum_hz": 0.0,
+    "reward_rate_sum_hz": 0.0,
+    "voltage_range_v": [
+      -0.052000000000000005,
+      -0.052000000000000005
+    ],
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "mbon01_spikes": 0
+  },
+  {
+    "time_s": 0.08,
+    "mean_population_hz": 0.0,
+    "ppl1_spikes": 0,
+    "total_spikes": 0,
+    "external_rate_sum_hz": 0.0,
+    "reward_rate_sum_hz": 0.0,
+    "voltage_range_v": [
+      -0.052000000000000005,
+      -0.052000000000000005
+    ],
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "mbon01_spikes": 0
+  },
+  {
+    "time_s": 0.085,
+    "mean_population_hz": 0.0,
+    "ppl1_spikes": 0,
+    "total_spikes": 0,
+    "external_rate_sum_hz": 0.0,
+    "reward_rate_sum_hz": 0.0,
+    "voltage_range_v": [
+      -0.052000000000000005,
+      -0.052000000000000005
+    ],
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "mbon01_spikes": 0
+  },
+  {
+    "time_s": 0.09,
+    "mean_population_hz": 0.0,
+    "ppl1_spikes": 0,
+    "total_spikes": 0,
+    "external_rate_sum_hz": 0.0,
+    "reward_rate_sum_hz": 0.0,
+    "voltage_range_v": [
+      -0.052000000000000005,
+      -0.052000000000000005
+    ],
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "mbon01_spikes": 0
+  },
+  {
+    "time_s": 0.095,
+    "mean_population_hz": 0.0,
+    "ppl1_spikes": 0,
+    "total_spikes": 0,
+    "external_rate_sum_hz": 0.0,
+    "reward_rate_sum_hz": 0.0,
+    "voltage_range_v": [
+      -0.052000000000000005,
+      -0.052000000000000005
+    ],
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "mbon01_spikes": 0
+  },
+  {
+    "time_s": 0.1,
+    "mean_population_hz": 0.0,
+    "ppl1_spikes": 0,
+    "total_spikes": 0,
+    "external_rate_sum_hz": 0.0,
+    "reward_rate_sum_hz": 0.0,
+    "voltage_range_v": [
+      -0.052000000000000005,
+      -0.052000000000000005
+    ],
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "mbon01_spikes": 0
+  },
+  {
+    "time_s": 0.105,
+    "mean_population_hz": 0.0,
+    "ppl1_spikes": 0,
+    "total_spikes": 0,
+    "external_rate_sum_hz": 0.0,
+    "reward_rate_sum_hz": 0.0,
+    "voltage_range_v": [
+      -0.052000000000000005,
+      -0.052000000000000005
+    ],
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "mbon01_spikes": 0
+  },
+  {
+    "time_s": 0.11,
+    "mean_population_hz": 0.0,
+    "ppl1_spikes": 0,
+    "total_spikes": 0,
+    "external_rate_sum_hz": 0.0,
+    "reward_rate_sum_hz": 0.0,
+    "voltage_range_v": [
+      -0.052000000000000005,
+      -0.052000000000000005
+    ],
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "mbon01_spikes": 0
+  },
+  {
+    "time_s": 0.115,
+    "mean_population_hz": 0.0,
+    "ppl1_spikes": 0,
+    "total_spikes": 0,
+    "external_rate_sum_hz": 0.0,
+    "reward_rate_sum_hz": 0.0,
+    "voltage_range_v": [
+      -0.052000000000000005,
+      -0.052000000000000005
+    ],
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "mbon01_spikes": 0
+  },
+  {
+    "time_s": 0.12,
+    "mean_population_hz": 0.0,
+    "ppl1_spikes": 0,
+    "total_spikes": 0,
+    "external_rate_sum_hz": 0.0,
+    "reward_rate_sum_hz": 0.0,
+    "voltage_range_v": [
+      -0.052000000000000005,
+      -0.052000000000000005
+    ],
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "mbon01_spikes": 0
+  },
+  {
+    "time_s": 0.125,
+    "mean_population_hz": 0.0,
+    "ppl1_spikes": 0,
+    "total_spikes": 0,
+    "external_rate_sum_hz": 0.0,
+    "reward_rate_sum_hz": 0.0,
+    "voltage_range_v": [
+      -0.052000000000000005,
+      -0.052000000000000005
+    ],
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "mbon01_spikes": 0
+  },
+  {
+    "time_s": 0.13,
+    "mean_population_hz": 0.0,
+    "ppl1_spikes": 0,
+    "total_spikes": 0,
+    "external_rate_sum_hz": 0.0,
+    "reward_rate_sum_hz": 0.0,
+    "voltage_range_v": [
+      -0.052000000000000005,
+      -0.052000000000000005
+    ],
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "mbon01_spikes": 0
+  },
+  {
+    "time_s": 0.135,
+    "mean_population_hz": 0.0,
+    "ppl1_spikes": 0,
+    "total_spikes": 0,
+    "external_rate_sum_hz": 0.0,
+    "reward_rate_sum_hz": 0.0,
+    "voltage_range_v": [
+      -0.052000000000000005,
+      -0.052000000000000005
+    ],
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "mbon01_spikes": 0
+  },
+  {
+    "time_s": 0.14,
+    "mean_population_hz": 0.0,
+    "ppl1_spikes": 0,
+    "total_spikes": 0,
+    "external_rate_sum_hz": 0.0,
+    "reward_rate_sum_hz": 0.0,
+    "voltage_range_v": [
+      -0.052000000000000005,
+      -0.052000000000000005
+    ],
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "mbon01_spikes": 0
+  },
+  {
+    "time_s": 0.145,
+    "mean_population_hz": 0.0,
+    "ppl1_spikes": 0,
+    "total_spikes": 0,
+    "external_rate_sum_hz": 0.0,
+    "reward_rate_sum_hz": 0.0,
+    "voltage_range_v": [
+      -0.052000000000000005,
+      -0.052000000000000005
+    ],
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "mbon01_spikes": 0
+  },
+  {
+    "time_s": 0.15,
+    "mean_population_hz": 0.0,
+    "ppl1_spikes": 0,
+    "total_spikes": 0,
+    "external_rate_sum_hz": 0.0,
+    "reward_rate_sum_hz": 0.0,
+    "voltage_range_v": [
+      -0.052000000000000005,
+      -0.052000000000000005
+    ],
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "mbon01_spikes": 0
+  },
+  {
+    "time_s": 0.155,
+    "mean_population_hz": 0.0,
+    "ppl1_spikes": 0,
+    "total_spikes": 0,
+    "external_rate_sum_hz": 0.0,
+    "reward_rate_sum_hz": 0.0,
+    "voltage_range_v": [
+      -0.052000000000000005,
+      -0.052000000000000005
+    ],
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "mbon01_spikes": 0
+  },
+  {
+    "time_s": 0.16,
+    "mean_population_hz": 0.0,
+    "ppl1_spikes": 0,
+    "total_spikes": 0,
+    "external_rate_sum_hz": 0.0,
+    "reward_rate_sum_hz": 0.0,
+    "voltage_range_v": [
+      -0.052000000000000005,
+      -0.052000000000000005
+    ],
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "mbon01_spikes": 0
+  },
+  {
+    "time_s": 0.165,
+    "mean_population_hz": 0.0,
+    "ppl1_spikes": 0,
+    "total_spikes": 0,
+    "external_rate_sum_hz": 0.0,
+    "reward_rate_sum_hz": 0.0,
+    "voltage_range_v": [
+      -0.052000000000000005,
+      -0.052000000000000005
+    ],
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "mbon01_spikes": 0
+  },
+  {
+    "time_s": 0.17,
+    "mean_population_hz": 0.0,
+    "ppl1_spikes": 0,
+    "total_spikes": 0,
+    "external_rate_sum_hz": 0.0,
+    "reward_rate_sum_hz": 0.0,
+    "voltage_range_v": [
+      -0.052000000000000005,
+      -0.052000000000000005
+    ],
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "mbon01_spikes": 0
+  },
+  {
+    "time_s": 0.17500000000000002,
+    "mean_population_hz": 0.0,
+    "ppl1_spikes": 0,
+    "total_spikes": 0,
+    "external_rate_sum_hz": 0.0,
+    "reward_rate_sum_hz": 0.0,
+    "voltage_range_v": [
+      -0.052000000000000005,
+      -0.052000000000000005
+    ],
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "mbon01_spikes": 0
+  },
+  {
+    "time_s": 0.18,
+    "mean_population_hz": 0.0,
+    "ppl1_spikes": 0,
+    "total_spikes": 0,
+    "external_rate_sum_hz": 0.0,
+    "reward_rate_sum_hz": 0.0,
+    "voltage_range_v": [
+      -0.052000000000000005,
+      -0.052000000000000005
+    ],
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "mbon01_spikes": 0
+  },
+  {
+    "time_s": 0.185,
+    "mean_population_hz": 0.0,
+    "ppl1_spikes": 0,
+    "total_spikes": 0,
+    "external_rate_sum_hz": 0.0,
+    "reward_rate_sum_hz": 0.0,
+    "voltage_range_v": [
+      -0.052000000000000005,
+      -0.052000000000000005
+    ],
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "mbon01_spikes": 0
+  },
+  {
+    "time_s": 0.19,
+    "mean_population_hz": 0.0,
+    "ppl1_spikes": 0,
+    "total_spikes": 0,
+    "external_rate_sum_hz": 0.0,
+    "reward_rate_sum_hz": 0.0,
+    "voltage_range_v": [
+      -0.052000000000000005,
+      -0.052000000000000005
+    ],
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "mbon01_spikes": 0
+  },
+  {
+    "time_s": 0.195,
+    "mean_population_hz": 0.0,
+    "ppl1_spikes": 0,
+    "total_spikes": 0,
+    "external_rate_sum_hz": 0.0,
+    "reward_rate_sum_hz": 0.0,
+    "voltage_range_v": [
+      -0.052000000000000005,
+      -0.052000000000000005
+    ],
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "mbon01_spikes": 0
+  },
+  {
+    "time_s": 0.2,
+    "mean_population_hz": 0.0,
+    "ppl1_spikes": 0,
+    "total_spikes": 0,
+    "external_rate_sum_hz": 0.0,
+    "reward_rate_sum_hz": 0.0,
+    "voltage_range_v": [
+      -0.052000000000000005,
+      -0.052000000000000005
+    ],
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "mbon01_spikes": 0
+  },
+  {
+    "time_s": 0.20500000000000002,
+    "mean_population_hz": 0.0,
+    "ppl1_spikes": 0,
+    "total_spikes": 0,
+    "external_rate_sum_hz": 0.0,
+    "reward_rate_sum_hz": 0.0,
+    "voltage_range_v": [
+      -0.052000000000000005,
+      -0.052000000000000005
+    ],
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "mbon01_spikes": 0
+  },
+  {
+    "time_s": 0.21,
+    "mean_population_hz": 0.0,
+    "ppl1_spikes": 0,
+    "total_spikes": 0,
+    "external_rate_sum_hz": 0.0,
+    "reward_rate_sum_hz": 0.0,
+    "voltage_range_v": [
+      -0.052000000000000005,
+      -0.052000000000000005
+    ],
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "mbon01_spikes": 0
+  },
+  {
+    "time_s": 0.215,
+    "mean_population_hz": 0.0,
+    "ppl1_spikes": 0,
+    "total_spikes": 0,
+    "external_rate_sum_hz": 0.0,
+    "reward_rate_sum_hz": 0.0,
+    "voltage_range_v": [
+      -0.052000000000000005,
+      -0.052000000000000005
+    ],
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "mbon01_spikes": 0
+  },
+  {
+    "time_s": 0.22,
+    "mean_population_hz": 0.0,
+    "ppl1_spikes": 0,
+    "total_spikes": 0,
+    "external_rate_sum_hz": 0.0,
+    "reward_rate_sum_hz": 0.0,
+    "voltage_range_v": [
+      -0.052000000000000005,
+      -0.052000000000000005
+    ],
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "mbon01_spikes": 0
+  },
+  {
+    "time_s": 0.225,
+    "mean_population_hz": 0.0,
+    "ppl1_spikes": 0,
+    "total_spikes": 0,
+    "external_rate_sum_hz": 0.0,
+    "reward_rate_sum_hz": 0.0,
+    "voltage_range_v": [
+      -0.052000000000000005,
+      -0.052000000000000005
+    ],
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "mbon01_spikes": 0
+  },
+  {
+    "time_s": 0.23,
+    "mean_population_hz": 0.0,
+    "ppl1_spikes": 0,
+    "total_spikes": 0,
+    "external_rate_sum_hz": 0.0,
+    "reward_rate_sum_hz": 0.0,
+    "voltage_range_v": [
+      -0.052000000000000005,
+      -0.052000000000000005
+    ],
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "mbon01_spikes": 0
+  },
+  {
+    "time_s": 0.23500000000000001,
+    "mean_population_hz": 0.0,
+    "ppl1_spikes": 0,
+    "total_spikes": 0,
+    "external_rate_sum_hz": 0.0,
+    "reward_rate_sum_hz": 0.0,
+    "voltage_range_v": [
+      -0.052000000000000005,
+      -0.052000000000000005
+    ],
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "mbon01_spikes": 0
+  },
+  {
+    "time_s": 0.24,
+    "mean_population_hz": 0.0,
+    "ppl1_spikes": 0,
+    "total_spikes": 0,
+    "external_rate_sum_hz": 0.0,
+    "reward_rate_sum_hz": 0.0,
+    "voltage_range_v": [
+      -0.052000000000000005,
+      -0.052000000000000005
+    ],
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "mbon01_spikes": 0
+  },
+  {
+    "time_s": 0.245,
+    "mean_population_hz": 0.0,
+    "ppl1_spikes": 0,
+    "total_spikes": 0,
+    "external_rate_sum_hz": 0.0,
+    "reward_rate_sum_hz": 0.0,
+    "voltage_range_v": [
+      -0.052000000000000005,
+      -0.052000000000000005
+    ],
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "mbon01_spikes": 0
+  },
+  {
+    "time_s": 0.25,
+    "mean_population_hz": 0.0,
+    "ppl1_spikes": 0,
+    "total_spikes": 0,
+    "external_rate_sum_hz": 231000.0,
+    "reward_rate_sum_hz": 0.0,
+    "voltage_range_v": [
+      -0.052000000000000005,
+      -0.052000000000000005
+    ],
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "mbon01_spikes": 0
+  },
+  {
+    "time_s": 0.255,
+    "mean_population_hz": 25.492158825492155,
+    "ppl1_spikes": 0,
+    "total_spikes": 1146,
+    "external_rate_sum_hz": 231000.0,
+    "reward_rate_sum_hz": 0.0,
+    "voltage_range_v": [
+      -0.052000000000000005,
+      0.01675
+    ],
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "mbon01_spikes": 0
+  },
+  {
+    "time_s": 0.26,
+    "mean_population_hz": 26.938049160271383,
+    "ppl1_spikes": 0,
+    "total_spikes": 1211,
+    "external_rate_sum_hz": 231000.0,
+    "reward_rate_sum_hz": 0.0,
+    "voltage_range_v": [
+      -0.06599809908466775,
+      0.01675
+    ],
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "mbon01_spikes": 0
+  },
+  {
+    "time_s": 0.265,
+    "mean_population_hz": 28.205983761539315,
+    "ppl1_spikes": 0,
+    "total_spikes": 1268,
+    "external_rate_sum_hz": 231000.0,
+    "reward_rate_sum_hz": 0.0,
+    "voltage_range_v": [
+      -0.09795281819625407,
+      0.01675
+    ],
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "mbon01_spikes": 0
+  },
+  {
+    "time_s": 0.27,
+    "mean_population_hz": 26.337448559670783,
+    "ppl1_spikes": 0,
+    "total_spikes": 1184,
+    "external_rate_sum_hz": 231000.0,
+    "reward_rate_sum_hz": 0.0,
+    "voltage_range_v": [
+      -0.1326827732507146,
+      0.01675
+    ],
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "mbon01_spikes": 0
+  },
+  {
+    "time_s": 0.275,
+    "mean_population_hz": 29.45167389611834,
+    "ppl1_spikes": 0,
+    "total_spikes": 1324,
+    "external_rate_sum_hz": 231000.0,
+    "reward_rate_sum_hz": 0.0,
+    "voltage_range_v": [
+      -0.1583471735973329,
+      0.01675
+    ],
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "mbon01_spikes": 0
+  },
+  {
+    "time_s": 0.28,
+    "mean_population_hz": 29.206984762540316,
+    "ppl1_spikes": 0,
+    "total_spikes": 1313,
+    "external_rate_sum_hz": 231000.0,
+    "reward_rate_sum_hz": 0.0,
+    "voltage_range_v": [
+      -0.18723305042742136,
+      0.01675
+    ],
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "mbon01_spikes": 3
+  },
+  {
+    "time_s": 0.28500000000000003,
+    "mean_population_hz": 29.429429429429426,
+    "ppl1_spikes": 0,
+    "total_spikes": 1323,
+    "external_rate_sum_hz": 231000.0,
+    "reward_rate_sum_hz": 0.0,
+    "voltage_range_v": [
+      -0.21612393135514985,
+      0.01675
+    ],
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "mbon01_spikes": 2
+  },
+  {
+    "time_s": 0.29,
+    "mean_population_hz": 30.408185963741516,
+    "ppl1_spikes": 0,
+    "total_spikes": 1367,
+    "external_rate_sum_hz": 231000.0,
+    "reward_rate_sum_hz": 0.0,
+    "voltage_range_v": [
+      -0.23089265414782642,
+      0.01675
+    ],
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "mbon01_spikes": 2
+  },
+  {
+    "time_s": 0.295,
+    "mean_population_hz": 29.89656322989656,
+    "ppl1_spikes": 0,
+    "total_spikes": 1344,
+    "external_rate_sum_hz": 231000.0,
+    "reward_rate_sum_hz": 0.0,
+    "voltage_range_v": [
+      -0.2435034763305661,
+      0.01675
+    ],
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "mbon01_spikes": 2
+  },
+  {
+    "time_s": 0.3,
+    "mean_population_hz": 29.696363029696364,
+    "ppl1_spikes": 2,
+    "total_spikes": 1335,
+    "external_rate_sum_hz": 231000.0,
+    "reward_rate_sum_hz": 0.0,
+    "voltage_range_v": [
+      -0.25467144561621213,
+      0.01675
+    ],
+    "status": "STOP",
+    "reason": "negative_state_flag"
+  }
+]

@@ -1,5 +1,11 @@
 # Fly emulation experiments
 
+Learning track: [independent olfactory preflight](research/learning_track_progress.md).
+It no longer depends on the leg-calcium fit. A guarded 0.30-second neural run
+elicited MBON01 responses, then stopped on a conservative PPL1 activity proxy.
+An offline audit found that the upstream model disables those cells' outgoing
+weights; this is not evidence of suffering or a completed learning experiment.
+
 Current delivery: [3D mechanical preview and calibration status](research/delivery_checkpoint.md).
 Double-click `view-arena.cmd` for the recorded 3D scene. The local video is
 `results/delivery_arena/fly_in_3d.mp4`. This shows scripted mechanical walking,

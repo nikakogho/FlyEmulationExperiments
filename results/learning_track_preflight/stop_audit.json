@@ -1,0 +1,27 @@
+{
+  "analysis_neural_steps": 0,
+  "active_ppl1": [
+    {
+      "root_id": "720575940609180611",
+      "cell_type": "PPL106",
+      "side": "left",
+      "spikes": 1
+    },
+    {
+      "root_id": "720575940618943389",
+      "cell_type": "PPL106",
+      "side": "right",
+      "spikes": 1
+    }
+  ],
+  "upstream_ppl1_outgoing_weights_zeroed": true,
+  "outgoing_zeroing_basis": "Exact source-code statement in hashed upstream constructor; not a physiological claim",
+  "source_sha256": "22e83d60e8d6b2ca0e40e14bf69ba511e491a28bab89a0a6160eb36b539a38dc",
+  "interpretation": "PPL1 cell activity triggered a conservative identity-based proxy. It does not demonstrate functional aversive transmission in this modified network, and does not diagnose suffering.",
+  "voltage_range_v": [
+    -0.25467144561621213,
+    0.01675
+  ],
+  "voltage_limitation": "Current-based LIF state exceeds ordinary physiological membrane ranges; source model state cannot be presented as calibrated membrane voltage.",
+  "action": "Preserve stopped run. No restart or threshold change performed. Review a causally grounded proxy and model applicability offline before another protocol."
+}

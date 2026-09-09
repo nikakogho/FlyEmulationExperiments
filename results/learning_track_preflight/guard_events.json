@@ -1,0 +1,307 @@
+[
+  {
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "time_s": 0.0
+  },
+  {
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "time_s": 0.005
+  },
+  {
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "time_s": 0.01
+  },
+  {
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "time_s": 0.015
+  },
+  {
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "time_s": 0.02
+  },
+  {
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "time_s": 0.025
+  },
+  {
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "time_s": 0.03
+  },
+  {
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "time_s": 0.035
+  },
+  {
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "time_s": 0.04
+  },
+  {
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "time_s": 0.045
+  },
+  {
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "time_s": 0.05
+  },
+  {
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "time_s": 0.055
+  },
+  {
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "time_s": 0.06
+  },
+  {
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "time_s": 0.065
+  },
+  {
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "time_s": 0.07
+  },
+  {
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "time_s": 0.075
+  },
+  {
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "time_s": 0.08
+  },
+  {
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "time_s": 0.085
+  },
+  {
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "time_s": 0.09
+  },
+  {
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "time_s": 0.095
+  },
+  {
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "time_s": 0.1
+  },
+  {
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "time_s": 0.105
+  },
+  {
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "time_s": 0.11
+  },
+  {
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "time_s": 0.115
+  },
+  {
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "time_s": 0.12
+  },
+  {
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "time_s": 0.125
+  },
+  {
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "time_s": 0.13
+  },
+  {
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "time_s": 0.135
+  },
+  {
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "time_s": 0.14
+  },
+  {
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "time_s": 0.145
+  },
+  {
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "time_s": 0.15
+  },
+  {
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "time_s": 0.155
+  },
+  {
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "time_s": 0.16
+  },
+  {
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "time_s": 0.165
+  },
+  {
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "time_s": 0.17
+  },
+  {
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "time_s": 0.17500000000000002
+  },
+  {
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "time_s": 0.18
+  },
+  {
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "time_s": 0.185
+  },
+  {
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "time_s": 0.19
+  },
+  {
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "time_s": 0.195
+  },
+  {
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "time_s": 0.2
+  },
+  {
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "time_s": 0.20500000000000002
+  },
+  {
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "time_s": 0.21
+  },
+  {
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "time_s": 0.215
+  },
+  {
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "time_s": 0.22
+  },
+  {
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "time_s": 0.225
+  },
+  {
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "time_s": 0.23
+  },
+  {
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "time_s": 0.23500000000000001
+  },
+  {
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "time_s": 0.24
+  },
+  {
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "time_s": 0.245
+  },
+  {
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "time_s": 0.25
+  },
+  {
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "time_s": 0.255
+  },
+  {
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "time_s": 0.26
+  },
+  {
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "time_s": 0.265
+  },
+  {
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "time_s": 0.27
+  },
+  {
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "time_s": 0.275
+  },
+  {
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "time_s": 0.28
+  },
+  {
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "time_s": 0.28500000000000003
+  },
+  {
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "time_s": 0.29
+  },
+  {
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "time_s": 0.295
+  },
+  {
+    "status": "STOP",
+    "reason": "negative_state_flag",
+    "time_s": 0.3
+  }
+]

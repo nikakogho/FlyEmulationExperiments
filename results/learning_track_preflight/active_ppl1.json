@@ -1,0 +1,16 @@
+[
+  {
+    "root_id":720575940609180611,
+    "cell_type":"PPL106",
+    "hemibrain_type":"PPL106",
+    "side":"left",
+    "spikes":1
+  },
+  {
+    "root_id":720575940618943389,
+    "cell_type":"PPL106",
+    "hemibrain_type":"PPL106",
+    "side":"right",
+    "spikes":1
+  }
+]

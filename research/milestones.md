@@ -1,5 +1,11 @@
 # Executable milestones
 
+Latest scope correction: the user authorized a separate learning-demo track
+using fixed engineering locomotion. Motor-physiology M1-M3 completeness is not a
+prerequisite for that track. Its sensory/learning interfaces and welfare review
+still need their own evidence. See `learning_track_protocol.md` and
+`learning_track_progress.md`; prior failures remain preserved.
+
 2026-09-09. Implements [the project scope](project_scope.md). Work proceeds in
 dependency order. A failed criterion is recorded, repaired or narrows the claim;
 it is never silently waived to obtain a successful-looking fly.
