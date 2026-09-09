@@ -1,0 +1,17 @@
+{
+  "passed": false,
+  "reason": "predeclared_effect_margin_not_met",
+  "scores": {
+    "paired": 0.14950980392156865,
+    "unpaired": -0.02144607843137255,
+    "frozen": -0.011029411764705885
+  },
+  "criteria": {
+    "paired_selectivity_at_least_015": false,
+    "paired_minus_unpaired_at_least_010": true,
+    "paired_minus_frozen_at_least_010": true
+  },
+  "statistical_replication": false,
+  "analysis_neural_steps": 0,
+  "reporting_correction": "Original generic failure label was too broad. Same scores and thresholds; explicit failed criterion added offline."
+}

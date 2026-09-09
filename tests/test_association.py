@@ -84,5 +84,14 @@ class AssociationTests(unittest.TestCase):
         rs['paired']=report(50,100);self.assertTrue(comparison(rs)['passed'])
         rs['unpaired']['status']='stopped';self.assertFalse(comparison(rs)['passed'])
 
+    def test_borderline_result_is_not_rounded_to_pass(self):
+        def report(a,b):return dict(status='completed',recovery_pass=True,
+                                   probe_spikes=dict(pre_A=96,pre_B=68,post_A=a,post_B=b))
+        result=comparison(dict(paired=report(76,64),unpaired=report(91,63),frozen=report(90,63)))
+        self.assertFalse(result['passed'])
+        self.assertFalse(result['criteria']['paired_selectivity_at_least_015'])
+        self.assertTrue(result['criteria']['paired_minus_unpaired_at_least_010'])
+        self.assertTrue(result['criteria']['paired_minus_frozen_at_least_010'])
+
 
 if __name__=='__main__':unittest.main()

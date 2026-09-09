@@ -1,4 +1,5 @@
 test_authorized_write_only (test_association.AssociationTests.test_authorized_write_only) ... ok
+test_borderline_result_is_not_rounded_to_pass (test_association.AssociationTests.test_borderline_result_is_not_rounded_to_pass) ... ok
 test_comparison_rejects_general_suppression_and_failed_controls (test_association.AssociationTests.test_comparison_rejects_general_suppression_and_failed_controls) ... ok
 test_either_input_alone_cannot_write (test_association.AssociationTests.test_either_input_alone_cannot_write) ... ok
 test_equal_apparatus_dose_different_timing (test_association.AssociationTests.test_equal_apparatus_dose_different_timing) ... ok
@@ -117,6 +118,6 @@ test_time_gap_duplicate_and_missing_start (test_welfare.WelfareTests.test_time_g
 test_unknown_and_invalid_fail_closed (test_welfare.WelfareTests.test_unknown_and_invalid_fail_closed) ... ok
 
 ----------------------------------------------------------------------
-Ran 117 tests in 0.962s
+Ran 118 tests in 0.963s
 
 OK

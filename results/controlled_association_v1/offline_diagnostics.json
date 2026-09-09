@@ -1,0 +1,116 @@
+{
+  "neural_steps": 0,
+  "arms": {
+    "paired": {
+      "weight_groups": {
+        "A_only": {
+          "edges": 330,
+          "final_mean_fraction": 0.6826905919766816,
+          "pretraining_mean_fraction": 1.0,
+          "posttraining_mean_fraction": 0.6826905919771837
+        },
+        "B_only": {
+          "edges": 167,
+          "final_mean_fraction": 0.9947156901751548,
+          "pretraining_mean_fraction": 1.0,
+          "posttraining_mean_fraction": 0.9947156901751548
+        },
+        "both": {
+          "edges": 25,
+          "final_mean_fraction": 0.7080757537577992,
+          "pretraining_mean_fraction": 1.0,
+          "posttraining_mean_fraction": 0.7080757537581762
+        },
+        "neither": {
+          "edges": 1568,
+          "final_mean_fraction": 0.9999916980738686,
+          "pretraining_mean_fraction": 1.0,
+          "posttraining_mean_fraction": 0.9999916980738686
+        }
+      },
+      "independent_checkpoint_checks": {
+        "nonplastic_weights_match_independent_preflight": true,
+        "tape_weights_match_full_checkpoint": true,
+        "trace_spikes_match_full_checkpoint": true,
+        "probe_counts_match_trace": true
+      },
+      "max_population_hz": 32.74385496607719,
+      "observed_pam_spikes": 342,
+      "final_quiet_s": 0.485
+    },
+    "unpaired": {
+      "weight_groups": {
+        "A_only": {
+          "edges": 330,
+          "final_mean_fraction": 0.9981314809557947,
+          "pretraining_mean_fraction": 1.0,
+          "posttraining_mean_fraction": 0.9981316281294966
+        },
+        "B_only": {
+          "edges": 167,
+          "final_mean_fraction": 0.9999868705474142,
+          "pretraining_mean_fraction": 1.0,
+          "posttraining_mean_fraction": 0.9999868705542552
+        },
+        "both": {
+          "edges": 25,
+          "final_mean_fraction": 0.9982531134174362,
+          "pretraining_mean_fraction": 1.0,
+          "posttraining_mean_fraction": 0.9982532263181667
+        },
+        "neither": {
+          "edges": 1568,
+          "final_mean_fraction": 0.9999971830924086,
+          "pretraining_mean_fraction": 1.0,
+          "posttraining_mean_fraction": 0.9999971830924118
+        }
+      },
+      "independent_checkpoint_checks": {
+        "nonplastic_weights_match_independent_preflight": true,
+        "tape_weights_match_full_checkpoint": true,
+        "trace_spikes_match_full_checkpoint": true,
+        "probe_counts_match_trace": true
+      },
+      "max_population_hz": 32.74385496607719,
+      "observed_pam_spikes": 369,
+      "final_quiet_s": 0.485
+    },
+    "frozen": {
+      "weight_groups": {
+        "A_only": {
+          "edges": 330,
+          "final_mean_fraction": 1.0,
+          "pretraining_mean_fraction": 1.0,
+          "posttraining_mean_fraction": 1.0
+        },
+        "B_only": {
+          "edges": 167,
+          "final_mean_fraction": 1.0,
+          "pretraining_mean_fraction": 1.0,
+          "posttraining_mean_fraction": 1.0
+        },
+        "both": {
+          "edges": 25,
+          "final_mean_fraction": 1.0,
+          "pretraining_mean_fraction": 1.0,
+          "posttraining_mean_fraction": 1.0
+        },
+        "neither": {
+          "edges": 1568,
+          "final_mean_fraction": 1.0,
+          "pretraining_mean_fraction": 1.0,
+          "posttraining_mean_fraction": 1.0
+        }
+      },
+      "independent_checkpoint_checks": {
+        "nonplastic_weights_match_independent_preflight": true,
+        "tape_weights_match_full_checkpoint": true,
+        "trace_spikes_match_full_checkpoint": true,
+        "probe_counts_match_trace": true
+      },
+      "max_population_hz": 32.74385496607719,
+      "observed_pam_spikes": 342,
+      "final_quiet_s": 0.485
+    }
+  }
+}

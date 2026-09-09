@@ -1,0 +1,15 @@
+{
+  "passed": false,
+  "reason": "no_controlled_association_advantage",
+  "scores": {
+    "paired": 0.14950980392156865,
+    "unpaired": -0.02144607843137255,
+    "frozen": -0.011029411764705885
+  },
+  "statistical_replication": false,
+  "arms_executed": [
+    "paired",
+    "unpaired",
+    "frozen"
+  ]
+}

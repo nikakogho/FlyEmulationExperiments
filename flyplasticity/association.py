@@ -91,7 +91,9 @@ def comparison(reports):
         if min(c['pre_A'],c['pre_B'])<20:
             return dict(passed=False,reason='insufficient_baseline_output',scores=scores)
         scores[arm]=(c['pre_A']-c['post_A'])/c['pre_A']-(c['pre_B']-c['post_B'])/c['pre_B']
-    passed=(scores['paired']>=.15 and scores['paired']-scores['unpaired']>=.10
-            and scores['paired']-scores['frozen']>=.10)
-    return dict(passed=bool(passed),reason='pilot_contrast_pass' if passed else 'no_controlled_association_advantage',
-                scores=scores,statistical_replication=False)
+    criteria=dict(paired_selectivity_at_least_015=scores['paired']>=.15,
+                  paired_minus_unpaired_at_least_010=scores['paired']-scores['unpaired']>=.10,
+                  paired_minus_frozen_at_least_010=scores['paired']-scores['frozen']>=.10)
+    passed=all(criteria.values())
+    return dict(passed=bool(passed),reason='pilot_contrast_pass' if passed else 'predeclared_effect_margin_not_met',
+                scores=scores,criteria=criteria,statistical_replication=False)

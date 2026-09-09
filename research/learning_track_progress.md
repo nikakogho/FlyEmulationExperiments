@@ -1,5 +1,15 @@
 # Learning and motor-accuracy tracks separated
 
+## Latest: controlled association pilot
+
+See [the controlled results](association_results.md). Three four-second arms
+completed with recovery and no configured proxy stop. Pairing produced a
+cue-selective persistent weight change and stronger A-response reduction than
+unpaired/frozen controls. The predeclared gate narrowly missed: 14.95098%
+selectivity versus a 15% minimum. The threshold is unchanged, no extra runs were
+added, and 118 tests pass. This is a candidate neural-learning result, not yet
+validated 3D approach or biological-accuracy improvement.
+
 ## Latest checkpoint: corrected functional-route monitor
 
 The reviewed v2 preflight completed **one simulated second** without a configured

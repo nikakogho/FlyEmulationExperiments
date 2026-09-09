@@ -1,16 +1,18 @@
 # Fly emulation experiments
 
-Learning track: [independent olfactory preflight](research/learning_track_progress.md).
-It no longer depends on the leg-calcium fit. A guarded 0.30-second neural run
-elicited MBON01 responses, then stopped on a conservative PPL1 activity proxy.
-An offline audit found that the upstream model disables those cells' outgoing
-weights; this is not evidence of suffering or a completed learning experiment.
+Learning track: [controlled association results](research/association_results.md).
+Three guarded four-second arms completed with recovery. Pairing produced a
+cue-selective persistent weight change and greater output-response reduction
+than unpaired/frozen controls. The predeclared pilot gate narrowly missed:
+14.95098% selectivity versus 15%. No threshold was changed or extra run added.
+118 tests pass. Biological accuracy, absence of suffering and learned 3D approach
+are not established; the failed leg-calcium fit does not block this learning track.
 
 Current delivery: [3D mechanical preview and calibration status](research/delivery_checkpoint.md).
 Double-click `view-arena.cmd` for the recorded 3D scene. The local video is
 `results/delivery_arena/fly_in_3d.mp4`. This shows scripted mechanical walking,
 turning and rest, **not learned behavior**. The seven-step neural-learning delivery
-is incomplete: a new sensory fit failed its held-out-animal test.
+is incomplete; independent learning validation and guarded embodiment remain.
 
 Checkpoint policy: significant tested milestones are committed and pushed.
 Git retains code, tests, dependency locks, research notes and text result evidence.
