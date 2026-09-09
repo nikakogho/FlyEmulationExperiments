@@ -1,0 +1,177 @@
+{
+  "status": "figure_derived_descriptive_fit_not_raw_recording_calibration",
+  "source_url": "https://iiif.elifesciences.org/lax/56754%2Felife-56754-fig4-v2.tif/full/full/0/default.jpg",
+  "sha256": "e1a6b83162a1830ac7866ed6bdad9d8ccf0be1e699614776000b4942267f16bc",
+  "panel": "4B top: one-spike intermediate example",
+  "fit": {
+    "amplitude_um": 4.422836956433727,
+    "tau_ms": 7.568036632152528,
+    "delay_ms": 6.301293234497917,
+    "time_to_peak_ms": 21.437366498802973,
+    "rmse_um": 0.2138859886551793,
+    "threshold": 180,
+    "baseline_pixel": 494
+  },
+  "variant_ranges": {
+    "amplitude_um": [
+      4.308028007921327,
+      4.505960751996833
+    ],
+    "time_to_peak_ms": [
+      21.310012812526463,
+      21.608267550620617
+    ],
+    "rmse_um": [
+      0.19130458858894978,
+      0.26322465752572716
+    ]
+  },
+  "variants": [
+    {
+      "amplitude_um": 4.311776023465232,
+      "tau_ms": 7.28505745403027,
+      "delay_ms": 6.775794312558288,
+      "time_to_peak_ms": 21.34590922061883,
+      "rmse_um": 0.26322465752572716,
+      "threshold": 160,
+      "baseline_pixel": 493
+    },
+    {
+      "amplitude_um": 4.410980799072502,
+      "tau_ms": 7.529205834006736,
+      "delay_ms": 6.415990434410886,
+      "time_to_peak_ms": 21.474402102424357,
+      "rmse_um": 0.2149947755691544,
+      "threshold": 160,
+      "baseline_pixel": 494
+    },
+    {
+      "amplitude_um": 4.505960751996833,
+      "tau_ms": 7.790953537278502,
+      "delay_ms": 6.026360476063613,
+      "time_to_peak_ms": 21.608267550620617,
+      "rmse_um": 0.19516891773686323,
+      "threshold": 160,
+      "baseline_pixel": 495
+    },
+    {
+      "amplitude_um": 4.323665958219384,
+      "tau_ms": 7.32311242554076,
+      "delay_ms": 6.663787961444943,
+      "time_to_peak_ms": 21.310012812526463,
+      "rmse_um": 0.2603563195732664,
+      "threshold": 180,
+      "baseline_pixel": 493
+    },
+    {
+      "amplitude_um": 4.422836956433727,
+      "tau_ms": 7.568036632152528,
+      "delay_ms": 6.301293234497917,
+      "time_to_peak_ms": 21.437366498802973,
+      "rmse_um": 0.2138859886551793,
+      "threshold": 180,
+      "baseline_pixel": 494
+    },
+    {
+      "amplitude_um": 4.426539102488394,
+      "tau_ms": 8.159679274863898,
+      "delay_ms": 5.023751974417453,
+      "time_to_peak_ms": 21.34311052414525,
+      "rmse_um": 0.19556472208319964,
+      "threshold": 180,
+      "baseline_pixel": 495
+    },
+    {
+      "amplitude_um": 4.308028007921327,
+      "tau_ms": 7.422862241504251,
+      "delay_ms": 6.552889456939693,
+      "time_to_peak_ms": 21.398613939948195,
+      "rmse_um": 0.2558559392411763,
+      "threshold": 200,
+      "baseline_pixel": 493
+    },
+    {
+      "amplitude_um": 4.405909499619473,
+      "tau_ms": 7.676703802587137,
+      "delay_ms": 6.176483577055956,
+      "time_to_peak_ms": 21.52989118223023,
+      "rmse_um": 0.211202860570968,
+      "threshold": 200,
+      "baseline_pixel": 494
+    },
+    {
+      "amplitude_um": 4.3982032268895415,
+      "tau_ms": 8.32816295985863,
+      "delay_ms": 4.742057285444053,
+      "time_to_peak_ms": 21.398383205161316,
+      "rmse_um": 0.19130458858894978,
+      "threshold": 200,
+      "baseline_pixel": 495
+    }
+  ],
+  "time_ms": [
+    5.882352941176471,
+    11.764705882352942,
+    17.647058823529413,
+    23.529411764705884,
+    29.411764705882355,
+    35.294117647058826,
+    41.1764705882353,
+    47.05882352941177,
+    52.94117647058824,
+    58.82352941176471,
+    64.70588235294119,
+    70.58823529411765,
+    76.47058823529412,
+    82.35294117647058,
+    88.23529411764707,
+    94.11764705882354,
+    100.0,
+    105.88235294117646,
+    111.76470588235296,
+    117.64705882352942
+  ],
+  "digitized_displacement_um": [
+    0.47619047619047616,
+    2.142857142857143,
+    4.0476190476190474,
+    4.166666666666667,
+    3.6904761904761907,
+    2.857142857142857,
+    1.7857142857142858,
+    1.1904761904761905,
+    0.47619047619047616,
+    0.0,
+    -0.11904761904761904,
+    -0.11904761904761904,
+    -0.17857142857142858,
+    0.11904761904761904,
+    0.0,
+    0.0,
+    -0.11904761904761904,
+    -0.11904761904761904,
+    -0.23809523809523808,
+    -0.23809523809523808
+  ],
+  "scale": {
+    "spike_x": 606,
+    "time_bar_pixels": 51,
+    "time_bar_ms": 20,
+    "baseline_y": 494,
+    "displacement_bar_pixels": 42,
+    "displacement_bar_um": 5,
+    "original_video_fps": 170
+  },
+  "neural_steps": 0,
+  "raw_recording_fit": false,
+  "independent_physiology_validation": false,
+  "embodied_use_enabled": false,
+  "limitations": [
+    "Visible stroke-pixel median is not an average/median over identified trials",
+    "Three-parameter gamma pulse is a descriptive engineering model",
+    "Sensitivity ranges cover threshold/baseline choices only, not biological confidence intervals",
+    "Probe displacement in this experimental load is not unloaded joint angle",
+    "Fitted delay includes probe and sampling effects, not axonal conduction delay",
+    "No somatic spike threshold, synaptic efficacy or motor learning inferred"
+  ]
+}

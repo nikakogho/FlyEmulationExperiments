@@ -1,5 +1,9 @@
 # Unsent author query: exact intermediate-flexor identity
 
+Historical draft; not sent. The subsequent mesh-to-atlas match supplies image
+evidence for MN 44. Browser downloads start without authentication, so the access
+description below is outdated. See `motor_identity_resolution.md`.
+
 Subject: FANC main tibia flexor cell 160 / atlas Figure A12 correspondence
 
 We are building an offline, physiology-checked model of a small proprioceptive

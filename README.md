@@ -7,9 +7,10 @@ binary arrays remain local and must be downloaded or regenerated after cloning;
 this repository is not a backup of those artifacts. See `.gitignore` and the
 setup scripts for exclusions and pinned input sources.
 
-Latest: [motor physiological identity and conditional calibration targets](research/motor_physiology.md).
-M3 remains incomplete: 85 offline tests pass; the intermediate-unit identity is
-a candidate and raw-recording calibration has not been performed.
+Latest: [motor identity match and preliminary response fit](research/motor_identity_resolution.md).
+88 offline tests pass. The exact mesh matches atlas MN 44 (intermediate flexor);
+a published-figure twitch fit is implemented. Raw-trial calibration and M3 remain
+incomplete; no neural or embodied execution was enabled.
 Previous: [minimal-reflex assay and calibration finding](research/minimal_reflex_progress.md).
 Previous: [exact FANC sensory-to-muscle pathway and anatomical foreleg test](research/fanc_pathway_and_foreleg.md).
 

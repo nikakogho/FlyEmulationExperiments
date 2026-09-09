@@ -1,0 +1,196 @@
+{
+  "root_id": "648518346496932836",
+  "public_cell_id": "160",
+  "method": "same-reconstruction image match to atlas, not new genetic validation",
+  "winners": [
+    44,
+    44,
+    44
+  ],
+  "all_thresholds_choose_44": true,
+  "identity_status": "image_verified_atlas_correspondence",
+  "atlas_number": 44,
+  "driver": "R22A08-Gal4",
+  "physiological_class": "intermediate",
+  "spatial_holdout": "Fit y<65 um, score y>=65 um; not independent animals",
+  "scores": [
+    {
+      "atlas_number": 41,
+      "threshold_shift": -10,
+      "train_distance_px": 1.9948682781540463,
+      "heldout_distance_px": 5.367438276984888,
+      "transform": [
+        1.7274360997894311,
+        14.227190221878306,
+        44.90247873279375
+      ]
+    },
+    {
+      "atlas_number": 42,
+      "threshold_shift": -10,
+      "train_distance_px": 2.0225834229719077,
+      "heldout_distance_px": 3.9699100827975755,
+      "transform": [
+        1.6813668542902405,
+        14.396196565434538,
+        35.06720731610932
+      ]
+    },
+    {
+      "atlas_number": 43,
+      "threshold_shift": -10,
+      "train_distance_px": 2.597683507149595,
+      "heldout_distance_px": 5.211188600317139,
+      "transform": [
+        1.6507430660495888,
+        12.597273938569606,
+        42.09592725661562
+      ]
+    },
+    {
+      "atlas_number": 44,
+      "threshold_shift": -10,
+      "train_distance_px": 1.4606289491273605,
+      "heldout_distance_px": 2.4117395985954455,
+      "transform": [
+        1.8360087447091629,
+        19.78259206780665,
+        26.500046963110698
+      ]
+    },
+    {
+      "atlas_number": 45,
+      "threshold_shift": -10,
+      "train_distance_px": 1.8789325980283909,
+      "heldout_distance_px": 4.708195378963802,
+      "transform": [
+        1.716247723249483,
+        18.386329582316126,
+        41.274611167354465
+      ]
+    },
+    {
+      "atlas_number": 41,
+      "threshold_shift": 0,
+      "train_distance_px": 1.7627589760173015,
+      "heldout_distance_px": 4.045786367052486,
+      "transform": [
+        1.6708009872199647,
+        18.975159387744082,
+        44.874875235807224
+      ]
+    },
+    {
+      "atlas_number": 42,
+      "threshold_shift": 0,
+      "train_distance_px": 1.7358520109970053,
+      "heldout_distance_px": 3.481117316589272,
+      "transform": [
+        1.6514659648769723,
+        16.63641977253196,
+        39.54717982981901
+      ]
+    },
+    {
+      "atlas_number": 43,
+      "threshold_shift": 0,
+      "train_distance_px": 2.1487674390528038,
+      "heldout_distance_px": 4.499387785020193,
+      "transform": [
+        1.6524180283165892,
+        12.51014105791396,
+        41.430370203339706
+      ]
+    },
+    {
+      "atlas_number": 44,
+      "threshold_shift": 0,
+      "train_distance_px": 1.013742075487852,
+      "heldout_distance_px": 2.0361767375895115,
+      "transform": [
+        1.8425662246958643,
+        19.61523861502262,
+        26.062249040582714
+      ]
+    },
+    {
+      "atlas_number": 45,
+      "threshold_shift": 0,
+      "train_distance_px": 1.53588680142207,
+      "heldout_distance_px": 4.066247703768042,
+      "transform": [
+        1.719382394635335,
+        18.059183237545852,
+        40.67139244805553
+      ]
+    },
+    {
+      "atlas_number": 41,
+      "threshold_shift": 10,
+      "train_distance_px": 1.550302456022057,
+      "heldout_distance_px": 3.545748740823923,
+      "transform": [
+        1.6691070047410412,
+        24.51793566655438,
+        44.89004563049812
+      ]
+    },
+    {
+      "atlas_number": 42,
+      "threshold_shift": 10,
+      "train_distance_px": 1.4687450516362643,
+      "heldout_distance_px": 2.9668808484377864,
+      "transform": [
+        1.652866161851291,
+        16.150981120732446,
+        37.53899750300211
+      ]
+    },
+    {
+      "atlas_number": 43,
+      "threshold_shift": 10,
+      "train_distance_px": 1.942176047163697,
+      "heldout_distance_px": 4.029448701067615,
+      "transform": [
+        1.6531592521767,
+        12.145597886507984,
+        40.90997694634175
+      ]
+    },
+    {
+      "atlas_number": 44,
+      "threshold_shift": 10,
+      "train_distance_px": 0.8458657147371884,
+      "heldout_distance_px": 1.6850335360260569,
+      "transform": [
+        1.853544151136662,
+        19.089525678360484,
+        25.53153804819026
+      ]
+    },
+    {
+      "atlas_number": 45,
+      "threshold_shift": 10,
+      "train_distance_px": 1.3302766935679529,
+      "heldout_distance_px": 3.9676674633959257,
+      "transform": [
+        1.6967394417288129,
+        22.839403199334974,
+        44.55127304182268
+      ]
+    }
+  ],
+  "neural_steps": 0,
+  "mesh_sha256": "efcf60c6cc5492736d559a4c2ace687141b0a26c82066283aeb7d9f932081ace",
+  "atlas_raster_sha256": "d766c08f81644ea67dbfe8df4fcc42dba432981ce15aeca16682f2e53677e66c",
+  "atlas_pdf_sha256": "822c298e50da9fee3ce75f1dabda040574eac9fc854fdf92837856a82c8515f6",
+  "mesh_url": "https://storage.googleapis.com/lee-lab_female-adult-nerve-cord/meshes/FANC/FANC_neurons/meshes/648518346496932836:0:1",
+  "atlas_pdf": "https://faculty.washington.edu/tuthill/docs/azevedo24_appendix.pdf",
+  "render_command": "pdftoppm -f 32 -singlefile -scale-to 2000 -png azevedo24_appendix.pdf atlas_A12",
+  "limitations": [
+    "Fixed XY projection and manually delimited panels",
+    "Foreground thresholds depend on atlas neuron shades",
+    "Image correspondence inherits authors EM-to-driver assignment",
+    "No cell-specific dynamics or welfare conclusion follows"
+  ]
+}

@@ -190,6 +190,12 @@ before changing the plasticity rule. Preserve negative outcomes.
 
 ## Commands and current execution boundary
 
+2026-09-09 motor update: 88 offline tests pass. Exact cell 160 mesh correspondence
+supports atlas MN 44 / R22A08 intermediate identity. A published-figure probe
+twitch approximation is fitted; raw-trial calibration remains incomplete.
+See [evidence and reproduction](motor_identity_resolution.md). M3 has not passed
+and no new neural execution is authorized by these offline results alone.
+
 ` .venv/Scripts/python.exe -m unittest discover -s tests -v ` runs the offline
 component suite, including synthetic model tests. On this revision all 62 tests
 passed. This does not validate welfare in a live fly circuit.

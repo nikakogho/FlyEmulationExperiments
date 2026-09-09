@@ -1,5 +1,8 @@
 # Motor physiological identity: candidate narrowed, calibration incomplete
 
+Historical checkpoint, superseded by [mesh-to-atlas correspondence and figure fit](motor_identity_resolution.md).
+The identity gap described below now has direct image evidence; raw-trial validation is still pending.
+
 2026-09-09. **The selected cell is not yet physiologically identified with enough
 confidence to assign a fitted response.** This checkpoint records the exact gap
 and measured class targets, rather than converting a candidate into a fact.
