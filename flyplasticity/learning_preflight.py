@@ -57,14 +57,20 @@ class NeuralPreflightGuard:
         self.pathways = pathways
 
     def inspect(self,time_s,counts,voltage,conductance,input_rates,reward_rates,
-                *, pre, post, weights, modulatory_sources):
+                *, pre, post, weights, modulatory_sources, expected_reward_rates=None):
         if self.guard.stopped:
             raise RuntimeError('Execution stopped: latched_stop')
-        arrays=[np.asarray(a,dtype=float) for a in (counts,voltage,conductance,input_rates,reward_rates)]
+        try:
+            arrays=[np.asarray(a,dtype=float) for a in (counts,voltage,conductance,input_rates,reward_rates)]
+        except (ValueError,TypeError) as exc:
+            self.guard._stop('invalid_or_missing_neural_telemetry',time_s)
+            raise RuntimeError('Invalid neural telemetry') from exc
         c,v,g,i,r=arrays
+        expected=np.zeros_like(r) if expected_reward_rates is None else np.asarray(expected_reward_rates,dtype=float)
         coherent=(c.shape==v.shape==g.shape==(self.n,) and i.ndim==r.ndim==1
                   and all(np.isfinite(a).all() for a in arrays) and np.all(c>=0)
-                  and np.all(c==np.floor(c)) and np.all(i>=0) and np.all(r==0))
+                  and np.all(c==np.floor(c)) and np.all(i>=0) and np.all(r>=0)
+                  and np.array_equal(r,expected))
         if not coherent:
             self.guard._stop('invalid_or_missing_neural_telemetry',time_s)
             raise RuntimeError('Invalid neural telemetry')
