@@ -1,0 +1,7 @@
+{
+  "identical_parsed_report": true,
+  "reference_report": "results/raw_motor_calibration/report.json",
+  "reference_sha256": "68ddeb596e3c6650561f23d57a5696287c369ed0759bfe98fb27f78a6a893d99",
+  "repeated_report_sha256": "68ddeb596e3c6650561f23d57a5696287c369ed0759bfe98fb27f78a6a893d99",
+  "neural_steps": 0
+}

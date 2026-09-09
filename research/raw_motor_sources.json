@@ -1,0 +1,38 @@
+[
+  {
+    "local_cache": "data\\motor_physiology\\Dataset3_SlowInterFast_ForcePerSpike_top.m",
+    "url": "https://raw.githubusercontent.com/tony-azevedo/FlyAnalysis/c68159f1f7a4ecc957c708ae8411fd2550482f63/Records/Azevedo_2020_Records/Dataset3_SlowInterFast_ForcePerSpike_top.m",
+    "sha256": "f9734b652e553e1e4b878670231173f6e39f7bc861ad99228de360098da9f7a1",
+    "hash_note": "cached source bytes; text downloads may use Windows CRLF"
+  },
+  {
+    "local_cache": "data\\motor_physiology\\Script_alignSingleSpikes.m",
+    "url": "https://raw.githubusercontent.com/tony-azevedo/FlyAnalysis/c68159f1f7a4ecc957c708ae8411fd2550482f63/Records/Azevedo_2020_Records/Script_alignSingleSpikes.m",
+    "sha256": "8b6137443efd2f6d5ada9b2ec5a2e2c3e977c11e4df872843fbc0e0d09c374d7",
+    "hash_note": "cached source bytes; text downloads may use Windows CRLF"
+  },
+  {
+    "local_cache": "data\\motor_physiology\\Script_estimateInputResistanceFromCurrentPulses.m",
+    "url": "https://raw.githubusercontent.com/tony-azevedo/FlyAnalysis/c68159f1f7a4ecc957c708ae8411fd2550482f63/Records/Azevedo_2020_Records/Script_estimateInputResistanceFromCurrentPulses.m",
+    "sha256": "f1e22cc9eae69b4f0abc68d78fbfb0b2eb7636114d73a4c3ba209bf60cfce39f",
+    "hash_note": "cached source bytes; text downloads may use Windows CRLF"
+  },
+  {
+    "local_cache": "data\\motor_physiology\\author_postHocExposure.m",
+    "url": "https://raw.githubusercontent.com/tony-azevedo/FlyAnalysis/c68159f1f7a4ecc957c708ae8411fd2550482f63/utils/postHocExposure.m",
+    "sha256": "8c4c1aaa7538286ba461547cd346faa0a9988c341db3980e96af21292c84fb1f",
+    "hash_note": "cached source bytes; text downloads may use Windows CRLF"
+  },
+  {
+    "local_cache": "data\\motor_physiology\\author_makeInTime.m",
+    "url": "https://raw.githubusercontent.com/tony-azevedo/FlySound/d9f18ffa3b2a13c7c8434450191e08be436d6d08/Utils/makeInTime.m",
+    "sha256": "e89d450af70900772292113f00031494967ee6112346f7b7536e17604a9b1311",
+    "hash_note": "cached source bytes; text downloads may use Windows CRLF"
+  },
+  {
+    "local_cache": "data\\motor_physiology\\author_makeFrameTime.m",
+    "url": "https://raw.githubusercontent.com/tony-azevedo/FlySound/d9f18ffa3b2a13c7c8434450191e08be436d6d08/Utils/makeFrameTime.m",
+    "sha256": "780d29382b356ecd4bff5c92ba9cd236131b7f9cab1eed3d50a89573bcbe0817",
+    "hash_note": "cached source bytes; text downloads may use Windows CRLF"
+  }
+]

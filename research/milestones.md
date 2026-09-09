@@ -190,6 +190,12 @@ before changing the plasticity rule. Preserve negative outcomes.
 
 ## Commands and current execution boundary
 
+Latest 2026-09-09 update: [raw recording calibration](raw_motor_calibration.md)
+completed for passive response and separate single-spike loaded-probe assays.
+Both archives pass checksums; 95 offline tests pass. Raw fits improve evaluation
+error over the figure approximation. A recording-label conflict is documented.
+Joint-force conversion and motor recruitment remain unresolved; M3 remains incomplete.
+
 2026-09-09 motor update: 88 offline tests pass. Exact cell 160 mesh correspondence
 supports atlas MN 44 / R22A08 intermediate identity. A published-figure probe
 twitch approximation is fitted; raw-trial calibration remains incomplete.

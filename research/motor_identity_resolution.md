@@ -1,5 +1,9 @@
 # Motor identity resolved by image correspondence; preliminary response fit
 
+Superseded for download/calibration status by [raw motor-response calibration](raw_motor_calibration.md):
+both archives have now completed and passed checksums; raw-trial fits and evaluation
+are implemented. The identity evidence below remains applicable.
+
 2026-09-09. The previous investigation was too restrictive about requiring a
 textual crosswalk. Comparing the actual reconstruction with the published atlas
 provides evidence for the missing link. No neural simulation was run.

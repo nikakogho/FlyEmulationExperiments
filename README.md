@@ -7,10 +7,13 @@ binary arrays remain local and must be downloaded or regenerated after cloning;
 this repository is not a backup of those artifacts. See `.gitignore` and the
 setup scripts for exclusions and pinned input sources.
 
-Latest: [motor identity match and preliminary response fit](research/motor_identity_resolution.md).
-88 offline tests pass. The exact mesh matches atlas MN 44 (intermediate flexor);
-a published-figure twitch fit is implemented. Raw-trial calibration and M3 remain
-incomplete; no neural or embodied execution was enabled.
+Latest: [raw motor-response calibration](research/raw_motor_calibration.md).
+Both recording archives are verified, raw single-spike probe fits outperform the
+earlier figure approximation on evaluation trials, and 95 offline tests pass.
+The second recording has a documented genotype-label conflict. These are passive
+somatic/probe-response fits; full motor dynamics and M3 remain incomplete.
+No neural or embodied execution was enabled.
+Previous: [motor identity match and preliminary response fit](research/motor_identity_resolution.md).
 Previous: [minimal-reflex assay and calibration finding](research/minimal_reflex_progress.md).
 Previous: [exact FANC sensory-to-muscle pathway and anatomical foreleg test](research/fanc_pathway_and_foreleg.md).
 
