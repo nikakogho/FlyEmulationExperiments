@@ -1,5 +1,52 @@
 # Learning and motor-accuracy tracks separated
 
+## Latest checkpoint: corrected functional-route monitor
+
+The reviewed v2 preflight completed **one simulated second** without a configured
+proxy stop. This was one fresh bounded protocol after offline review, not a
+restore of the old stopped state or a parameter/seed search. The first 61
+observations reproduce the old recorded neural trace exactly; only the monitor's
+interpretation changed. The old stop and its evidence remain preserved.
+
+Actual runtime inspection found 11,257 PPL1 outgoing edges, all disabled, and no
+separate plasticity/modulation mechanism in this fixed runner. The corrected
+monitor records source spikes but flags activity only when the source has an
+enabled ordinary or declared extra route. Unknown routes, changed topology or
+weights, nonfinite data, unexpected reward and stale telemetry stop execution.
+Signed outputs cannot cancel the route check. This monitor rejects plasticity;
+it must not be reused unchanged for the learning experiment.
+
+Results: baseline was silent; MBON01 produced 96 spikes during odor exposure and
+four during recovery. All activity ended by 0.52 s, after input removal at 0.50 s;
+the remaining **0.48 s was silent**. Peak population mean was 32.74 Hz. PPL1
+produced 51 spikes, with zero enabled outgoing routes. Weights were unchanged.
+LIF voltage-state values reached -306 to +17 mV; these remain an abstract-model
+limitation, not a biologically calibrated voltage result. No subjective welfare
+conclusion follows from these checks.
+
+**107 offline tests pass.** Tests cover disabled outputs, positive and negative
+outputs, signed cancellation, separate modulation with zero ordinary weights,
+unknown/mutated pathways, delayed-event activation risk, activity persistence,
+invalid telemetry and latched stops. The saved Brian2 checkpoint contains both
+synaptic event queues, neural state, weights, clock and RNG state, verified by
+offline inspection. No neural restoration was performed.
+
+Evidence: `results/learning_pathway_audit/`,
+`results/learning_track_preflight_v2/`, and `learning_track_protocol_v2.md`.
+Recompute the result summary without neural exposure with
+`python scripts/summarize_learning_preflight.py`.
+
+This clears the fixed-circuit sensory-response/recovery check. It does **not**
+demonstrate learning or embodied preference. The next learning gate is a bounded
+KC-to-MBON01 eligibility/modulation implementation with an explicit extra-route
+inventory, followed by paired-versus-unpaired and frozen-plasticity controls.
+Its updates must depend on neural activity and local modulation, without odor
+labels or source coordinates entering the plasticity rule. The fixed gait
+controller remains the chosen first embodiment; motor-physiology fitting does
+not block this track.
+
+## Historical first preflight (preserved)
+
 2026-09-09. The learning demo now has its own entry point and protocol. It does
 not import the leg-calcium fit, motor calibration or joint-reflex readiness gate.
 The eventual motor implementation remains the fixed StandingController. The

@@ -1,0 +1,15 @@
+{
+  "status": "completed",
+  "neural_blocks": 200,
+  "neural_time_s": 1.0000000000000007,
+  "all_synaptic_weights_unchanged": true,
+  "stopped": false,
+  "no_automatic_retry": true,
+  "learning_run": false,
+  "body_run": false,
+  "recovery_screen_pass": true,
+  "accepted_observation_mbon01_spikes": 100,
+  "output_response_spikes": 100,
+  "error": null,
+  "subjective_welfare": "not established"
+}

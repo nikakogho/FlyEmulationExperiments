@@ -1,0 +1,10 @@
+{
+  "neural_steps": 0,
+  "old_total_ppl1_spikes": 2,
+  "old_spikes_with_enabled_route": 0,
+  "ppl1_outgoing_edges": 11257,
+  "enabled_ppl1_sources": [],
+  "extra_modulation_routes": [],
+  "basis": "Reconstructed runtime weights and unchanged-weight historical report; not exact state replay",
+  "subjective_welfare": "not established"
+}

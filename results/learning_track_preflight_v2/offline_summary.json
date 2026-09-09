@@ -1,0 +1,22 @@
+{
+  "analysis_neural_steps": 0,
+  "historical_prefix_identical": true,
+  "historical_observations_compared": 61,
+  "baseline_total_spikes": 0,
+  "odor_mbon01_spikes": 96,
+  "recovery_mbon01_spikes": 4,
+  "recovery_total_spikes": 349,
+  "last_active_interval_end_s": 0.52,
+  "final_contiguous_quiet_duration_s": 0.48,
+  "max_population_hz": 32.74385496607719,
+  "total_ppl1_spikes": 51,
+  "total_ppl1_spikes_with_enabled_route": 0,
+  "voltage_range_v": [
+    -0.3064775673497793,
+    0.01675
+  ],
+  "full_checkpoint_bytes": 14072939,
+  "checkpoint_note": "Brian2 Network.store file present; no neural restore/re-exposure performed",
+  "learning_demonstrated": false,
+  "subjective_welfare": "not established"
+}

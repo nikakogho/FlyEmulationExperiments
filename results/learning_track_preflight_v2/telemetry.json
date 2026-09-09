@@ -1,0 +1,3218 @@
+[
+  {
+    "time_s": 0.0,
+    "mean_population_hz": 0.0,
+    "ppl1_spikes": 0,
+    "ppl1_spikes_with_enabled_route": 0,
+    "total_spikes": 0,
+    "external_rate_sum_hz": 0.0,
+    "reward_rate_sum_hz": 0.0,
+    "voltage_range_v": [
+      -0.052000000000000005,
+      -0.052000000000000005
+    ],
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "mbon01_spikes": 0
+  },
+  {
+    "time_s": 0.005,
+    "mean_population_hz": 0.0,
+    "ppl1_spikes": 0,
+    "ppl1_spikes_with_enabled_route": 0,
+    "total_spikes": 0,
+    "external_rate_sum_hz": 0.0,
+    "reward_rate_sum_hz": 0.0,
+    "voltage_range_v": [
+      -0.052000000000000005,
+      -0.052000000000000005
+    ],
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "mbon01_spikes": 0
+  },
+  {
+    "time_s": 0.01,
+    "mean_population_hz": 0.0,
+    "ppl1_spikes": 0,
+    "ppl1_spikes_with_enabled_route": 0,
+    "total_spikes": 0,
+    "external_rate_sum_hz": 0.0,
+    "reward_rate_sum_hz": 0.0,
+    "voltage_range_v": [
+      -0.052000000000000005,
+      -0.052000000000000005
+    ],
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "mbon01_spikes": 0
+  },
+  {
+    "time_s": 0.015,
+    "mean_population_hz": 0.0,
+    "ppl1_spikes": 0,
+    "ppl1_spikes_with_enabled_route": 0,
+    "total_spikes": 0,
+    "external_rate_sum_hz": 0.0,
+    "reward_rate_sum_hz": 0.0,
+    "voltage_range_v": [
+      -0.052000000000000005,
+      -0.052000000000000005
+    ],
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "mbon01_spikes": 0
+  },
+  {
+    "time_s": 0.02,
+    "mean_population_hz": 0.0,
+    "ppl1_spikes": 0,
+    "ppl1_spikes_with_enabled_route": 0,
+    "total_spikes": 0,
+    "external_rate_sum_hz": 0.0,
+    "reward_rate_sum_hz": 0.0,
+    "voltage_range_v": [
+      -0.052000000000000005,
+      -0.052000000000000005
+    ],
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "mbon01_spikes": 0
+  },
+  {
+    "time_s": 0.025,
+    "mean_population_hz": 0.0,
+    "ppl1_spikes": 0,
+    "ppl1_spikes_with_enabled_route": 0,
+    "total_spikes": 0,
+    "external_rate_sum_hz": 0.0,
+    "reward_rate_sum_hz": 0.0,
+    "voltage_range_v": [
+      -0.052000000000000005,
+      -0.052000000000000005
+    ],
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "mbon01_spikes": 0
+  },
+  {
+    "time_s": 0.03,
+    "mean_population_hz": 0.0,
+    "ppl1_spikes": 0,
+    "ppl1_spikes_with_enabled_route": 0,
+    "total_spikes": 0,
+    "external_rate_sum_hz": 0.0,
+    "reward_rate_sum_hz": 0.0,
+    "voltage_range_v": [
+      -0.052000000000000005,
+      -0.052000000000000005
+    ],
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "mbon01_spikes": 0
+  },
+  {
+    "time_s": 0.035,
+    "mean_population_hz": 0.0,
+    "ppl1_spikes": 0,
+    "ppl1_spikes_with_enabled_route": 0,
+    "total_spikes": 0,
+    "external_rate_sum_hz": 0.0,
+    "reward_rate_sum_hz": 0.0,
+    "voltage_range_v": [
+      -0.052000000000000005,
+      -0.052000000000000005
+    ],
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "mbon01_spikes": 0
+  },
+  {
+    "time_s": 0.04,
+    "mean_population_hz": 0.0,
+    "ppl1_spikes": 0,
+    "ppl1_spikes_with_enabled_route": 0,
+    "total_spikes": 0,
+    "external_rate_sum_hz": 0.0,
+    "reward_rate_sum_hz": 0.0,
+    "voltage_range_v": [
+      -0.052000000000000005,
+      -0.052000000000000005
+    ],
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "mbon01_spikes": 0
+  },
+  {
+    "time_s": 0.045,
+    "mean_population_hz": 0.0,
+    "ppl1_spikes": 0,
+    "ppl1_spikes_with_enabled_route": 0,
+    "total_spikes": 0,
+    "external_rate_sum_hz": 0.0,
+    "reward_rate_sum_hz": 0.0,
+    "voltage_range_v": [
+      -0.052000000000000005,
+      -0.052000000000000005
+    ],
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "mbon01_spikes": 0
+  },
+  {
+    "time_s": 0.05,
+    "mean_population_hz": 0.0,
+    "ppl1_spikes": 0,
+    "ppl1_spikes_with_enabled_route": 0,
+    "total_spikes": 0,
+    "external_rate_sum_hz": 0.0,
+    "reward_rate_sum_hz": 0.0,
+    "voltage_range_v": [
+      -0.052000000000000005,
+      -0.052000000000000005
+    ],
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "mbon01_spikes": 0
+  },
+  {
+    "time_s": 0.055,
+    "mean_population_hz": 0.0,
+    "ppl1_spikes": 0,
+    "ppl1_spikes_with_enabled_route": 0,
+    "total_spikes": 0,
+    "external_rate_sum_hz": 0.0,
+    "reward_rate_sum_hz": 0.0,
+    "voltage_range_v": [
+      -0.052000000000000005,
+      -0.052000000000000005
+    ],
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "mbon01_spikes": 0
+  },
+  {
+    "time_s": 0.06,
+    "mean_population_hz": 0.0,
+    "ppl1_spikes": 0,
+    "ppl1_spikes_with_enabled_route": 0,
+    "total_spikes": 0,
+    "external_rate_sum_hz": 0.0,
+    "reward_rate_sum_hz": 0.0,
+    "voltage_range_v": [
+      -0.052000000000000005,
+      -0.052000000000000005
+    ],
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "mbon01_spikes": 0
+  },
+  {
+    "time_s": 0.065,
+    "mean_population_hz": 0.0,
+    "ppl1_spikes": 0,
+    "ppl1_spikes_with_enabled_route": 0,
+    "total_spikes": 0,
+    "external_rate_sum_hz": 0.0,
+    "reward_rate_sum_hz": 0.0,
+    "voltage_range_v": [
+      -0.052000000000000005,
+      -0.052000000000000005
+    ],
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "mbon01_spikes": 0
+  },
+  {
+    "time_s": 0.07,
+    "mean_population_hz": 0.0,
+    "ppl1_spikes": 0,
+    "ppl1_spikes_with_enabled_route": 0,
+    "total_spikes": 0,
+    "external_rate_sum_hz": 0.0,
+    "reward_rate_sum_hz": 0.0,
+    "voltage_range_v": [
+      -0.052000000000000005,
+      -0.052000000000000005
+    ],
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "mbon01_spikes": 0
+  },
+  {
+    "time_s": 0.075,
+    "mean_population_hz": 0.0,
+    "ppl1_spikes": 0,
+    "ppl1_spikes_with_enabled_route": 0,
+    "total_spikes": 0,
+    "external_rate_sum_hz": 0.0,
+    "reward_rate_sum_hz": 0.0,
+    "voltage_range_v": [
+      -0.052000000000000005,
+      -0.052000000000000005
+    ],
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "mbon01_spikes": 0
+  },
+  {
+    "time_s": 0.08,
+    "mean_population_hz": 0.0,
+    "ppl1_spikes": 0,
+    "ppl1_spikes_with_enabled_route": 0,
+    "total_spikes": 0,
+    "external_rate_sum_hz": 0.0,
+    "reward_rate_sum_hz": 0.0,
+    "voltage_range_v": [
+      -0.052000000000000005,
+      -0.052000000000000005
+    ],
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "mbon01_spikes": 0
+  },
+  {
+    "time_s": 0.085,
+    "mean_population_hz": 0.0,
+    "ppl1_spikes": 0,
+    "ppl1_spikes_with_enabled_route": 0,
+    "total_spikes": 0,
+    "external_rate_sum_hz": 0.0,
+    "reward_rate_sum_hz": 0.0,
+    "voltage_range_v": [
+      -0.052000000000000005,
+      -0.052000000000000005
+    ],
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "mbon01_spikes": 0
+  },
+  {
+    "time_s": 0.09,
+    "mean_population_hz": 0.0,
+    "ppl1_spikes": 0,
+    "ppl1_spikes_with_enabled_route": 0,
+    "total_spikes": 0,
+    "external_rate_sum_hz": 0.0,
+    "reward_rate_sum_hz": 0.0,
+    "voltage_range_v": [
+      -0.052000000000000005,
+      -0.052000000000000005
+    ],
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "mbon01_spikes": 0
+  },
+  {
+    "time_s": 0.095,
+    "mean_population_hz": 0.0,
+    "ppl1_spikes": 0,
+    "ppl1_spikes_with_enabled_route": 0,
+    "total_spikes": 0,
+    "external_rate_sum_hz": 0.0,
+    "reward_rate_sum_hz": 0.0,
+    "voltage_range_v": [
+      -0.052000000000000005,
+      -0.052000000000000005
+    ],
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "mbon01_spikes": 0
+  },
+  {
+    "time_s": 0.1,
+    "mean_population_hz": 0.0,
+    "ppl1_spikes": 0,
+    "ppl1_spikes_with_enabled_route": 0,
+    "total_spikes": 0,
+    "external_rate_sum_hz": 0.0,
+    "reward_rate_sum_hz": 0.0,
+    "voltage_range_v": [
+      -0.052000000000000005,
+      -0.052000000000000005
+    ],
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "mbon01_spikes": 0
+  },
+  {
+    "time_s": 0.105,
+    "mean_population_hz": 0.0,
+    "ppl1_spikes": 0,
+    "ppl1_spikes_with_enabled_route": 0,
+    "total_spikes": 0,
+    "external_rate_sum_hz": 0.0,
+    "reward_rate_sum_hz": 0.0,
+    "voltage_range_v": [
+      -0.052000000000000005,
+      -0.052000000000000005
+    ],
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "mbon01_spikes": 0
+  },
+  {
+    "time_s": 0.11,
+    "mean_population_hz": 0.0,
+    "ppl1_spikes": 0,
+    "ppl1_spikes_with_enabled_route": 0,
+    "total_spikes": 0,
+    "external_rate_sum_hz": 0.0,
+    "reward_rate_sum_hz": 0.0,
+    "voltage_range_v": [
+      -0.052000000000000005,
+      -0.052000000000000005
+    ],
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "mbon01_spikes": 0
+  },
+  {
+    "time_s": 0.115,
+    "mean_population_hz": 0.0,
+    "ppl1_spikes": 0,
+    "ppl1_spikes_with_enabled_route": 0,
+    "total_spikes": 0,
+    "external_rate_sum_hz": 0.0,
+    "reward_rate_sum_hz": 0.0,
+    "voltage_range_v": [
+      -0.052000000000000005,
+      -0.052000000000000005
+    ],
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "mbon01_spikes": 0
+  },
+  {
+    "time_s": 0.12,
+    "mean_population_hz": 0.0,
+    "ppl1_spikes": 0,
+    "ppl1_spikes_with_enabled_route": 0,
+    "total_spikes": 0,
+    "external_rate_sum_hz": 0.0,
+    "reward_rate_sum_hz": 0.0,
+    "voltage_range_v": [
+      -0.052000000000000005,
+      -0.052000000000000005
+    ],
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "mbon01_spikes": 0
+  },
+  {
+    "time_s": 0.125,
+    "mean_population_hz": 0.0,
+    "ppl1_spikes": 0,
+    "ppl1_spikes_with_enabled_route": 0,
+    "total_spikes": 0,
+    "external_rate_sum_hz": 0.0,
+    "reward_rate_sum_hz": 0.0,
+    "voltage_range_v": [
+      -0.052000000000000005,
+      -0.052000000000000005
+    ],
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "mbon01_spikes": 0
+  },
+  {
+    "time_s": 0.13,
+    "mean_population_hz": 0.0,
+    "ppl1_spikes": 0,
+    "ppl1_spikes_with_enabled_route": 0,
+    "total_spikes": 0,
+    "external_rate_sum_hz": 0.0,
+    "reward_rate_sum_hz": 0.0,
+    "voltage_range_v": [
+      -0.052000000000000005,
+      -0.052000000000000005
+    ],
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "mbon01_spikes": 0
+  },
+  {
+    "time_s": 0.135,
+    "mean_population_hz": 0.0,
+    "ppl1_spikes": 0,
+    "ppl1_spikes_with_enabled_route": 0,
+    "total_spikes": 0,
+    "external_rate_sum_hz": 0.0,
+    "reward_rate_sum_hz": 0.0,
+    "voltage_range_v": [
+      -0.052000000000000005,
+      -0.052000000000000005
+    ],
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "mbon01_spikes": 0
+  },
+  {
+    "time_s": 0.14,
+    "mean_population_hz": 0.0,
+    "ppl1_spikes": 0,
+    "ppl1_spikes_with_enabled_route": 0,
+    "total_spikes": 0,
+    "external_rate_sum_hz": 0.0,
+    "reward_rate_sum_hz": 0.0,
+    "voltage_range_v": [
+      -0.052000000000000005,
+      -0.052000000000000005
+    ],
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "mbon01_spikes": 0
+  },
+  {
+    "time_s": 0.145,
+    "mean_population_hz": 0.0,
+    "ppl1_spikes": 0,
+    "ppl1_spikes_with_enabled_route": 0,
+    "total_spikes": 0,
+    "external_rate_sum_hz": 0.0,
+    "reward_rate_sum_hz": 0.0,
+    "voltage_range_v": [
+      -0.052000000000000005,
+      -0.052000000000000005
+    ],
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "mbon01_spikes": 0
+  },
+  {
+    "time_s": 0.15,
+    "mean_population_hz": 0.0,
+    "ppl1_spikes": 0,
+    "ppl1_spikes_with_enabled_route": 0,
+    "total_spikes": 0,
+    "external_rate_sum_hz": 0.0,
+    "reward_rate_sum_hz": 0.0,
+    "voltage_range_v": [
+      -0.052000000000000005,
+      -0.052000000000000005
+    ],
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "mbon01_spikes": 0
+  },
+  {
+    "time_s": 0.155,
+    "mean_population_hz": 0.0,
+    "ppl1_spikes": 0,
+    "ppl1_spikes_with_enabled_route": 0,
+    "total_spikes": 0,
+    "external_rate_sum_hz": 0.0,
+    "reward_rate_sum_hz": 0.0,
+    "voltage_range_v": [
+      -0.052000000000000005,
+      -0.052000000000000005
+    ],
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "mbon01_spikes": 0
+  },
+  {
+    "time_s": 0.16,
+    "mean_population_hz": 0.0,
+    "ppl1_spikes": 0,
+    "ppl1_spikes_with_enabled_route": 0,
+    "total_spikes": 0,
+    "external_rate_sum_hz": 0.0,
+    "reward_rate_sum_hz": 0.0,
+    "voltage_range_v": [
+      -0.052000000000000005,
+      -0.052000000000000005
+    ],
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "mbon01_spikes": 0
+  },
+  {
+    "time_s": 0.165,
+    "mean_population_hz": 0.0,
+    "ppl1_spikes": 0,
+    "ppl1_spikes_with_enabled_route": 0,
+    "total_spikes": 0,
+    "external_rate_sum_hz": 0.0,
+    "reward_rate_sum_hz": 0.0,
+    "voltage_range_v": [
+      -0.052000000000000005,
+      -0.052000000000000005
+    ],
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "mbon01_spikes": 0
+  },
+  {
+    "time_s": 0.17,
+    "mean_population_hz": 0.0,
+    "ppl1_spikes": 0,
+    "ppl1_spikes_with_enabled_route": 0,
+    "total_spikes": 0,
+    "external_rate_sum_hz": 0.0,
+    "reward_rate_sum_hz": 0.0,
+    "voltage_range_v": [
+      -0.052000000000000005,
+      -0.052000000000000005
+    ],
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "mbon01_spikes": 0
+  },
+  {
+    "time_s": 0.17500000000000002,
+    "mean_population_hz": 0.0,
+    "ppl1_spikes": 0,
+    "ppl1_spikes_with_enabled_route": 0,
+    "total_spikes": 0,
+    "external_rate_sum_hz": 0.0,
+    "reward_rate_sum_hz": 0.0,
+    "voltage_range_v": [
+      -0.052000000000000005,
+      -0.052000000000000005
+    ],
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "mbon01_spikes": 0
+  },
+  {
+    "time_s": 0.18,
+    "mean_population_hz": 0.0,
+    "ppl1_spikes": 0,
+    "ppl1_spikes_with_enabled_route": 0,
+    "total_spikes": 0,
+    "external_rate_sum_hz": 0.0,
+    "reward_rate_sum_hz": 0.0,
+    "voltage_range_v": [
+      -0.052000000000000005,
+      -0.052000000000000005
+    ],
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "mbon01_spikes": 0
+  },
+  {
+    "time_s": 0.185,
+    "mean_population_hz": 0.0,
+    "ppl1_spikes": 0,
+    "ppl1_spikes_with_enabled_route": 0,
+    "total_spikes": 0,
+    "external_rate_sum_hz": 0.0,
+    "reward_rate_sum_hz": 0.0,
+    "voltage_range_v": [
+      -0.052000000000000005,
+      -0.052000000000000005
+    ],
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "mbon01_spikes": 0
+  },
+  {
+    "time_s": 0.19,
+    "mean_population_hz": 0.0,
+    "ppl1_spikes": 0,
+    "ppl1_spikes_with_enabled_route": 0,
+    "total_spikes": 0,
+    "external_rate_sum_hz": 0.0,
+    "reward_rate_sum_hz": 0.0,
+    "voltage_range_v": [
+      -0.052000000000000005,
+      -0.052000000000000005
+    ],
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "mbon01_spikes": 0
+  },
+  {
+    "time_s": 0.195,
+    "mean_population_hz": 0.0,
+    "ppl1_spikes": 0,
+    "ppl1_spikes_with_enabled_route": 0,
+    "total_spikes": 0,
+    "external_rate_sum_hz": 0.0,
+    "reward_rate_sum_hz": 0.0,
+    "voltage_range_v": [
+      -0.052000000000000005,
+      -0.052000000000000005
+    ],
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "mbon01_spikes": 0
+  },
+  {
+    "time_s": 0.2,
+    "mean_population_hz": 0.0,
+    "ppl1_spikes": 0,
+    "ppl1_spikes_with_enabled_route": 0,
+    "total_spikes": 0,
+    "external_rate_sum_hz": 0.0,
+    "reward_rate_sum_hz": 0.0,
+    "voltage_range_v": [
+      -0.052000000000000005,
+      -0.052000000000000005
+    ],
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "mbon01_spikes": 0
+  },
+  {
+    "time_s": 0.20500000000000002,
+    "mean_population_hz": 0.0,
+    "ppl1_spikes": 0,
+    "ppl1_spikes_with_enabled_route": 0,
+    "total_spikes": 0,
+    "external_rate_sum_hz": 0.0,
+    "reward_rate_sum_hz": 0.0,
+    "voltage_range_v": [
+      -0.052000000000000005,
+      -0.052000000000000005
+    ],
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "mbon01_spikes": 0
+  },
+  {
+    "time_s": 0.21,
+    "mean_population_hz": 0.0,
+    "ppl1_spikes": 0,
+    "ppl1_spikes_with_enabled_route": 0,
+    "total_spikes": 0,
+    "external_rate_sum_hz": 0.0,
+    "reward_rate_sum_hz": 0.0,
+    "voltage_range_v": [
+      -0.052000000000000005,
+      -0.052000000000000005
+    ],
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "mbon01_spikes": 0
+  },
+  {
+    "time_s": 0.215,
+    "mean_population_hz": 0.0,
+    "ppl1_spikes": 0,
+    "ppl1_spikes_with_enabled_route": 0,
+    "total_spikes": 0,
+    "external_rate_sum_hz": 0.0,
+    "reward_rate_sum_hz": 0.0,
+    "voltage_range_v": [
+      -0.052000000000000005,
+      -0.052000000000000005
+    ],
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "mbon01_spikes": 0
+  },
+  {
+    "time_s": 0.22,
+    "mean_population_hz": 0.0,
+    "ppl1_spikes": 0,
+    "ppl1_spikes_with_enabled_route": 0,
+    "total_spikes": 0,
+    "external_rate_sum_hz": 0.0,
+    "reward_rate_sum_hz": 0.0,
+    "voltage_range_v": [
+      -0.052000000000000005,
+      -0.052000000000000005
+    ],
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "mbon01_spikes": 0
+  },
+  {
+    "time_s": 0.225,
+    "mean_population_hz": 0.0,
+    "ppl1_spikes": 0,
+    "ppl1_spikes_with_enabled_route": 0,
+    "total_spikes": 0,
+    "external_rate_sum_hz": 0.0,
+    "reward_rate_sum_hz": 0.0,
+    "voltage_range_v": [
+      -0.052000000000000005,
+      -0.052000000000000005
+    ],
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "mbon01_spikes": 0
+  },
+  {
+    "time_s": 0.23,
+    "mean_population_hz": 0.0,
+    "ppl1_spikes": 0,
+    "ppl1_spikes_with_enabled_route": 0,
+    "total_spikes": 0,
+    "external_rate_sum_hz": 0.0,
+    "reward_rate_sum_hz": 0.0,
+    "voltage_range_v": [
+      -0.052000000000000005,
+      -0.052000000000000005
+    ],
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "mbon01_spikes": 0
+  },
+  {
+    "time_s": 0.23500000000000001,
+    "mean_population_hz": 0.0,
+    "ppl1_spikes": 0,
+    "ppl1_spikes_with_enabled_route": 0,
+    "total_spikes": 0,
+    "external_rate_sum_hz": 0.0,
+    "reward_rate_sum_hz": 0.0,
+    "voltage_range_v": [
+      -0.052000000000000005,
+      -0.052000000000000005
+    ],
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "mbon01_spikes": 0
+  },
+  {
+    "time_s": 0.24,
+    "mean_population_hz": 0.0,
+    "ppl1_spikes": 0,
+    "ppl1_spikes_with_enabled_route": 0,
+    "total_spikes": 0,
+    "external_rate_sum_hz": 0.0,
+    "reward_rate_sum_hz": 0.0,
+    "voltage_range_v": [
+      -0.052000000000000005,
+      -0.052000000000000005
+    ],
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "mbon01_spikes": 0
+  },
+  {
+    "time_s": 0.245,
+    "mean_population_hz": 0.0,
+    "ppl1_spikes": 0,
+    "ppl1_spikes_with_enabled_route": 0,
+    "total_spikes": 0,
+    "external_rate_sum_hz": 0.0,
+    "reward_rate_sum_hz": 0.0,
+    "voltage_range_v": [
+      -0.052000000000000005,
+      -0.052000000000000005
+    ],
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "mbon01_spikes": 0
+  },
+  {
+    "time_s": 0.25,
+    "mean_population_hz": 0.0,
+    "ppl1_spikes": 0,
+    "ppl1_spikes_with_enabled_route": 0,
+    "total_spikes": 0,
+    "external_rate_sum_hz": 231000.0,
+    "reward_rate_sum_hz": 0.0,
+    "voltage_range_v": [
+      -0.052000000000000005,
+      -0.052000000000000005
+    ],
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "mbon01_spikes": 0
+  },
+  {
+    "time_s": 0.255,
+    "mean_population_hz": 25.492158825492155,
+    "ppl1_spikes": 0,
+    "ppl1_spikes_with_enabled_route": 0,
+    "total_spikes": 1146,
+    "external_rate_sum_hz": 231000.0,
+    "reward_rate_sum_hz": 0.0,
+    "voltage_range_v": [
+      -0.052000000000000005,
+      0.01675
+    ],
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "mbon01_spikes": 0
+  },
+  {
+    "time_s": 0.26,
+    "mean_population_hz": 26.938049160271383,
+    "ppl1_spikes": 0,
+    "ppl1_spikes_with_enabled_route": 0,
+    "total_spikes": 1211,
+    "external_rate_sum_hz": 231000.0,
+    "reward_rate_sum_hz": 0.0,
+    "voltage_range_v": [
+      -0.06599809908466775,
+      0.01675
+    ],
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "mbon01_spikes": 0
+  },
+  {
+    "time_s": 0.265,
+    "mean_population_hz": 28.205983761539315,
+    "ppl1_spikes": 0,
+    "ppl1_spikes_with_enabled_route": 0,
+    "total_spikes": 1268,
+    "external_rate_sum_hz": 231000.0,
+    "reward_rate_sum_hz": 0.0,
+    "voltage_range_v": [
+      -0.09795281819625407,
+      0.01675
+    ],
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "mbon01_spikes": 0
+  },
+  {
+    "time_s": 0.27,
+    "mean_population_hz": 26.337448559670783,
+    "ppl1_spikes": 0,
+    "ppl1_spikes_with_enabled_route": 0,
+    "total_spikes": 1184,
+    "external_rate_sum_hz": 231000.0,
+    "reward_rate_sum_hz": 0.0,
+    "voltage_range_v": [
+      -0.1326827732507146,
+      0.01675
+    ],
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "mbon01_spikes": 0
+  },
+  {
+    "time_s": 0.275,
+    "mean_population_hz": 29.45167389611834,
+    "ppl1_spikes": 0,
+    "ppl1_spikes_with_enabled_route": 0,
+    "total_spikes": 1324,
+    "external_rate_sum_hz": 231000.0,
+    "reward_rate_sum_hz": 0.0,
+    "voltage_range_v": [
+      -0.1583471735973329,
+      0.01675
+    ],
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "mbon01_spikes": 0
+  },
+  {
+    "time_s": 0.28,
+    "mean_population_hz": 29.206984762540316,
+    "ppl1_spikes": 0,
+    "ppl1_spikes_with_enabled_route": 0,
+    "total_spikes": 1313,
+    "external_rate_sum_hz": 231000.0,
+    "reward_rate_sum_hz": 0.0,
+    "voltage_range_v": [
+      -0.18723305042742136,
+      0.01675
+    ],
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "mbon01_spikes": 3
+  },
+  {
+    "time_s": 0.28500000000000003,
+    "mean_population_hz": 29.429429429429426,
+    "ppl1_spikes": 0,
+    "ppl1_spikes_with_enabled_route": 0,
+    "total_spikes": 1323,
+    "external_rate_sum_hz": 231000.0,
+    "reward_rate_sum_hz": 0.0,
+    "voltage_range_v": [
+      -0.21612393135514985,
+      0.01675
+    ],
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "mbon01_spikes": 2
+  },
+  {
+    "time_s": 0.29,
+    "mean_population_hz": 30.408185963741516,
+    "ppl1_spikes": 0,
+    "ppl1_spikes_with_enabled_route": 0,
+    "total_spikes": 1367,
+    "external_rate_sum_hz": 231000.0,
+    "reward_rate_sum_hz": 0.0,
+    "voltage_range_v": [
+      -0.23089265414782642,
+      0.01675
+    ],
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "mbon01_spikes": 2
+  },
+  {
+    "time_s": 0.295,
+    "mean_population_hz": 29.89656322989656,
+    "ppl1_spikes": 0,
+    "ppl1_spikes_with_enabled_route": 0,
+    "total_spikes": 1344,
+    "external_rate_sum_hz": 231000.0,
+    "reward_rate_sum_hz": 0.0,
+    "voltage_range_v": [
+      -0.2435034763305661,
+      0.01675
+    ],
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "mbon01_spikes": 2
+  },
+  {
+    "time_s": 0.3,
+    "mean_population_hz": 29.696363029696364,
+    "ppl1_spikes": 2,
+    "ppl1_spikes_with_enabled_route": 0,
+    "total_spikes": 1335,
+    "external_rate_sum_hz": 231000.0,
+    "reward_rate_sum_hz": 0.0,
+    "voltage_range_v": [
+      -0.25467144561621213,
+      0.01675
+    ],
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "mbon01_spikes": 2
+  },
+  {
+    "time_s": 0.305,
+    "mean_population_hz": 31.920809698587476,
+    "ppl1_spikes": 1,
+    "ppl1_spikes_with_enabled_route": 0,
+    "total_spikes": 1435,
+    "external_rate_sum_hz": 231000.0,
+    "reward_rate_sum_hz": 0.0,
+    "voltage_range_v": [
+      -0.26348332193691754,
+      0.01675
+    ],
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "mbon01_spikes": 3
+  },
+  {
+    "time_s": 0.31,
+    "mean_population_hz": 31.23123123123123,
+    "ppl1_spikes": 0,
+    "ppl1_spikes_with_enabled_route": 0,
+    "total_spikes": 1404,
+    "external_rate_sum_hz": 231000.0,
+    "reward_rate_sum_hz": 0.0,
+    "voltage_range_v": [
+      -0.26708581359292105,
+      0.01675
+    ],
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "mbon01_spikes": 2
+  },
+  {
+    "time_s": 0.315,
+    "mean_population_hz": 32.18774329885441,
+    "ppl1_spikes": 2,
+    "ppl1_spikes_with_enabled_route": 0,
+    "total_spikes": 1447,
+    "external_rate_sum_hz": 231000.0,
+    "reward_rate_sum_hz": 0.0,
+    "voltage_range_v": [
+      -0.26806671386584235,
+      0.01675
+    ],
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "mbon01_spikes": 2
+  },
+  {
+    "time_s": 0.32,
+    "mean_population_hz": 31.23123123123123,
+    "ppl1_spikes": 4,
+    "ppl1_spikes_with_enabled_route": 0,
+    "total_spikes": 1404,
+    "external_rate_sum_hz": 231000.0,
+    "reward_rate_sum_hz": 0.0,
+    "voltage_range_v": [
+      -0.27086657626132127,
+      0.01675
+    ],
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "mbon01_spikes": 2
+  },
+  {
+    "time_s": 0.325,
+    "mean_population_hz": 30.47491936380825,
+    "ppl1_spikes": 0,
+    "ppl1_spikes_with_enabled_route": 0,
+    "total_spikes": 1370,
+    "external_rate_sum_hz": 231000.0,
+    "reward_rate_sum_hz": 0.0,
+    "voltage_range_v": [
+      -0.27873865972819817,
+      0.01675
+    ],
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "mbon01_spikes": 3
+  },
+  {
+    "time_s": 0.33,
+    "mean_population_hz": 30.38594149705261,
+    "ppl1_spikes": 0,
+    "ppl1_spikes_with_enabled_route": 0,
+    "total_spikes": 1366,
+    "external_rate_sum_hz": 231000.0,
+    "reward_rate_sum_hz": 0.0,
+    "voltage_range_v": [
+      -0.28081218362643423,
+      0.01675
+    ],
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "mbon01_spikes": 2
+  },
+  {
+    "time_s": 0.335,
+    "mean_population_hz": 32.276721165610056,
+    "ppl1_spikes": 2,
+    "ppl1_spikes_with_enabled_route": 0,
+    "total_spikes": 1451,
+    "external_rate_sum_hz": 231000.0,
+    "reward_rate_sum_hz": 0.0,
+    "voltage_range_v": [
+      -0.28217959929526243,
+      0.01675
+    ],
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "mbon01_spikes": 2
+  },
+  {
+    "time_s": 0.34,
+    "mean_population_hz": 31.498164831498165,
+    "ppl1_spikes": 3,
+    "ppl1_spikes_with_enabled_route": 0,
+    "total_spikes": 1416,
+    "external_rate_sum_hz": 231000.0,
+    "reward_rate_sum_hz": 0.0,
+    "voltage_range_v": [
+      -0.2865039418173025,
+      0.01675
+    ],
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "mbon01_spikes": 3
+  },
+  {
+    "time_s": 0.34500000000000003,
+    "mean_population_hz": 31.47592036480925,
+    "ppl1_spikes": 0,
+    "ppl1_spikes_with_enabled_route": 0,
+    "total_spikes": 1415,
+    "external_rate_sum_hz": 231000.0,
+    "reward_rate_sum_hz": 0.0,
+    "voltage_range_v": [
+      -0.2873510560914187,
+      0.01675
+    ],
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "mbon01_spikes": 1
+  },
+  {
+    "time_s": 0.35000000000000003,
+    "mean_population_hz": 30.58614169725281,
+    "ppl1_spikes": 1,
+    "ppl1_spikes_with_enabled_route": 0,
+    "total_spikes": 1375,
+    "external_rate_sum_hz": 231000.0,
+    "reward_rate_sum_hz": 0.0,
+    "voltage_range_v": [
+      -0.28991422629208985,
+      0.01675
+    ],
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "mbon01_spikes": 2
+  },
+  {
+    "time_s": 0.355,
+    "mean_population_hz": 28.917806695584474,
+    "ppl1_spikes": 0,
+    "ppl1_spikes_with_enabled_route": 0,
+    "total_spikes": 1300,
+    "external_rate_sum_hz": 231000.0,
+    "reward_rate_sum_hz": 0.0,
+    "voltage_range_v": [
+      -0.2928006792213152,
+      0.01675
+    ],
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "mbon01_spikes": 1
+  },
+  {
+    "time_s": 0.36,
+    "mean_population_hz": 29.118006895784674,
+    "ppl1_spikes": 0,
+    "ppl1_spikes_with_enabled_route": 0,
+    "total_spikes": 1309,
+    "external_rate_sum_hz": 231000.0,
+    "reward_rate_sum_hz": 0.0,
+    "voltage_range_v": [
+      -0.2911112041776537,
+      0.01675
+    ],
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "mbon01_spikes": 3
+  },
+  {
+    "time_s": 0.365,
+    "mean_population_hz": 29.785340896452006,
+    "ppl1_spikes": 1,
+    "ppl1_spikes_with_enabled_route": 0,
+    "total_spikes": 1339,
+    "external_rate_sum_hz": 231000.0,
+    "reward_rate_sum_hz": 0.0,
+    "voltage_range_v": [
+      -0.29754375420814233,
+      0.01675
+    ],
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "mbon01_spikes": 2
+  },
+  {
+    "time_s": 0.37,
+    "mean_population_hz": 29.918807696585475,
+    "ppl1_spikes": 3,
+    "ppl1_spikes_with_enabled_route": 0,
+    "total_spikes": 1345,
+    "external_rate_sum_hz": 231000.0,
+    "reward_rate_sum_hz": 0.0,
+    "voltage_range_v": [
+      -0.3002590106594228,
+      0.01675
+    ],
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "mbon01_spikes": 2
+  },
+  {
+    "time_s": 0.375,
+    "mean_population_hz": 32.74385496607719,
+    "ppl1_spikes": 1,
+    "ppl1_spikes_with_enabled_route": 0,
+    "total_spikes": 1472,
+    "external_rate_sum_hz": 231000.0,
+    "reward_rate_sum_hz": 0.0,
+    "voltage_range_v": [
+      -0.2917914013502404,
+      0.01675
+    ],
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "mbon01_spikes": 3
+  },
+  {
+    "time_s": 0.38,
+    "mean_population_hz": 30.89756423089756,
+    "ppl1_spikes": 3,
+    "ppl1_spikes_with_enabled_route": 0,
+    "total_spikes": 1389,
+    "external_rate_sum_hz": 231000.0,
+    "reward_rate_sum_hz": 0.0,
+    "voltage_range_v": [
+      -0.2881407217769631,
+      0.01675
+    ],
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "mbon01_spikes": 2
+  },
+  {
+    "time_s": 0.385,
+    "mean_population_hz": 29.073517962406854,
+    "ppl1_spikes": 0,
+    "ppl1_spikes_with_enabled_route": 0,
+    "total_spikes": 1307,
+    "external_rate_sum_hz": 231000.0,
+    "reward_rate_sum_hz": 0.0,
+    "voltage_range_v": [
+      -0.2856824313451564,
+      0.01675
+    ],
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "mbon01_spikes": 2
+  },
+  {
+    "time_s": 0.39,
+    "mean_population_hz": 28.294961628294963,
+    "ppl1_spikes": 0,
+    "ppl1_spikes_with_enabled_route": 0,
+    "total_spikes": 1272,
+    "external_rate_sum_hz": 231000.0,
+    "reward_rate_sum_hz": 0.0,
+    "voltage_range_v": [
+      -0.28918223313621905,
+      0.01675
+    ],
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "mbon01_spikes": 2
+  },
+  {
+    "time_s": 0.395,
+    "mean_population_hz": 30.89756423089756,
+    "ppl1_spikes": 2,
+    "ppl1_spikes_with_enabled_route": 0,
+    "total_spikes": 1389,
+    "external_rate_sum_hz": 231000.0,
+    "reward_rate_sum_hz": 0.0,
+    "voltage_range_v": [
+      -0.29418653143727475,
+      0.01675
+    ],
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "mbon01_spikes": 2
+  },
+  {
+    "time_s": 0.4,
+    "mean_population_hz": 29.09576242909576,
+    "ppl1_spikes": 3,
+    "ppl1_spikes_with_enabled_route": 0,
+    "total_spikes": 1308,
+    "external_rate_sum_hz": 231000.0,
+    "reward_rate_sum_hz": 0.0,
+    "voltage_range_v": [
+      -0.2901984094863285,
+      0.01675
+    ],
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "mbon01_spikes": 3
+  },
+  {
+    "time_s": 0.405,
+    "mean_population_hz": 30.919808697586475,
+    "ppl1_spikes": 0,
+    "ppl1_spikes_with_enabled_route": 0,
+    "total_spikes": 1390,
+    "external_rate_sum_hz": 231000.0,
+    "reward_rate_sum_hz": 0.0,
+    "voltage_range_v": [
+      -0.28995632066068655,
+      0.01675
+    ],
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "mbon01_spikes": 2
+  },
+  {
+    "time_s": 0.41000000000000003,
+    "mean_population_hz": 29.941052163274385,
+    "ppl1_spikes": 0,
+    "ppl1_spikes_with_enabled_route": 0,
+    "total_spikes": 1346,
+    "external_rate_sum_hz": 231000.0,
+    "reward_rate_sum_hz": 0.0,
+    "voltage_range_v": [
+      -0.2924017362699952,
+      0.01675
+    ],
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "mbon01_spikes": 2
+  },
+  {
+    "time_s": 0.41500000000000004,
+    "mean_population_hz": 28.695362028695364,
+    "ppl1_spikes": 1,
+    "ppl1_spikes_with_enabled_route": 0,
+    "total_spikes": 1290,
+    "external_rate_sum_hz": 231000.0,
+    "reward_rate_sum_hz": 0.0,
+    "voltage_range_v": [
+      -0.29291807974832906,
+      0.01675
+    ],
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "mbon01_spikes": 3
+  },
+  {
+    "time_s": 0.42,
+    "mean_population_hz": 29.31820709598487,
+    "ppl1_spikes": 2,
+    "ppl1_spikes_with_enabled_route": 0,
+    "total_spikes": 1318,
+    "external_rate_sum_hz": 231000.0,
+    "reward_rate_sum_hz": 0.0,
+    "voltage_range_v": [
+      -0.2937187595280307,
+      0.01675
+    ],
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "mbon01_spikes": 1
+  },
+  {
+    "time_s": 0.425,
+    "mean_population_hz": 29.05127349571794,
+    "ppl1_spikes": 0,
+    "ppl1_spikes_with_enabled_route": 0,
+    "total_spikes": 1306,
+    "external_rate_sum_hz": 231000.0,
+    "reward_rate_sum_hz": 0.0,
+    "voltage_range_v": [
+      -0.29607670868286495,
+      0.01675
+    ],
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "mbon01_spikes": 2
+  },
+  {
+    "time_s": 0.43,
+    "mean_population_hz": 31.120008897786676,
+    "ppl1_spikes": 0,
+    "ppl1_spikes_with_enabled_route": 0,
+    "total_spikes": 1399,
+    "external_rate_sum_hz": 231000.0,
+    "reward_rate_sum_hz": 0.0,
+    "voltage_range_v": [
+      -0.29854646407641866,
+      0.01675
+    ],
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "mbon01_spikes": 2
+  },
+  {
+    "time_s": 0.435,
+    "mean_population_hz": 31.83183183183183,
+    "ppl1_spikes": 2,
+    "ppl1_spikes_with_enabled_route": 0,
+    "total_spikes": 1431,
+    "external_rate_sum_hz": 231000.0,
+    "reward_rate_sum_hz": 0.0,
+    "voltage_range_v": [
+      -0.29902479297581214,
+      0.01675
+    ],
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "mbon01_spikes": 3
+  },
+  {
+    "time_s": 0.44,
+    "mean_population_hz": 28.11700589478367,
+    "ppl1_spikes": 1,
+    "ppl1_spikes_with_enabled_route": 0,
+    "total_spikes": 1264,
+    "external_rate_sum_hz": 231000.0,
+    "reward_rate_sum_hz": 0.0,
+    "voltage_range_v": [
+      -0.3064775673497793,
+      0.01675
+    ],
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "mbon01_spikes": 2
+  },
+  {
+    "time_s": 0.445,
+    "mean_population_hz": 28.561895228561895,
+    "ppl1_spikes": 1,
+    "ppl1_spikes_with_enabled_route": 0,
+    "total_spikes": 1284,
+    "external_rate_sum_hz": 231000.0,
+    "reward_rate_sum_hz": 0.0,
+    "voltage_range_v": [
+      -0.3031338206586888,
+      0.01675
+    ],
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "mbon01_spikes": 1
+  },
+  {
+    "time_s": 0.45,
+    "mean_population_hz": 28.584139695250805,
+    "ppl1_spikes": 1,
+    "ppl1_spikes_with_enabled_route": 0,
+    "total_spikes": 1285,
+    "external_rate_sum_hz": 231000.0,
+    "reward_rate_sum_hz": 0.0,
+    "voltage_range_v": [
+      -0.3026401494626158,
+      0.01675
+    ],
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "mbon01_spikes": 2
+  },
+  {
+    "time_s": 0.455,
+    "mean_population_hz": 31.00878656434212,
+    "ppl1_spikes": 0,
+    "ppl1_spikes_with_enabled_route": 0,
+    "total_spikes": 1394,
+    "external_rate_sum_hz": 231000.0,
+    "reward_rate_sum_hz": 0.0,
+    "voltage_range_v": [
+      -0.3040338228188299,
+      0.01675
+    ],
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "mbon01_spikes": 3
+  },
+  {
+    "time_s": 0.46,
+    "mean_population_hz": 32.588143699254815,
+    "ppl1_spikes": 1,
+    "ppl1_spikes_with_enabled_route": 0,
+    "total_spikes": 1465,
+    "external_rate_sum_hz": 231000.0,
+    "reward_rate_sum_hz": 0.0,
+    "voltage_range_v": [
+      -0.3061959958736815,
+      0.01675
+    ],
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "mbon01_spikes": 2
+  },
+  {
+    "time_s": 0.465,
+    "mean_population_hz": 29.89656322989656,
+    "ppl1_spikes": 3,
+    "ppl1_spikes_with_enabled_route": 0,
+    "total_spikes": 1344,
+    "external_rate_sum_hz": 231000.0,
+    "reward_rate_sum_hz": 0.0,
+    "voltage_range_v": [
+      -0.30268788480146963,
+      0.01675
+    ],
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "mbon01_spikes": 1
+  },
+  {
+    "time_s": 0.47000000000000003,
+    "mean_population_hz": 30.38594149705261,
+    "ppl1_spikes": 1,
+    "ppl1_spikes_with_enabled_route": 0,
+    "total_spikes": 1366,
+    "external_rate_sum_hz": 231000.0,
+    "reward_rate_sum_hz": 0.0,
+    "voltage_range_v": [
+      -0.2952899424662519,
+      0.01675
+    ],
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "mbon01_spikes": 2
+  },
+  {
+    "time_s": 0.47500000000000003,
+    "mean_population_hz": 30.25247469691914,
+    "ppl1_spikes": 0,
+    "ppl1_spikes_with_enabled_route": 0,
+    "total_spikes": 1360,
+    "external_rate_sum_hz": 231000.0,
+    "reward_rate_sum_hz": 0.0,
+    "voltage_range_v": [
+      -0.2991156887207809,
+      0.01675
+    ],
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "mbon01_spikes": 3
+  },
+  {
+    "time_s": 0.48,
+    "mean_population_hz": 31.520409298187072,
+    "ppl1_spikes": 1,
+    "ppl1_spikes_with_enabled_route": 0,
+    "total_spikes": 1417,
+    "external_rate_sum_hz": 231000.0,
+    "reward_rate_sum_hz": 0.0,
+    "voltage_range_v": [
+      -0.297151641261174,
+      0.01675
+    ],
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "mbon01_spikes": 2
+  },
+  {
+    "time_s": 0.485,
+    "mean_population_hz": 31.297964631297965,
+    "ppl1_spikes": 2,
+    "ppl1_spikes_with_enabled_route": 0,
+    "total_spikes": 1407,
+    "external_rate_sum_hz": 231000.0,
+    "reward_rate_sum_hz": 0.0,
+    "voltage_range_v": [
+      -0.29221916708937723,
+      0.01675
+    ],
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "mbon01_spikes": 3
+  },
+  {
+    "time_s": 0.49,
+    "mean_population_hz": 29.89656322989656,
+    "ppl1_spikes": 2,
+    "ppl1_spikes_with_enabled_route": 0,
+    "total_spikes": 1344,
+    "external_rate_sum_hz": 231000.0,
+    "reward_rate_sum_hz": 0.0,
+    "voltage_range_v": [
+      -0.2891780555956767,
+      0.01675
+    ],
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "mbon01_spikes": 2
+  },
+  {
+    "time_s": 0.495,
+    "mean_population_hz": 28.67311756200645,
+    "ppl1_spikes": 1,
+    "ppl1_spikes_with_enabled_route": 0,
+    "total_spikes": 1289,
+    "external_rate_sum_hz": 231000.0,
+    "reward_rate_sum_hz": 0.0,
+    "voltage_range_v": [
+      -0.288922979469167,
+      0.01675
+    ],
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "mbon01_spikes": 1
+  },
+  {
+    "time_s": 0.5,
+    "mean_population_hz": 29.629629629629626,
+    "ppl1_spikes": 0,
+    "ppl1_spikes_with_enabled_route": 0,
+    "total_spikes": 1332,
+    "external_rate_sum_hz": 0.0,
+    "reward_rate_sum_hz": 0.0,
+    "voltage_range_v": [
+      -0.2919886950399513,
+      0.01675
+    ],
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "mbon01_spikes": 2
+  },
+  {
+    "time_s": 0.505,
+    "mean_population_hz": 5.627850072294517,
+    "ppl1_spikes": 0,
+    "ppl1_spikes_with_enabled_route": 0,
+    "total_spikes": 253,
+    "external_rate_sum_hz": 0.0,
+    "reward_rate_sum_hz": 0.0,
+    "voltage_range_v": [
+      -0.2954879409303058,
+      -0.04501347320305599
+    ],
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "mbon01_spikes": 2
+  },
+  {
+    "time_s": 0.51,
+    "mean_population_hz": 1.8462907351796243,
+    "ppl1_spikes": 3,
+    "ppl1_spikes_with_enabled_route": 0,
+    "total_spikes": 83,
+    "external_rate_sum_hz": 0.0,
+    "reward_rate_sum_hz": 0.0,
+    "voltage_range_v": [
+      -0.3018305173888869,
+      -0.045075863251307156
+    ],
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "mbon01_spikes": 2
+  },
+  {
+    "time_s": 0.515,
+    "mean_population_hz": 0.24468913357802244,
+    "ppl1_spikes": 1,
+    "ppl1_spikes_with_enabled_route": 0,
+    "total_spikes": 11,
+    "external_rate_sum_hz": 0.0,
+    "reward_rate_sum_hz": 0.0,
+    "voltage_range_v": [
+      -0.26881092475933954,
+      -0.045119149145353823
+    ],
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "mbon01_spikes": 0
+  },
+  {
+    "time_s": 0.52,
+    "mean_population_hz": 0.04448893337782227,
+    "ppl1_spikes": 0,
+    "ppl1_spikes_with_enabled_route": 0,
+    "total_spikes": 2,
+    "external_rate_sum_hz": 0.0,
+    "reward_rate_sum_hz": 0.0,
+    "voltage_range_v": [
+      -0.22900484623357936,
+      -0.04505561643604846
+    ],
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "mbon01_spikes": 0
+  },
+  {
+    "time_s": 0.525,
+    "mean_population_hz": 0.0,
+    "ppl1_spikes": 0,
+    "ppl1_spikes_with_enabled_route": 0,
+    "total_spikes": 0,
+    "external_rate_sum_hz": 0.0,
+    "reward_rate_sum_hz": 0.0,
+    "voltage_range_v": [
+      -0.19285058681594722,
+      -0.045394444485932425
+    ],
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "mbon01_spikes": 0
+  },
+  {
+    "time_s": 0.53,
+    "mean_population_hz": 0.0,
+    "ppl1_spikes": 0,
+    "ppl1_spikes_with_enabled_route": 0,
+    "total_spikes": 0,
+    "external_rate_sum_hz": 0.0,
+    "reward_rate_sum_hz": 0.0,
+    "voltage_range_v": [
+      -0.16279784496142644,
+      -0.04640685524087996
+    ],
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "mbon01_spikes": 0
+  },
+  {
+    "time_s": 0.535,
+    "mean_population_hz": 0.0,
+    "ppl1_spikes": 0,
+    "ppl1_spikes_with_enabled_route": 0,
+    "total_spikes": 0,
+    "external_rate_sum_hz": 0.0,
+    "reward_rate_sum_hz": 0.0,
+    "voltage_range_v": [
+      -0.13869532894265127,
+      -0.047478974854096107
+    ],
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "mbon01_spikes": 0
+  },
+  {
+    "time_s": 0.54,
+    "mean_population_hz": 0.0,
+    "ppl1_spikes": 0,
+    "ppl1_spikes_with_enabled_route": 0,
+    "total_spikes": 0,
+    "external_rate_sum_hz": 0.0,
+    "reward_rate_sum_hz": 0.0,
+    "voltage_range_v": [
+      -0.11966770516954653,
+      -0.048418292674908645
+    ],
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "mbon01_spikes": 0
+  },
+  {
+    "time_s": 0.545,
+    "mean_population_hz": 0.0,
+    "ppl1_spikes": 0,
+    "ppl1_spikes_with_enabled_route": 0,
+    "total_spikes": 0,
+    "external_rate_sum_hz": 0.0,
+    "reward_rate_sum_hz": 0.0,
+    "voltage_range_v": [
+      -0.10475459173037269,
+      -0.04918822243231898
+    ],
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "mbon01_spikes": 0
+  },
+  {
+    "time_s": 0.55,
+    "mean_population_hz": 0.0,
+    "ppl1_spikes": 0,
+    "ppl1_spikes_with_enabled_route": 0,
+    "total_spikes": 0,
+    "external_rate_sum_hz": 0.0,
+    "reward_rate_sum_hz": 0.0,
+    "voltage_range_v": [
+      -0.09310552495162736,
+      -0.04980196659775842
+    ],
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "mbon01_spikes": 0
+  },
+  {
+    "time_s": 0.555,
+    "mean_population_hz": 0.0,
+    "ppl1_spikes": 0,
+    "ppl1_spikes_with_enabled_route": 0,
+    "total_spikes": 0,
+    "external_rate_sum_hz": 0.0,
+    "reward_rate_sum_hz": 0.0,
+    "voltage_range_v": [
+      -0.08402044898199931,
+      -0.050285146326268786
+    ],
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "mbon01_spikes": 0
+  },
+  {
+    "time_s": 0.56,
+    "mean_population_hz": 0.0,
+    "ppl1_spikes": 0,
+    "ppl1_spikes_with_enabled_route": 0,
+    "total_spikes": 0,
+    "external_rate_sum_hz": 0.0,
+    "reward_rate_sum_hz": 0.0,
+    "voltage_range_v": [
+      -0.07694028554293811,
+      -0.05066335831826332
+    ],
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "mbon01_spikes": 0
+  },
+  {
+    "time_s": 0.5650000000000001,
+    "mean_population_hz": 0.0,
+    "ppl1_spikes": 0,
+    "ppl1_spikes_with_enabled_route": 0,
+    "total_spikes": 0,
+    "external_rate_sum_hz": 0.0,
+    "reward_rate_sum_hz": 0.0,
+    "voltage_range_v": [
+      -0.07142451998809718,
+      -0.050958613220091105
+    ],
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "mbon01_spikes": 0
+  },
+  {
+    "time_s": 0.5700000000000001,
+    "mean_population_hz": 0.0,
+    "ppl1_spikes": 0,
+    "ppl1_spikes_with_enabled_route": 0,
+    "total_spikes": 0,
+    "external_rate_sum_hz": 0.0,
+    "reward_rate_sum_hz": 0.0,
+    "voltage_range_v": [
+      -0.06712820149264634,
+      -0.05118881662719132
+    ],
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "mbon01_spikes": 0
+  },
+  {
+    "time_s": 0.5750000000000001,
+    "mean_population_hz": 0.0,
+    "ppl1_spikes": 0,
+    "ppl1_spikes_with_enabled_route": 0,
+    "total_spikes": 0,
+    "external_rate_sum_hz": 0.0,
+    "reward_rate_sum_hz": 0.0,
+    "voltage_range_v": [
+      -0.06378199132668211,
+      -0.05136819437599633
+    ],
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "mbon01_spikes": 0
+  },
+  {
+    "time_s": 0.58,
+    "mean_population_hz": 0.0,
+    "ppl1_spikes": 0,
+    "ppl1_spikes_with_enabled_route": 0,
+    "total_spikes": 0,
+    "external_rate_sum_hz": 0.0,
+    "reward_rate_sum_hz": 0.0,
+    "voltage_range_v": [
+      -0.06117587416099637,
+      -0.05150792891283243
+    ],
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "mbon01_spikes": 0
+  },
+  {
+    "time_s": 0.585,
+    "mean_population_hz": 0.0,
+    "ppl1_spikes": 0,
+    "ppl1_spikes_with_enabled_route": 0,
+    "total_spikes": 0,
+    "external_rate_sum_hz": 0.0,
+    "reward_rate_sum_hz": 0.0,
+    "voltage_range_v": [
+      -0.05914619640889585,
+      -0.05161676715738347
+    ],
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "mbon01_spikes": 0
+  },
+  {
+    "time_s": 0.59,
+    "mean_population_hz": 0.0,
+    "ppl1_spikes": 0,
+    "ppl1_spikes_with_enabled_route": 0,
+    "total_spikes": 0,
+    "external_rate_sum_hz": 0.0,
+    "reward_rate_sum_hz": 0.0,
+    "voltage_range_v": [
+      -0.057565470138125165,
+      -0.05170153520496095
+    ],
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "mbon01_spikes": 0
+  },
+  {
+    "time_s": 0.595,
+    "mean_population_hz": 0.0,
+    "ppl1_spikes": 0,
+    "ppl1_spikes_with_enabled_route": 0,
+    "total_spikes": 0,
+    "external_rate_sum_hz": 0.0,
+    "reward_rate_sum_hz": 0.0,
+    "voltage_range_v": [
+      -0.05633439499554845,
+      -0.051767554369619974
+    ],
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "mbon01_spikes": 0
+  },
+  {
+    "time_s": 0.6,
+    "mean_population_hz": 0.0,
+    "ppl1_spikes": 0,
+    "ppl1_spikes_with_enabled_route": 0,
+    "total_spikes": 0,
+    "external_rate_sum_hz": 0.0,
+    "reward_rate_sum_hz": 0.0,
+    "voltage_range_v": [
+      -0.055375631134097526,
+      -0.05181897078790411
+    ],
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "mbon01_spikes": 0
+  },
+  {
+    "time_s": 0.605,
+    "mean_population_hz": 0.0,
+    "ppl1_spikes": 0,
+    "ppl1_spikes_with_enabled_route": 0,
+    "total_spikes": 0,
+    "external_rate_sum_hz": 0.0,
+    "reward_rate_sum_hz": 0.0,
+    "voltage_range_v": [
+      -0.054628944508096584,
+      -0.051859014170592355
+    ],
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "mbon01_spikes": 0
+  },
+  {
+    "time_s": 0.61,
+    "mean_population_hz": 0.0,
+    "ppl1_spikes": 0,
+    "ppl1_spikes_with_enabled_route": 0,
+    "total_spikes": 0,
+    "external_rate_sum_hz": 0.0,
+    "reward_rate_sum_hz": 0.0,
+    "voltage_range_v": [
+      -0.05404742416571658,
+      -0.051890200075157045
+    ],
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "mbon01_spikes": 0
+  },
+  {
+    "time_s": 0.615,
+    "mean_population_hz": 0.0,
+    "ppl1_spikes": 0,
+    "ppl1_spikes_with_enabled_route": 0,
+    "total_spikes": 0,
+    "external_rate_sum_hz": 0.0,
+    "reward_rate_sum_hz": 0.0,
+    "voltage_range_v": [
+      -0.05359453558921517,
+      -0.051914487713973785
+    ],
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "mbon01_spikes": 0
+  },
+  {
+    "time_s": 0.62,
+    "mean_population_hz": 0.0,
+    "ppl1_spikes": 0,
+    "ppl1_spikes_with_enabled_route": 0,
+    "total_spikes": 0,
+    "external_rate_sum_hz": 0.0,
+    "reward_rate_sum_hz": 0.0,
+    "voltage_range_v": [
+      -0.05324182558231909,
+      -0.05193340295784632
+    ],
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "mbon01_spikes": 0
+  },
+  {
+    "time_s": 0.625,
+    "mean_population_hz": 0.0,
+    "ppl1_spikes": 0,
+    "ppl1_spikes_with_enabled_route": 0,
+    "total_spikes": 0,
+    "external_rate_sum_hz": 0.0,
+    "reward_rate_sum_hz": 0.0,
+    "voltage_range_v": [
+      -0.05296713474212965,
+      -0.05194813416890625
+    ],
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "mbon01_spikes": 0
+  },
+  {
+    "time_s": 0.63,
+    "mean_population_hz": 0.0,
+    "ppl1_spikes": 0,
+    "ppl1_spikes_with_enabled_route": 0,
+    "total_spikes": 0,
+    "external_rate_sum_hz": 0.0,
+    "reward_rate_sum_hz": 0.0,
+    "voltage_range_v": [
+      -0.05275320529678011,
+      -0.051959606849204566
+    ],
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "mbon01_spikes": 0
+  },
+  {
+    "time_s": 0.635,
+    "mean_population_hz": 0.0,
+    "ppl1_spikes": 0,
+    "ppl1_spikes_with_enabled_route": 0,
+    "total_spikes": 0,
+    "external_rate_sum_hz": 0.0,
+    "reward_rate_sum_hz": 0.0,
+    "voltage_range_v": [
+      -0.05258659687578236,
+      -0.05196854178218944
+    ],
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "mbon01_spikes": 0
+  },
+  {
+    "time_s": 0.64,
+    "mean_population_hz": 0.0,
+    "ppl1_spikes": 0,
+    "ppl1_spikes_with_enabled_route": 0,
+    "total_spikes": 0,
+    "external_rate_sum_hz": 0.0,
+    "reward_rate_sum_hz": 0.0,
+    "voltage_range_v": [
+      -0.05245684210651422,
+      -0.05197550031520986
+    ],
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "mbon01_spikes": 0
+  },
+  {
+    "time_s": 0.645,
+    "mean_population_hz": 0.0,
+    "ppl1_spikes": 0,
+    "ppl1_spikes_with_enabled_route": 0,
+    "total_spikes": 0,
+    "external_rate_sum_hz": 0.0,
+    "reward_rate_sum_hz": 0.0,
+    "voltage_range_v": [
+      -0.0523557889904064,
+      -0.05198091962625433
+    ],
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "mbon01_spikes": 0
+  },
+  {
+    "time_s": 0.65,
+    "mean_population_hz": 0.0,
+    "ppl1_spikes": 0,
+    "ppl1_spikes_with_enabled_route": 0,
+    "total_spikes": 0,
+    "external_rate_sum_hz": 0.0,
+    "reward_rate_sum_hz": 0.0,
+    "voltage_range_v": [
+      -0.052277088744378246,
+      -0.05198514018996853
+    ],
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "mbon01_spikes": 0
+  },
+  {
+    "time_s": 0.655,
+    "mean_population_hz": 0.0,
+    "ppl1_spikes": 0,
+    "ppl1_spikes_with_enabled_route": 0,
+    "total_spikes": 0,
+    "external_rate_sum_hz": 0.0,
+    "reward_rate_sum_hz": 0.0,
+    "voltage_range_v": [
+      -0.05221579693111727,
+      -0.05198842716830488
+    ],
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "mbon01_spikes": 0
+  },
+  {
+    "time_s": 0.66,
+    "mean_population_hz": 0.0,
+    "ppl1_spikes": 0,
+    "ppl1_spikes_with_enabled_route": 0,
+    "total_spikes": 0,
+    "external_rate_sum_hz": 0.0,
+    "reward_rate_sum_hz": 0.0,
+    "voltage_range_v": [
+      -0.052168062818944094,
+      -0.05199098706961113
+    ],
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "mbon01_spikes": 0
+  },
+  {
+    "time_s": 0.665,
+    "mean_population_hz": 0.0,
+    "ppl1_spikes": 0,
+    "ppl1_spikes_with_enabled_route": 0,
+    "total_spikes": 0,
+    "external_rate_sum_hz": 0.0,
+    "reward_rate_sum_hz": 0.0,
+    "voltage_range_v": [
+      -0.05213088745500086,
+      -0.05199298072275445
+    ],
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "mbon01_spikes": 0
+  },
+  {
+    "time_s": 0.67,
+    "mean_population_hz": 0.0,
+    "ppl1_spikes": 0,
+    "ppl1_spikes_with_enabled_route": 0,
+    "total_spikes": 0,
+    "external_rate_sum_hz": 0.0,
+    "reward_rate_sum_hz": 0.0,
+    "voltage_range_v": [
+      -0.05210193525244961,
+      -0.05199453338138415
+    ],
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "mbon01_spikes": 0
+  },
+  {
+    "time_s": 0.675,
+    "mean_population_hz": 0.0,
+    "ppl1_spikes": 0,
+    "ppl1_spikes_with_enabled_route": 0,
+    "total_spikes": 0,
+    "external_rate_sum_hz": 0.0,
+    "reward_rate_sum_hz": 0.0,
+    "voltage_range_v": [
+      -0.05207938725443058,
+      -0.0519957425931411
+    ],
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "mbon01_spikes": 0
+  },
+  {
+    "time_s": 0.68,
+    "mean_population_hz": 0.0,
+    "ppl1_spikes": 0,
+    "ppl1_spikes_with_enabled_route": 0,
+    "total_spikes": 0,
+    "external_rate_sum_hz": 0.0,
+    "reward_rate_sum_hz": 0.0,
+    "voltage_range_v": [
+      -0.05206182685591637,
+      -0.051996684328204375
+    ],
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "mbon01_spikes": 0
+  },
+  {
+    "time_s": 0.685,
+    "mean_population_hz": 0.0,
+    "ppl1_spikes": 0,
+    "ppl1_spikes_with_enabled_route": 0,
+    "total_spikes": 0,
+    "external_rate_sum_hz": 0.0,
+    "reward_rate_sum_hz": 0.0,
+    "voltage_range_v": [
+      -0.05204815080380243,
+      -0.0519974177522091
+    ],
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "mbon01_spikes": 0
+  },
+  {
+    "time_s": 0.6900000000000001,
+    "mean_population_hz": 0.0,
+    "ppl1_spikes": 0,
+    "ppl1_spikes_with_enabled_route": 0,
+    "total_spikes": 0,
+    "external_rate_sum_hz": 0.0,
+    "reward_rate_sum_hz": 0.0,
+    "voltage_range_v": [
+      -0.052037499883706755,
+      -0.05199798894339828
+    ],
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "mbon01_spikes": 0
+  },
+  {
+    "time_s": 0.6950000000000001,
+    "mean_population_hz": 0.0,
+    "ppl1_spikes": 0,
+    "ppl1_spikes_with_enabled_route": 0,
+    "total_spikes": 0,
+    "external_rate_sum_hz": 0.0,
+    "reward_rate_sum_hz": 0.0,
+    "voltage_range_v": [
+      -0.05202920493879583,
+      -0.05199843378754371
+    ],
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "mbon01_spikes": 0
+  },
+  {
+    "time_s": 0.7000000000000001,
+    "mean_population_hz": 0.0,
+    "ppl1_spikes": 0,
+    "ppl1_spikes_with_enabled_route": 0,
+    "total_spikes": 0,
+    "external_rate_sum_hz": 0.0,
+    "reward_rate_sum_hz": 0.0,
+    "voltage_range_v": [
+      -0.05202274482920364,
+      -0.05199878023251247
+    ],
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "mbon01_spikes": 0
+  },
+  {
+    "time_s": 0.705,
+    "mean_population_hz": 0.0,
+    "ppl1_spikes": 0,
+    "ppl1_spikes_with_enabled_route": 0,
+    "total_spikes": 0,
+    "external_rate_sum_hz": 0.0,
+    "reward_rate_sum_hz": 0.0,
+    "voltage_range_v": [
+      -0.05201771369079455,
+      -0.051999050044125465
+    ],
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "mbon01_spikes": 0
+  },
+  {
+    "time_s": 0.71,
+    "mean_population_hz": 0.0,
+    "ppl1_spikes": 0,
+    "ppl1_spikes_with_enabled_route": 0,
+    "total_spikes": 0,
+    "external_rate_sum_hz": 0.0,
+    "reward_rate_sum_hz": 0.0,
+    "voltage_range_v": [
+      -0.05201379543626181,
+      -0.05199926017362095
+    ],
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "mbon01_spikes": 0
+  },
+  {
+    "time_s": 0.715,
+    "mean_population_hz": 0.0,
+    "ppl1_spikes": 0,
+    "ppl1_spikes_with_enabled_route": 0,
+    "total_spikes": 0,
+    "external_rate_sum_hz": 0.0,
+    "reward_rate_sum_hz": 0.0,
+    "voltage_range_v": [
+      -0.05201074389656343,
+      -0.051999423822636566
+    ],
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "mbon01_spikes": 0
+  },
+  {
+    "time_s": 0.72,
+    "mean_population_hz": 0.0,
+    "ppl1_spikes": 0,
+    "ppl1_spikes_with_enabled_route": 0,
+    "total_spikes": 0,
+    "external_rate_sum_hz": 0.0,
+    "reward_rate_sum_hz": 0.0,
+    "voltage_range_v": [
+      -0.052008367355056755,
+      -0.051999551272618086
+    ],
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "mbon01_spikes": 0
+  },
+  {
+    "time_s": 0.725,
+    "mean_population_hz": 0.0,
+    "ppl1_spikes": 0,
+    "ppl1_spikes_with_enabled_route": 0,
+    "total_spikes": 0,
+    "external_rate_sum_hz": 0.0,
+    "reward_rate_sum_hz": 0.0,
+    "voltage_range_v": [
+      -0.052006516502670345,
+      -0.0519996505307635
+    ],
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "mbon01_spikes": 0
+  },
+  {
+    "time_s": 0.73,
+    "mean_population_hz": 0.0,
+    "ppl1_spikes": 0,
+    "ppl1_spikes_with_enabled_route": 0,
+    "total_spikes": 0,
+    "external_rate_sum_hz": 0.0,
+    "reward_rate_sum_hz": 0.0,
+    "voltage_range_v": [
+      -0.05200507505738248,
+      -0.05199972783308485
+    ],
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "mbon01_spikes": 0
+  },
+  {
+    "time_s": 0.735,
+    "mean_population_hz": 0.0,
+    "ppl1_spikes": 0,
+    "ppl1_spikes_with_enabled_route": 0,
+    "total_spikes": 0,
+    "external_rate_sum_hz": 0.0,
+    "reward_rate_sum_hz": 0.0,
+    "voltage_range_v": [
+      -0.052003952458663516,
+      -0.05199978803619326
+    ],
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "mbon01_spikes": 0
+  },
+  {
+    "time_s": 0.74,
+    "mean_population_hz": 0.0,
+    "ppl1_spikes": 0,
+    "ppl1_spikes_with_enabled_route": 0,
+    "total_spikes": 0,
+    "external_rate_sum_hz": 0.0,
+    "reward_rate_sum_hz": 0.0,
+    "voltage_range_v": [
+      -0.05200307817790211,
+      -0.05199983492242127
+    ],
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "mbon01_spikes": 0
+  },
+  {
+    "time_s": 0.745,
+    "mean_population_hz": 0.0,
+    "ppl1_spikes": 0,
+    "ppl1_spikes_with_enabled_route": 0,
+    "total_spikes": 0,
+    "external_rate_sum_hz": 0.0,
+    "reward_rate_sum_hz": 0.0,
+    "voltage_range_v": [
+      -0.05200239728736051,
+      -0.05199987143745235
+    ],
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "mbon01_spikes": 0
+  },
+  {
+    "time_s": 0.75,
+    "mean_population_hz": 0.0,
+    "ppl1_spikes": 0,
+    "ppl1_spikes_with_enabled_route": 0,
+    "total_spikes": 0,
+    "external_rate_sum_hz": 0.0,
+    "reward_rate_sum_hz": 0.0,
+    "voltage_range_v": [
+      -0.05200186700927351,
+      -0.051999899875387126
+    ],
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "mbon01_spikes": 0
+  },
+  {
+    "time_s": 0.755,
+    "mean_population_hz": 0.0,
+    "ppl1_spikes": 0,
+    "ppl1_spikes_with_enabled_route": 0,
+    "total_spikes": 0,
+    "external_rate_sum_hz": 0.0,
+    "reward_rate_sum_hz": 0.0,
+    "voltage_range_v": [
+      -0.052001454028284134,
+      -0.05199992202287303
+    ],
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "mbon01_spikes": 0
+  },
+  {
+    "time_s": 0.76,
+    "mean_population_hz": 0.0,
+    "ppl1_spikes": 0,
+    "ppl1_spikes_with_enabled_route": 0,
+    "total_spikes": 0,
+    "external_rate_sum_hz": 0.0,
+    "reward_rate_sum_hz": 0.0,
+    "voltage_range_v": [
+      -0.05200113239836622,
+      -0.05199993927135235
+    ],
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "mbon01_spikes": 0
+  },
+  {
+    "time_s": 0.765,
+    "mean_population_hz": 0.0,
+    "ppl1_spikes": 0,
+    "ppl1_spikes_with_enabled_route": 0,
+    "total_spikes": 0,
+    "external_rate_sum_hz": 0.0,
+    "reward_rate_sum_hz": 0.0,
+    "voltage_range_v": [
+      -0.05200088191273429,
+      -0.051999952704481586
+    ],
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "mbon01_spikes": 0
+  },
+  {
+    "time_s": 0.77,
+    "mean_population_hz": 0.0,
+    "ppl1_spikes": 0,
+    "ppl1_spikes_with_enabled_route": 0,
+    "total_spikes": 0,
+    "external_rate_sum_hz": 0.0,
+    "reward_rate_sum_hz": 0.0,
+    "voltage_range_v": [
+      -0.05200068683432799,
+      -0.05199996316621314
+    ],
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "mbon01_spikes": 0
+  },
+  {
+    "time_s": 0.775,
+    "mean_population_hz": 0.0,
+    "ppl1_spikes": 0,
+    "ppl1_spikes_with_enabled_route": 0,
+    "total_spikes": 0,
+    "external_rate_sum_hz": 0.0,
+    "reward_rate_sum_hz": 0.0,
+    "voltage_range_v": [
+      -0.05200053490711241,
+      -0.05199997131381786
+    ],
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "mbon01_spikes": 0
+  },
+  {
+    "time_s": 0.78,
+    "mean_population_hz": 0.0,
+    "ppl1_spikes": 0,
+    "ppl1_spikes_with_enabled_route": 0,
+    "total_spikes": 0,
+    "external_rate_sum_hz": 0.0,
+    "reward_rate_sum_hz": 0.0,
+    "voltage_range_v": [
+      -0.05200041658607796,
+      -0.0519999776591788
+    ],
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "mbon01_spikes": 0
+  },
+  {
+    "time_s": 0.785,
+    "mean_population_hz": 0.0,
+    "ppl1_spikes": 0,
+    "ppl1_spikes_with_enabled_route": 0,
+    "total_spikes": 0,
+    "external_rate_sum_hz": 0.0,
+    "reward_rate_sum_hz": 0.0,
+    "voltage_range_v": [
+      -0.05200032443756364,
+      -0.05199998260095088
+    ],
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "mbon01_spikes": 0
+  },
+  {
+    "time_s": 0.79,
+    "mean_population_hz": 0.0,
+    "ppl1_spikes": 0,
+    "ppl1_spikes_with_enabled_route": 0,
+    "total_spikes": 0,
+    "external_rate_sum_hz": 0.0,
+    "reward_rate_sum_hz": 0.0,
+    "voltage_range_v": [
+      -0.05200025267222855,
+      -0.05199998644960685
+    ],
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "mbon01_spikes": 0
+  },
+  {
+    "time_s": 0.795,
+    "mean_population_hz": 0.0,
+    "ppl1_spikes": 0,
+    "ppl1_spikes_with_enabled_route": 0,
+    "total_spikes": 0,
+    "external_rate_sum_hz": 0.0,
+    "reward_rate_sum_hz": 0.0,
+    "voltage_range_v": [
+      -0.05200019678132936,
+      -0.051999989446943104
+    ],
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "mbon01_spikes": 0
+  },
+  {
+    "time_s": 0.8,
+    "mean_population_hz": 0.0,
+    "ppl1_spikes": 0,
+    "ppl1_spikes_with_enabled_route": 0,
+    "total_spikes": 0,
+    "external_rate_sum_hz": 0.0,
+    "reward_rate_sum_hz": 0.0,
+    "voltage_range_v": [
+      -0.052000153253453314,
+      -0.05199999178127093
+    ],
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "mbon01_spikes": 0
+  },
+  {
+    "time_s": 0.805,
+    "mean_population_hz": 0.0,
+    "ppl1_spikes": 0,
+    "ppl1_spikes_with_enabled_route": 0,
+    "total_spikes": 0,
+    "external_rate_sum_hz": 0.0,
+    "reward_rate_sum_hz": 0.0,
+    "voltage_range_v": [
+      -0.05200011935390938,
+      -0.05199999359924728
+    ],
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "mbon01_spikes": 0
+  },
+  {
+    "time_s": 0.81,
+    "mean_population_hz": 0.0,
+    "ppl1_spikes": 0,
+    "ppl1_spikes_with_enabled_route": 0,
+    "total_spikes": 0,
+    "external_rate_sum_hz": 0.0,
+    "reward_rate_sum_hz": 0.0,
+    "voltage_range_v": [
+      -0.052000092952918,
+      -0.05199999501508871
+    ],
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "mbon01_spikes": 0
+  },
+  {
+    "time_s": 0.8150000000000001,
+    "mean_population_hz": 0.0,
+    "ppl1_spikes": 0,
+    "ppl1_spikes_with_enabled_route": 0,
+    "total_spikes": 0,
+    "external_rate_sum_hz": 0.0,
+    "reward_rate_sum_hz": 0.0,
+    "voltage_range_v": [
+      -0.05200007239180525,
+      -0.0519999961177471
+    ],
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "mbon01_spikes": 0
+  },
+  {
+    "time_s": 0.8200000000000001,
+    "mean_population_hz": 0.0,
+    "ppl1_spikes": 0,
+    "ppl1_spikes_with_enabled_route": 0,
+    "total_spikes": 0,
+    "external_rate_sum_hz": 0.0,
+    "reward_rate_sum_hz": 0.0,
+    "voltage_range_v": [
+      -0.05200005637879454,
+      -0.05199999697649833
+    ],
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "mbon01_spikes": 0
+  },
+  {
+    "time_s": 0.8250000000000001,
+    "mean_population_hz": 0.0,
+    "ppl1_spikes": 0,
+    "ppl1_spikes_with_enabled_route": 0,
+    "total_spikes": 0,
+    "external_rate_sum_hz": 0.0,
+    "reward_rate_sum_hz": 0.0,
+    "voltage_range_v": [
+      -0.05200004390784925,
+      -0.05199999764529448
+    ],
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "mbon01_spikes": 0
+  },
+  {
+    "time_s": 0.8300000000000001,
+    "mean_population_hz": 0.0,
+    "ppl1_spikes": 0,
+    "ppl1_spikes_with_enabled_route": 0,
+    "total_spikes": 0,
+    "external_rate_sum_hz": 0.0,
+    "reward_rate_sum_hz": 0.0,
+    "voltage_range_v": [
+      -0.052000034195467296,
+      -0.051999998166153395
+    ],
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "mbon01_spikes": 0
+  },
+  {
+    "time_s": 0.835,
+    "mean_population_hz": 0.0,
+    "ppl1_spikes": 0,
+    "ppl1_spikes_with_enabled_route": 0,
+    "total_spikes": 0,
+    "external_rate_sum_hz": 0.0,
+    "reward_rate_sum_hz": 0.0,
+    "voltage_range_v": [
+      -0.05200002663145661,
+      -0.051999998571798746
+    ],
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "mbon01_spikes": 0
+  },
+  {
+    "time_s": 0.84,
+    "mean_population_hz": 0.0,
+    "ppl1_spikes": 0,
+    "ppl1_spikes_with_enabled_route": 0,
+    "total_spikes": 0,
+    "external_rate_sum_hz": 0.0,
+    "reward_rate_sum_hz": 0.0,
+    "voltage_range_v": [
+      -0.052000020740599194,
+      -0.05199999888771567
+    ],
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "mbon01_spikes": 0
+  },
+  {
+    "time_s": 0.845,
+    "mean_population_hz": 0.0,
+    "ppl1_spikes": 0,
+    "ppl1_spikes_with_enabled_route": 0,
+    "total_spikes": 0,
+    "external_rate_sum_hz": 0.0,
+    "reward_rate_sum_hz": 0.0,
+    "voltage_range_v": [
+      -0.05200001615279482,
+      -0.051999999133752015
+    ],
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "mbon01_spikes": 0
+  },
+  {
+    "time_s": 0.85,
+    "mean_population_hz": 0.0,
+    "ppl1_spikes": 0,
+    "ppl1_spikes_with_enabled_route": 0,
+    "total_spikes": 0,
+    "external_rate_sum_hz": 0.0,
+    "reward_rate_sum_hz": 0.0,
+    "voltage_range_v": [
+      -0.05200001257980918,
+      -0.05199999932536532
+    ],
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "mbon01_spikes": 0
+  },
+  {
+    "time_s": 0.855,
+    "mean_population_hz": 0.0,
+    "ppl1_spikes": 0,
+    "ppl1_spikes_with_enabled_route": 0,
+    "total_spikes": 0,
+    "external_rate_sum_hz": 0.0,
+    "reward_rate_sum_hz": 0.0,
+    "voltage_range_v": [
+      -0.05200000979716516,
+      -0.051999999474593904
+    ],
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "mbon01_spikes": 0
+  },
+  {
+    "time_s": 0.86,
+    "mean_population_hz": 0.0,
+    "ppl1_spikes": 0,
+    "ppl1_spikes_with_enabled_route": 0,
+    "total_spikes": 0,
+    "external_rate_sum_hz": 0.0,
+    "reward_rate_sum_hz": 0.0,
+    "voltage_range_v": [
+      -0.052000007630039834,
+      -0.051999999590813244
+    ],
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "mbon01_spikes": 0
+  },
+  {
+    "time_s": 0.865,
+    "mean_population_hz": 0.0,
+    "ppl1_spikes": 0,
+    "ppl1_spikes_with_enabled_route": 0,
+    "total_spikes": 0,
+    "external_rate_sum_hz": 0.0,
+    "reward_rate_sum_hz": 0.0,
+    "voltage_range_v": [
+      -0.05200000594228092,
+      -0.051999999681324925
+    ],
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "mbon01_spikes": 0
+  },
+  {
+    "time_s": 0.87,
+    "mean_population_hz": 0.0,
+    "ppl1_spikes": 0,
+    "ppl1_spikes_with_enabled_route": 0,
+    "total_spikes": 0,
+    "external_rate_sum_hz": 0.0,
+    "reward_rate_sum_hz": 0.0,
+    "voltage_range_v": [
+      -0.052000004627852946,
+      -0.051999999751815525
+    ],
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "mbon01_spikes": 0
+  },
+  {
+    "time_s": 0.875,
+    "mean_population_hz": 0.0,
+    "ppl1_spikes": 0,
+    "ppl1_spikes_with_enabled_route": 0,
+    "total_spikes": 0,
+    "external_rate_sum_hz": 0.0,
+    "reward_rate_sum_hz": 0.0,
+    "voltage_range_v": [
+      -0.05200000360417542,
+      -0.05199999980671366
+    ],
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "mbon01_spikes": 0
+  },
+  {
+    "time_s": 0.88,
+    "mean_population_hz": 0.0,
+    "ppl1_spikes": 0,
+    "ppl1_spikes_with_enabled_route": 0,
+    "total_spikes": 0,
+    "external_rate_sum_hz": 0.0,
+    "reward_rate_sum_hz": 0.0,
+    "voltage_range_v": [
+      -0.05200000280693456,
+      -0.051999999849468376
+    ],
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "mbon01_spikes": 0
+  },
+  {
+    "time_s": 0.885,
+    "mean_population_hz": 0.0,
+    "ppl1_spikes": 0,
+    "ppl1_spikes_with_enabled_route": 0,
+    "total_spikes": 0,
+    "external_rate_sum_hz": 0.0,
+    "reward_rate_sum_hz": 0.0,
+    "voltage_range_v": [
+      -0.05200000218604274,
+      -0.05199999988276577
+    ],
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "mbon01_spikes": 0
+  },
+  {
+    "time_s": 0.89,
+    "mean_population_hz": 0.0,
+    "ppl1_spikes": 0,
+    "ppl1_spikes_with_enabled_route": 0,
+    "total_spikes": 0,
+    "external_rate_sum_hz": 0.0,
+    "reward_rate_sum_hz": 0.0,
+    "voltage_range_v": [
+      -0.05200000170249173,
+      -0.0519999999086978
+    ],
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "mbon01_spikes": 0
+  },
+  {
+    "time_s": 0.895,
+    "mean_population_hz": 0.0,
+    "ppl1_spikes": 0,
+    "ppl1_spikes_with_enabled_route": 0,
+    "total_spikes": 0,
+    "external_rate_sum_hz": 0.0,
+    "reward_rate_sum_hz": 0.0,
+    "voltage_range_v": [
+      -0.05200000132590181,
+      -0.05199999992889372
+    ],
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "mbon01_spikes": 0
+  },
+  {
+    "time_s": 0.9,
+    "mean_population_hz": 0.0,
+    "ppl1_spikes": 0,
+    "ppl1_spikes_with_enabled_route": 0,
+    "total_spikes": 0,
+    "external_rate_sum_hz": 0.0,
+    "reward_rate_sum_hz": 0.0,
+    "voltage_range_v": [
+      -0.0520000010326133,
+      -0.051999999944622274
+    ],
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "mbon01_spikes": 0
+  },
+  {
+    "time_s": 0.905,
+    "mean_population_hz": 0.0,
+    "ppl1_spikes": 0,
+    "ppl1_spikes_with_enabled_route": 0,
+    "total_spikes": 0,
+    "external_rate_sum_hz": 0.0,
+    "reward_rate_sum_hz": 0.0,
+    "voltage_range_v": [
+      -0.052000000804199954,
+      -0.05199999995687171
+    ],
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "mbon01_spikes": 0
+  },
+  {
+    "time_s": 0.91,
+    "mean_population_hz": 0.0,
+    "ppl1_spikes": 0,
+    "ppl1_spikes_with_enabled_route": 0,
+    "total_spikes": 0,
+    "external_rate_sum_hz": 0.0,
+    "reward_rate_sum_hz": 0.0,
+    "voltage_range_v": [
+      -0.052000000626311486,
+      -0.051999999966411574
+    ],
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "mbon01_spikes": 0
+  },
+  {
+    "time_s": 0.915,
+    "mean_population_hz": 0.0,
+    "ppl1_spikes": 0,
+    "ppl1_spikes_with_enabled_route": 0,
+    "total_spikes": 0,
+    "external_rate_sum_hz": 0.0,
+    "reward_rate_sum_hz": 0.0,
+    "voltage_range_v": [
+      -0.052000000487771786,
+      -0.051999999973841214
+    ],
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "mbon01_spikes": 0
+  },
+  {
+    "time_s": 0.92,
+    "mean_population_hz": 0.0,
+    "ppl1_spikes": 0,
+    "ppl1_spikes_with_enabled_route": 0,
+    "total_spikes": 0,
+    "external_rate_sum_hz": 0.0,
+    "reward_rate_sum_hz": 0.0,
+    "voltage_range_v": [
+      -0.05200000037987696,
+      -0.051999999979627454
+    ],
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "mbon01_spikes": 0
+  },
+  {
+    "time_s": 0.925,
+    "mean_population_hz": 0.0,
+    "ppl1_spikes": 0,
+    "ppl1_spikes_with_enabled_route": 0,
+    "total_spikes": 0,
+    "external_rate_sum_hz": 0.0,
+    "reward_rate_sum_hz": 0.0,
+    "voltage_range_v": [
+      -0.05200000029584839,
+      -0.05199999998413376
+    ],
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "mbon01_spikes": 0
+  },
+  {
+    "time_s": 0.93,
+    "mean_population_hz": 0.0,
+    "ppl1_spikes": 0,
+    "ppl1_spikes_with_enabled_route": 0,
+    "total_spikes": 0,
+    "external_rate_sum_hz": 0.0,
+    "reward_rate_sum_hz": 0.0,
+    "voltage_range_v": [
+      -0.052000000230406886,
+      -0.051999999987643285
+    ],
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "mbon01_spikes": 0
+  },
+  {
+    "time_s": 0.935,
+    "mean_population_hz": 0.0,
+    "ppl1_spikes": 0,
+    "ppl1_spikes_with_enabled_route": 0,
+    "total_spikes": 0,
+    "external_rate_sum_hz": 0.0,
+    "reward_rate_sum_hz": 0.0,
+    "voltage_range_v": [
+      -0.05200000017944097,
+      -0.0519999999903765
+    ],
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "mbon01_spikes": 0
+  },
+  {
+    "time_s": 0.9400000000000001,
+    "mean_population_hz": 0.0,
+    "ppl1_spikes": 0,
+    "ppl1_spikes_with_enabled_route": 0,
+    "total_spikes": 0,
+    "external_rate_sum_hz": 0.0,
+    "reward_rate_sum_hz": 0.0,
+    "voltage_range_v": [
+      -0.052000000139748696,
+      -0.051999999992505125
+    ],
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "mbon01_spikes": 0
+  },
+  {
+    "time_s": 0.9450000000000001,
+    "mean_population_hz": 0.0,
+    "ppl1_spikes": 0,
+    "ppl1_spikes_with_enabled_route": 0,
+    "total_spikes": 0,
+    "external_rate_sum_hz": 0.0,
+    "reward_rate_sum_hz": 0.0,
+    "voltage_range_v": [
+      -0.052000000108836306,
+      -0.05199999999416292
+    ],
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "mbon01_spikes": 0
+  },
+  {
+    "time_s": 0.9500000000000001,
+    "mean_population_hz": 0.0,
+    "ppl1_spikes": 0,
+    "ppl1_spikes_with_enabled_route": 0,
+    "total_spikes": 0,
+    "external_rate_sum_hz": 0.0,
+    "reward_rate_sum_hz": 0.0,
+    "voltage_range_v": [
+      -0.052000000084761716,
+      -0.051999999995454
+    ],
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "mbon01_spikes": 0
+  },
+  {
+    "time_s": 0.9550000000000001,
+    "mean_population_hz": 0.0,
+    "ppl1_spikes": 0,
+    "ppl1_spikes_with_enabled_route": 0,
+    "total_spikes": 0,
+    "external_rate_sum_hz": 0.0,
+    "reward_rate_sum_hz": 0.0,
+    "voltage_range_v": [
+      -0.0520000000660124,
+      -0.051999999996459476
+    ],
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "mbon01_spikes": 0
+  },
+  {
+    "time_s": 0.96,
+    "mean_population_hz": 0.0,
+    "ppl1_spikes": 0,
+    "ppl1_spikes_with_enabled_route": 0,
+    "total_spikes": 0,
+    "external_rate_sum_hz": 0.0,
+    "reward_rate_sum_hz": 0.0,
+    "voltage_range_v": [
+      -0.05200000005141045,
+      -0.05199999999724256
+    ],
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "mbon01_spikes": 0
+  },
+  {
+    "time_s": 0.965,
+    "mean_population_hz": 0.0,
+    "ppl1_spikes": 0,
+    "ppl1_spikes_with_enabled_route": 0,
+    "total_spikes": 0,
+    "external_rate_sum_hz": 0.0,
+    "reward_rate_sum_hz": 0.0,
+    "voltage_range_v": [
+      -0.052000000040038415,
+      -0.05199999999785241
+    ],
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "mbon01_spikes": 0
+  },
+  {
+    "time_s": 0.97,
+    "mean_population_hz": 0.0,
+    "ppl1_spikes": 0,
+    "ppl1_spikes_with_enabled_route": 0,
+    "total_spikes": 0,
+    "external_rate_sum_hz": 0.0,
+    "reward_rate_sum_hz": 0.0,
+    "voltage_range_v": [
+      -0.052000000031181874,
+      -0.051999999998327384
+    ],
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "mbon01_spikes": 0
+  },
+  {
+    "time_s": 0.975,
+    "mean_population_hz": 0.0,
+    "ppl1_spikes": 0,
+    "ppl1_spikes_with_enabled_route": 0,
+    "total_spikes": 0,
+    "external_rate_sum_hz": 0.0,
+    "reward_rate_sum_hz": 0.0,
+    "voltage_range_v": [
+      -0.05200000002428438,
+      -0.05199999999869728
+    ],
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "mbon01_spikes": 0
+  },
+  {
+    "time_s": 0.98,
+    "mean_population_hz": 0.0,
+    "ppl1_spikes": 0,
+    "ppl1_spikes_with_enabled_route": 0,
+    "total_spikes": 0,
+    "external_rate_sum_hz": 0.0,
+    "reward_rate_sum_hz": 0.0,
+    "voltage_range_v": [
+      -0.05200000001891265,
+      -0.051999999998985365
+    ],
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "mbon01_spikes": 0
+  },
+  {
+    "time_s": 0.985,
+    "mean_population_hz": 0.0,
+    "ppl1_spikes": 0,
+    "ppl1_spikes_with_enabled_route": 0,
+    "total_spikes": 0,
+    "external_rate_sum_hz": 0.0,
+    "reward_rate_sum_hz": 0.0,
+    "voltage_range_v": [
+      -0.05200000001472912,
+      -0.051999999999209706
+    ],
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "mbon01_spikes": 0
+  },
+  {
+    "time_s": 0.99,
+    "mean_population_hz": 0.0,
+    "ppl1_spikes": 0,
+    "ppl1_spikes_with_enabled_route": 0,
+    "total_spikes": 0,
+    "external_rate_sum_hz": 0.0,
+    "reward_rate_sum_hz": 0.0,
+    "voltage_range_v": [
+      -0.05200000001147097,
+      -0.051999999999384455
+    ],
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "mbon01_spikes": 0
+  },
+  {
+    "time_s": 0.995,
+    "mean_population_hz": 0.0,
+    "ppl1_spikes": 0,
+    "ppl1_spikes_with_enabled_route": 0,
+    "total_spikes": 0,
+    "external_rate_sum_hz": 0.0,
+    "reward_rate_sum_hz": 0.0,
+    "voltage_range_v": [
+      -0.05200000000893352,
+      -0.05199999999952053
+    ],
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "mbon01_spikes": 0
+  },
+  {
+    "time_s": 1.0,
+    "mean_population_hz": 0.0,
+    "ppl1_spikes": 0,
+    "ppl1_spikes_with_enabled_route": 0,
+    "total_spikes": 0,
+    "external_rate_sum_hz": 0.0,
+    "reward_rate_sum_hz": 0.0,
+    "voltage_range_v": [
+      -0.05200000000695734,
+      -0.051999999999626505
+    ],
+    "status": "CONTINUE",
+    "reason": "no_configured_proxy_trigger",
+    "mbon01_spikes": 0
+  }
+]
