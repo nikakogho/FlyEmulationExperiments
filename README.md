@@ -7,8 +7,10 @@ binary arrays remain local and must be downloaded or regenerated after cloning;
 this repository is not a backup of those artifacts. See `.gitignore` and the
 setup scripts for exclusions and pinned input sources.
 
-Latest: [minimal-reflex assay and calibration finding](research/minimal_reflex_progress.md).
-M3 remains incomplete: 81 offline tests pass, but no neural reflex has been run.
+Latest: [motor physiological identity and conditional calibration targets](research/motor_physiology.md).
+M3 remains incomplete: 85 offline tests pass; the intermediate-unit identity is
+a candidate and raw-recording calibration has not been performed.
+Previous: [minimal-reflex assay and calibration finding](research/minimal_reflex_progress.md).
 Previous: [exact FANC sensory-to-muscle pathway and anatomical foreleg test](research/fanc_pathway_and_foreleg.md).
 
 **Current direction:** [project scope and MaleCNS migration assessment](research/project_scope.md).

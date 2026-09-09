@@ -1,0 +1,32 @@
+[
+  {
+    "cache_path": "data/motor_physiology/atlas_fast_tibia_flexor.json",
+    "url": "https://raw.githubusercontent.com/EllenLesser/Azevedo_Lesser_Phelps_Mark_2023/ff363505fd1236e63ee77966239e99280fe1ba12/jsons/fast_tibia_flexor.json",
+    "sha256": "000ab20934e3088dea4dfbe96fa40ae583d16d69fbde2f8cd31d1824968580dd"
+  },
+  {
+    "cache_path": "data/motor_physiology/atlas_ti_flexor.json",
+    "url": "https://raw.githubusercontent.com/EllenLesser/Azevedo_Lesser_Phelps_Mark_2023/ff363505fd1236e63ee77966239e99280fe1ba12/jsons/ti_flexor.json",
+    "sha256": "d618fd41031447fb7f42d6f446171dbe868b3deebbbb440d934ad1247b6d428f"
+  },
+  {
+    "cache_path": "data/motor_physiology/cell_ids_v1444.parquet",
+    "url": "https://storage.googleapis.com/lee-lab_female-adult-nerve-cord/CAVE/v1444/cell_ids_v2.parquet",
+    "sha256": "a6ca467c29c0c273acdcde2b885bd912b17eabb34c951b5ca48f3cc2caca28f4"
+  },
+  {
+    "cache_path": "data/motor_physiology/published_properties.json",
+    "url": "https://storage.googleapis.com/lee-lab_female-adult-nerve-cord/meshes/FANC/FANC_neurons/segment_properties/info",
+    "sha256": "732853a5d42a1b258e35d9099c693513523caa57b3c932daecdb3f0b774ceffb"
+  },
+  {
+    "cache_path": "data/motor_physiology/published_supplement.pdf",
+    "url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41586-024-07389-x/MediaObjects/41586_2024_7389_MOESM1_ESM.pdf",
+    "sha256": "dcbb671d7831eb64f7554af4a32f59e3f2eb0dc1b1294e4876f2838a603076ba"
+  },
+  {
+    "cache_path": "data/motor_physiology/PMC7347388.xml",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7347388/fullTextXML",
+    "sha256": "c15f7470f07569e58356230b3f70e7507c15d9ba7a9b9a27b035b86681f1cd26"
+  }
+]

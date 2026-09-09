@@ -132,6 +132,12 @@ interactive viewer not complete.
 
 ## M3 — One neural feedback loop
 
+Latest: [motor physiological identity investigation](motor_physiology.md) identifies
+public cell ID 160 and an intermediate-flexor candidate, but not an exact driver
+crosswalk. Raw recordings are published; downloads failed here. Rounded class
+reference values and probe-unit conversion are implemented, not a fitted response.
+85 offline tests pass. Neural execution remains disabled.
+
 2026-09-09 update: [minimal-reflex assay and calibration finding](minimal_reflex_progress.md).
 Matched-trace analysis and a mechanical null trial are implemented; 81 offline
 tests pass. The specific motor unit's recruitment/force response is unresolved.

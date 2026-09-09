@@ -1,0 +1,68 @@
+{
+  "neural_steps": 0,
+  "identity_status": "candidate_not_confirmed_exact_crosswalk",
+  "selected_root_id": "648518346496932836",
+  "public_cell_id": "160",
+  "soma_supervoxel_id": "72764237826748104",
+  "public_tags": [
+    "Azevedo-Lesser-Phelps-Mark-et-al.-2024",
+    "motor-neuron",
+    "leg-motor-neuron",
+    "left-soma",
+    "soma-in-T1",
+    "left-T1-leg-nerve",
+    "T1-leg-motor-neuron",
+    "L1-bundle"
+  ],
+  "named_fast_root_ids": [
+    "648518346484809885"
+  ],
+  "candidate": {
+    "atlas_neuron_number": 44,
+    "driver": "R22A08-Gal4",
+    "physiological_class": "intermediate",
+    "basis": "Main-flexor rank 3 plus atlas #44 morphology/driver context; not an exact ID crosswalk"
+  },
+  "confirmed_links": [
+    "selected root ID to stable public cell ID and soma supervoxel",
+    "selected root ID is in the published five-cell main-flexor scene",
+    "atlas Figure A12 #44 to GMR22A08, visually inspected",
+    "R22A08 physiology class is intermediate in Azevedo 2020"
+  ],
+  "missing_link": "selected root/public cell ID to atlas neuron #44 or R22A08",
+  "class_reference": {
+    "driver": "R22A08-Gal4",
+    "resting_soma_voltage_mv": -60.0,
+    "input_resistance_mohm": 300.0,
+    "resting_spike_rate_hz": 0.0,
+    "parameter_kind": "rounded_published_class_summary_not_cell_fit",
+    "spike_threshold_mv": null,
+    "source": "https://elifesciences.org/articles/56754"
+  },
+  "derived_reference": {
+    "current_pa": -5,
+    "predicted_soma_voltage_mv": -61.5,
+    "probe_deflection_um": 5,
+    "static_probe_force_un": 1.117
+  },
+  "force_context": "Paper example: intermediate single-spike response about 1 uN; not a universal gain. Figure 4D varies across cells and spike counts.",
+  "probe_parameters": {
+    "stiffness_n_m": 0.2234,
+    "drag_kg_s": 0.00014,
+    "mass_kg": 1.7e-07
+  },
+  "raw_data": {
+    "doi": "10.5061/dryad.76hdr7stb",
+    "version": 105831,
+    "available": true,
+    "downloaded": false,
+    "fit_performed": false,
+    "file_stream_http_status": 403,
+    "api_download_http_status": 401,
+    "access_note": "Observed 2026-09-09; browser access also failed to attach/time out"
+  },
+  "cell_calibration_complete": false,
+  "heldout_validation_performed": false,
+  "activation_authorized": false,
+  "welfare": "Offline source analysis and algebra only; no neural welfare assessment"
+}
