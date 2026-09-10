@@ -1,0 +1,5 @@
+{
+  "additional_neural_steps": 0,
+  "restored_time_s": 3.999999999999937,
+  "method": "Brian2 full restore including RNG and pending queues; no net.run"
+}

@@ -1,0 +1,14 @@
+{
+  "status": "completed",
+  "error": null,
+  "cue": 0,
+  "side": "center",
+  "output_spikes": [
+    37,
+    23
+  ],
+  "neural_time_s": 1.0000000000000007,
+  "unknown_side_inputs": 15,
+  "weights_unchanged": true,
+  "subjective_welfare": "not established"
+}

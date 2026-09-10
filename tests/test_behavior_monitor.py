@@ -45,4 +45,11 @@ class BehaviorTests(unittest.TestCase):
             for k in range(31):m.observe(k*.01,[k*.01,0,0],[0,0],np.zeros((2,4)))
         self.assertEqual(m.reason,'failed_rest')
 
+    def test_apparatus_removal_is_not_behavioral_avoidance(self):
+        m=BehaviorMonitor()
+        for k in range(61):
+            level=.1+.02*min(k,15)-.01*max(k-15,0)
+            m.observe(k*.01,[k*.05,0,0],[.5,.5],np.full((2,4),max(0,level)),stimulus_enabled=k<16)
+        self.assertFalse(m.stopped)
+
 if __name__=='__main__':unittest.main()

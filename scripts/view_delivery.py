@@ -23,6 +23,7 @@ def main():
     model,data,tape=load(args.path)
     report=json.loads((Path(args.path)/'report.json').read_text())
     odor_scene='sources_mm' in report
+    neural_scene=report.get('body_run',False)
     telemetry=json.loads((Path(args.path)/'telemetry.json').read_text()) if odor_scene else None
     camera=mujoco.MjvCamera();camera.azimuth=135;camera.elevation=-30;camera.distance=7
     set_frame(model,data,tape,0)
@@ -40,18 +41,22 @@ def main():
                 camera.lookat[:]=data.qpos[:3];renderer.update_scene(data,camera=camera)
                 frame=Image.fromarray(renderer.render());draw=ImageDraw.Draw(frame)
                 draw.rectangle((0,0,960,92),fill='#14202a')
-                draw.text((18,10),'3D FLY | physical odor-sensor test' if odor_scene else '3D FLY | mechanical walking, turning and rest',font=font,fill='white')
-                draw.text((18,38),f'Recorded time {data.time:.2f}s | playback 0.25x | no neural simulation',font=font,fill='white')
+                title='3D FLY | '+('neural-to-speed test | '+report['status'] if neural_scene else 'physical odor-sensor test' if odor_scene else 'mechanical walking, turning and rest')
+                draw.text((18,10),title,font=font,fill='white')
+                speed=25*float(np.median(np.diff(tape['time_s']))) if len(tape['time_s'])>1 else 0
+                context='recorded neural/physics coupling' if neural_scene else 'no neural simulation'
+                draw.text((18,38),f'Recorded time {data.time:.2f}s | playback {speed:.3g}x | {context}',font=font,fill='white')
                 detail='Learning not demonstrated; camera follows position for viewing only'
                 if odor_scene:
                     scent=np.asarray(telemetry[i]['odor'])
-                    detail=f'Antennae A: L {scent[0,2]:.3f} R {scent[0,3]:.3f} | B: L {scent[1,2]:.3f} R {scent[1,3]:.3f} | no learning'
+                    detail=f'Antennae A: L {scent[0,2]:.3f} R {scent[0,3]:.3f} | B: L {scent[1,2]:.3f} R {scent[1,3]:.3f}'
+                    detail+=' | prior memory, fixed motor rule' if neural_scene else ' | no learning'
                 draw.text((18,64),detail,font=font,fill='#f9cd82')
                 writer.append_data(np.asarray(frame))
                 if i==120:frame.save(Path(args.path)/'preview.png')
         cap=iio.get_reader(Path(args.path)/'fly_in_3d.mp4');count=sum(1 for _ in cap);cap.close()
         assert count==len(tape['time_s'])
-        (Path(args.path)/'video_checks.json').write_text(json.dumps(dict(decoded_frames=count,fps=25,playback_speed=.25,rendered_from_replay=True,new_physics_steps=0,new_neural_steps=0),indent=2))
+        (Path(args.path)/'video_checks.json').write_text(json.dumps(dict(decoded_frames=count,fps=25,playback_speed=speed,rendered_from_replay=True,new_physics_steps=0,new_neural_steps=0),indent=2))
         print('Rendered and decoded',count,'frames');return
     from mujoco import viewer as mjviewer
     state={'playing':False,'frame':0};lock=threading.Lock()

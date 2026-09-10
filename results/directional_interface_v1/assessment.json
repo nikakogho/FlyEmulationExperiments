@@ -1,0 +1,99 @@
+{
+  "passed": false,
+  "scores": {
+    "0": {
+      "left": -0.013698630136986273,
+      "right": -0.027777777777777776
+    },
+    "1": {
+      "left": -0.0032154340836012874,
+      "right": -0.027309703660662328
+    }
+  },
+  "reports": [
+    {
+      "status": "completed",
+      "error": null,
+      "cue": 0,
+      "side": "center",
+      "output_spikes": [
+        37,
+        23
+      ],
+      "neural_time_s": 1.0000000000000007,
+      "unknown_side_inputs": 15,
+      "weights_unchanged": true,
+      "subjective_welfare": "not established"
+    },
+    {
+      "status": "completed",
+      "error": null,
+      "cue": 0,
+      "side": "left",
+      "output_spikes": [
+        36,
+        23
+      ],
+      "neural_time_s": 1.0000000000000007,
+      "unknown_side_inputs": 15,
+      "weights_unchanged": true,
+      "subjective_welfare": "not established"
+    },
+    {
+      "status": "completed",
+      "error": null,
+      "cue": 0,
+      "side": "right",
+      "output_spikes": [
+        35,
+        23
+      ],
+      "neural_time_s": 1.0000000000000007,
+      "unknown_side_inputs": 15,
+      "weights_unchanged": true,
+      "subjective_welfare": "not established"
+    },
+    {
+      "status": "completed",
+      "error": null,
+      "cue": 1,
+      "side": "center",
+      "output_spikes": [
+        52,
+        31
+      ],
+      "neural_time_s": 1.0000000000000007,
+      "unknown_side_inputs": 15,
+      "weights_unchanged": true,
+      "subjective_welfare": "not established"
+    },
+    {
+      "status": "completed",
+      "error": null,
+      "cue": 1,
+      "side": "left",
+      "output_spikes": [
+        50,
+        30
+      ],
+      "neural_time_s": 1.0000000000000007,
+      "unknown_side_inputs": 15,
+      "weights_unchanged": true,
+      "subjective_welfare": "not established"
+    },
+    {
+      "status": "completed",
+      "error": null,
+      "cue": 1,
+      "side": "right",
+      "output_spikes": [
+        54,
+        34
+      ],
+      "neural_time_s": 1.0000000000000007,
+      "unknown_side_inputs": 15,
+      "weights_unchanged": true,
+      "subjective_welfare": "not established"
+    }
+  ]
+}
