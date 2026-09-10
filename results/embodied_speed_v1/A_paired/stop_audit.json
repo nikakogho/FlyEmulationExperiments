@@ -1,0 +1,39 @@
+{
+  "new_neural_steps": 0,
+  "new_physics_steps": 0,
+  "checks": {
+    "weights_equal": true,
+    "spike_delta_matches": true,
+    "clocks_equal": true,
+    "equal_left_right_commands": true
+  },
+  "stop_time_s": 1.12,
+  "peak_antenna_concentration_time_s": 0.93,
+  "peak_antenna_concentration": 0.9938333713299339,
+  "stop_antenna_concentration": 0.9437937951206354,
+  "source_mm": [
+    6.0,
+    0.0,
+    1.0
+  ],
+  "last_antenna_center_mm": [
+    7.415451749620982,
+    1.5436182946279633,
+    1.0812544553210155
+  ],
+  "crossed_source_x": true,
+  "body_start_mm": [
+    0.2177559733390808,
+    0.07534175366163254,
+    0.9694457054138184
+  ],
+  "body_end_mm": [
+    6.38979959487915,
+    1.4474542140960693,
+    1.175050139427185
+  ],
+  "displacement_mm": 6.322722125024387,
+  "interpretation": "Concentration rose then fell during straight-command passage beyond the source. This is not a validated inference of aversive state; the conservative stop remains preserved.",
+  "behavioral_effect": "Unassessed: paired run stopped before comparison controls; speed effect cannot be attributed to learning",
+  "next": "Investigate a directional navigation circuit and causal behavioral monitoring offline before another neural protocol; no retries performed"
+}

@@ -1,0 +1,43 @@
+{
+  "analysis_neural_steps": 0,
+  "candidates": [
+    {
+      "root_id": "720575940608236978",
+      "cell_type": "SMP353",
+      "side": "left",
+      "mbon01_input_edges": 0,
+      "mbon01_input_signed_weight_sum": 0.0,
+      "edges_back_to_mbon01": 0,
+      "included_in_current_subnet": false
+    },
+    {
+      "root_id": "720575940621457690",
+      "cell_type": "SMP108",
+      "side": "right",
+      "mbon01_input_edges": 1,
+      "mbon01_input_signed_weight_sum": -45.0,
+      "edges_back_to_mbon01": 0,
+      "included_in_current_subnet": false
+    },
+    {
+      "root_id": "720575940631103744",
+      "cell_type": "SMP108",
+      "side": "left",
+      "mbon01_input_edges": 1,
+      "mbon01_input_signed_weight_sum": -13.0,
+      "edges_back_to_mbon01": 1,
+      "included_in_current_subnet": false
+    },
+    {
+      "root_id": "720575940633583712",
+      "cell_type": "SMP353",
+      "side": "right",
+      "mbon01_input_edges": 0,
+      "mbon01_input_signed_weight_sum": 0.0,
+      "edges_back_to_mbon01": 0,
+      "included_in_current_subnet": false
+    }
+  ],
+  "weight_unit": "Raw Excitatory x Connectivity field; not a calibrated physiological strength",
+  "interpretation": "Candidate navigation-related types are excluded from the current olfactory subnet. Edges do not validate dynamics or a motor mapping. SMP353 has no direct MBON01 edge here; do not invent one."
+}

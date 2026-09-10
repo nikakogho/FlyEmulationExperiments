@@ -1,0 +1,12 @@
+{
+  "arm": "paired",
+  "cue": "A",
+  "checkpoint": "results\\association_validation_v1\\seed311_A\\paired\\network_state.pkl",
+  "checkpoint_sha256": "d9d714c7ef213f5d26fdf4716f2b3898de4902e6b43d05c545c5520dc2e112de",
+  "protocol_sha256": "5149fdbea5c8fd8ae87c711176fb0961e8ae51d38a46325b1155b8c497132d8d",
+  "neural_origin": 3.999999999999937,
+  "physical_origin": 0.2999999999999833,
+  "unknown_side_inputs": 15,
+  "controller": "Fixed scalar MBON-to-equal-gait command, no direction or coordinates",
+  "learning_in_body": false
+}

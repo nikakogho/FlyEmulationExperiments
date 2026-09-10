@@ -1,5 +1,10 @@
 # 3D delivery checkpoint: mechanical preview, neural learning incomplete
 
+Current status is in [seven_step_delivery.md](seven_step_delivery.md): independent
+association validation passes; a real neural/physics run and passive video now
+exist, but the embodied comparison stopped. The historical checkpoint below is
+preserved and does not describe the latest learning-track status.
+
 2026-09-09. This is not completion of the seven-step learning deliverable.
 There is now a runnable 3D replay and a verified video of physical walking,
 turning and rest. Its locomotion is explicitly scripted; no learning is claimed.

@@ -66,7 +66,8 @@ def main():
             elif code==262:state['frame']=min(len(tape['time_s'])-1,state['frame']+1)
             elif code==263:state['frame']=max(0,state['frame']-1)
             elif code in (82,114):state.update(frame=0,playing=False)
-    print('RECORDED MECHANICAL SCENE. Space: play/pause; arrows: frame; R: rewind. Mouse: orbit/zoom. No learning or neural execution.')
+    print(('RECORDED NEURAL/PHYSICS TEST. ' if neural_scene else 'RECORDED MECHANICAL SCENE. ')+
+          'Space: play/pause; arrows: frame; R: rewind. Mouse: orbit/zoom. No live neural or physics execution.')
     with mjviewer.launch_passive(model,data,key_callback=key) as viewer:
         viewer.cam.azimuth=135;viewer.cam.elevation=-30;viewer.cam.distance=7
         start=time.monotonic()

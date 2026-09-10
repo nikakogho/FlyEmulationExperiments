@@ -1,5 +1,15 @@
 # Fly emulation experiments
 
+Latest delivery: [seven-step results and remaining gaps](research/seven_step_delivery.md).
+Independent association validation passes its predeclared cohort gate (22.02%
+mean selectivity). A real neural/3D-physics loop ran, then stopped at 1.12 s on
+a conservative behavioral proxy; its comparison controls were cancelled.
+Learned source navigation and a controlled motor effect remain unproven.
+Double-click `view-neural-arena.cmd` for the passive recorded neural/physics
+scene, or `view-odor-arena.cmd` for the mechanical sensory scene. Both viewers
+replay saved evidence without advancing neurons. 135 software tests pass.
+
+Historical pilot:
 Learning track: [controlled association results](research/association_results.md).
 Three guarded four-second arms completed with recovery. Pairing produced a
 cue-selective persistent weight change and greater output-response reduction

@@ -1,5 +1,14 @@
 # Learning and motor-accuracy tracks separated
 
+## 2026-09-10: independent validation and embodied test
+
+The fixed independent cohort passes its predeclared aggregate criteria, with
+22.02% mean selectivity and paired advantage in every case. The lateral MBON
+interface test fails. A narrower scalar neural/physics test executed and stopped
+at 1.12 s on the concentration-decline proxy; controls were cancelled. Passive
+3D replay/video is delivered, but learned navigation and controlled motor effect
+are not established. See [the seven-step report](seven_step_delivery.md).
+
 ## Latest: controlled association pilot
 
 See [the controlled results](association_results.md). Three four-second arms
