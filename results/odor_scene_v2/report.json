@@ -1,0 +1,33 @@
+{
+  "completed": true,
+  "neural_steps": 0,
+  "learning_demonstrated": false,
+  "control": "fixed mechanical script",
+  "frames": 280,
+  "physics_steps": 28000,
+  "max_field_error": 2.979863611418665e-08,
+  "median_old_proxy_position_rmse_mm": 0.8574762392737296,
+  "median_actual_antenna_separation_mm": 0.1703742177758401,
+  "rest_median_speed_mm_s": 0.00947255315259099,
+  "sources_mm": [
+    [
+      8.0,
+      4.0,
+      1.0
+    ],
+    [
+      8.0,
+      -4.0,
+      1.0
+    ]
+  ],
+  "sensor_names": [
+    "LMaxillaryPalp_sensor",
+    "RMaxillaryPalp_sensor",
+    "LAntenna_sensor",
+    "RAntenna_sensor"
+  ],
+  "wall_seconds": 77.15298679994885,
+  "limitation": "Gaussian field and mesh sensor sites are engineering approximations, not calibrated odor physiology",
+  "passed": true
+}

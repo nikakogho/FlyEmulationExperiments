@@ -1,0 +1,22 @@
+{
+  "arm": "paired",
+  "status": "completed",
+  "error": null,
+  "neural_time_s": 3.999999999999937,
+  "recovery_pass": true,
+  "probe_spikes": {
+    "pre_A": 87,
+    "pre_B": 88,
+    "post_A": 73,
+    "post_B": 71
+  },
+  "changed_edges": 478,
+  "nonplastic_weights_unchanged": true,
+  "min_weight_fraction": 0.5750783299574924,
+  "mean_weight_fraction": 0.9511065807341762,
+  "total_ppl1_spikes": 275,
+  "total_ppl1_spikes_with_enabled_route": 0,
+  "body_run": false,
+  "no_automatic_retry": true,
+  "subjective_welfare": "not established"
+}

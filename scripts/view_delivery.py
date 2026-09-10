@@ -21,6 +21,9 @@ def main():
     ap=argparse.ArgumentParser(description=__doc__)
     ap.add_argument('--path',default='results/delivery_arena');ap.add_argument('--video',action='store_true');ap.add_argument('--smoke',action='store_true');ap.add_argument('--ui-smoke',action='store_true');args=ap.parse_args()
     model,data,tape=load(args.path)
+    report=json.loads((Path(args.path)/'report.json').read_text())
+    odor_scene='sources_mm' in report
+    telemetry=json.loads((Path(args.path)/'telemetry.json').read_text()) if odor_scene else None
     camera=mujoco.MjvCamera();camera.azimuth=135;camera.elevation=-30;camera.distance=7
     set_frame(model,data,tape,0)
     if args.smoke:
@@ -37,9 +40,13 @@ def main():
                 camera.lookat[:]=data.qpos[:3];renderer.update_scene(data,camera=camera)
                 frame=Image.fromarray(renderer.render());draw=ImageDraw.Draw(frame)
                 draw.rectangle((0,0,960,92),fill='#14202a')
-                draw.text((18,10),'3D FLY | mechanical walking, turning and rest',font=font,fill='white')
+                draw.text((18,10),'3D FLY | physical odor-sensor test' if odor_scene else '3D FLY | mechanical walking, turning and rest',font=font,fill='white')
                 draw.text((18,38),f'Recorded time {data.time:.2f}s | playback 0.25x | no neural simulation',font=font,fill='white')
-                draw.text((18,64),'Learning not demonstrated; camera follows position for viewing only',font=font,fill='#f9cd82')
+                detail='Learning not demonstrated; camera follows position for viewing only'
+                if odor_scene:
+                    scent=np.asarray(telemetry[i]['odor'])
+                    detail=f'Antennae A: L {scent[0,2]:.3f} R {scent[0,3]:.3f} | B: L {scent[1,2]:.3f} R {scent[1,3]:.3f} | no learning'
+                draw.text((18,64),detail,font=font,fill='#f9cd82')
                 writer.append_data(np.asarray(frame))
                 if i==120:frame.save(Path(args.path)/'preview.png')
         cap=iio.get_reader(Path(args.path)/'fly_in_3d.mp4');count=sum(1 for _ in cap);cap.close()

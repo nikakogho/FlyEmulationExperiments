@@ -1,0 +1,90 @@
+{
+  "neurons": 8991,
+  "synapses": 791613,
+  "seed": 312,
+  "output_root_ids": [
+    "720575940624117245",
+    "720575940643309197"
+  ],
+  "pam_groups": {
+    "0": [
+      "720575940613529770",
+      "720575940615607975",
+      "720575940618744118",
+      "720575940619785492",
+      "720575940621245124",
+      "720575940623442173",
+      "720575940625338249",
+      "720575940625352456",
+      "720575940625525265",
+      "720575940625683716",
+      "720575940628615683",
+      "720575940628687207",
+      "720575940629188507",
+      "720575940630722956",
+      "720575940631095087",
+      "720575940631688808",
+      "720575940633145996",
+      "720575940633733401",
+      "720575940639566406",
+      "720575940641062901",
+      "720575940645932579"
+    ],
+    "1": [
+      "720575940605221065",
+      "720575940606909826",
+      "720575940613647007",
+      "720575940617145561",
+      "720575940621462512",
+      "720575940622495092",
+      "720575940626555800",
+      "720575940630498811",
+      "720575940630650063",
+      "720575940630691159",
+      "720575940631443304",
+      "720575940633142498",
+      "720575940633832628",
+      "720575940634655851",
+      "720575940636309093",
+      "720575940637390302",
+      "720575940637391582",
+      "720575940639684696",
+      "720575940649649785",
+      "720575940654661281"
+    ]
+  },
+  "plastic_edges": 2090,
+  "plastic_edges_by_hemisphere": {
+    "0": 1154,
+    "1": 936
+  },
+  "plastic_source_types": [
+    "KCg-d",
+    "KCg-m",
+    "KCg-s1",
+    "KCg-s2"
+  ],
+  "output_input_hemispheres": {
+    "720575940624117245": {
+      "annotation_side": "right",
+      "gamma_input_side": "left"
+    },
+    "720575940643309197": {
+      "annotation_side": "left",
+      "gamma_input_side": "right"
+    }
+  },
+  "pam_side_mapping": "Coarse annotation-side assignment; precise bilateral release fields unvalidated",
+  "reviewed_sources": {
+    "upstream\\fly-api\\experiments\\navigation\\nav_demo.py": "22e83d60e8d6b2ca0e40e14bf69ba511e491a28bab89a0a6160eb36b539a38dc",
+    "upstream\\fly-api\\experiments\\learning\\model_ext.py": "ad7b85da4411c91e3a3f556e5fcdd648d87c2e481a60f5e826248f5054467932",
+    "upstream\\Drosophila_brain_model\\model.py": "b879a8a286f367165e3effa6d47562cac289333c977be7716ccb646067326cce"
+  },
+  "arm": "paired",
+  "reinforced": "B",
+  "learning_enabled": true,
+  "additional_modulation_sources": "PAM01, hemisphere local",
+  "protocol_sha256": "fa0c39f646ce6a82366960c80d32cdfe995c2df98eb95e9d6e514111836afb13",
+  "runner_sha256": "71df38adc4fadba8459d361bde09cfa46e2985c7a59e58b6e711e6e54297aaea",
+  "rule_sha256": "1d2b6088988672be407d93338913362903715087771bf37e5c8bc017fe52ef62"
+}

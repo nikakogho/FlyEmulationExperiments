@@ -1,0 +1,17 @@
+{
+  "new_neural_steps": 0,
+  "new_physics_steps": 0,
+  "frames": 280,
+  "max_independent_field_error": 2.979863611418665e-08,
+  "behavioral_proxy_event": {
+    "time_s": 0.20009999999999428,
+    "reason": "Behavioral proxy: failed_rest"
+  },
+  "coverage": "Offline mechanical replay only; no subjective welfare conclusion",
+  "improvement": "Use actual articulated antenna/palp sites; old body-offset proxy RMSE recorded separately",
+  "post_mechanical_settling_event": {
+    "time_s": 1.2100999999998832,
+    "reason": "Behavioral proxy: stimulus_linked_avoidance"
+  },
+  "startup_requirement": "Settle the physical body before neural construction; retain startup result, never suppress a neural-run stop"
+}

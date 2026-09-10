@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "reason": "pilot_contrast_pass",
+  "scores": {
+    "paired": 0.2762539184952978,
+    "unpaired": 0.11442006269592477,
+    "frozen": 0.06857366771159874
+  },
+  "criteria": {
+    "paired_selectivity_at_least_015": true,
+    "paired_minus_unpaired_at_least_010": true,
+    "paired_minus_frozen_at_least_010": true
+  },
+  "statistical_replication": false,
+  "seed": 311,
+  "reinforced": "A"
+}

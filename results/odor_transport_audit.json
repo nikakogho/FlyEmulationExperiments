@@ -1,0 +1,7 @@
+{
+  "neural_steps": 0,
+  "selected_orns": 822,
+  "unknown_side_orns": 15,
+  "uniform_input_matches_old_rates": true,
+  "sensor_mapping": "AN to antenna, MxLbN to palp; unknown side bilateral mean"
+}

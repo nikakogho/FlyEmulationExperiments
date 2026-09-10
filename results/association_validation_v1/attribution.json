@@ -1,0 +1,289 @@
+{
+  "neural_steps": 0,
+  "cases": {
+    "seed311_A": {
+      "paired": {
+        "checks": {
+          "nonplastic_unchanged": true,
+          "final_tape_matches": true,
+          "spike_totals_match": true
+        },
+        "groups": {
+          "reinforced_only": {
+            "edges": 184,
+            "mean_weight_fraction": 0.6402424189520891
+          },
+          "other_only": {
+            "edges": 270,
+            "mean_weight_fraction": 0.9938827174759781
+          },
+          "both": {
+            "edges": 20,
+            "mean_weight_fraction": 0.6507429058419822
+          }
+        },
+        "pretraining_weights_unchanged": true,
+        "recovery_pass": true
+      },
+      "unpaired": {
+        "checks": {
+          "nonplastic_unchanged": true,
+          "final_tape_matches": true,
+          "spike_totals_match": true
+        },
+        "groups": {
+          "reinforced_only": {
+            "edges": 184,
+            "mean_weight_fraction": 0.9978832777750253
+          },
+          "other_only": {
+            "edges": 270,
+            "mean_weight_fraction": 0.9999815702474646
+          },
+          "both": {
+            "edges": 20,
+            "mean_weight_fraction": 0.9978837900403267
+          }
+        },
+        "pretraining_weights_unchanged": true,
+        "recovery_pass": true
+      },
+      "frozen": {
+        "checks": {
+          "nonplastic_unchanged": true,
+          "final_tape_matches": true,
+          "spike_totals_match": true
+        },
+        "groups": {
+          "reinforced_only": {
+            "edges": 184,
+            "mean_weight_fraction": 1.0
+          },
+          "other_only": {
+            "edges": 270,
+            "mean_weight_fraction": 1.0
+          },
+          "both": {
+            "edges": 20,
+            "mean_weight_fraction": 1.0
+          }
+        },
+        "pretraining_weights_unchanged": true,
+        "recovery_pass": true
+      }
+    },
+    "seed311_B": {
+      "paired": {
+        "checks": {
+          "nonplastic_unchanged": true,
+          "final_tape_matches": true,
+          "spike_totals_match": true
+        },
+        "groups": {
+          "reinforced_only": {
+            "edges": 270,
+            "mean_weight_fraction": 0.6509445629435837
+          },
+          "other_only": {
+            "edges": 184,
+            "mean_weight_fraction": 0.9989091811411477
+          },
+          "both": {
+            "edges": 20,
+            "mean_weight_fraction": 0.6499177478511766
+          }
+        },
+        "pretraining_weights_unchanged": true,
+        "recovery_pass": true
+      },
+      "unpaired": {
+        "checks": {
+          "nonplastic_unchanged": true,
+          "final_tape_matches": true,
+          "spike_totals_match": true
+        },
+        "groups": {
+          "reinforced_only": {
+            "edges": 270,
+            "mean_weight_fraction": 0.9978295016182565
+          },
+          "other_only": {
+            "edges": 184,
+            "mean_weight_fraction": 0.999999776796227
+          },
+          "both": {
+            "edges": 20,
+            "mean_weight_fraction": 0.9978378498549413
+          }
+        },
+        "pretraining_weights_unchanged": true,
+        "recovery_pass": true
+      },
+      "frozen": {
+        "checks": {
+          "nonplastic_unchanged": true,
+          "final_tape_matches": true,
+          "spike_totals_match": true
+        },
+        "groups": {
+          "reinforced_only": {
+            "edges": 270,
+            "mean_weight_fraction": 1.0
+          },
+          "other_only": {
+            "edges": 184,
+            "mean_weight_fraction": 1.0
+          },
+          "both": {
+            "edges": 20,
+            "mean_weight_fraction": 1.0
+          }
+        },
+        "pretraining_weights_unchanged": true,
+        "recovery_pass": true
+      }
+    },
+    "seed312_A": {
+      "paired": {
+        "checks": {
+          "nonplastic_unchanged": true,
+          "final_tape_matches": true,
+          "spike_totals_match": true
+        },
+        "groups": {
+          "reinforced_only": {
+            "edges": 349,
+            "mean_weight_fraction": 0.6986838868599518
+          },
+          "other_only": {
+            "edges": 130,
+            "mean_weight_fraction": 0.9950264307344419
+          },
+          "both": {
+            "edges": 20,
+            "mean_weight_fraction": 0.7168535849412078
+          }
+        },
+        "pretraining_weights_unchanged": true,
+        "recovery_pass": true
+      },
+      "unpaired": {
+        "checks": {
+          "nonplastic_unchanged": true,
+          "final_tape_matches": true,
+          "spike_totals_match": true
+        },
+        "groups": {
+          "reinforced_only": {
+            "edges": 349,
+            "mean_weight_fraction": 0.9980672589900647
+          },
+          "other_only": {
+            "edges": 130,
+            "mean_weight_fraction": 0.9999859764001161
+          },
+          "both": {
+            "edges": 20,
+            "mean_weight_fraction": 0.9980449798038709
+          }
+        },
+        "pretraining_weights_unchanged": true,
+        "recovery_pass": true
+      },
+      "frozen": {
+        "checks": {
+          "nonplastic_unchanged": true,
+          "final_tape_matches": true,
+          "spike_totals_match": true
+        },
+        "groups": {
+          "reinforced_only": {
+            "edges": 349,
+            "mean_weight_fraction": 1.0
+          },
+          "other_only": {
+            "edges": 130,
+            "mean_weight_fraction": 1.0
+          },
+          "both": {
+            "edges": 20,
+            "mean_weight_fraction": 1.0
+          }
+        },
+        "pretraining_weights_unchanged": true,
+        "recovery_pass": true
+      }
+    },
+    "seed312_B": {
+      "paired": {
+        "checks": {
+          "nonplastic_unchanged": true,
+          "final_tape_matches": true,
+          "spike_totals_match": true
+        },
+        "groups": {
+          "reinforced_only": {
+            "edges": 130,
+            "mean_weight_fraction": 0.6727600033739672
+          },
+          "other_only": {
+            "edges": 349,
+            "mean_weight_fraction": 0.9999672533594265
+          },
+          "both": {
+            "edges": 20,
+            "mean_weight_fraction": 0.6758524298309093
+          }
+        },
+        "pretraining_weights_unchanged": true,
+        "recovery_pass": true
+      },
+      "unpaired": {
+        "checks": {
+          "nonplastic_unchanged": true,
+          "final_tape_matches": true,
+          "spike_totals_match": true
+        },
+        "groups": {
+          "reinforced_only": {
+            "edges": 130,
+            "mean_weight_fraction": 0.9980557251900485
+          },
+          "other_only": {
+            "edges": 349,
+            "mean_weight_fraction": 0.9999997445355311
+          },
+          "both": {
+            "edges": 20,
+            "mean_weight_fraction": 0.9979686370150282
+          }
+        },
+        "pretraining_weights_unchanged": true,
+        "recovery_pass": true
+      },
+      "frozen": {
+        "checks": {
+          "nonplastic_unchanged": true,
+          "final_tape_matches": true,
+          "spike_totals_match": true
+        },
+        "groups": {
+          "reinforced_only": {
+            "edges": 130,
+            "mean_weight_fraction": 1.0
+          },
+          "other_only": {
+            "edges": 349,
+            "mean_weight_fraction": 1.0
+          },
+          "both": {
+            "edges": 20,
+            "mean_weight_fraction": 1.0
+          }
+        },
+        "pretraining_weights_unchanged": true,
+        "recovery_pass": true
+      }
+    }
+  }
+}

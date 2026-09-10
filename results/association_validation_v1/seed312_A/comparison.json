@@ -1,0 +1,17 @@
+{
+  "passed": false,
+  "reason": "predeclared_effect_margin_not_met",
+  "scores": {
+    "paired": 0.11224175146469317,
+    "unpaired": -0.02605612087573235,
+    "frozen": -0.06567992599444958
+  },
+  "criteria": {
+    "paired_selectivity_at_least_015": false,
+    "paired_minus_unpaired_at_least_010": true,
+    "paired_minus_frozen_at_least_010": true
+  },
+  "statistical_replication": false,
+  "seed": 312,
+  "reinforced": "A"
+}
