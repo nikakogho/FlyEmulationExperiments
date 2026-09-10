@@ -7,7 +7,7 @@ from flyplasticity.association import GammaEligibilityLTD,PlasticPathwayAudit,sc
 from flyplasticity.learning_preflight import NeuralPreflightGuard
 
 
-def build():
+def build(seed=310):
     # Reuse the exact source versions approved and recorded in the v2 preflight.
     provenance=json.loads((ROOT/'results/learning_track_preflight_v2/metadata.json').read_text())
     for path,expected in provenance['reviewed_sources'].items():
@@ -24,7 +24,7 @@ def build():
     def capture(*a,**kw):
         result=original(*a,**kw);mapping.update(result[-1]);return result
     model_ext.build_subnet=capture
-    try:brain=nav.Brain(str(ROOT/'upstream/Drosophila_brain_model'),seed=310)
+    try:brain=nav.Brain(str(ROOT/'upstream/Drosophila_brain_model'),seed=seed)
     finally:model_ext.build_subnet=original
     ann=pd.read_csv(ROOT/'data/annotations.tsv',sep='\t',low_memory=False).set_index('root_id')
     comp=pd.read_csv(ROOT/'upstream/Drosophila_brain_model/Completeness_783.csv',index_col=0)
@@ -44,7 +44,7 @@ def build():
         if not len(p) or not groups[label]:raise ValueError('Missing hemisphere interface')
         positions.extend(p.tolist());compartments.extend([label]*len(p))
     positions=np.array(positions,dtype=int)
-    metadata=dict(neurons=len(brain.neu),synapses=len(w),seed=310,
+    metadata=dict(neurons=len(brain.neu),synapses=len(w),seed=seed,
                   output_root_ids=[roots[i] for i in output],
                   pam_groups={k:[roots[i] for i in v] for k,v in groups.items()},
                   plastic_edges=len(positions),plastic_edges_by_hemisphere={k:compartments.count(k) for k in groups},
@@ -56,9 +56,9 @@ def build():
     return brain,pre,post,w,positions,compartments,groups,output,pam,gamma,metadata
 
 
-def run_arm(arm,out):
+def run_arm(arm,out,seed=310,reinforced='A',protocol='research/association_protocol.md'):
     out.mkdir(exist_ok=False)
-    brain,pre,post,initial,pos,comps,groups,output,pam,gamma,metadata=build()
+    brain,pre,post,initial,pos,comps,groups,output,pam,gamma,metadata=build(seed)
     paths=PlasticPathwayAudit(len(brain.neu),brain.g['ppl1'],pre,post,initial,
                              modulatory_sources=pam,plastic_positions=pos,gamma_kcs=gamma,output_neurons=output)
     rule=GammaEligibilityLTD(pre[pos],comps,groups,len(brain.neu),initial[pos])
@@ -67,8 +67,8 @@ def run_arm(arm,out):
     reward_idx=np.array([brain.pos[i] for i in pam]);rows=[];status='running';error=None
     snapshots={'initial':initial[pos].copy()};probe_counts={p:0 for p in ('pre_A','pre_B','post_A','post_B')}
     probe_kc={p:np.zeros(len(brain.neu),dtype=np.int64) for p in probe_counts}
-    metadata.update(arm=arm,learning_enabled=arm!='frozen',additional_modulation_sources='PAM01, hemisphere local',
-                    protocol_sha256=hashlib.sha256((ROOT/'research/association_protocol.md').read_bytes()).hexdigest(),
+    metadata.update(arm=arm,reinforced=reinforced,learning_enabled=arm!='frozen',additional_modulation_sources='PAM01, hemisphere local',
+                    protocol_sha256=hashlib.sha256((ROOT/protocol).read_bytes()).hexdigest(),
                     runner_sha256=hashlib.sha256(Path(__file__).read_bytes()).hexdigest(),
                     rule_sha256=hashlib.sha256((ROOT/'flyplasticity/association.py').read_bytes()).hexdigest())
     (out/'metadata.json').write_text(json.dumps(metadata,indent=2))
@@ -76,7 +76,7 @@ def run_arm(arm,out):
         for block in range(801):
             t=block*.005
             if abs(float(brain.net.t/br.second)-t)>1e-9:raise RuntimeError('Neural clock mismatch')
-            cue,reward,phase=schedule(block,arm)
+            cue,reward,phase=schedule(block,arm,reinforced)
             rates=np.zeros(len(brain.tgt))
             if cue:
                 rates[[brain.pos[i] for i in getattr(brain,cue)]]=500.
@@ -89,7 +89,7 @@ def run_arm(arm,out):
             row=guard.inspect(t,delta,np.array(brain.neu.v[:]),np.array(brain.neu.g[:]),actual,actual[reward_idx],
                               pre=np.array(brain.syn.i[:]),post=np.array(brain.syn.j[:]),weights=current,
                               modulatory_sources=pam,expected_reward_rates=np.full(len(pam),reward))
-            observed_phase=schedule(block-1,arm)[2] if block else 'initial'
+            observed_phase=schedule(block-1,arm,reinforced)[2] if block else 'initial'
             row.update(observed_phase=observed_phase,next_phase=phase,mbon01_spikes=int(delta[output].sum()),
                        pam01_spikes=int(delta[pam].sum()))
             rows.append(row)
@@ -127,7 +127,8 @@ def run_arm(arm,out):
                     total_ppl1_spikes_with_enabled_route=sum(r['ppl1_spikes_with_enabled_route'] for r in guard.rows),
                     body_run=False,no_automatic_retry=True,subjective_welfare='not established')
         for name,obj in [('report',report),('telemetry',guard.rows),('guard_events',guard.guard.events)]:
-            (out/(name+'.json')).write_text(json.dumps(obj,indent=2))
+            text=('[\n'+',\n'.join(json.dumps(r,separators=(',',':')) for r in obj)+'\n]') if isinstance(obj,list) else json.dumps(obj,indent=2)
+            (out/(name+'.json')).write_text(text)
         print(json.dumps(report,indent=2),flush=True)
     return report
 

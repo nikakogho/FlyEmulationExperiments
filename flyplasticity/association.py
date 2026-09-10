@@ -68,19 +68,20 @@ class GammaEligibilityLTD:
         return np.maximum(.5*self.initial,proposed)
 
 
-def schedule(block,arm):
+def schedule(block,arm,reinforced='A'):
     """External apparatus schedule in 5-ms ticks; never passed to the LTD rule."""
     if arm not in ('paired','unpaired','frozen'):raise ValueError('Unknown control')
+    if reinforced not in ('A','B'):raise ValueError('Unknown reinforced cue')
     cue=None;phase='quiet'
     for name,start,end,odor in [('pre_A',50,100,'A'),('pre_B',150,200,'B'),
-                              ('training',250,300,'A'),('post_A',550,600,'A'),
+                              ('training',250,300,reinforced),('post_A',550,600,'A'),
                               ('post_B',650,700,'B')]:
         if start<=block<end:cue=odor;phase=name
     reward=(390<=block<420) if arm=='unpaired' else (270<=block<300)
     return cue,60. if reward else 0.,phase
 
 
-def comparison(reports):
+def comparison(reports,reinforced='A'):
     """Predeclared engineering gate for one-seed pilot, not a statistical test."""
     scores={}
     for arm in ('paired','unpaired','frozen'):
@@ -90,7 +91,8 @@ def comparison(reports):
         c=r['probe_spikes']
         if min(c['pre_A'],c['pre_B'])<20:
             return dict(passed=False,reason='insufficient_baseline_output',scores=scores)
-        scores[arm]=(c['pre_A']-c['post_A'])/c['pre_A']-(c['pre_B']-c['post_B'])/c['pre_B']
+        if reinforced not in ('A','B'):raise ValueError('Unknown reinforced cue')
+        scores[arm]=((c['pre_A']-c['post_A'])/c['pre_A']-(c['pre_B']-c['post_B'])/c['pre_B'])*(1 if reinforced=='A' else -1)
     criteria=dict(paired_selectivity_at_least_015=scores['paired']>=.15,
                   paired_minus_unpaired_at_least_010=scores['paired']-scores['unpaired']>=.10,
                   paired_minus_frozen_at_least_010=scores['paired']-scores['frozen']>=.10)

@@ -76,6 +76,18 @@ class AssociationTests(unittest.TestCase):
         self.assertEqual(schedule(275,'unpaired')[1],0)
         self.assertEqual(schedule(400,'unpaired')[0],None)
 
+    def test_counterbalance_changes_training_not_probe_labels_or_dose(self):
+        for k in range(800):
+            a=schedule(k,'paired','A');b=schedule(k,'paired','B')
+            self.assertEqual(a[1:],b[1:])
+            if a[2]=='training':self.assertEqual((a[0],b[0]),('A','B'))
+            else:self.assertEqual(a,b)
+        def r(a,b):return dict(status='completed',recovery_pass=True,
+                               probe_spikes=dict(pre_A=100,pre_B=100,post_A=a,post_B=b))
+        reports=dict(paired=r(100,50),unpaired=r(100,100),frozen=r(100,100))
+        self.assertTrue(comparison(reports,'B')['passed'])
+        self.assertFalse(comparison(reports,'A')['passed'])
+
     def test_comparison_rejects_general_suppression_and_failed_controls(self):
         def report(a,b):return dict(status='completed',recovery_pass=True,
                                    probe_spikes=dict(pre_A=100,pre_B=100,post_A=a,post_B=b))
