@@ -1,0 +1,226 @@
+{
+  "seed": 315,
+  "reinforced": "A",
+  "training": {
+    "paired": {
+      "arm": "paired",
+      "status": "completed",
+      "error": null,
+      "neural_time_s": 3.999999999999937,
+      "recovery_pass": true,
+      "probe_spikes": {
+        "pre_A": 55,
+        "pre_B": 77,
+        "post_A": 37,
+        "post_B": 73
+      },
+      "changed_edges": 394,
+      "nonplastic_weights_unchanged": true,
+      "min_weight_fraction": 0.6034260777647866,
+      "mean_weight_fraction": 0.9698311360282634,
+      "total_ppl1_spikes": 224,
+      "total_ppl1_spikes_with_enabled_route": 0,
+      "body_run": false,
+      "no_automatic_retry": true,
+      "subjective_welfare": "not established"
+    },
+    "unpaired": {
+      "arm": "unpaired",
+      "status": "completed",
+      "error": null,
+      "neural_time_s": 3.999999999999937,
+      "recovery_pass": true,
+      "probe_spikes": {
+        "pre_A": 55,
+        "pre_B": 77,
+        "post_A": 55,
+        "post_B": 76
+      },
+      "changed_edges": 393,
+      "nonplastic_weights_unchanged": true,
+      "min_weight_fraction": 0.9973470987534675,
+      "mean_weight_fraction": 0.9998368164839783,
+      "total_ppl1_spikes": 220,
+      "total_ppl1_spikes_with_enabled_route": 0,
+      "body_run": false,
+      "no_automatic_retry": true,
+      "subjective_welfare": "not established"
+    },
+    "frozen": {
+      "arm": "frozen",
+      "status": "completed",
+      "error": null,
+      "neural_time_s": 3.999999999999937,
+      "recovery_pass": true,
+      "probe_spikes": {
+        "pre_A": 55,
+        "pre_B": 77,
+        "post_A": 57,
+        "post_B": 76
+      },
+      "changed_edges": 0,
+      "nonplastic_weights_unchanged": true,
+      "min_weight_fraction": 1.0,
+      "mean_weight_fraction": 1.0,
+      "total_ppl1_spikes": 219,
+      "total_ppl1_spikes_with_enabled_route": 0,
+      "body_run": false,
+      "no_automatic_retry": true,
+      "subjective_welfare": "not established"
+    }
+  },
+  "probes": {
+    "pre": {
+      "status": "completed",
+      "completed": true,
+      "error": null,
+      "recovery_pass": true,
+      "label": "pre",
+      "body_run": true,
+      "hybrid_preference": true,
+      "weights_unchanged": true,
+      "neural_time_s": 2.999999999999936,
+      "body_time_s": 3.000000000002556,
+      "sources_mm": [
+        [
+          6.0,
+          3.0,
+          1.0
+        ],
+        [
+          6.0,
+          -3.0,
+          1.0
+        ]
+      ],
+      "reinforced": "A",
+      "swapped": false,
+      "preference": {
+        "index": 0.4213691267659946,
+        "dose": [
+          0.8907453045058277,
+          0.3626170877567904
+        ],
+        "dominant_A_s": 1.19,
+        "dominant_B_s": 0.0
+      },
+      "displacement_mm": 15.593538591556252,
+      "subjective_welfare": "unassessed",
+      "scope": "Live olfactory-memory/engineering-navigation hybrid; no learning during retrieval"
+    },
+    "paired": {
+      "status": "completed",
+      "completed": true,
+      "error": null,
+      "recovery_pass": true,
+      "label": "paired",
+      "body_run": true,
+      "hybrid_preference": true,
+      "weights_unchanged": true,
+      "neural_time_s": 2.999999999999936,
+      "body_time_s": 3.000000000002556,
+      "sources_mm": [
+        [
+          6.0,
+          3.0,
+          1.0
+        ],
+        [
+          6.0,
+          -3.0,
+          1.0
+        ]
+      ],
+      "reinforced": "A",
+      "swapped": false,
+      "preference": {
+        "index": 0.46664627219756194,
+        "dose": [
+          0.8728408433552624,
+          0.3174132211744675
+        ],
+        "dominant_A_s": 1.195,
+        "dominant_B_s": 0.0
+      },
+      "displacement_mm": 15.734545464036604,
+      "subjective_welfare": "unassessed",
+      "scope": "Live olfactory-memory/engineering-navigation hybrid; no learning during retrieval"
+    },
+    "unpaired": {
+      "status": "completed",
+      "completed": true,
+      "error": null,
+      "recovery_pass": true,
+      "label": "unpaired",
+      "body_run": true,
+      "hybrid_preference": true,
+      "weights_unchanged": true,
+      "neural_time_s": 2.999999999999936,
+      "body_time_s": 3.000000000002556,
+      "sources_mm": [
+        [
+          6.0,
+          3.0,
+          1.0
+        ],
+        [
+          6.0,
+          -3.0,
+          1.0
+        ]
+      ],
+      "reinforced": "A",
+      "swapped": false,
+      "preference": {
+        "index": 0.48159682001241794,
+        "dose": [
+          0.8908754369196616,
+          0.3117127772102726
+        ],
+        "dominant_A_s": 1.235,
+        "dominant_B_s": 0.0
+      },
+      "displacement_mm": 15.690369202714342,
+      "subjective_welfare": "unassessed",
+      "scope": "Live olfactory-memory/engineering-navigation hybrid; no learning during retrieval"
+    },
+    "frozen": {
+      "status": "completed",
+      "completed": true,
+      "error": null,
+      "recovery_pass": true,
+      "label": "frozen",
+      "body_run": true,
+      "hybrid_preference": true,
+      "weights_unchanged": true,
+      "neural_time_s": 2.999999999999936,
+      "body_time_s": 3.000000000002556,
+      "sources_mm": [
+        [
+          6.0,
+          3.0,
+          1.0
+        ],
+        [
+          6.0,
+          -3.0,
+          1.0
+        ]
+      ],
+      "reinforced": "A",
+      "swapped": false,
+      "preference": {
+        "index": 0.4538283172449744,
+        "dose": [
+          0.9072119217995724,
+          0.3408197901136362
+        ],
+        "dominant_A_s": 1.205,
+        "dominant_B_s": 0.0
+      },
+      "displacement_mm": 15.62566322840986,
+      "subjective_welfare": "unassessed",
+      "scope": "Live olfactory-memory/engineering-navigation hybrid; no learning during retrieval"
+    }
+  }
+}

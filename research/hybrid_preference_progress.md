@@ -1,5 +1,9 @@
 # Hybrid preference execution record
 
+Completed outcome: [all five step statuses and measured results](hybrid_preference_results.md).
+The full live cohort completed; the efficacy gate failed, closing the conditional
+rule comparison. This execution record retains the preceding review context.
+
 ## Offline review and physical correction
 
 The revised monitor has synthetic positive tests for withdrawal, rapid retreat,

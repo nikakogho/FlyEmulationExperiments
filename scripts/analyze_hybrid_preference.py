@@ -4,6 +4,7 @@ import json,pickle,hashlib,sys
 import numpy as np
 ROOT=Path(__file__).resolve().parents[1];sys.path.insert(0,str(ROOT))
 from flyplasticity.preference_evaluation import preference,assess
+from flyplasticity.association import comparison
 
 
 def main():
@@ -31,6 +32,7 @@ def main():
             checks[f'{p.name}/{label}']={k:bool(v) for k,v in c.items()}
     outcome=assess(cases)
     result=dict(new_neural_steps=0,new_physics_steps=0,checks=checks,
+        stationary_contrasts={f"seed{c['seed']}_{c['reinforced']}":comparison(c['training'],c['reinforced']) for c in cases},
         integrity_passed=bool(checks) and all(all(c.values()) for c in checks.values()),
         recomputed_outcome=outcome,runner_gate_matches=outcome['passed']==summary['passed'],
         total_neural_seconds=sum(r['neural_time_s'] for c in cases for r in list(c['training'].values())+list(c['probes'].values())))

@@ -1,0 +1,38 @@
+{
+  "status": "completed",
+  "completed": true,
+  "error": null,
+  "recovery_pass": true,
+  "label": "frozen",
+  "body_run": true,
+  "hybrid_preference": true,
+  "weights_unchanged": true,
+  "neural_time_s": 2.999999999999936,
+  "body_time_s": 3.000000000002556,
+  "sources_mm": [
+    [
+      6.0,
+      3.0,
+      1.0
+    ],
+    [
+      6.0,
+      -3.0,
+      1.0
+    ]
+  ],
+  "reinforced": "B",
+  "swapped": true,
+  "preference": {
+    "index": -0.2695887662602917,
+    "dose": [
+      0.9132209224219089,
+      0.5253880928608868
+    ],
+    "dominant_A_s": 1.29,
+    "dominant_B_s": 0.0
+  },
+  "displacement_mm": 15.366878938348771,
+  "subjective_welfare": "unassessed",
+  "scope": "Live olfactory-memory/engineering-navigation hybrid; no learning during retrieval"
+}

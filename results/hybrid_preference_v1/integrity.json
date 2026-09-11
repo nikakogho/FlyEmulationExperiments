@@ -1,0 +1,268 @@
+{
+  "new_neural_steps": 0,
+  "new_physics_steps": 0,
+  "checks": {
+    "seed315_A/pre": {
+      "source_hash": true,
+      "all_weights_unchanged": true,
+      "clocks_equal": true,
+      "spike_totals_match": true,
+      "frames_match": true,
+      "frame_times_match": true,
+      "finite_physics": true,
+      "preference_matches": true
+    },
+    "seed315_A/paired": {
+      "source_hash": true,
+      "all_weights_unchanged": true,
+      "clocks_equal": true,
+      "spike_totals_match": true,
+      "frames_match": true,
+      "frame_times_match": true,
+      "finite_physics": true,
+      "preference_matches": true
+    },
+    "seed315_A/unpaired": {
+      "source_hash": true,
+      "all_weights_unchanged": true,
+      "clocks_equal": true,
+      "spike_totals_match": true,
+      "frames_match": true,
+      "frame_times_match": true,
+      "finite_physics": true,
+      "preference_matches": true
+    },
+    "seed315_A/frozen": {
+      "source_hash": true,
+      "all_weights_unchanged": true,
+      "clocks_equal": true,
+      "spike_totals_match": true,
+      "frames_match": true,
+      "frame_times_match": true,
+      "finite_physics": true,
+      "preference_matches": true
+    },
+    "seed315_B/pre": {
+      "source_hash": true,
+      "all_weights_unchanged": true,
+      "clocks_equal": true,
+      "spike_totals_match": true,
+      "frames_match": true,
+      "frame_times_match": true,
+      "finite_physics": true,
+      "preference_matches": true
+    },
+    "seed315_B/paired": {
+      "source_hash": true,
+      "all_weights_unchanged": true,
+      "clocks_equal": true,
+      "spike_totals_match": true,
+      "frames_match": true,
+      "frame_times_match": true,
+      "finite_physics": true,
+      "preference_matches": true
+    },
+    "seed315_B/unpaired": {
+      "source_hash": true,
+      "all_weights_unchanged": true,
+      "clocks_equal": true,
+      "spike_totals_match": true,
+      "frames_match": true,
+      "frame_times_match": true,
+      "finite_physics": true,
+      "preference_matches": true
+    },
+    "seed315_B/frozen": {
+      "source_hash": true,
+      "all_weights_unchanged": true,
+      "clocks_equal": true,
+      "spike_totals_match": true,
+      "frames_match": true,
+      "frame_times_match": true,
+      "finite_physics": true,
+      "preference_matches": true
+    },
+    "seed316_A/pre": {
+      "source_hash": true,
+      "all_weights_unchanged": true,
+      "clocks_equal": true,
+      "spike_totals_match": true,
+      "frames_match": true,
+      "frame_times_match": true,
+      "finite_physics": true,
+      "preference_matches": true
+    },
+    "seed316_A/paired": {
+      "source_hash": true,
+      "all_weights_unchanged": true,
+      "clocks_equal": true,
+      "spike_totals_match": true,
+      "frames_match": true,
+      "frame_times_match": true,
+      "finite_physics": true,
+      "preference_matches": true
+    },
+    "seed316_A/unpaired": {
+      "source_hash": true,
+      "all_weights_unchanged": true,
+      "clocks_equal": true,
+      "spike_totals_match": true,
+      "frames_match": true,
+      "frame_times_match": true,
+      "finite_physics": true,
+      "preference_matches": true
+    },
+    "seed316_A/frozen": {
+      "source_hash": true,
+      "all_weights_unchanged": true,
+      "clocks_equal": true,
+      "spike_totals_match": true,
+      "frames_match": true,
+      "frame_times_match": true,
+      "finite_physics": true,
+      "preference_matches": true
+    },
+    "seed316_B/pre": {
+      "source_hash": true,
+      "all_weights_unchanged": true,
+      "clocks_equal": true,
+      "spike_totals_match": true,
+      "frames_match": true,
+      "frame_times_match": true,
+      "finite_physics": true,
+      "preference_matches": true
+    },
+    "seed316_B/paired": {
+      "source_hash": true,
+      "all_weights_unchanged": true,
+      "clocks_equal": true,
+      "spike_totals_match": true,
+      "frames_match": true,
+      "frame_times_match": true,
+      "finite_physics": true,
+      "preference_matches": true
+    },
+    "seed316_B/unpaired": {
+      "source_hash": true,
+      "all_weights_unchanged": true,
+      "clocks_equal": true,
+      "spike_totals_match": true,
+      "frames_match": true,
+      "frame_times_match": true,
+      "finite_physics": true,
+      "preference_matches": true
+    },
+    "seed316_B/frozen": {
+      "source_hash": true,
+      "all_weights_unchanged": true,
+      "clocks_equal": true,
+      "spike_totals_match": true,
+      "frames_match": true,
+      "frame_times_match": true,
+      "finite_physics": true,
+      "preference_matches": true
+    }
+  },
+  "stationary_contrasts": {
+    "seed315_A": {
+      "passed": true,
+      "reason": "pilot_contrast_pass",
+      "scores": {
+        "paired": 0.2753246753246753,
+        "unpaired": -0.012987012987012988,
+        "frozen": -0.04935064935064935
+      },
+      "criteria": {
+        "paired_selectivity_at_least_015": true,
+        "paired_minus_unpaired_at_least_010": true,
+        "paired_minus_frozen_at_least_010": true
+      },
+      "statistical_replication": false
+    },
+    "seed315_B": {
+      "passed": true,
+      "reason": "pilot_contrast_pass",
+      "scores": {
+        "paired": 0.2103896103896104,
+        "unpaired": -0.0025974025974025983,
+        "frozen": 0.04935064935064935
+      },
+      "criteria": {
+        "paired_selectivity_at_least_015": true,
+        "paired_minus_unpaired_at_least_010": true,
+        "paired_minus_frozen_at_least_010": true
+      },
+      "statistical_replication": false
+    },
+    "seed316_A": {
+      "passed": false,
+      "reason": "predeclared_effect_margin_not_met",
+      "scores": {
+        "paired": 0.12265446224256292,
+        "unpaired": -0.031578947368421054,
+        "frozen": -0.02070938215102975
+      },
+      "criteria": {
+        "paired_selectivity_at_least_015": false,
+        "paired_minus_unpaired_at_least_010": true,
+        "paired_minus_frozen_at_least_010": true
+      },
+      "statistical_replication": false
+    },
+    "seed316_B": {
+      "passed": true,
+      "reason": "pilot_contrast_pass",
+      "scores": {
+        "paired": 0.20949656750572082,
+        "unpaired": 0.02070938215102975,
+        "frozen": 0.02070938215102975
+      },
+      "criteria": {
+        "paired_selectivity_at_least_015": true,
+        "paired_minus_unpaired_at_least_010": true,
+        "paired_minus_frozen_at_least_010": true
+      },
+      "statistical_replication": false
+    }
+  },
+  "integrity_passed": true,
+  "recomputed_outcome": {
+    "passed": false,
+    "reason": "effect_margin_not_met",
+    "criteria": {
+      "paired_increase": false,
+      "paired_vs_unpaired": false,
+      "paired_vs_frozen": false,
+      "positive_cases": false
+    },
+    "deltas": {
+      "paired": [
+        0.045277145431567356,
+        -0.05488287527091612,
+        0.004172859404130952,
+        -0.00988168230667949
+      ],
+      "unpaired": [
+        0.06022769324642335,
+        -0.061344167570646535,
+        0.0209815261861174,
+        -0.02316984403843539
+      ],
+      "frozen": [
+        0.03245919047897983,
+        -0.03245919047897983,
+        0.026370393451899704,
+        -0.026370393451899704
+      ]
+    },
+    "means": {
+      "paired": -0.0038286381854743257,
+      "unpaired": -0.0008261980441352929,
+      "frozen": 0.0
+    },
+    "positive_cases": 1,
+    "statistical_replication": false
+  },
+  "runner_gate_matches": true,
+  "total_neural_seconds": 95.99999999999822
+}

@@ -1,6 +1,14 @@
 # Fly emulation experiments
 
-Latest: [offline follow-through, controlled mechanical playback and remaining
+Latest: [five-step live hybrid experiment](research/hybrid_preference_results.md).
+All 12 training runs and 16 live neural/3D body probes completed with recovery.
+The learned-preference gate **failed**: mean paired preference change -0.00383;
+paired beat both controls in only 1/4 cases. The conditional learning-rule
+comparison was not run. 167 tests and the independent archive audit pass.
+Video: `results/hybrid_preference_v1/comparison.mp4`; interactive recorded viewer:
+`view-hybrid-preference.cmd`. This is an engineering hybrid, not validated WBE.
+
+Previous: [offline follow-through, controlled mechanical playback and remaining
 navigation gaps](research/offline_navigation_followthrough.md). Six archived-output
 mechanical comparisons completed: paired odor-A playback was 12.1% slower than
 frozen and 9.0% slower than unpaired. This is playback of previously recorded

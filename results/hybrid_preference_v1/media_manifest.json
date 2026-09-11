@@ -1,0 +1,22 @@
+{
+  "results\\hybrid_preference_v1\\comparison.mp4": {
+    "bytes": 721419,
+    "sha256": "a5152a9d7885ad91cc93fe26d3d0a8838024c809ab00e436273e8ae45a7d3e7b"
+  },
+  "results\\hybrid_preference_v1\\seed315_A\\comparison.png": {
+    "bytes": 85410,
+    "sha256": "ba5a96f54597014e8b3b60521c18802545c2f717a84e4246e3856ac72b8ef440"
+  },
+  "results\\hybrid_preference_v1\\seed315_B\\comparison.png": {
+    "bytes": 85508,
+    "sha256": "cfe60e0b811e7f2b4737217b67a50a37eee2678940f2bd53ed80ed3c3b6b964f"
+  },
+  "results\\hybrid_preference_v1\\seed316_A\\comparison.png": {
+    "bytes": 90209,
+    "sha256": "59450fc0ac19586de3a557b16dc2d0c67e1d24504edc1031c6ae829c50da5a6b"
+  },
+  "results\\hybrid_preference_v1\\seed316_B\\comparison.png": {
+    "bytes": 90083,
+    "sha256": "1b210d68577fc51d7fa0c876390960dc714699bad2133f44249b1f9084ee4265"
+  }
+}

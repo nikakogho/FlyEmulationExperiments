@@ -1,0 +1,12 @@
+{
+  "checkpoint": "results\\hybrid_preference_v1\\seed315_A\\train_paired\\pre_state.pkl",
+  "checkpoint_sha256": "b161efe93da29d1afd2aa010a51a82447cfc6253a422500744038dd91932552f",
+  "neural_origin": 1.2499999999999953,
+  "physical_origin": 0.2999999999999833,
+  "seed": 315,
+  "reinforced": "A",
+  "label": "pre",
+  "source_manifest": "results/hybrid_preference_admission_v2.json",
+  "unknown_side_ORNs": 1,
+  "learning_during_retrieval": false
+}

@@ -1,0 +1,12 @@
+{
+  "checkpoint": "results\\hybrid_preference_v1\\seed316_A\\train_frozen\\network_state.pkl",
+  "checkpoint_sha256": "f5b7d1cdc4275b2f7387ae741585447f570816d836de213856f8c5ee6369cda4",
+  "neural_origin": 3.999999999999937,
+  "physical_origin": 0.2999999999999833,
+  "seed": 316,
+  "reinforced": "A",
+  "label": "frozen",
+  "source_manifest": "results/hybrid_preference_admission_v2.json",
+  "unknown_side_ORNs": 16,
+  "learning_during_retrieval": false
+}

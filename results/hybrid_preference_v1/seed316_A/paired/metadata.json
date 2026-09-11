@@ -1,0 +1,12 @@
+{
+  "checkpoint": "results\\hybrid_preference_v1\\seed316_A\\train_paired\\network_state.pkl",
+  "checkpoint_sha256": "95e2175f13e9139cddc72a306b8ef3144b3ec5152886c601a9d575a4a28625bf",
+  "neural_origin": 3.999999999999937,
+  "physical_origin": 0.2999999999999833,
+  "seed": 316,
+  "reinforced": "A",
+  "label": "paired",
+  "source_manifest": "results/hybrid_preference_admission_v2.json",
+  "unknown_side_ORNs": 16,
+  "learning_during_retrieval": false
+}

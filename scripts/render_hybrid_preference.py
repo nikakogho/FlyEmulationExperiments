@@ -31,6 +31,7 @@ def main():
                 image=Image.new('RGB',(1200,736),'#101b24');d=ImageDraw.Draw(image)
                 d.text((16,10),'LIVE RECORDED MEMORY + ENGINEERED NAVIGATION | no reinforcement during probes',font=font,fill='white')
                 d.text((16,40),f'Seed {case["seed"]} | reinforced odor {case["reinforced"]} | blue A, orange B | playback 0.5x',font=font,fill='#f9cd82')
+                d.text((16,68),'Preference gate: '+('passed' if summary['passed'] else 'NOT MET')+' | engineering hybrid, not validated whole-fly emulation',font=font,fill='white')
                 for j,label in enumerate(('pre','paired','unpaired','frozen')):
                     x,y=(j%2)*600,96+(j//2)*320
                     if label in panels:
