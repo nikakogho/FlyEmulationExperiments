@@ -24,6 +24,7 @@ def main():
     report=json.loads((Path(args.path)/'report.json').read_text())
     odor_scene='sources_mm' in report
     neural_scene=report.get('body_run',False)
+    archived_scene=report.get('archived_command_playback',False)
     telemetry=json.loads((Path(args.path)/'telemetry.json').read_text()) if odor_scene else None
     camera=mujoco.MjvCamera();camera.azimuth=135;camera.elevation=-30;camera.distance=7
     set_frame(model,data,tape,0)
@@ -41,10 +42,10 @@ def main():
                 camera.lookat[:]=data.qpos[:3];renderer.update_scene(data,camera=camera)
                 frame=Image.fromarray(renderer.render());draw=ImageDraw.Draw(frame)
                 draw.rectangle((0,0,960,92),fill='#14202a')
-                title='3D FLY | '+('neural-to-speed test | '+report['status'] if neural_scene else 'physical odor-sensor test' if odor_scene else 'mechanical walking, turning and rest')
+                title='3D FLY | '+('archived-output mechanical playback' if archived_scene else 'neural-to-speed test | '+report['status'] if neural_scene else 'physical odor-sensor test' if odor_scene else 'mechanical walking, turning and rest')
                 draw.text((18,10),title,font=font,fill='white')
                 speed=25*float(np.median(np.diff(tape['time_s']))) if len(tape['time_s'])>1 else 0
-                context='recorded neural/physics coupling' if neural_scene else 'no neural simulation'
+                context='archived commands; no live brain' if archived_scene else 'recorded neural/physics coupling' if neural_scene else 'no neural simulation'
                 draw.text((18,38),f'Recorded time {data.time:.2f}s | playback {speed:.3g}x | {context}',font=font,fill='white')
                 detail='Learning not demonstrated; camera follows position for viewing only'
                 if odor_scene:

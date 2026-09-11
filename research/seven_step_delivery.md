@@ -1,5 +1,10 @@
 # Seven-step delivery: validated association, embodied stop, navigation unfinished
 
+Follow-up 2026-09-11: see [offline follow-through](offline_navigation_followthrough.md)
+for resolved SMP354 type correspondence, the navigation-paper correction, and
+six completed mechanical comparisons driven by archived neural outputs. Those
+comparisons do not replace the stopped live experiment described below.
+
 2026-09-10. The user authorized the complete plan. Independent validation,
 offline attribution, measured 3D sensory transport and a continuously coupled
 neural/physical prototype were implemented and tested. **Not all seven intended

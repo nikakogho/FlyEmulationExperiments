@@ -1,0 +1,16 @@
+{
+  "status": "completed",
+  "error": null,
+  "arm": "paired",
+  "cue": "A",
+  "body_run": false,
+  "archived_command_playback": true,
+  "new_neural_steps": 0,
+  "source": "results\\saved_motor_readout_v1\\seed311_A_paired.json",
+  "source_sha256": "281783cde370771f97c2ba341d9c84e59456319e5db4f720be2cf37ac6c18e73",
+  "scope": "Mechanical playback of stationary neural archive; no live brain, learning, or sensory feedback",
+  "mean_probe_speed_mm_s": 8.261297450065612,
+  "probe_displacement_mm": 1.4742329085252377,
+  "final_speed_mm_s": 0.00694029126316309,
+  "final_rest_pass": true
+}

@@ -1,10 +1,17 @@
 # Fly emulation experiments
 
-Latest delivery: [seven-step results and remaining gaps](research/seven_step_delivery.md).
+Latest: [offline follow-through, controlled mechanical playback and remaining
+navigation gaps](research/offline_navigation_followthrough.md). Six archived-output
+mechanical comparisons completed: paired odor-A playback was 12.1% slower than
+frozen and 9.0% slower than unpaired. This is playback of previously recorded
+neural outputs, with no live brain or sensory feedback. Video:
+`results/saved_motor_body_v1/comparison.mp4`. 143 software tests pass.
+
+Previous delivery: [seven-step results and remaining gaps](research/seven_step_delivery.md).
 Independent association validation passes its predeclared cohort gate (22.02%
 mean selectivity). A real neural/3D-physics loop ran, then stopped at 1.12 s on
 a conservative behavioral proxy; its comparison controls were cancelled.
-Learned source navigation and a controlled motor effect remain unproven.
+Learned source navigation and a controlled live neural motor effect remain unproven.
 Double-click `view-neural-arena.cmd` for the passive recorded neural/physics
 scene, or `view-odor-arena.cmd` for the mechanical sensory scene. Both viewers
 replay saved evidence without advancing neurons. 135 software tests pass.

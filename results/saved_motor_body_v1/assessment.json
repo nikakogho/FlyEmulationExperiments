@@ -1,0 +1,114 @@
+{
+  "new_neural_steps": 0,
+  "reports": {
+    "A_paired": {
+      "status": "completed",
+      "error": null,
+      "arm": "paired",
+      "cue": "A",
+      "body_run": false,
+      "archived_command_playback": true,
+      "new_neural_steps": 0,
+      "source": "results\\saved_motor_readout_v1\\seed311_A_paired.json",
+      "source_sha256": "281783cde370771f97c2ba341d9c84e59456319e5db4f720be2cf37ac6c18e73",
+      "scope": "Mechanical playback of stationary neural archive; no live brain, learning, or sensory feedback",
+      "mean_probe_speed_mm_s": 8.261297450065612,
+      "probe_displacement_mm": 1.4742329085252377,
+      "final_speed_mm_s": 0.00694029126316309,
+      "final_rest_pass": true
+    },
+    "A_unpaired": {
+      "status": "completed",
+      "error": null,
+      "arm": "unpaired",
+      "cue": "A",
+      "body_run": false,
+      "archived_command_playback": true,
+      "new_neural_steps": 0,
+      "source": "results\\saved_motor_readout_v1\\seed311_A_unpaired.json",
+      "source_sha256": "1549589fe993c91da8aa9cf0aa16f45bc5b11379ac4af795b40608088aa8ebdb",
+      "scope": "Mechanical playback of stationary neural archive; no live brain, learning, or sensory feedback",
+      "mean_probe_speed_mm_s": 9.075636682510376,
+      "probe_displacement_mm": 1.6487272632312462,
+      "final_speed_mm_s": 0.07681446522474289,
+      "final_rest_pass": true
+    },
+    "A_frozen": {
+      "status": "completed",
+      "error": null,
+      "arm": "frozen",
+      "cue": "A",
+      "body_run": false,
+      "archived_command_playback": true,
+      "new_neural_steps": 0,
+      "source": "results\\saved_motor_readout_v1\\seed311_A_frozen.json",
+      "source_sha256": "14d4c7279454b1691f758e6d185c6e189a31aca45f3a2a96ca8cf3c403692845",
+      "scope": "Mechanical playback of stationary neural archive; no live brain, learning, or sensory feedback",
+      "mean_probe_speed_mm_s": 9.399172673225403,
+      "probe_displacement_mm": 1.6771847734532788,
+      "final_speed_mm_s": 0.009489279240369797,
+      "final_rest_pass": true
+    },
+    "B_paired": {
+      "status": "completed",
+      "error": null,
+      "arm": "paired",
+      "cue": "B",
+      "body_run": false,
+      "archived_command_playback": true,
+      "new_neural_steps": 0,
+      "source": "results\\saved_motor_readout_v1\\seed311_A_paired.json",
+      "source_sha256": "281783cde370771f97c2ba341d9c84e59456319e5db4f720be2cf37ac6c18e73",
+      "scope": "Mechanical playback of stationary neural archive; no live brain, learning, or sensory feedback",
+      "mean_probe_speed_mm_s": 9.784371645450593,
+      "probe_displacement_mm": 1.7507167189882213,
+      "final_speed_mm_s": 0.004733605310320854,
+      "final_rest_pass": true
+    },
+    "B_unpaired": {
+      "status": "completed",
+      "error": null,
+      "arm": "unpaired",
+      "cue": "B",
+      "body_run": false,
+      "archived_command_playback": true,
+      "new_neural_steps": 0,
+      "source": "results\\saved_motor_readout_v1\\seed311_A_unpaired.json",
+      "source_sha256": "1549589fe993c91da8aa9cf0aa16f45bc5b11379ac4af795b40608088aa8ebdb",
+      "scope": "Mechanical playback of stationary neural archive; no live brain, learning, or sensory feedback",
+      "mean_probe_speed_mm_s": 10.01655380487442,
+      "probe_displacement_mm": 1.772905455979462,
+      "final_speed_mm_s": 0.01930069364607334,
+      "final_rest_pass": true
+    },
+    "B_frozen": {
+      "status": "completed",
+      "error": null,
+      "arm": "frozen",
+      "cue": "B",
+      "body_run": false,
+      "archived_command_playback": true,
+      "new_neural_steps": 0,
+      "source": "results\\saved_motor_readout_v1\\seed311_A_frozen.json",
+      "source_sha256": "14d4c7279454b1691f758e6d185c6e189a31aca45f3a2a96ca8cf3c403692845",
+      "scope": "Mechanical playback of stationary neural archive; no live brain, learning, or sensory feedback",
+      "mean_probe_speed_mm_s": 9.668181040287017,
+      "probe_displacement_mm": 1.7242459052729708,
+      "final_speed_mm_s": 0.06623092293739319,
+      "final_rest_pass": true
+    }
+  },
+  "mechanical_checks_passed": true,
+  "learned_navigation_demonstrated": false,
+  "closed_loop_learning_demonstrated": false,
+  "descriptive_speed_changes": {
+    "A": {
+      "unpaired": 0.08972805555494245,
+      "frozen": 0.12106121067454756
+    },
+    "B": {
+      "unpaired": 0.02317984448012833,
+      "frozen": -0.01201783506943177
+    }
+  }
+}

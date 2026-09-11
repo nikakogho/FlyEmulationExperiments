@@ -52,4 +52,15 @@ class BehaviorTests(unittest.TestCase):
             m.observe(k*.01,[k*.05,0,0],[.5,.5],np.full((2,4),max(0,level)),stimulus_enabled=k<16)
         self.assertFalse(m.stopped)
 
+    def test_constant_command_gaussian_passby_also_triggers_proxy(self):
+        # Negative control: movement is prescribed independently of stimulus.
+        # Preserve this specificity limitation, not a validated avoidance label.
+        m=BehaviorMonitor()
+        with self.assertRaises(RuntimeError):
+            for k in range(101):
+                x=k*.04
+                c=np.exp(-((x-1.)**2)/2.)
+                m.observe(k*.01,[x,0,0],[.5,.5],np.full((2,4),c))
+        self.assertEqual(m.reason,'stimulus_linked_avoidance')
+
 if __name__=='__main__':unittest.main()

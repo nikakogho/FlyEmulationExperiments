@@ -1,0 +1,43 @@
+{
+  "revision": "30bc47c0703527995af2a9d671bd2a1f32c1a29a",
+  "new_neural_steps": 0,
+  "files": [
+    {
+      "url": "https://raw.githubusercontent.com/nagellab/Mathesonetal2022/30bc47c0703527995af2a9d671bd2a1f32c1a29a/Model%20Code/mutual_inh_model_n8_paper.m",
+      "sha256": "d49b0c68114984f83a4e07adabe5b350872c556e64b73adf62bd05035a7f822b",
+      "path": "upstream\\Mathesonetal2022\\mutual_inh_model_n8_paper.m"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/nagellab/Mathesonetal2022/30bc47c0703527995af2a9d671bd2a1f32c1a29a/Model%20Code/heading_inputs_pfn.m",
+      "sha256": "4ad8c5ac7bfad422dd49a7d330bd6d0b3f2274f2e2d21d93feea6685ad617dc0",
+      "path": "upstream\\Mathesonetal2022\\heading_inputs_pfn.m"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/nagellab/Mathesonetal2022/30bc47c0703527995af2a9d671bd2a1f32c1a29a/Model%20Code/make_hdc_col_mat.m",
+      "sha256": "814009f125ad83c2bbcc42156ccde21603a7d0a15625bb2a469067e31ae6495e",
+      "path": "upstream\\Mathesonetal2022\\make_hdc_col_mat.m"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/nagellab/Mathesonetal2022/30bc47c0703527995af2a9d671bd2a1f32c1a29a/Model%20Code/sigmoid_func.m",
+      "sha256": "c3a8465ba642799b7d86338619ad204735f569acadf77840c64e1ef767079dbb",
+      "path": "upstream\\Mathesonetal2022\\sigmoid_func.m"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/nagellab/Mathesonetal2022/30bc47c0703527995af2a9d671bd2a1f32c1a29a/license.txt",
+      "sha256": "21d70d49a2b0a38c332bc1931b3bb90fd0123860780c1381c6951ca87fbd79a1",
+      "path": "upstream\\Mathesonetal2022\\license.txt"
+    }
+  ],
+  "documents": [
+    {
+      "url": "https://cdn.elifesciences.org/articles/85756/elife-85756-v3.xml",
+      "local": "data\\elife85756.xml",
+      "sha256": "173d883a176566a815b8c0ae49872df3d3f030e9d262c5e907e8f106062b4a9e"
+    },
+    {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10907363/fullTextXML",
+      "local": "data\\navigation_addendum.xml",
+      "sha256": "d277a56ec2ed2b1d7629537ef7addec4bcd194161495a5e5e3e53f923653261b"
+    }
+  ]
+}

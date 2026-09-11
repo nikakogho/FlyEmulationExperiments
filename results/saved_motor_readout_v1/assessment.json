@@ -1,0 +1,129 @@
+{
+  "new_neural_steps": 0,
+  "new_physics_steps": 0,
+  "cases": [
+    {
+      "case": "seed311_A",
+      "mean_commands": {
+        "paired": {
+          "pre_A": 0.5782112032209438,
+          "pre_B": 0.5875543392157886,
+          "post_A": 0.5051957703787735,
+          "post_B": 0.5889982192403523
+        },
+        "unpaired": {
+          "pre_A": 0.5782112032209438,
+          "pre_B": 0.5875543392157886,
+          "post_A": 0.5629356212548341,
+          "post_B": 0.6049371197771947
+        },
+        "frozen": {
+          "pre_A": 0.5782112032209438,
+          "pre_B": 0.5875543392157886,
+          "post_A": 0.56829528395349,
+          "post_B": 0.6064543484311273
+        }
+      },
+      "reinforced_slowing_vs_frozen": 0.11103297063411965,
+      "reinforced_slowing_vs_unpaired": 0.10256919032295964,
+      "other_slowing_vs_frozen": 0.028783912978665782,
+      "cue_specific_fractional_difference": 0.08224905765545387
+    },
+    {
+      "case": "seed311_B",
+      "mean_commands": {
+        "paired": {
+          "pre_A": 0.5782112032209438,
+          "pre_B": 0.5875543392157886,
+          "post_A": 0.538347318159355,
+          "post_B": 0.5560166724450271
+        },
+        "unpaired": {
+          "pre_A": 0.5782112032209438,
+          "pre_B": 0.5875543392157886,
+          "post_A": 0.5682953159312083,
+          "post_B": 0.6059800907600082
+        },
+        "frozen": {
+          "pre_A": 0.5782112032209438,
+          "pre_B": 0.5875543392157886,
+          "post_A": 0.5682953159312083,
+          "post_B": 0.6064543486298795
+        }
+      },
+      "reinforced_slowing_vs_frozen": 0.08316813342801943,
+      "reinforced_slowing_vs_unpaired": 0.0824505938013872,
+      "other_slowing_vs_frozen": 0.05269794934484118,
+      "cue_specific_fractional_difference": 0.030470184083178253
+    },
+    {
+      "case": "seed312_A",
+      "mean_commands": {
+        "paired": {
+          "pre_A": 0.5893881702841558,
+          "pre_B": 0.5490610612638352,
+          "post_A": 0.5578483913502855,
+          "post_B": 0.5397358050812661
+        },
+        "unpaired": {
+          "pre_A": 0.5893881702841558,
+          "pre_B": 0.5490610612638352,
+          "post_A": 0.5954053019984171,
+          "post_B": 0.5375524511133071
+        },
+        "frozen": {
+          "pre_A": 0.5893881702841558,
+          "pre_B": 0.5490610612638352,
+          "post_A": 0.5954053019984171,
+          "post_B": 0.5331168065433958
+        }
+      },
+      "reinforced_slowing_vs_frozen": 0.06307789084523707,
+      "reinforced_slowing_vs_unpaired": 0.06307789084523707,
+      "other_slowing_vs_frozen": -0.012415662865304045,
+      "cue_specific_fractional_difference": 0.07549355371054112
+    },
+    {
+      "case": "seed312_B",
+      "mean_commands": {
+        "paired": {
+          "pre_A": 0.5893881702841558,
+          "pre_B": 0.5490610612638352,
+          "post_A": 0.5936954762503113,
+          "post_B": 0.46615724091839184
+        },
+        "unpaired": {
+          "pre_A": 0.5893881702841558,
+          "pre_B": 0.5490610612638352,
+          "post_A": 0.5954051536363196,
+          "post_B": 0.545146879521397
+        },
+        "frozen": {
+          "pre_A": 0.5893881702841558,
+          "pre_B": 0.5490610612638352,
+          "post_A": 0.5954051536363196,
+          "post_B": 0.5331168054158938
+        }
+      },
+      "reinforced_slowing_vs_frozen": 0.12560017582875782,
+      "reinforced_slowing_vs_unpaired": 0.14489606667537525,
+      "other_slowing_vs_frozen": 0.0028714521121741,
+      "cue_specific_fractional_difference": 0.12272872371658372
+    }
+  ],
+  "provenance": {
+    "results\\association_validation_v1\\seed311_A\\paired\\telemetry.json": "7022b609bc1774181f64d633b9ca3a8e344cfac3e4bbd5c4ca1b1d486c6e7cc1",
+    "results\\association_validation_v1\\seed311_A\\unpaired\\telemetry.json": "251b3850f500b978a461e87b39a2f2d2f8fd966fa7146318d4a7894d4ddcb186",
+    "results\\association_validation_v1\\seed311_A\\frozen\\telemetry.json": "ec1d06ab4421d9dffa3b40f7d4630a839508389b5fcbc47000577cc38474e56b",
+    "results\\association_validation_v1\\seed311_B\\paired\\telemetry.json": "7c06a3d9200c32f41bd7595eabf01aa2862cdb0696afe4d1a43382b49fc0c22d",
+    "results\\association_validation_v1\\seed311_B\\unpaired\\telemetry.json": "25583669a3d7d1c57ef22878f270a07efb1befa0691902d059e32c7a1958579f",
+    "results\\association_validation_v1\\seed311_B\\frozen\\telemetry.json": "04d0129efa265147cd36e3bce887a4b29345f51e4a26851451b62eb2667ee447",
+    "results\\association_validation_v1\\seed312_A\\paired\\telemetry.json": "a82170c1dd4497365dabdca5762993ac67ea428c01ad5831ae511f2eb72fd82c",
+    "results\\association_validation_v1\\seed312_A\\unpaired\\telemetry.json": "c33b27c9894a9faf2c9b2d3d845dacc21c248d9778d82c9b2922e774accd2945",
+    "results\\association_validation_v1\\seed312_A\\frozen\\telemetry.json": "abcb064cdb9338645383eb912b5f20b4f194cc8bac05a1349293c4fd251eda6d",
+    "results\\association_validation_v1\\seed312_B\\paired\\telemetry.json": "917b828b171190e85201a1bcb538f080ba65f560192b3ff687593351a73e5422",
+    "results\\association_validation_v1\\seed312_B\\unpaired\\telemetry.json": "a834100b9d548fa11004d90564b957952d8c5b4cfb67119a6bf752542f206a44",
+    "results\\association_validation_v1\\seed312_B\\frozen\\telemetry.json": "9108318e1b2d56c1ff2650898f96086e6643efffa054018f071c21b6f7732f03"
+  },
+  "interpretation": "Descriptive replay of archived stationary spike counts through the unchanged motor decoder. Command differences are not measured body-speed differences. No new significance test, navigation claim, or replacement of the stopped embodied protocol."
+}

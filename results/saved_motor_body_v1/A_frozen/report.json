@@ -1,0 +1,16 @@
+{
+  "status": "completed",
+  "error": null,
+  "arm": "frozen",
+  "cue": "A",
+  "body_run": false,
+  "archived_command_playback": true,
+  "new_neural_steps": 0,
+  "source": "results\\saved_motor_readout_v1\\seed311_A_frozen.json",
+  "source_sha256": "14d4c7279454b1691f758e6d185c6e189a31aca45f3a2a96ca8cf3c403692845",
+  "scope": "Mechanical playback of stationary neural archive; no live brain, learning, or sensory feedback",
+  "mean_probe_speed_mm_s": 9.399172673225403,
+  "probe_displacement_mm": 1.6771847734532788,
+  "final_speed_mm_s": 0.009489279240369797,
+  "final_rest_pass": true
+}

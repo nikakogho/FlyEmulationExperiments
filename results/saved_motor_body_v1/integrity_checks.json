@@ -1,0 +1,73 @@
+{
+  "new_neural_steps": 0,
+  "new_physics_steps": 0,
+  "checks": {
+    "A_paired": {
+      "source_hash": true,
+      "frames": true,
+      "timestamps": true,
+      "commands_unchanged": true,
+      "rest_commands_zero": true,
+      "finite_states": true,
+      "same_initial_state": true,
+      "completed": true,
+      "final_rest": true
+    },
+    "A_unpaired": {
+      "source_hash": true,
+      "frames": true,
+      "timestamps": true,
+      "commands_unchanged": true,
+      "rest_commands_zero": true,
+      "finite_states": true,
+      "same_initial_state": true,
+      "completed": true,
+      "final_rest": true
+    },
+    "A_frozen": {
+      "source_hash": true,
+      "frames": true,
+      "timestamps": true,
+      "commands_unchanged": true,
+      "rest_commands_zero": true,
+      "finite_states": true,
+      "same_initial_state": true,
+      "completed": true,
+      "final_rest": true
+    },
+    "B_paired": {
+      "source_hash": true,
+      "frames": true,
+      "timestamps": true,
+      "commands_unchanged": true,
+      "rest_commands_zero": true,
+      "finite_states": true,
+      "same_initial_state": true,
+      "completed": true,
+      "final_rest": true
+    },
+    "B_unpaired": {
+      "source_hash": true,
+      "frames": true,
+      "timestamps": true,
+      "commands_unchanged": true,
+      "rest_commands_zero": true,
+      "finite_states": true,
+      "same_initial_state": true,
+      "completed": true,
+      "final_rest": true
+    },
+    "B_frozen": {
+      "source_hash": true,
+      "frames": true,
+      "timestamps": true,
+      "commands_unchanged": true,
+      "rest_commands_zero": true,
+      "finite_states": true,
+      "same_initial_state": true,
+      "completed": true,
+      "final_rest": true
+    }
+  },
+  "passed": true
+}

@@ -1,0 +1,1054 @@
+{
+  "new_neural_steps": 0,
+  "new_physics_steps": 0,
+  "provenance": {
+    "data\\annotations.tsv": "9a4f8b2f843196074431ebd7cd883536afa1be86c8a4ce90970441e8be81d1be",
+    "upstream\\Drosophila_brain_model\\Completeness_783.csv": "52b0ac6094cd32c546f8d4c341e094376f48f4e791f8db9b166de5dff8199ea4",
+    "upstream\\Drosophila_brain_model\\Connectivity_783.parquet": "efeb23fb99098e9c390f6869969b2a121a2ee92c833cfc45ecb2c1d8e1af0347",
+    "data\\malecns\\body-annotations-male-cns-v1.0-minconf-0.5.feather": "2177e246113e4cfbf1e7772ec37c6da1955ff22e8063d0b1f833101f99a9a3b2"
+  },
+  "group_sizes": {
+    "MBON01": 2,
+    "MBON06": 2,
+    "MBON07": 4,
+    "MBON14": 4,
+    "SMP353": 2,
+    "SMP354": 0,
+    "SMP108": 2,
+    "FB6D": 2,
+    "FB6I": 2,
+    "FB6T": 4,
+    "hDeltaC": 21,
+    "PFL3": 24,
+    "DNa01": 2,
+    "DNa02": 2
+  },
+  "selected_input_coverage": {
+    "total_contacts": 182181,
+    "internal_contacts": 3676,
+    "excluded_contacts": 178505,
+    "retained_fraction": 0.02017773532915068
+  },
+  "per_type_input_coverage": {
+    "MBON01": {
+      "total_contacts": 10978,
+      "internal_contacts": 0,
+      "excluded_contacts": 10978,
+      "retained_fraction": 0.0
+    },
+    "MBON06": {
+      "total_contacts": 15022,
+      "internal_contacts": 0,
+      "excluded_contacts": 15022,
+      "retained_fraction": 0.0
+    },
+    "MBON07": {
+      "total_contacts": 26218,
+      "internal_contacts": 207,
+      "excluded_contacts": 26011,
+      "retained_fraction": 0.007895339080021359
+    },
+    "MBON14": {
+      "total_contacts": 22547,
+      "internal_contacts": 174,
+      "excluded_contacts": 22373,
+      "retained_fraction": 0.007717212932984432
+    },
+    "SMP353": {
+      "total_contacts": 1633,
+      "internal_contacts": 0,
+      "excluded_contacts": 1633,
+      "retained_fraction": 0.0
+    },
+    "SMP354": {
+      "total_contacts": 0,
+      "internal_contacts": 0,
+      "excluded_contacts": 0,
+      "retained_fraction": null
+    },
+    "SMP108": {
+      "total_contacts": 19150,
+      "internal_contacts": 2,
+      "excluded_contacts": 19148,
+      "retained_fraction": 0.00010443864229765013
+    },
+    "FB6D": {
+      "total_contacts": 4060,
+      "internal_contacts": 21,
+      "excluded_contacts": 4039,
+      "retained_fraction": 0.005172413793103448
+    },
+    "FB6I": {
+      "total_contacts": 2062,
+      "internal_contacts": 7,
+      "excluded_contacts": 2055,
+      "retained_fraction": 0.0033947623666343357
+    },
+    "FB6T": {
+      "total_contacts": 1609,
+      "internal_contacts": 7,
+      "excluded_contacts": 1602,
+      "retained_fraction": 0.00435052827843381
+    },
+    "hDeltaC": {
+      "total_contacts": 18215,
+      "internal_contacts": 126,
+      "excluded_contacts": 18089,
+      "retained_fraction": 0.0069173757891847374
+    },
+    "PFL3": {
+      "total_contacts": 22765,
+      "internal_contacts": 387,
+      "excluded_contacts": 22378,
+      "retained_fraction": 0.016999780364594774
+    },
+    "DNa01": {
+      "total_contacts": 12495,
+      "internal_contacts": 0,
+      "excluded_contacts": 12495,
+      "retained_fraction": 0.0
+    },
+    "DNa02": {
+      "total_contacts": 25427,
+      "internal_contacts": 0,
+      "excluded_contacts": 25427,
+      "retained_fraction": 0.0
+    }
+  },
+  "direct_type_contacts": [
+    {
+      "source_type": "MBON01",
+      "target_type": "SMP108",
+      "contacts": 58
+    },
+    {
+      "source_type": "MBON06",
+      "target_type": "MBON07",
+      "contacts": 476
+    },
+    {
+      "source_type": "MBON06",
+      "target_type": "MBON14",
+      "contacts": 408
+    },
+    {
+      "source_type": "MBON06",
+      "target_type": "SMP353",
+      "contacts": 1
+    },
+    {
+      "source_type": "MBON06",
+      "target_type": "SMP108",
+      "contacts": 2
+    },
+    {
+      "source_type": "MBON06",
+      "target_type": "FB6T",
+      "contacts": 42
+    },
+    {
+      "source_type": "MBON07",
+      "target_type": "MBON06",
+      "contacts": 12
+    },
+    {
+      "source_type": "MBON07",
+      "target_type": "MBON07",
+      "contacts": 207
+    },
+    {
+      "source_type": "MBON07",
+      "target_type": "MBON14",
+      "contacts": 15
+    },
+    {
+      "source_type": "MBON07",
+      "target_type": "SMP353",
+      "contacts": 32
+    },
+    {
+      "source_type": "MBON14",
+      "target_type": "MBON06",
+      "contacts": 111
+    },
+    {
+      "source_type": "MBON14",
+      "target_type": "MBON07",
+      "contacts": 80
+    },
+    {
+      "source_type": "MBON14",
+      "target_type": "MBON14",
+      "contacts": 174
+    },
+    {
+      "source_type": "MBON14",
+      "target_type": "SMP353",
+      "contacts": 12
+    },
+    {
+      "source_type": "MBON14",
+      "target_type": "SMP108",
+      "contacts": 4
+    },
+    {
+      "source_type": "MBON14",
+      "target_type": "FB6I",
+      "contacts": 1
+    },
+    {
+      "source_type": "MBON14",
+      "target_type": "FB6T",
+      "contacts": 2
+    },
+    {
+      "source_type": "SMP353",
+      "target_type": "MBON07",
+      "contacts": 1
+    },
+    {
+      "source_type": "SMP353",
+      "target_type": "SMP108",
+      "contacts": 131
+    },
+    {
+      "source_type": "SMP353",
+      "target_type": "FB6D",
+      "contacts": 41
+    },
+    {
+      "source_type": "SMP353",
+      "target_type": "FB6I",
+      "contacts": 4
+    },
+    {
+      "source_type": "SMP353",
+      "target_type": "FB6T",
+      "contacts": 15
+    },
+    {
+      "source_type": "SMP108",
+      "target_type": "MBON01",
+      "contacts": 2
+    },
+    {
+      "source_type": "SMP108",
+      "target_type": "SMP353",
+      "contacts": 1
+    },
+    {
+      "source_type": "SMP108",
+      "target_type": "SMP108",
+      "contacts": 2
+    },
+    {
+      "source_type": "SMP108",
+      "target_type": "FB6D",
+      "contacts": 1
+    },
+    {
+      "source_type": "FB6D",
+      "target_type": "SMP353",
+      "contacts": 4
+    },
+    {
+      "source_type": "FB6D",
+      "target_type": "SMP108",
+      "contacts": 24
+    },
+    {
+      "source_type": "FB6D",
+      "target_type": "FB6D",
+      "contacts": 21
+    },
+    {
+      "source_type": "FB6D",
+      "target_type": "FB6I",
+      "contacts": 13
+    },
+    {
+      "source_type": "FB6D",
+      "target_type": "FB6T",
+      "contacts": 1
+    },
+    {
+      "source_type": "FB6D",
+      "target_type": "hDeltaC",
+      "contacts": 392
+    },
+    {
+      "source_type": "FB6I",
+      "target_type": "SMP353",
+      "contacts": 1
+    },
+    {
+      "source_type": "FB6I",
+      "target_type": "SMP108",
+      "contacts": 1
+    },
+    {
+      "source_type": "FB6I",
+      "target_type": "FB6D",
+      "contacts": 14
+    },
+    {
+      "source_type": "FB6I",
+      "target_type": "FB6I",
+      "contacts": 7
+    },
+    {
+      "source_type": "FB6I",
+      "target_type": "FB6T",
+      "contacts": 6
+    },
+    {
+      "source_type": "FB6I",
+      "target_type": "hDeltaC",
+      "contacts": 121
+    },
+    {
+      "source_type": "FB6T",
+      "target_type": "FB6D",
+      "contacts": 3
+    },
+    {
+      "source_type": "FB6T",
+      "target_type": "FB6I",
+      "contacts": 2
+    },
+    {
+      "source_type": "FB6T",
+      "target_type": "FB6T",
+      "contacts": 7
+    },
+    {
+      "source_type": "FB6T",
+      "target_type": "hDeltaC",
+      "contacts": 16
+    },
+    {
+      "source_type": "hDeltaC",
+      "target_type": "FB6D",
+      "contacts": 71
+    },
+    {
+      "source_type": "hDeltaC",
+      "target_type": "FB6I",
+      "contacts": 103
+    },
+    {
+      "source_type": "hDeltaC",
+      "target_type": "FB6T",
+      "contacts": 6
+    },
+    {
+      "source_type": "hDeltaC",
+      "target_type": "hDeltaC",
+      "contacts": 126
+    },
+    {
+      "source_type": "hDeltaC",
+      "target_type": "PFL3",
+      "contacts": 8
+    },
+    {
+      "source_type": "PFL3",
+      "target_type": "hDeltaC",
+      "contacts": 3
+    },
+    {
+      "source_type": "PFL3",
+      "target_type": "PFL3",
+      "contacts": 387
+    },
+    {
+      "source_type": "PFL3",
+      "target_type": "DNa02",
+      "contacts": 496
+    },
+    {
+      "source_type": "DNa01",
+      "target_type": "DNa02",
+      "contacts": 2
+    },
+    {
+      "source_type": "DNa02",
+      "target_type": "PFL3",
+      "contacts": 1
+    },
+    {
+      "source_type": "DNa02",
+      "target_type": "DNa01",
+      "contacts": 5
+    }
+  ],
+  "mbon01_shortest_witnesses": [
+    {
+      "source": {
+        "root_id": "720575940624117245",
+        "cell_type": "MBON01",
+        "side": "right"
+      },
+      "paths": [
+        {
+          "target": {
+            "root_id": "720575940608236978",
+            "cell_type": "SMP353",
+            "side": "left"
+          },
+          "witness": {
+            "cells": [
+              {
+                "root_id": "720575940624117245",
+                "cell_type": "MBON01",
+                "side": "right"
+              },
+              {
+                "root_id": "720575940617083404",
+                "cell_type": "SMP027",
+                "side": "left"
+              },
+              {
+                "root_id": "720575940608236978",
+                "cell_type": "SMP353",
+                "side": "left"
+              }
+            ],
+            "contacts": [
+              1,
+              2
+            ]
+          }
+        },
+        {
+          "target": {
+            "root_id": "720575940633583712",
+            "cell_type": "SMP353",
+            "side": "right"
+          },
+          "witness": {
+            "cells": [
+              {
+                "root_id": "720575940624117245",
+                "cell_type": "MBON01",
+                "side": "right"
+              },
+              {
+                "root_id": "720575940622930200",
+                "cell_type": "CB3369",
+                "side": "right"
+              },
+              {
+                "root_id": "720575940633583712",
+                "cell_type": "SMP353",
+                "side": "right"
+              }
+            ],
+            "contacts": [
+              1,
+              1
+            ]
+          }
+        },
+        {
+          "target": {
+            "root_id": "720575940621457690",
+            "cell_type": "SMP108",
+            "side": "right"
+          },
+          "witness": {
+            "cells": [
+              {
+                "root_id": "720575940624117245",
+                "cell_type": "MBON01",
+                "side": "right"
+              },
+              {
+                "root_id": "720575940605043121",
+                "cell_type": "CB3392",
+                "side": "right"
+              },
+              {
+                "root_id": "720575940621457690",
+                "cell_type": "SMP108",
+                "side": "right"
+              }
+            ],
+            "contacts": [
+              4,
+              79
+            ]
+          }
+        },
+        {
+          "target": {
+            "root_id": "720575940631103744",
+            "cell_type": "SMP108",
+            "side": "left"
+          },
+          "witness": {
+            "cells": [
+              {
+                "root_id": "720575940624117245",
+                "cell_type": "MBON01",
+                "side": "right"
+              },
+              {
+                "root_id": "720575940631103744",
+                "cell_type": "SMP108",
+                "side": "left"
+              }
+            ],
+            "contacts": [
+              13
+            ]
+          }
+        },
+        {
+          "target": {
+            "root_id": "720575940627787609",
+            "cell_type": "DNa01",
+            "side": "left"
+          },
+          "witness": {
+            "cells": [
+              {
+                "root_id": "720575940624117245",
+                "cell_type": "MBON01",
+                "side": "right"
+              },
+              {
+                "root_id": "720575940612364697",
+                "cell_type": "SIP201f",
+                "side": "right"
+              },
+              {
+                "root_id": "720575940627787609",
+                "cell_type": "DNa01",
+                "side": "left"
+              }
+            ],
+            "contacts": [
+              1,
+              8
+            ]
+          }
+        },
+        {
+          "target": {
+            "root_id": "720575940644438551",
+            "cell_type": "DNa01",
+            "side": "right"
+          },
+          "witness": {
+            "cells": [
+              {
+                "root_id": "720575940624117245",
+                "cell_type": "MBON01",
+                "side": "right"
+              },
+              {
+                "root_id": "720575940612364697",
+                "cell_type": "SIP201f",
+                "side": "right"
+              },
+              {
+                "root_id": "720575940644438551",
+                "cell_type": "DNa01",
+                "side": "right"
+              }
+            ],
+            "contacts": [
+              1,
+              19
+            ]
+          }
+        },
+        {
+          "target": {
+            "root_id": "720575940604737708",
+            "cell_type": "DNa02",
+            "side": "right"
+          },
+          "witness": {
+            "cells": [
+              {
+                "root_id": "720575940624117245",
+                "cell_type": "MBON01",
+                "side": "right"
+              },
+              {
+                "root_id": "720575940607155890",
+                "cell_type": "MBON26",
+                "side": "right"
+              },
+              {
+                "root_id": "720575940604737708",
+                "cell_type": "DNa02",
+                "side": "right"
+              }
+            ],
+            "contacts": [
+              2,
+              4
+            ]
+          }
+        },
+        {
+          "target": {
+            "root_id": "720575940629327659",
+            "cell_type": "DNa02",
+            "side": "left"
+          },
+          "witness": {
+            "cells": [
+              {
+                "root_id": "720575940624117245",
+                "cell_type": "MBON01",
+                "side": "right"
+              },
+              {
+                "root_id": "720575940612364697",
+                "cell_type": "SIP201f",
+                "side": "right"
+              },
+              {
+                "root_id": "720575940629327659",
+                "cell_type": "DNa02",
+                "side": "left"
+              }
+            ],
+            "contacts": [
+              1,
+              1
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "source": {
+        "root_id": "720575940643309197",
+        "cell_type": "MBON01",
+        "side": "left"
+      },
+      "paths": [
+        {
+          "target": {
+            "root_id": "720575940608236978",
+            "cell_type": "SMP353",
+            "side": "left"
+          },
+          "witness": {
+            "cells": [
+              {
+                "root_id": "720575940643309197",
+                "cell_type": "MBON01",
+                "side": "left"
+              },
+              {
+                "root_id": "720575940605625958",
+                "cell_type": "CB1870",
+                "side": "right"
+              },
+              {
+                "root_id": "720575940641237645",
+                "cell_type": "LHAD1k1",
+                "side": "right"
+              },
+              {
+                "root_id": "720575940608236978",
+                "cell_type": "SMP353",
+                "side": "left"
+              }
+            ],
+            "contacts": [
+              36,
+              1,
+              5
+            ]
+          }
+        },
+        {
+          "target": {
+            "root_id": "720575940633583712",
+            "cell_type": "SMP353",
+            "side": "right"
+          },
+          "witness": {
+            "cells": [
+              {
+                "root_id": "720575940643309197",
+                "cell_type": "MBON01",
+                "side": "left"
+              },
+              {
+                "root_id": "720575940608462684",
+                "cell_type": "CB1244",
+                "side": "right"
+              },
+              {
+                "root_id": "720575940633583712",
+                "cell_type": "SMP353",
+                "side": "right"
+              }
+            ],
+            "contacts": [
+              2,
+              6
+            ]
+          }
+        },
+        {
+          "target": {
+            "root_id": "720575940621457690",
+            "cell_type": "SMP108",
+            "side": "right"
+          },
+          "witness": {
+            "cells": [
+              {
+                "root_id": "720575940643309197",
+                "cell_type": "MBON01",
+                "side": "left"
+              },
+              {
+                "root_id": "720575940621457690",
+                "cell_type": "SMP108",
+                "side": "right"
+              }
+            ],
+            "contacts": [
+              45
+            ]
+          }
+        },
+        {
+          "target": {
+            "root_id": "720575940631103744",
+            "cell_type": "SMP108",
+            "side": "left"
+          },
+          "witness": {
+            "cells": [
+              {
+                "root_id": "720575940643309197",
+                "cell_type": "MBON01",
+                "side": "left"
+              },
+              {
+                "root_id": "720575940606514878",
+                "cell_type": "CB2018",
+                "side": "right"
+              },
+              {
+                "root_id": "720575940631103744",
+                "cell_type": "SMP108",
+                "side": "left"
+              }
+            ],
+            "contacts": [
+              1,
+              1
+            ]
+          }
+        },
+        {
+          "target": {
+            "root_id": "720575940627787609",
+            "cell_type": "DNa01",
+            "side": "left"
+          },
+          "witness": {
+            "cells": [
+              {
+                "root_id": "720575940643309197",
+                "cell_type": "MBON01",
+                "side": "left"
+              },
+              {
+                "root_id": "720575940612364697",
+                "cell_type": "SIP201f",
+                "side": "right"
+              },
+              {
+                "root_id": "720575940627787609",
+                "cell_type": "DNa01",
+                "side": "left"
+              }
+            ],
+            "contacts": [
+              11,
+              8
+            ]
+          }
+        },
+        {
+          "target": {
+            "root_id": "720575940644438551",
+            "cell_type": "DNa01",
+            "side": "right"
+          },
+          "witness": {
+            "cells": [
+              {
+                "root_id": "720575940643309197",
+                "cell_type": "MBON01",
+                "side": "left"
+              },
+              {
+                "root_id": "720575940612364697",
+                "cell_type": "SIP201f",
+                "side": "right"
+              },
+              {
+                "root_id": "720575940644438551",
+                "cell_type": "DNa01",
+                "side": "right"
+              }
+            ],
+            "contacts": [
+              11,
+              19
+            ]
+          }
+        },
+        {
+          "target": {
+            "root_id": "720575940604737708",
+            "cell_type": "DNa02",
+            "side": "right"
+          },
+          "witness": {
+            "cells": [
+              {
+                "root_id": "720575940643309197",
+                "cell_type": "MBON01",
+                "side": "left"
+              },
+              {
+                "root_id": "720575940607155890",
+                "cell_type": "MBON26",
+                "side": "right"
+              },
+              {
+                "root_id": "720575940604737708",
+                "cell_type": "DNa02",
+                "side": "right"
+              }
+            ],
+            "contacts": [
+              19,
+              4
+            ]
+          }
+        },
+        {
+          "target": {
+            "root_id": "720575940629327659",
+            "cell_type": "DNa02",
+            "side": "left"
+          },
+          "witness": {
+            "cells": [
+              {
+                "root_id": "720575940643309197",
+                "cell_type": "MBON01",
+                "side": "left"
+              },
+              {
+                "root_id": "720575940612364697",
+                "cell_type": "SIP201f",
+                "side": "right"
+              },
+              {
+                "root_id": "720575940629327659",
+                "cell_type": "DNa02",
+                "side": "left"
+              }
+            ],
+            "contacts": [
+              11,
+              1
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "smp354_crossreference": {
+    "source_rows": [
+      {
+        "bodyId": 111738,
+        "type": "SMP354",
+        "flywireType": "CB3112",
+        "hemibrainType": "SMP354",
+        "statusLabel": "Roughly traced"
+      },
+      {
+        "bodyId": 117074,
+        "type": "SMP354",
+        "flywireType": "SMP355",
+        "hemibrainType": "SMP354",
+        "statusLabel": "Prelim Roughly traced"
+      },
+      {
+        "bodyId": 117324,
+        "type": "SMP354",
+        "flywireType": "SMP355",
+        "hemibrainType": "SMP354",
+        "statusLabel": "Prelim Roughly traced"
+      },
+      {
+        "bodyId": 141690,
+        "type": "SMP354",
+        "flywireType": "CB3112",
+        "hemibrainType": "SMP354",
+        "statusLabel": "Roughly traced"
+      },
+      {
+        "bodyId": 147670,
+        "type": "SMP354",
+        "flywireType": "SMP355",
+        "hemibrainType": "SMP354",
+        "statusLabel": "Prelim Roughly traced"
+      },
+      {
+        "bodyId": 179337,
+        "type": "SMP354",
+        "flywireType": "SMP355",
+        "hemibrainType": "SMP354",
+        "statusLabel": "Prelim Roughly traced"
+      }
+    ],
+    "flywire_type_aliases": [
+      "CB3112",
+      "SMP355"
+    ],
+    "matched_cells": [
+      {
+        "cell": {
+          "root_id": "720575940612685777",
+          "cell_type": "CB3112",
+          "side": "left"
+        },
+        "mbon_input_contacts": {
+          "MBON01": 0,
+          "MBON06": 0,
+          "MBON07": 5,
+          "MBON14": 3
+        },
+        "outputs_to_candidates": {
+          "SMP108": 19,
+          "FB6D": 8,
+          "FB6I": 7,
+          "FB6T": 0
+        }
+      },
+      {
+        "cell": {
+          "root_id": "720575940618078331",
+          "cell_type": "CB3112",
+          "side": "right"
+        },
+        "mbon_input_contacts": {
+          "MBON01": 0,
+          "MBON06": 0,
+          "MBON07": 29,
+          "MBON14": 31
+        },
+        "outputs_to_candidates": {
+          "SMP108": 31,
+          "FB6D": 23,
+          "FB6I": 10,
+          "FB6T": 0
+        }
+      },
+      {
+        "cell": {
+          "root_id": "720575940626385182",
+          "cell_type": "CB3112",
+          "side": "right"
+        },
+        "mbon_input_contacts": {
+          "MBON01": 0,
+          "MBON06": 0,
+          "MBON07": 110,
+          "MBON14": 124
+        },
+        "outputs_to_candidates": {
+          "SMP108": 22,
+          "FB6D": 48,
+          "FB6I": 19,
+          "FB6T": 0
+        }
+      },
+      {
+        "cell": {
+          "root_id": "720575940626889765",
+          "cell_type": "CB3112",
+          "side": "left"
+        },
+        "mbon_input_contacts": {
+          "MBON01": 0,
+          "MBON06": 0,
+          "MBON07": 40,
+          "MBON14": 53
+        },
+        "outputs_to_candidates": {
+          "SMP108": 25,
+          "FB6D": 51,
+          "FB6I": 13,
+          "FB6T": 0
+        }
+      },
+      {
+        "cell": {
+          "root_id": "720575940631455084",
+          "cell_type": "CB3112",
+          "side": "left"
+        },
+        "mbon_input_contacts": {
+          "MBON01": 0,
+          "MBON06": 0,
+          "MBON07": 0,
+          "MBON14": 11
+        },
+        "outputs_to_candidates": {
+          "SMP108": 20,
+          "FB6D": 20,
+          "FB6I": 6,
+          "FB6T": 0
+        }
+      },
+      {
+        "cell": {
+          "root_id": "720575940644613172",
+          "cell_type": "CB3112",
+          "side": "right"
+        },
+        "mbon_input_contacts": {
+          "MBON01": 0,
+          "MBON06": 0,
+          "MBON07": 12,
+          "MBON14": 8
+        },
+        "outputs_to_candidates": {
+          "SMP108": 31,
+          "FB6D": 8,
+          "FB6I": 5,
+          "FB6T": 0
+        }
+      }
+    ],
+    "expanded_cell_count": 79,
+    "expanded_input_coverage": {
+      "total_contacts": 183712,
+      "internal_contacts": 4508,
+      "excluded_contacts": 179204,
+      "retained_fraction": 0.024538407942867095
+    },
+    "limitation": "Dataset-provided type correspondence, not individual-cell identity across specimens; tracing status preserved"
+  },
+  "interpretation": "All contacts positive anatomical counts. Shortest witnesses are arbitrary among ties, not functional pathways. SMP354 correspondence comes from the MaleCNS flywireType annotation, not name similarity. Selected groups do not constitute a closed calibrated circuit."
+}
