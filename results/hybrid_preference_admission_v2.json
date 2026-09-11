@@ -1,0 +1,50 @@
+{
+  "protocol": "research/hybrid_preference_protocol.md",
+  "cases": [
+    [
+      315,
+      "A",
+      false,
+      0.6
+    ],
+    [
+      315,
+      "B",
+      false,
+      0.6
+    ],
+    [
+      316,
+      "A",
+      true,
+      -0.6
+    ],
+    [
+      316,
+      "B",
+      true,
+      -0.6
+    ]
+  ],
+  "max_neural_seconds": 96,
+  "source_sha256": {
+    "research/hybrid_preference_protocol.md": "2351e876ce8c563beac2440092933fc55fe4b9300c6defa154d9c8fbf79b5d90",
+    "scripts/run_hybrid_preference.py": "8cee2738d7d93d7067af23f9b1c1328a43ed1af682c87f5fa47e4375c28e094b",
+    "scripts/controlled_association.py": "0dd61e24ab43f4f1812a8e48ae9e16025cef83e1c769682afc1ae2f954493805",
+    "scripts/hybrid_fixture.py": "7ae7053048146a7dde0ee031c469af6d60903df433ff04d37b41dfd550f7f865",
+    "scripts/olfactory_interface.py": "b633fb126545d8e43dba1cd91f623fd2726cd293f456cdbffd3729704988a76f",
+    "flyplasticity/hybrid_navigation.py": "c4751b5fd804aa3c2e9c199e1a77d882c8165adf502c7a9af323e114a464b2ec",
+    "flyplasticity/behavior_review.py": "686efda1f5df145123d0773cbea70de810aa1973eb8b8de04472dda10d1dfeb6",
+    "flyplasticity/visual_markers.py": "51147a043ba60bd931c69399bb877ed08a2361333f8fbf7bf9503058d0f683fa",
+    "flyplasticity/preference_evaluation.py": "377ee0d50e9c3ed0a5aa3f77cfbb7b0cae0bba6ec3de80e05858943acb81b850",
+    "flyplasticity/association.py": "1d2b6088988672be407d93338913362903715087771bf37e5c8bc017fe52ef62",
+    "flyplasticity/learning_preflight.py": "eb89d2076248f3f93e4262744971bf9138b2957af4fb2e13aec240d4a3135970",
+    "flyplasticity/odor_scene.py": "0a3ec07743206d8b77deee14923436682b8f529aa4ee2cf5a02d0018a952f657",
+    "flyplasticity/standing.py": "371d4940c5ef8fb9cc6beb67fed13ce41a5a2de064852ef37a2b1ac35f37c0b2",
+    "flyplasticity/compartment_plasticity.py": "41d8fea53b5cea2a0bc05e8a431d8f62de62fe2e92a86b3ad1ca379d77c6ed37",
+    "flyplasticity/light_task.py": "1a34f00ca4eabec0d216f68240caaeeace2d5c465727ff77bc3d58749f454c47",
+    "flyplasticity/welfare.py": "acf0efde0fc952c12008df84b65532603f6c9ac6f62488f0df9e7c1bffc0e710",
+    "flyplasticity/checkpoint_identity.py": "1ee81c73e66c7dfa9acff5a051a2a775210be061b6243b1911eb91a16b2753a1",
+    "research/hybrid_checkpoint_amendment.md": "a23890625c815e5d6f527ceb87bf39c1cc0f6b27f5bb09c38edc6496d9a6ede9"
+  }
+}

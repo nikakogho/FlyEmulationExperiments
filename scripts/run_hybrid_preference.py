@@ -2,7 +2,7 @@
 import os
 os.environ.setdefault('NUMBA_NUM_THREADS','2');os.environ.setdefault('OMP_NUM_THREADS','2')
 from pathlib import Path
-import sys,json,hashlib
+import sys,json,hashlib,pickle
 ROOT=Path(__file__).resolve().parents[1];sys.path.insert(0,str(ROOT))
 import numpy as np,brian2 as br
 from controlled_association import build,run_arm
@@ -12,18 +12,21 @@ from flyplasticity.hybrid_navigation import HybridNavigation
 from flyplasticity.behavior_review import ReviewedBehaviorMonitor
 from flyplasticity.learning_preflight import FixedPathwayAudit,NeuralPreflightGuard
 from flyplasticity.preference_evaluation import preference,assess
+from flyplasticity.checkpoint_identity import input_group_name,equivalent
 
 CASES=((315,'A',False,.6),(315,'B',False,.6),(316,'A',True,-.6),(316,'B',True,-.6))
 PROTOCOL='research/hybrid_preference_protocol.md'
+MANIFEST='results/hybrid_preference_admission_v2.json'
 SOURCES=[PROTOCOL,'scripts/run_hybrid_preference.py','scripts/controlled_association.py',
     'scripts/hybrid_fixture.py','scripts/olfactory_interface.py','flyplasticity/hybrid_navigation.py',
     'flyplasticity/behavior_review.py','flyplasticity/visual_markers.py','flyplasticity/preference_evaluation.py',
     'flyplasticity/association.py','flyplasticity/learning_preflight.py','flyplasticity/odor_scene.py',
-    'flyplasticity/standing.py','flyplasticity/compartment_plasticity.py','flyplasticity/light_task.py','flyplasticity/welfare.py']
+    'flyplasticity/standing.py','flyplasticity/compartment_plasticity.py','flyplasticity/light_task.py','flyplasticity/welfare.py',
+    'flyplasticity/checkpoint_identity.py','research/hybrid_checkpoint_amendment.md']
 
 
 def verify_manifest():
-    manifest=json.loads((ROOT/'results/hybrid_preference_admission.json').read_text())
+    manifest=json.loads((ROOT/MANIFEST).read_text())
     for path,digest in manifest['source_sha256'].items():
         if hashlib.sha256((ROOT/path).read_bytes()).hexdigest()!=digest:raise ValueError('Frozen source changed: '+path)
     if not json.loads((ROOT/'results/hybrid_mechanics_v2/assessment.json').read_text())['passed']:
@@ -33,7 +36,8 @@ def verify_manifest():
 
 def probe(checkpoint,out,seed,reinforced,swapped,heading,label):
     out.mkdir(exist_ok=False);arena,fly,sim,obs=make_fixture(heading,swapped);physical_origin=sim.curr_time
-    brain,pre,post,_,*rest=build(seed);output=rest[3]
+    state=pickle.loads(checkpoint.read_bytes())
+    brain,pre,post,_,*rest=build(seed,input_group_name=input_group_name(state));output=rest[3]
     brain.net.restore('terminal',filename=str(checkpoint),restore_random_state=True)
     origin=float(brain.net.t/br.second);weights=np.array(brain.syn.w[:])
     bridge,drive_idx,_=transport_for(brain)
@@ -45,7 +49,7 @@ def probe(checkpoint,out,seed,reinforced,swapped,heading,label):
     (out/'metadata.json').write_text(json.dumps(dict(checkpoint=str(checkpoint.relative_to(ROOT)),
         checkpoint_sha256=hashlib.sha256(checkpoint.read_bytes()).hexdigest(),neural_origin=origin,
         physical_origin=physical_origin,seed=seed,reinforced=reinforced,label=label,
-        source_manifest='results/hybrid_preference_admission.json',unknown_side_ORNs=bridge.unknown_sides,
+        source_manifest=MANIFEST,unknown_side_ORNs=bridge.unknown_sides,
         learning_during_retrieval=False),indent=2))
     try:
         for k in range(601):
@@ -98,22 +102,41 @@ def probe(checkpoint,out,seed,reinforced,swapped,heading,label):
 
 def main():
     import argparse
-    ap=argparse.ArgumentParser();ap.add_argument('--freeze',action='store_true');args=ap.parse_args()
+    ap=argparse.ArgumentParser();ap.add_argument('--freeze',action='store_true');ap.add_argument('--resume-bookkeeping',action='store_true');args=ap.parse_args()
     if args.freeze:
-        p=ROOT/'results/hybrid_preference_admission.json'
+        p=ROOT/MANIFEST
         if p.exists():raise ValueError('Admission already frozen')
         p.write_text(json.dumps(dict(protocol=PROTOCOL,cases=CASES,max_neural_seconds=96,
             source_sha256={s:hashlib.sha256((ROOT/s).read_bytes()).hexdigest() for s in SOURCES}),indent=2));return
-    verify_manifest();out=ROOT/'results/hybrid_preference_v1';out.mkdir(exist_ok=False);cases=[];stop=False
+    verify_manifest();out=ROOT/'results/hybrid_preference_v1';cases=[];stop=False
+    if args.resume_bookkeeping:
+        old=json.loads((out/'assessment.json').read_text());error=json.loads((out/'execution_error.json').read_text())
+        if (error['error']!="ValueError('Shared baseline checkpoint differs across arms')" or len(old['cases'])!=1
+            or old['cases'][0]['probes'] or set(old['cases'][0]['training'])!={'paired','unpaired','frozen'}
+            or not all(r['status']=='completed' and r['recovery_pass'] for r in old['cases'][0]['training'].values())):
+            raise ValueError('Only the reviewed between-run bookkeeping interruption may resume')
+        first=out/'seed315_A'
+        for arm in ('paired','unpaired','frozen'):
+            events=json.loads((first/f'train_{arm}/guard_events.json').read_text())
+            if any(e.get('status')=='STOP' for e in events):raise ValueError('A neural guard fired; resumption forbidden')
+        archive=out/'checkpoint_interruption.json'
+        if archive.exists():raise ValueError('Bookkeeping resumption was already attempted')
+        archive.write_text(json.dumps(dict(assessment=old,error=error),indent=2));cases=old['cases']
+    else:out.mkdir(exist_ok=False)
     try:
         for seed,cue,swapped,heading in CASES:
-            p=out/f'seed{seed}_{cue}';p.mkdir();case=dict(seed=seed,reinforced=cue,training={},probes={});cases.append(case)
+            p=out/f'seed{seed}_{cue}'
+            existing=[c for c in cases if c['seed']==seed and c['reinforced']==cue]
+            if existing:case=existing[0]
+            else:
+                p.mkdir();case=dict(seed=seed,reinforced=cue,training={},probes={});cases.append(case)
             for arm in ('paired','unpaired','frozen'):
+                if arm in case['training']:continue
                 verify_manifest();case['training'][arm]=run_arm(arm,p/f'train_{arm}',seed,cue,PROTOCOL,save_pre_state=True)
                 if case['training'][arm]['status']!='completed':stop=True;break
             if stop:break
-            hashes=[hashlib.sha256((p/f'train_{arm}/pre_state.pkl').read_bytes()).hexdigest() for arm in ('paired','unpaired','frozen')]
-            if len(set(hashes))!=1:raise ValueError('Shared baseline checkpoint differs across arms')
+            states=[pickle.loads((p/f'train_{arm}/pre_state.pkl').read_bytes()) for arm in ('paired','unpaired','frozen')]
+            if not all(equivalent(states[0],state) for state in states[1:]):raise ValueError('Actual baseline neural state differs across arms')
             for label in ('pre','paired','unpaired','frozen'):
                 verify_manifest();checkpoint=p/('train_paired/pre_state.pkl' if label=='pre' else f'train_{label}/network_state.pkl')
                 case['probes'][label]=probe(checkpoint,p/label,seed,cue,swapped,heading,label)
@@ -124,7 +147,8 @@ def main():
         stop=True;(out/'execution_error.json').write_text(json.dumps(dict(error=repr(exc)),indent=2));raise
     finally:
         result=assess(cases);result.update(cases=cases,welfare_or_execution_stop=stop,
-            conditional_rule_comparison_allowed=result['passed'] and not stop)
+            conditional_rule_comparison_allowed=result['passed'] and not stop,
+            bookkeeping_interruption_preserved=(out/'checkpoint_interruption.json').exists())
         (out/'assessment.json').write_text(json.dumps(result,indent=2));print(json.dumps({k:v for k,v in result.items() if k!='cases'}),flush=True)
 
 if __name__=='__main__':main()

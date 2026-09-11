@@ -7,7 +7,7 @@ from flyplasticity.association import GammaEligibilityLTD,PlasticPathwayAudit,sc
 from flyplasticity.learning_preflight import NeuralPreflightGuard
 
 
-def build(seed=310):
+def build(seed=310,*,input_group_name=None):
     # Reuse the exact source versions approved and recorded in the v2 preflight.
     provenance=json.loads((ROOT/'results/learning_track_preflight_v2/metadata.json').read_text())
     for path,expected in provenance['reviewed_sources'].items():
@@ -17,6 +17,13 @@ def build(seed=310):
     path=ROOT/'upstream/fly-api/experiments/navigation/nav_demo.py'
     spec=importlib.util.spec_from_file_location('association_nav',path)
     nav=importlib.util.module_from_spec(spec);spec.loader.exec_module(nav)
+    original_poisson=br.PoissonGroup
+    if input_group_name is not None:
+        import re
+        if not re.fullmatch(r'poissongroup(?:_\d+)?',input_group_name):raise ValueError('Unrecognized checkpoint input group')
+        def named_inputs(*args,**kwargs):
+            return original_poisson(*args,**kwargs,name=input_group_name)
+        br.PoissonGroup=named_inputs
     nav.ANN=str(ROOT/'data/annotations.tsv')
     sys.path.insert(0,str(ROOT/'upstream/fly-api/experiments/learning'))
     import model_ext
@@ -25,7 +32,9 @@ def build(seed=310):
         result=original(*a,**kw);mapping.update(result[-1]);return result
     model_ext.build_subnet=capture
     try:brain=nav.Brain(str(ROOT/'upstream/Drosophila_brain_model'),seed=seed)
-    finally:model_ext.build_subnet=original
+    finally:
+        model_ext.build_subnet=original
+        br.PoissonGroup=original_poisson
     ann=pd.read_csv(ROOT/'data/annotations.tsv',sep='\t',low_memory=False).set_index('root_id')
     comp=pd.read_csv(ROOT/'upstream/Drosophila_brain_model/Completeness_783.csv',index_col=0)
     local={new:ann.loc[comp.index[old]] for old,new in mapping.items()}
