@@ -56,7 +56,7 @@ def build(seed=310):
     return brain,pre,post,w,positions,compartments,groups,output,pam,gamma,metadata
 
 
-def run_arm(arm,out,seed=310,reinforced='A',protocol='research/association_protocol.md'):
+def run_arm(arm,out,seed=310,reinforced='A',protocol='research/association_protocol.md',save_pre_state=False):
     out.mkdir(exist_ok=False)
     brain,pre,post,initial,pos,comps,groups,output,pam,gamma,metadata=build(seed)
     paths=PlasticPathwayAudit(len(brain.neu),brain.g['ppl1'],pre,post,initial,
@@ -99,6 +99,10 @@ def run_arm(arm,out,seed=310,reinforced='A',protocol='research/association_proto
             if block in (150,250,390,550,650,800):
                 if any(r['total_spikes'] for r in rows[-10:]):
                     guard.guard._stop('failed_recovery_screen',t);raise RuntimeError('Failed recovery screen')
+            if block==250 and save_pre_state:
+                # Snapshot a validated quiet boundary. It is usable for a
+                # prospectively declared probe only after this arm completes.
+                brain.net.store('terminal',filename=str(out/'pre_state.pkl'))
             if block in (250,550,800):snapshots[str(block)]=current[pos].copy()
             proposed=rule.step(delta,current[pos],frozen=arm=='frozen')
             paths.authorize_update(current,proposed)

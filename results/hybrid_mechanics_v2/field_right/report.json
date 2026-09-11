@@ -1,0 +1,27 @@
+{
+  "name": "field_right",
+  "status": "completed",
+  "error": null,
+  "checks": {
+    "completed": true,
+    "rest": true,
+    "displacement": true
+  },
+  "passed": true,
+  "new_neural_steps": 0,
+  "body_run": false,
+  "sources_mm": [
+    [
+      6.0,
+      3.0,
+      1.0
+    ],
+    [
+      6.0,
+      -3.0,
+      1.0
+    ]
+  ],
+  "scope": "Synthetic constant-count mechanical test; no brain or learning",
+  "final_heading": -0.0029395318124443293
+}

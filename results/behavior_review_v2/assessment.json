@@ -1,0 +1,31 @@
+{
+  "new_neural_steps": 0,
+  "new_physics_steps": 0,
+  "reports": [
+    {
+      "path": "results/embodied_speed_v1/A_paired",
+      "source_sha256": "38caed031d5466fadbd2cb0afdb5cede914762ca317d707eb76f5fb2bde9622d",
+      "historical_event": "Behavioral proxy: stimulus_linked_avoidance",
+      "review_event": null,
+      "geometric_departure_times": [
+        1.12
+      ],
+      "marker_contact_frames": 33,
+      "first_marker_contact_time": 0.92,
+      "interpretation": "Offline reanalysis only; original stop is retained. Contact presence is not a diagnosis or proof of causation."
+    },
+    {
+      "path": "results/hybrid_mechanics_v1/left",
+      "source_sha256": "1e9b476221a6a9cdd0236af7650a2f779a0f6bbad2f277911ed1cadc1127b2a4",
+      "historical_event": "Behavior review: blocked_effort",
+      "review_event": {
+        "time_s": 1.46,
+        "reason": "Behavior review: blocked_effort"
+      },
+      "geometric_departure_times": [],
+      "marker_contact_frames": 52,
+      "first_marker_contact_time": 1.205,
+      "interpretation": "Offline reanalysis only; original stop is retained. Contact presence is not a diagnosis or proof of causation."
+    }
+  ]
+}

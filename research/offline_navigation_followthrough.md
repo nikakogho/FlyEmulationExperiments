@@ -1,5 +1,10 @@
 # Follow-through review, 2026-09-11
 
+Subsequent correction: [hybrid execution record](hybrid_preference_progress.md)
+documents actual odor-marker contacts in the old stopped run. Its ordinary
+collision masks did not disable FlyGym's explicit contact pairs. The earlier
+geometric pass-by explanation was incomplete; the saved stop remains preserved.
+
 ## Execution boundary
 
 The user authorized steps 1–7 through resolvable issues. This review uses saved
