@@ -1,0 +1,22 @@
+{
+  "results\\sensory_scene_v2\\sensory_walk.mp4": {
+    "bytes": 1353192,
+    "sha256": "adbf7fcd6dab4463ee3a8af18fa934b91cc3851c01d40b154cebbbf334fdb0ba"
+  },
+  "results\\sensory_scene_v2\\preview_130.png": {
+    "bytes": 275555,
+    "sha256": "02ee41cad3bcc96ca329fdee75ee767c16bb765616d5f82e5f1b3fabc5fd1a33"
+  },
+  "results\\sensory_scene_v2\\scene.mjb": {
+    "bytes": 108862057,
+    "sha256": "ae4aec54b2a5f9989dd6400ee3c892eafb6072e9f593a2f0c92f1aba4639793a"
+  },
+  "results\\sensory_scene_v2\\sensors.npz": {
+    "bytes": 3089439,
+    "sha256": "4d4708543a6ee520ad3f0f6af02ccb79de2ca888919e7fa58aca4a48581cb06d"
+  },
+  "results\\sensory_scene_v2\\replay.npz": {
+    "bytes": 435596,
+    "sha256": "0d2c40f66cd93ff3a7a9db16952792e82a83e30f6bc4cf501932986d5b139a82"
+  }
+}

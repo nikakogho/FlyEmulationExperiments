@@ -1,0 +1,14 @@
+{
+  "decoded_frames": 301,
+  "fps": 25,
+  "duration_s": 12.04,
+  "playback_speed": 0.25,
+  "new_neural_steps": 0,
+  "new_physics_steps": 0,
+  "limits_per_channel": [
+    0.17889838446926837,
+    0.16911896205538635,
+    0.18186790350748033
+  ],
+  "eye_display": "false-color receptor samples; not reconstructed RGB"
+}

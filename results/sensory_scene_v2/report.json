@@ -1,0 +1,1234 @@
+{
+  "status": "completed",
+  "error": null,
+  "neural_steps": 0,
+  "neural_model_connected": false,
+  "physical_warmup_s": 0.3,
+  "recorded_duration_s": 3.0,
+  "physics_timestep_s": 0.0001,
+  "sensory_interval_s": 0.01,
+  "seed": 101,
+  "protocol": "rest 0-.3; forward .3-1.1; turn 1.1-1.6; forward 1.6-2.1; rest 2.1-3 s",
+  "sensory_stimuli_continuous_during_rest": true,
+  "spectral_channels": [
+    "outer_Rh1",
+    "R7",
+    "R8"
+  ],
+  "spectral_support_nm": [
+    315,
+    550
+  ],
+  "receptor_units": "relative excitation from normalized ERG shapes",
+  "odor": "one synthetic static Gaussian tracer, sigma 4 mm; no named receptor calibration",
+  "odor_source_mm": [
+    9.0,
+    3.0,
+    1.0
+  ],
+  "odor_sensor_order": [
+    "L palp",
+    "R palp",
+    "L antenna",
+    "R antenna"
+  ],
+  "contact_units": "native FlyGym mechanical force units; no firing-rate conversion",
+  "joint_names": [
+    "joint_LFCoxa",
+    "joint_LFCoxa_roll",
+    "joint_LFCoxa_yaw",
+    "joint_LFFemur",
+    "joint_LFFemur_roll",
+    "joint_LFTibia",
+    "joint_LFTarsus1",
+    "joint_LMCoxa",
+    "joint_LMCoxa_roll",
+    "joint_LMCoxa_yaw",
+    "joint_LMFemur",
+    "joint_LMFemur_roll",
+    "joint_LMTibia",
+    "joint_LMTarsus1",
+    "joint_LHCoxa",
+    "joint_LHCoxa_roll",
+    "joint_LHCoxa_yaw",
+    "joint_LHFemur",
+    "joint_LHFemur_roll",
+    "joint_LHTibia",
+    "joint_LHTarsus1",
+    "joint_RFCoxa",
+    "joint_RFCoxa_roll",
+    "joint_RFCoxa_yaw",
+    "joint_RFFemur",
+    "joint_RFFemur_roll",
+    "joint_RFTibia",
+    "joint_RFTarsus1",
+    "joint_RMCoxa",
+    "joint_RMCoxa_roll",
+    "joint_RMCoxa_yaw",
+    "joint_RMFemur",
+    "joint_RMFemur_roll",
+    "joint_RMTibia",
+    "joint_RMTarsus1",
+    "joint_RHCoxa",
+    "joint_RHCoxa_roll",
+    "joint_RHCoxa_yaw",
+    "joint_RHFemur",
+    "joint_RHFemur_roll",
+    "joint_RHTibia",
+    "joint_RHTarsus1"
+  ],
+  "contact_names": [
+    "0/LFTibia",
+    "0/LFTarsus1",
+    "0/LFTarsus2",
+    "0/LFTarsus3",
+    "0/LFTarsus4",
+    "0/LFTarsus5",
+    "0/LMTibia",
+    "0/LMTarsus1",
+    "0/LMTarsus2",
+    "0/LMTarsus3",
+    "0/LMTarsus4",
+    "0/LMTarsus5",
+    "0/LHTibia",
+    "0/LHTarsus1",
+    "0/LHTarsus2",
+    "0/LHTarsus3",
+    "0/LHTarsus4",
+    "0/LHTarsus5",
+    "0/RFTibia",
+    "0/RFTarsus1",
+    "0/RFTarsus2",
+    "0/RFTarsus3",
+    "0/RFTarsus4",
+    "0/RFTarsus5",
+    "0/RMTibia",
+    "0/RMTarsus1",
+    "0/RMTarsus2",
+    "0/RMTarsus3",
+    "0/RMTarsus4",
+    "0/RMTarsus5",
+    "0/RHTibia",
+    "0/RHTarsus1",
+    "0/RHTarsus2",
+    "0/RHTarsus3",
+    "0/RHTarsus4",
+    "0/RHTarsus5"
+  ],
+  "geometry_materials": {
+    "0": {
+      "geometry": "ground",
+      "material": "floor_dark"
+    },
+    "1": {
+      "geometry": "sensor_tile_-3_-5",
+      "material": "floor_light"
+    },
+    "2": {
+      "geometry": "sensor_tile_-3_-3",
+      "material": "floor_light"
+    },
+    "3": {
+      "geometry": "sensor_tile_-3_-1",
+      "material": "floor_light"
+    },
+    "4": {
+      "geometry": "sensor_tile_-3_1",
+      "material": "floor_light"
+    },
+    "5": {
+      "geometry": "sensor_tile_-3_3",
+      "material": "floor_light"
+    },
+    "6": {
+      "geometry": "sensor_tile_-3_5",
+      "material": "floor_light"
+    },
+    "7": {
+      "geometry": "sensor_tile_-2_-4",
+      "material": "floor_light"
+    },
+    "8": {
+      "geometry": "sensor_tile_-2_-2",
+      "material": "floor_light"
+    },
+    "9": {
+      "geometry": "sensor_tile_-2_0",
+      "material": "floor_light"
+    },
+    "10": {
+      "geometry": "sensor_tile_-2_2",
+      "material": "floor_light"
+    },
+    "11": {
+      "geometry": "sensor_tile_-2_4",
+      "material": "floor_light"
+    },
+    "12": {
+      "geometry": "sensor_tile_-1_-5",
+      "material": "floor_light"
+    },
+    "13": {
+      "geometry": "sensor_tile_-1_-3",
+      "material": "floor_light"
+    },
+    "14": {
+      "geometry": "sensor_tile_-1_-1",
+      "material": "floor_light"
+    },
+    "15": {
+      "geometry": "sensor_tile_-1_1",
+      "material": "floor_light"
+    },
+    "16": {
+      "geometry": "sensor_tile_-1_3",
+      "material": "floor_light"
+    },
+    "17": {
+      "geometry": "sensor_tile_-1_5",
+      "material": "floor_light"
+    },
+    "18": {
+      "geometry": "sensor_tile_0_-4",
+      "material": "floor_light"
+    },
+    "19": {
+      "geometry": "sensor_tile_0_-2",
+      "material": "floor_light"
+    },
+    "20": {
+      "geometry": "sensor_tile_0_0",
+      "material": "floor_light"
+    },
+    "21": {
+      "geometry": "sensor_tile_0_2",
+      "material": "floor_light"
+    },
+    "22": {
+      "geometry": "sensor_tile_0_4",
+      "material": "floor_light"
+    },
+    "23": {
+      "geometry": "sensor_tile_1_-5",
+      "material": "floor_light"
+    },
+    "24": {
+      "geometry": "sensor_tile_1_-3",
+      "material": "floor_light"
+    },
+    "25": {
+      "geometry": "sensor_tile_1_-1",
+      "material": "floor_light"
+    },
+    "26": {
+      "geometry": "sensor_tile_1_1",
+      "material": "floor_light"
+    },
+    "27": {
+      "geometry": "sensor_tile_1_3",
+      "material": "floor_light"
+    },
+    "28": {
+      "geometry": "sensor_tile_1_5",
+      "material": "floor_light"
+    },
+    "29": {
+      "geometry": "sensor_tile_2_-4",
+      "material": "floor_light"
+    },
+    "30": {
+      "geometry": "sensor_tile_2_-2",
+      "material": "floor_light"
+    },
+    "31": {
+      "geometry": "sensor_tile_2_0",
+      "material": "floor_light"
+    },
+    "32": {
+      "geometry": "sensor_tile_2_2",
+      "material": "floor_light"
+    },
+    "33": {
+      "geometry": "sensor_tile_2_4",
+      "material": "floor_light"
+    },
+    "34": {
+      "geometry": "sensor_tile_3_-5",
+      "material": "floor_light"
+    },
+    "35": {
+      "geometry": "sensor_tile_3_-3",
+      "material": "floor_light"
+    },
+    "36": {
+      "geometry": "sensor_tile_3_-1",
+      "material": "floor_light"
+    },
+    "37": {
+      "geometry": "sensor_tile_3_1",
+      "material": "floor_light"
+    },
+    "38": {
+      "geometry": "sensor_tile_3_3",
+      "material": "floor_light"
+    },
+    "39": {
+      "geometry": "sensor_tile_3_5",
+      "material": "floor_light"
+    },
+    "40": {
+      "geometry": "sensor_tile_4_-4",
+      "material": "floor_light"
+    },
+    "41": {
+      "geometry": "sensor_tile_4_-2",
+      "material": "floor_light"
+    },
+    "42": {
+      "geometry": "sensor_tile_4_0",
+      "material": "floor_light"
+    },
+    "43": {
+      "geometry": "sensor_tile_4_2",
+      "material": "floor_light"
+    },
+    "44": {
+      "geometry": "sensor_tile_4_4",
+      "material": "floor_light"
+    },
+    "45": {
+      "geometry": "sensor_tile_5_-5",
+      "material": "floor_light"
+    },
+    "46": {
+      "geometry": "sensor_tile_5_-3",
+      "material": "floor_light"
+    },
+    "47": {
+      "geometry": "sensor_tile_5_-1",
+      "material": "floor_light"
+    },
+    "48": {
+      "geometry": "sensor_tile_5_1",
+      "material": "floor_light"
+    },
+    "49": {
+      "geometry": "sensor_tile_5_3",
+      "material": "floor_light"
+    },
+    "50": {
+      "geometry": "sensor_tile_5_5",
+      "material": "floor_light"
+    },
+    "51": {
+      "geometry": "sensor_tile_6_-4",
+      "material": "floor_light"
+    },
+    "52": {
+      "geometry": "sensor_tile_6_-2",
+      "material": "floor_light"
+    },
+    "53": {
+      "geometry": "sensor_tile_6_0",
+      "material": "floor_light"
+    },
+    "54": {
+      "geometry": "sensor_tile_6_2",
+      "material": "floor_light"
+    },
+    "55": {
+      "geometry": "sensor_tile_6_4",
+      "material": "floor_light"
+    },
+    "56": {
+      "geometry": "sensor_tile_7_-5",
+      "material": "floor_light"
+    },
+    "57": {
+      "geometry": "sensor_tile_7_-3",
+      "material": "floor_light"
+    },
+    "58": {
+      "geometry": "sensor_tile_7_-1",
+      "material": "floor_light"
+    },
+    "59": {
+      "geometry": "sensor_tile_7_1",
+      "material": "floor_light"
+    },
+    "60": {
+      "geometry": "sensor_tile_7_3",
+      "material": "floor_light"
+    },
+    "61": {
+      "geometry": "sensor_tile_7_5",
+      "material": "floor_light"
+    },
+    "62": {
+      "geometry": "sensor_tile_8_-4",
+      "material": "floor_light"
+    },
+    "63": {
+      "geometry": "sensor_tile_8_-2",
+      "material": "floor_light"
+    },
+    "64": {
+      "geometry": "sensor_tile_8_0",
+      "material": "floor_light"
+    },
+    "65": {
+      "geometry": "sensor_tile_8_2",
+      "material": "floor_light"
+    },
+    "66": {
+      "geometry": "sensor_tile_8_4",
+      "material": "floor_light"
+    },
+    "67": {
+      "geometry": "sensor_tile_9_-5",
+      "material": "floor_light"
+    },
+    "68": {
+      "geometry": "sensor_tile_9_-3",
+      "material": "floor_light"
+    },
+    "69": {
+      "geometry": "sensor_tile_9_-1",
+      "material": "floor_light"
+    },
+    "70": {
+      "geometry": "sensor_tile_9_1",
+      "material": "floor_light"
+    },
+    "71": {
+      "geometry": "sensor_tile_9_3",
+      "material": "floor_light"
+    },
+    "72": {
+      "geometry": "sensor_tile_9_5",
+      "material": "floor_light"
+    },
+    "73": {
+      "geometry": "sensor_tile_10_-4",
+      "material": "floor_light"
+    },
+    "74": {
+      "geometry": "sensor_tile_10_-2",
+      "material": "floor_light"
+    },
+    "75": {
+      "geometry": "sensor_tile_10_0",
+      "material": "floor_light"
+    },
+    "76": {
+      "geometry": "sensor_tile_10_2",
+      "material": "floor_light"
+    },
+    "77": {
+      "geometry": "sensor_tile_10_4",
+      "material": "floor_light"
+    },
+    "78": {
+      "geometry": "sensor_tile_11_-5",
+      "material": "floor_light"
+    },
+    "79": {
+      "geometry": "sensor_tile_11_-3",
+      "material": "floor_light"
+    },
+    "80": {
+      "geometry": "sensor_tile_11_-1",
+      "material": "floor_light"
+    },
+    "81": {
+      "geometry": "sensor_tile_11_1",
+      "material": "floor_light"
+    },
+    "82": {
+      "geometry": "sensor_tile_11_3",
+      "material": "floor_light"
+    },
+    "83": {
+      "geometry": "sensor_tile_11_5",
+      "material": "floor_light"
+    },
+    "84": {
+      "geometry": "sensor_card_uv",
+      "material": "uv"
+    },
+    "85": {
+      "geometry": "sensor_card_blue",
+      "material": "blue"
+    },
+    "86": {
+      "geometry": "sensor_card_green",
+      "material": "green"
+    },
+    "87": {
+      "geometry": "sensor_odor_marker",
+      "material": "marker"
+    },
+    "88": {
+      "geometry": "sensor_calibration_probe",
+      "material": "background"
+    },
+    "89": {
+      "geometry": "0/Thorax",
+      "material": "body"
+    },
+    "90": {
+      "geometry": "0/A1A2",
+      "material": "body"
+    },
+    "91": {
+      "geometry": "0/A3",
+      "material": "body"
+    },
+    "92": {
+      "geometry": "0/A4",
+      "material": "body"
+    },
+    "93": {
+      "geometry": "0/A5",
+      "material": "body"
+    },
+    "94": {
+      "geometry": "0/A6",
+      "material": "body"
+    },
+    "95": {
+      "geometry": "0/LHaltere",
+      "material": "body"
+    },
+    "96": {
+      "geometry": "0/LWing",
+      "material": "body"
+    },
+    "97": {
+      "geometry": "0/RHaltere",
+      "material": "body"
+    },
+    "98": {
+      "geometry": "0/RWing",
+      "material": "body"
+    },
+    "99": {
+      "geometry": "0/LFCoxa",
+      "material": "body"
+    },
+    "100": {
+      "geometry": "0/LFFemur",
+      "material": "body"
+    },
+    "101": {
+      "geometry": "0/LFTibia",
+      "material": "body"
+    },
+    "102": {
+      "geometry": "0/LFTarsus1",
+      "material": "body"
+    },
+    "103": {
+      "geometry": "0/LFTarsus2",
+      "material": "body"
+    },
+    "104": {
+      "geometry": "0/LFTarsus3",
+      "material": "body"
+    },
+    "105": {
+      "geometry": "0/LFTarsus4",
+      "material": "body"
+    },
+    "106": {
+      "geometry": "0/LFTarsus5",
+      "material": "body"
+    },
+    "107": {
+      "geometry": "0/LHCoxa",
+      "material": "body"
+    },
+    "108": {
+      "geometry": "0/LHFemur",
+      "material": "body"
+    },
+    "109": {
+      "geometry": "0/LHTibia",
+      "material": "body"
+    },
+    "110": {
+      "geometry": "0/LHTarsus1",
+      "material": "body"
+    },
+    "111": {
+      "geometry": "0/LHTarsus2",
+      "material": "body"
+    },
+    "112": {
+      "geometry": "0/LHTarsus3",
+      "material": "body"
+    },
+    "113": {
+      "geometry": "0/LHTarsus4",
+      "material": "body"
+    },
+    "114": {
+      "geometry": "0/LHTarsus5",
+      "material": "body"
+    },
+    "115": {
+      "geometry": "0/LMCoxa",
+      "material": "body"
+    },
+    "116": {
+      "geometry": "0/LMFemur",
+      "material": "body"
+    },
+    "117": {
+      "geometry": "0/LMTibia",
+      "material": "body"
+    },
+    "118": {
+      "geometry": "0/LMTarsus1",
+      "material": "body"
+    },
+    "119": {
+      "geometry": "0/LMTarsus2",
+      "material": "body"
+    },
+    "120": {
+      "geometry": "0/LMTarsus3",
+      "material": "body"
+    },
+    "121": {
+      "geometry": "0/LMTarsus4",
+      "material": "body"
+    },
+    "122": {
+      "geometry": "0/LMTarsus5",
+      "material": "body"
+    },
+    "123": {
+      "geometry": "0/RHCoxa",
+      "material": "body"
+    },
+    "124": {
+      "geometry": "0/RHFemur",
+      "material": "body"
+    },
+    "125": {
+      "geometry": "0/RHTibia",
+      "material": "body"
+    },
+    "126": {
+      "geometry": "0/RHTarsus1",
+      "material": "body"
+    },
+    "127": {
+      "geometry": "0/RHTarsus2",
+      "material": "body"
+    },
+    "128": {
+      "geometry": "0/RHTarsus3",
+      "material": "body"
+    },
+    "129": {
+      "geometry": "0/RHTarsus4",
+      "material": "body"
+    },
+    "130": {
+      "geometry": "0/RHTarsus5",
+      "material": "body"
+    },
+    "131": {
+      "geometry": "0/RMCoxa",
+      "material": "body"
+    },
+    "132": {
+      "geometry": "0/RMFemur",
+      "material": "body"
+    },
+    "133": {
+      "geometry": "0/RMTibia",
+      "material": "body"
+    },
+    "134": {
+      "geometry": "0/RMTarsus1",
+      "material": "body"
+    },
+    "135": {
+      "geometry": "0/RMTarsus2",
+      "material": "body"
+    },
+    "136": {
+      "geometry": "0/RMTarsus3",
+      "material": "body"
+    },
+    "137": {
+      "geometry": "0/RMTarsus4",
+      "material": "body"
+    },
+    "138": {
+      "geometry": "0/RMTarsus5",
+      "material": "body"
+    },
+    "139": {
+      "geometry": "0/RFCoxa",
+      "material": "body"
+    },
+    "140": {
+      "geometry": "0/RFFemur",
+      "material": "body"
+    },
+    "141": {
+      "geometry": "0/RFTibia",
+      "material": "body"
+    },
+    "142": {
+      "geometry": "0/RFTarsus1",
+      "material": "body"
+    },
+    "143": {
+      "geometry": "0/RFTarsus2",
+      "material": "body"
+    },
+    "144": {
+      "geometry": "0/RFTarsus3",
+      "material": "body"
+    },
+    "145": {
+      "geometry": "0/RFTarsus4",
+      "material": "body"
+    },
+    "146": {
+      "geometry": "0/RFTarsus5",
+      "material": "body"
+    },
+    "147": {
+      "geometry": "0/Head",
+      "material": "body"
+    },
+    "148": {
+      "geometry": "0/LEye",
+      "material": "body"
+    },
+    "149": {
+      "geometry": "0/REye",
+      "material": "body"
+    },
+    "150": {
+      "geometry": "0/Rostrum",
+      "material": "body"
+    },
+    "151": {
+      "geometry": "0/Haustellum",
+      "material": "body"
+    },
+    "152": {
+      "geometry": "0/LPedicel",
+      "material": "body"
+    },
+    "153": {
+      "geometry": "0/LFuniculus",
+      "material": "body"
+    },
+    "154": {
+      "geometry": "0/LArista",
+      "material": "body"
+    },
+    "155": {
+      "geometry": "0/RPedicel",
+      "material": "body"
+    },
+    "156": {
+      "geometry": "0/RFuniculus",
+      "material": "body"
+    },
+    "157": {
+      "geometry": "0/RArista",
+      "material": "body"
+    }
+  },
+  "material_spectra": {
+    "background": [
+      0.00034042553191489364,
+      0.00034042553191489364,
+      0.00034042553191489364,
+      0.00034042553191489364,
+      0.00034042553191489364,
+      0.00034042553191489364,
+      0.00034042553191489364,
+      0.00034042553191489364,
+      0.00034042553191489364,
+      0.00034042553191489364,
+      0.00034042553191489364,
+      0.00034042553191489364,
+      0.00034042553191489364,
+      0.00034042553191489364,
+      0.00034042553191489364,
+      0.00034042553191489364,
+      0.00034042553191489364,
+      0.00034042553191489364,
+      0.00034042553191489364,
+      0.00034042553191489364,
+      0.00034042553191489364,
+      0.00034042553191489364,
+      0.00034042553191489364,
+      0.00034042553191489364,
+      0.00034042553191489364,
+      0.00034042553191489364,
+      0.00034042553191489364,
+      0.00034042553191489364,
+      0.00034042553191489364,
+      0.00034042553191489364,
+      0.00034042553191489364,
+      0.00034042553191489364,
+      0.00034042553191489364,
+      0.00034042553191489364,
+      0.00034042553191489364,
+      0.00034042553191489364,
+      0.00034042553191489364,
+      0.00034042553191489364,
+      0.00034042553191489364,
+      0.00034042553191489364,
+      0.00034042553191489364,
+      0.00034042553191489364,
+      0.00034042553191489364,
+      0.00034042553191489364,
+      0.00034042553191489364,
+      0.00034042553191489364,
+      0.00034042553191489364,
+      0.00034042553191489364
+    ],
+    "floor_dark": [
+      0.00014893617021276599,
+      0.00014893617021276599,
+      0.00014893617021276599,
+      0.00014893617021276599,
+      0.00014893617021276599,
+      0.00014893617021276599,
+      0.00014893617021276599,
+      0.00014893617021276599,
+      0.00014893617021276599,
+      0.00014893617021276599,
+      0.00014893617021276599,
+      0.00014893617021276599,
+      0.00014893617021276599,
+      0.00014893617021276599,
+      0.00014893617021276599,
+      0.00014893617021276599,
+      0.00014893617021276599,
+      0.00014893617021276599,
+      0.00014893617021276599,
+      0.00014893617021276599,
+      0.00014893617021276599,
+      0.00014893617021276599,
+      0.00014893617021276599,
+      0.00014893617021276599,
+      0.00014893617021276599,
+      0.00014893617021276599,
+      0.00014893617021276599,
+      0.00014893617021276599,
+      0.00014893617021276599,
+      0.00014893617021276599,
+      0.00014893617021276599,
+      0.00014893617021276599,
+      0.00014893617021276599,
+      0.00014893617021276599,
+      0.00014893617021276599,
+      0.00014893617021276599,
+      0.00014893617021276599,
+      0.00014893617021276599,
+      0.00014893617021276599,
+      0.00014893617021276599,
+      0.00014893617021276599,
+      0.00014893617021276599,
+      0.00014893617021276599,
+      0.00014893617021276599,
+      0.00014893617021276599,
+      0.00014893617021276599,
+      0.00014893617021276599,
+      0.00014893617021276599
+    ],
+    "floor_light": [
+      0.00029787234042553197,
+      0.00029787234042553197,
+      0.00029787234042553197,
+      0.00029787234042553197,
+      0.00029787234042553197,
+      0.00029787234042553197,
+      0.00029787234042553197,
+      0.00029787234042553197,
+      0.00029787234042553197,
+      0.00029787234042553197,
+      0.00029787234042553197,
+      0.00029787234042553197,
+      0.00029787234042553197,
+      0.00029787234042553197,
+      0.00029787234042553197,
+      0.00029787234042553197,
+      0.00029787234042553197,
+      0.00029787234042553197,
+      0.00029787234042553197,
+      0.00029787234042553197,
+      0.00029787234042553197,
+      0.00029787234042553197,
+      0.00029787234042553197,
+      0.00029787234042553197,
+      0.00029787234042553197,
+      0.00029787234042553197,
+      0.00029787234042553197,
+      0.00029787234042553197,
+      0.00029787234042553197,
+      0.00029787234042553197,
+      0.00029787234042553197,
+      0.00029787234042553197,
+      0.00029787234042553197,
+      0.00029787234042553197,
+      0.00029787234042553197,
+      0.00029787234042553197,
+      0.00029787234042553197,
+      0.00029787234042553197,
+      0.00029787234042553197,
+      0.00029787234042553197,
+      0.00029787234042553197,
+      0.00029787234042553197,
+      0.00029787234042553197,
+      0.00029787234042553197,
+      0.00029787234042553197,
+      0.00029787234042553197,
+      0.00029787234042553197,
+      0.00029787234042553197
+    ],
+    "body": [
+      0.00017021276595744682,
+      0.00017021276595744682,
+      0.00017021276595744682,
+      0.00017021276595744682,
+      0.00017021276595744682,
+      0.00017021276595744682,
+      0.00017021276595744682,
+      0.00017021276595744682,
+      0.00017021276595744682,
+      0.00017021276595744682,
+      0.00017021276595744682,
+      0.00017021276595744682,
+      0.00017021276595744682,
+      0.00017021276595744682,
+      0.00017021276595744682,
+      0.00017021276595744682,
+      0.00017021276595744682,
+      0.00017021276595744682,
+      0.00017021276595744682,
+      0.00017021276595744682,
+      0.00017021276595744682,
+      0.00017021276595744682,
+      0.00017021276595744682,
+      0.00017021276595744682,
+      0.00017021276595744682,
+      0.00017021276595744682,
+      0.00017021276595744682,
+      0.00017021276595744682,
+      0.00017021276595744682,
+      0.00017021276595744682,
+      0.00017021276595744682,
+      0.00017021276595744682,
+      0.00017021276595744682,
+      0.00017021276595744682,
+      0.00017021276595744682,
+      0.00017021276595744682,
+      0.00017021276595744682,
+      0.00017021276595744682,
+      0.00017021276595744682,
+      0.00017021276595744682,
+      0.00017021276595744682,
+      0.00017021276595744682,
+      0.00017021276595744682,
+      0.00017021276595744682,
+      0.00017021276595744682,
+      0.00017021276595744682,
+      0.00017021276595744682,
+      0.00017021276595744682
+    ],
+    "marker": [
+      0.0003829787234042553,
+      0.0003829787234042553,
+      0.0003829787234042553,
+      0.0003829787234042553,
+      0.0003829787234042553,
+      0.0003829787234042553,
+      0.0003829787234042553,
+      0.0003829787234042553,
+      0.0003829787234042553,
+      0.0003829787234042553,
+      0.0003829787234042553,
+      0.0003829787234042553,
+      0.0003829787234042553,
+      0.0003829787234042553,
+      0.0003829787234042553,
+      0.0003829787234042553,
+      0.0003829787234042553,
+      0.0003829787234042553,
+      0.0003829787234042553,
+      0.0003829787234042553,
+      0.0003829787234042553,
+      0.0003829787234042553,
+      0.0003829787234042553,
+      0.0003829787234042553,
+      0.0003829787234042553,
+      0.0003829787234042553,
+      0.0003829787234042553,
+      0.0003829787234042553,
+      0.0003829787234042553,
+      0.0003829787234042553,
+      0.0003829787234042553,
+      0.0003829787234042553,
+      0.0003829787234042553,
+      0.0003829787234042553,
+      0.0003829787234042553,
+      0.0003829787234042553,
+      0.0003829787234042553,
+      0.0003829787234042553,
+      0.0003829787234042553,
+      0.0003829787234042553,
+      0.0003829787234042553,
+      0.0003829787234042553,
+      0.0003829787234042553,
+      0.0003829787234042553,
+      0.0003829787234042553,
+      0.0003829787234042553,
+      0.0003829787234042553,
+      0.0003829787234042553
+    ],
+    "uv": [
+      0.00021276595744680854,
+      0.00021276595744680856,
+      0.0002127659574469601,
+      0.00021276595772085015,
+      0.00021276613972329305,
+      0.00021281055903201192,
+      0.00021678086419827302,
+      0.00034572140909356047,
+      0.001832494944175967,
+      0.007471887654180626,
+      0.012181034305452658,
+      0.007471887654180626,
+      0.001832494944175967,
+      0.00034572140909356047,
+      0.00021678086419827302,
+      0.00021281055903201192,
+      0.00021276613972329305,
+      0.00021276595772085015,
+      0.0002127659574469601,
+      0.00021276595744680856,
+      0.00021276595744680854,
+      0.00021276595744680854,
+      0.00021276595744680854,
+      0.00021276595744680854,
+      0.00021276595744680854,
+      0.00021276595744680854,
+      0.00021276595744680854,
+      0.00021276595744680854,
+      0.00021276595744680854,
+      0.00021276595744680854,
+      0.00021276595744680854,
+      0.00021276595744680854,
+      0.00021276595744680854,
+      0.00021276595744680854,
+      0.00021276595744680854,
+      0.00021276595744680854,
+      0.00021276595744680854,
+      0.00021276595744680854,
+      0.00021276595744680854,
+      0.00021276595744680854,
+      0.00021276595744680854,
+      0.00021276595744680854,
+      0.00021276595744680854,
+      0.00021276595744680854,
+      0.00021276595744680854,
+      0.00021276595744680854,
+      0.00021276595744680854,
+      0.00021276595744680854
+    ],
+    "blue": [
+      0.00021276595744680854,
+      0.00021276595744680854,
+      0.00021276595744680854,
+      0.00021276595744680854,
+      0.00021276595744680854,
+      0.00021276595744680854,
+      0.00021276595744680854,
+      0.00021276595744680854,
+      0.00021276595744680854,
+      0.00021276595744680854,
+      0.00021276595744680854,
+      0.00021276595744680854,
+      0.00021276595744680854,
+      0.00021276595744680854,
+      0.00021276595744680854,
+      0.00021276595744680854,
+      0.00021276595744680854,
+      0.00021276595744680854,
+      0.00021276595744680856,
+      0.0002127659574469601,
+      0.00021276595772085015,
+      0.00021276613972329305,
+      0.00021281055903201192,
+      0.00021678086419827302,
+      0.00034572140909356047,
+      0.001832494944175967,
+      0.007471887654180626,
+      0.012181034305452658,
+      0.007471887654180626,
+      0.001832494944175967,
+      0.00034572140909356047,
+      0.00021678086419827302,
+      0.00021281055903201192,
+      0.00021276613972329305,
+      0.00021276595772085015,
+      0.0002127659574469601,
+      0.00021276595744680856,
+      0.00021276595744680854,
+      0.00021276595744680854,
+      0.00021276595744680854,
+      0.00021276595744680854,
+      0.00021276595744680854,
+      0.00021276595744680854,
+      0.00021276595744680854,
+      0.00021276595744680854,
+      0.00021276595744680854,
+      0.00021276595744680854,
+      0.00021276595744680854
+    ],
+    "green": [
+      0.00021276595744680854,
+      0.00021276595744680854,
+      0.00021276595744680854,
+      0.00021276595744680854,
+      0.00021276595744680854,
+      0.00021276595744680854,
+      0.00021276595744680854,
+      0.00021276595744680854,
+      0.00021276595744680854,
+      0.00021276595744680854,
+      0.00021276595744680854,
+      0.00021276595744680854,
+      0.00021276595744680854,
+      0.00021276595744680854,
+      0.00021276595744680854,
+      0.00021276595744680854,
+      0.00021276595744680854,
+      0.00021276595744680854,
+      0.00021276595744680854,
+      0.00021276595744680854,
+      0.00021276595744680854,
+      0.00021276595744680854,
+      0.00021276595744680854,
+      0.00021276595744680854,
+      0.00021276595744680854,
+      0.00021276595744680854,
+      0.00021276595744680854,
+      0.00021276595744680854,
+      0.00021276595744680854,
+      0.00021276595744680854,
+      0.00021276595744680854,
+      0.00021276595744680854,
+      0.00021276595744680854,
+      0.00021276595744680856,
+      0.0002127659574469601,
+      0.00021276595772085034,
+      0.00021276613972342966,
+      0.00021281055906543838,
+      0.0002167808672072262,
+      0.0003457215087364038,
+      0.0018324961580743044,
+      0.0074718930944955375,
+      0.01218104327501557,
+      0.0074718930944955375,
+      0.0018324961580743044,
+      0.0003457215087364038,
+      0.0002167808672072262,
+      0.00021281055906543838
+    ]
+  },
+  "wavelength_nm": [
+    315.0,
+    320.0,
+    325.0,
+    330.0,
+    335.0,
+    340.0,
+    345.0,
+    350.0,
+    355.0,
+    360.0,
+    365.0,
+    370.0,
+    375.0,
+    380.0,
+    385.0,
+    390.0,
+    395.0,
+    400.0,
+    405.0,
+    410.0,
+    415.0,
+    420.0,
+    425.0,
+    430.0,
+    435.0,
+    440.0,
+    445.0,
+    450.0,
+    455.0,
+    460.0,
+    465.0,
+    470.0,
+    475.0,
+    480.0,
+    485.0,
+    490.0,
+    495.0,
+    500.0,
+    505.0,
+    510.0,
+    515.0,
+    520.0,
+    525.0,
+    530.0,
+    535.0,
+    540.0,
+    545.0,
+    550.0
+  ],
+  "unavailable": [
+    "taste",
+    "wind_receptors",
+    "hearing",
+    "temperature_receptors",
+    "humidity_receptors",
+    "ocelli",
+    "neural_proprioception"
+  ],
+  "checks": {
+    "visuals_excluded_from_collision_pairs": true,
+    "actual_eye_projection": true,
+    "repeated_optics_exact": true,
+    "independent_of_display_rgb": true,
+    "no_visual_contacts_during_walk": true
+  },
+  "wall_seconds": 102.14279060007539,
+  "limitation": "Mechanical fixture and spectral sampling; not physiological transduction, learning or a welfare assessment",
+  "source_sha256": {
+    "scripts/record_sensory_scene.py": "e3a56318d135554f423ee38fef4ed9afa7a35633bc5483881d0a0c7340dd69df",
+    "scripts/sensory_fixture.py": "b11bb54de34af6e75c5deae432e86c4b8d1260eaa0f63bb87b0fa83ef514eb62",
+    "flyplasticity/sensory_recording.py": "0e5dd98ebb6e58b445b76d8b7d84b1efec37a283e8acc239d2b3b8aa6a0ab360",
+    "flyplasticity/standing.py": "371d4940c5ef8fb9cc6beb67fed13ce41a5a2de064852ef37a2b1ac35f37c0b2",
+    "flyplasticity/spectral.py": "f44df13b499edd26638495c982b8410b2bce6f1d6b1b8526c637f923739c904d",
+    "flyplasticity/retinal_bridge.py": "05afec260465be9ad860d3d69931337cad93dc80d4adb848bb32a58a77eda014",
+    "data/spectral/receptor_curves.npz": "aeee0310ff83ba6c1b4f14574e58addaec6aeac58c5dde8de7b31a5b05b65edb",
+    "results/visual_learning_path/flyvis_receptor_centers.json": "680bef0413d294656ab46ca29b7940ec7b7de324d28cd0fda6a330a6143a6f0f",
+    ".venv/Lib/site-packages/flygym/fly.py": "28f69407082911ffa0bdc5f2d154d53ebee8cf734b632cf38d945f39c8120c59",
+    ".venv/Lib/site-packages/flygym/arena/base.py": "b26f2eb9b31cfa1bb8ad394003ce16a5cc0f0e5b4ad9d7be1030d2c6b77bf5be"
+  }
+}

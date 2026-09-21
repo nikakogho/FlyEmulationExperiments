@@ -1,0 +1,27 @@
+{
+  "passed": true,
+  "first": "results/sensory_scene_v2",
+  "second": "results/sensory_scene_v2_repeat",
+  "checks": {
+    "sensors.npz/fields": true,
+    "sensors.npz/time_s": true,
+    "sensors.npz/acquisition_s": true,
+    "sensors.npz/eye_excitation": true,
+    "sensors.npz/joint_angles_rad": true,
+    "sensors.npz/joint_velocities_rad_s": true,
+    "sensors.npz/contact_vectors_native": true,
+    "sensors.npz/odor_concentration": true,
+    "sensors.npz/previous_command": true,
+    "sensors.npz/pale": true,
+    "sensors.npz/retinal_centers_rc": true,
+    "replay.npz/fields": true,
+    "replay.npz/time_s": true,
+    "replay.npz/qpos": true,
+    "replay.npz/qvel": true,
+    "replay.npz/act": true,
+    "source_hashes": true
+  },
+  "new_neural_steps": 0,
+  "new_physics_steps": 0,
+  "scope": "Deterministic numerical reproduction of one mechanical fixture, not independent biological replication"
+}

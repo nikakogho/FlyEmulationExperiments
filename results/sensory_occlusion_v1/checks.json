@@ -1,0 +1,23 @@
+{
+  "passed": false,
+  "eyes": [
+    {
+      "eye": "L",
+      "visible_pixels": 12,
+      "occluded_pixels": 4,
+      "restored_pixels": 12,
+      "passed": false
+    },
+    {
+      "eye": "R",
+      "visible_pixels": 12,
+      "occluded_pixels": 4,
+      "restored_pixels": 12,
+      "passed": false
+    }
+  ],
+  "physical_state_unchanged": true,
+  "new_physics_steps": 0,
+  "new_neural_steps": 0,
+  "scope": "Rendered occlusion, not biological eye validation"
+}

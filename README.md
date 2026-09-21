@@ -1,6 +1,12 @@
 # Fly emulation experiments
 
-Latest: [five-step live hybrid experiment](research/hybrid_preference_results.md).
+Latest: [synchronized sensory-apparatus recording](research/sensory_recording_delivery.md).
+Three-second mechanical walk with two spectral eyes, joints, contacts and odor;
+301 synchronized samples, 174 tests, independent consistency and exact-repeat
+checks pass. No brain or learning runs. Video:
+`results/sensory_scene_v2/sensory_walk.mp4`; viewer: `view-sensory-scene.cmd`.
+
+Previous: [five-step live hybrid experiment](research/hybrid_preference_results.md).
 All 12 training runs and 16 live neural/3D body probes completed with recovery.
 The learned-preference gate **failed**: mean paired preference change -0.00383;
 paired beat both controls in only 1/4 cases. The conditional learning-rule

@@ -1,0 +1,26 @@
+{
+  "source": "https://www.nature.com/articles/s41598-020-74742-1",
+  "download": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7588446/supplementaryFiles",
+  "source_member": "41598_2020_74742_MOESM2_ESM.xlsx",
+  "source_sha256": "740f8517fc0f6ce18d724d71568db08d2c58567551057a0008068f8f88de8044",
+  "sheet": "Sheet 1",
+  "range": "D3:N50",
+  "channels": [
+    "Rh1",
+    "Rh3",
+    "Rh4",
+    "Rh5",
+    "Rh6"
+  ],
+  "support_nm": [
+    315,
+    550
+  ],
+  "normalization": "Each mean divided by its maximum within 315-550 nm.",
+  "interpretation": "Measured red-eye single-opsin-rescue ERG response shapes; relative excitation proxy, not absolute photon catch or calibrated single-cell voltage.",
+  "limitations": [
+    "Only common measured wavelength support is accepted.",
+    "No cross-receptor gain calibration; Rh6 maximum within this band is not its full-spectrum peak.",
+    "No adaptation kinetics, polarization, photon noise or downstream opponency inferred."
+  ]
+}
