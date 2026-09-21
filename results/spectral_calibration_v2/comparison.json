@@ -1,0 +1,90 @@
+{
+  "status": "completed",
+  "neural_steps": 0,
+  "physics_integration_steps": 0,
+  "original_recording": "results/sensory_scene_v2",
+  "recorded_frames": [
+    0,
+    30,
+    75,
+    110,
+    130,
+    160,
+    210,
+    250,
+    300
+  ],
+  "baseline_exact": true,
+  "spectral_reconstruction": "Opt-in; approximate overlap joining; legacy renderer unchanged",
+  "source_sha256": {
+    "research\\calibration\\sharkey2020_bands.json": "0eece640c41781e2c2c7ba2ff17b958379de70f67b1ea09a5683784baeed7cad",
+    "flyplasticity\\spectral_calibration.py": "b8a0b65ca27529d0b6628401aae563c00c2f63298a05ca0a4803262a8e33adc7",
+    "scripts\\compare_spectral_calibration.py": "5e28fd9fed61e8ffafde4ff25c8c56e39ed771aa3cd7f661357b077cd406f319",
+    "results\\sensory_scene_v2\\sensors.npz": "4d4708543a6ee520ad3f0f6af02ccb79de2ca888919e7fa58aca4a48581cb06d",
+    "results\\sensory_scene_v2\\replay.npz": "0d2c40f66cd93ff3a7a9db16952792e82a83e30f6bc4cf501932986d5b139a82"
+  },
+  "alignment": {
+    "Rh1": {
+      "scale": 0.5777,
+      "method": "published fixed factor",
+      "overlap_rmse": 0.1933650473093716,
+      "overlap_relative_rmse": 0.06871589366950562
+    },
+    "Rh6": {
+      "scale": 1.3611467961254202,
+      "method": "least squares through origin, all 21 overlap wavelengths",
+      "overlap_rmse": 0.06245899716284297,
+      "overlap_relative_rmse": 0.031033921086140517
+    }
+  },
+  "rh6_overlap_diagnostic": {
+    "split": "Alternating overlap wavelengths; same source animals, not independent biological validation",
+    "development_scale": 1.356171706232696,
+    "validation_wavelength_nm": [
+      455,
+      465,
+      475,
+      485,
+      495,
+      505,
+      515,
+      525,
+      535,
+      545
+    ],
+    "unscaled_validation_rmse": 0.4861948848691463,
+    "scaled_validation_rmse": 0.059801726454647784
+  },
+  "changed_channels": [
+    "Rh1",
+    "yellow R8 (Rh6)"
+  ],
+  "unchanged_channels": [
+    "R7",
+    "pale R8 (Rh5)"
+  ],
+  "mean_excitation_before": [
+    0.04742189371782559,
+    0.02706131495752864,
+    0.048004596660977006
+  ],
+  "mean_excitation_after": [
+    0.04793528362337532,
+    0.02706131495752864,
+    0.03588085705006212
+  ],
+  "temporal_readiness": {
+    "recording_interval_s": 0.01,
+    "samples_per_10ms_delay": 1.0,
+    "samples_per_20ms_peak": 2.0,
+    "proposed_calibration_interval_s": 0.001,
+    "proposal_is_engineering_resolution_not_measured_fly_update_rate": true,
+    "calibrated_temporal_model": false,
+    "reason": "Relative ERG scale lacks effective photons/s; no independent numeric voltage traces recovered yet."
+  },
+  "limitations": [
+    "Five-channel scenes still limited to 315-550 nm; Rh1/Rh6 alone support 315-700.",
+    "Spectral shape reconstruction does not validate single-cell transduction, learning or welfare.",
+    "Temporal paper figures recovered, but fitting their raster curves would not provide independent raw-trace validation."
+  ]
+}

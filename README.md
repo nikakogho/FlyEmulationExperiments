@@ -1,6 +1,11 @@
 # Fly emulation experiments
 
-Latest: [synchronized sensory-apparatus recording](research/sensory_recording_delivery.md).
+Latest: [extended spectral calibration and temporal-data audit](research/spectral_calibration_delivery.md).
+An opt-in reconstruction adds measured Rh1/Rh6 coverage through 700 nm, rejects
+unknown tails for other receptors, and passes 181 tests plus an archived 3D-scene
+comparison. Receptor timing remains uncalibrated; no new neural execution.
+
+Previous: [synchronized sensory-apparatus recording](research/sensory_recording_delivery.md).
 Three-second mechanical walk with two spectral eyes, joints, contacts and odor;
 301 synchronized samples, 174 tests, independent consistency and exact-repeat
 checks pass. No brain or learning runs. Video:

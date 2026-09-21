@@ -1,0 +1,48 @@
+{
+  "retrieved": "2026-09-21",
+  "sources": [
+    {
+      "file": "data\\receptor_calibration\\sharkey2020.xml",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7588446/fullTextXML",
+      "bytes": 114794,
+      "sha256": "8c9e0d72987b6859b065ec5df1c051d1bd22310ea7a737118b58c116b9390487"
+    },
+    {
+      "file": "data\\receptor_calibration\\juusola2001.xml",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC2232468/fullTextXML",
+      "bytes": 199062,
+      "sha256": "42f51f59915fbb0a0efad4cc2f7965742e08e75e56a5bfb71407eef61c612593"
+    },
+    {
+      "file": "data\\receptor_calibration\\juusola2001_supplementary.zip",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC2232468/supplementaryFiles",
+      "bytes": 663280,
+      "sha256": "2f468a1559ad54b55fb32ae5b050e8bde034c866a0193c118bdf1501f041e5a2"
+    }
+  ],
+  "figure_members": [
+    {
+      "archive": "juusola2001_supplementary.zip",
+      "member": "JGP8283.f6.jpg",
+      "sha256": "c008aae70f3080450e89f81c705b215375097b49521a14189141796eb7b53047"
+    },
+    {
+      "archive": "juusola2001_supplementary.zip",
+      "member": "JGP8283.f7.jpg",
+      "sha256": "dc7967aeaa35ecdce760e208686040063a1f7f50e18657dedc4a904b972491db"
+    }
+  ],
+  "temporal_measurement": {
+    "species": "Drosophila melanogaster",
+    "receptors": "R1-R6",
+    "temperature_c": 25,
+    "stimulation": "Green point-source LED, contrast modulations on adapting backgrounds",
+    "bright_approx_delay_ms": 10,
+    "dim_approx_delay_ms": 20,
+    "bright_approx_peak_ms": 20,
+    "dim_approx_peak_ms": 40,
+    "numeric_response_traces_in_archive": false,
+    "archive_contents": "Raster figures only; no raw time-series data",
+    "status": "Requirements audit only; no fitted or executed temporal receptor model"
+  }
+}

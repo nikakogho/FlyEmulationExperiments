@@ -1,0 +1,10 @@
+{
+  "status": "failed",
+  "stage": "first archived frame, unchanged R7 exact comparison",
+  "original_recording_reproduced_exactly": true,
+  "maximum_absolute_difference": 6.9388939e-18,
+  "reason": "Candidate matrix had a different memory layout and floating-point reduction order.",
+  "repair": "Construct the wavelength-by-channel matrix with np.stack(axis=-1), as in the legacy implementation; retain the exact equality check.",
+  "neural_steps": 0,
+  "physics_integration_steps": 0
+}
