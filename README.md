@@ -1,6 +1,12 @@
 # Fly emulation experiments
 
-Latest: [paired receptor recordings and first causal response fit](research/causal_filter_delivery.md).
+Latest: [nonlinear response fit and reserved brighter-background test](research/nonlinear_filter_delivery.md).
+A development-selected nonlinear transform reduced pooled prediction error by
+8.4% on the reserved background, but worsened the 500 Hz condition by 10.4%.
+The overall promotion gate fails; no neural integration. 203 tests pass, with an
+independent evidence check. Selection was committed before evaluation.
+
+Previous: [paired receptor recordings and first causal response fit](research/causal_filter_delivery.md).
 Both user-downloaded Origin files are verified and extracted. All 800,000 primary
 voltage samples agree with the independent Excel exports; paired light inputs and
 population responses are now available. The first offline filter beats controls

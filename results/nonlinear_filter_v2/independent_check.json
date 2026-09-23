@@ -1,0 +1,14 @@
+{
+  "status": "passed",
+  "model_acceptance": "failed",
+  "max_independent_prediction_difference_mV": 8.881784197001252e-15,
+  "report_sha256": "d6978f3b5cd31ca4c6fd949bea50dad5ca4a3c82ea4a48fd8b80beb7b87df3b6",
+  "checker_sha256": "d74778299b924bf5de9f445700d2368cba1a11229899e51690ad343db81c9730",
+  "checks": [
+    "source and artifact hashes",
+    "development selection rule",
+    "explicit signed transform",
+    "independent convolution",
+    "all condition metrics and gates"
+  ]
+}
