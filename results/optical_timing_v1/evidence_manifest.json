@@ -1,0 +1,23 @@
+{
+  "parent_commit": "f9a4a7f41538ca12e7487724abf194753ea3e24a",
+  "sha256": {
+    "scripts/audit_voltage_sampling.py": "4f276023f3b20540d492a07f06b6d94c0cf7042d9ca245b554f8c7f6ce8c4d82",
+    "scripts/plot_voltage_sampling.py": "1ee29e76a4b646e9a3cf86c0b20a9aff465044b3e3da8c01230485b863b41995",
+    "scripts/record_optical_timing.py": "468238687a9d3c18f44faf576b322bee697ada7adcd34568276a878bf2b0501e",
+    "flyplasticity/temporal_sampling.py": "97ac7231828671982dc6b8e10ecce7d0e505f50127ea21dedee058e0beb661e2",
+    "scripts/sensory_fixture.py": "b11bb54de34af6e75c5deae432e86c4b8d1260eaa0f63bb87b0fa83ef514eb62",
+    "flyplasticity/spectral.py": "f44df13b499edd26638495c982b8410b2bce6f1d6b1b8526c637f923739c904d",
+    "flyplasticity/retinal_bridge.py": "05afec260465be9ad860d3d69931337cad93dc80d4adb848bb32a58a77eda014",
+    "research/calibration/optical_timing_protocol.json": "3f6946199afb119a339a4e6ee1e574a0ecf83fee9d28227f0683951531324c88",
+    "results/voltage_sampling_v2/audit.json": "5d6945acbb3eaab2ec70f4125543f83187ee007999fe6d5d524cdfee44fa6316",
+    "results/voltage_sampling_v2/voltage_trials.npz": "b1679051e37e4636dca7b737ca7ded9679f8aa363c938b2ed3c07e6abba4208e",
+    "results/voltage_sampling_v2/sampling.png": "abbe031233407c50387d4d807ab905846b93d465518400061bd45f17a1157578",
+    "results/optical_timing_v1/checks.json": "95e02cf8fd684f2a970ef08c392563690cba997a46ef334e7a00cb6a5870dc85",
+    "results/optical_timing_v1/timing.png": "db299755ddec065ee318e6ea146ebe9a7976524f04fdf5450afb897ca8c413de",
+    "results/temporal_sampling_tests.log": "9be2605f0eb3eb8672d8e284f7e4ac6e867f3de21e3b64e662e94a3396c3368a",
+    "results/optical_timing_v1/optics_10000us.npz": "a449ca526140ec79b89cd94e8d281d06a2b2e3c0bf6af7f054b53411325e49de",
+    "results/optical_timing_v1/optics_1000us.npz": "d8bd11fc022b77ed619447d92934553fa38092fa2282171b8d74dbd884bb7c06",
+    "results/optical_timing_v1/optics_500us.npz": "0112ee0321ee16bdbb704d64444575178c0e49bf1bceed721e39770580259c62"
+  },
+  "neural_steps": 0
+}

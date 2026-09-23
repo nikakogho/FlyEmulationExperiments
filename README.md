@@ -1,6 +1,11 @@
 # Fly emulation experiments
 
-Latest: [extended spectral calibration and temporal-data audit](research/spectral_calibration_delivery.md).
+Latest: [numerical receptor traces and high-rate optical recording](research/temporal_sampling_delivery.md).
+Recovered and audited 400 published voltage traces; tested fresh 1 ms/0.5 ms 3D
+optical acquisition. 186 tests pass. No new neural execution. Paired light-input
+waveforms remain missing, so a calibrated temporal response model is still pending.
+
+Previous: [extended spectral calibration and temporal-data audit](research/spectral_calibration_delivery.md).
 An opt-in reconstruction adds measured Rh1/Rh6 coverage through 700 nm, rejects
 unknown tails for other receptors, and passes 181 tests plus an archived 3D-scene
 comparison. Receptor timing remains uncalibrated; no new neural execution.

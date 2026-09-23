@@ -1,0 +1,37 @@
+{
+  "passed": true,
+  "checks": {
+    "coincident_samples_exact": true,
+    "physical_state_unchanged": true,
+    "linearity": true,
+    "one_ms_convergence": true,
+    "improvement": true
+  },
+  "neural_steps": 0,
+  "physics_steps": 0,
+  "fresh_eye_frame_pairs": 313,
+  "maximum_relative_linearity_error": 1.2159820145595196e-14,
+  "sampling_errors": {
+    "1ms": {
+      "rmse": 3.1587259761259954e-05,
+      "normalized_rmse": 0.007148643126256218,
+      "covered_samples": 201,
+      "retained_samples": 101
+    },
+    "10ms": {
+      "rmse": 0.0023363666172777353,
+      "normalized_rmse": 0.5287527720116096,
+      "covered_samples": 201,
+      "retained_samples": 11
+    }
+  },
+  "model": "Legacy common-band static ERG spectral proxy, 315-550 nm",
+  "pose": "Archived fixed rest pose; no body motion in this fixture",
+  "code_sha256": {
+    "scripts\\record_optical_timing.py": "468238687a9d3c18f44faf576b322bee697ada7adcd34568276a878bf2b0501e",
+    "research\\calibration\\optical_timing_protocol.json": "3f6946199afb119a339a4e6ee1e574a0ecf83fee9d28227f0683951531324c88",
+    "results\\sensory_scene_v2\\replay.npz": "0d2c40f66cd93ff3a7a9db16952792e82a83e30f6bc4cf501932986d5b139a82",
+    "flyplasticity\\temporal_sampling.py": "97ac7231828671982dc6b8e10ecce7d0e505f50127ea21dedee058e0beb661e2"
+  },
+  "limitation": "Optical acquisition convergence only; no calibrated voltage response, learning or welfare claim"
+}

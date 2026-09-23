@@ -1,0 +1,18 @@
+{
+  "date": "2026-09-23",
+  "scope": "Fresh static-pose 3D optical acquisition only; no receptor or brain dynamics",
+  "pose": "sensory_scene_v2 archived frame 0",
+  "duration_s": 0.1,
+  "intervals_s": [0.01, 0.001, 0.0005],
+  "radiance_gain": "1 + 0.15*sin(2*pi*20*t) + 0.05*sin(2*pi*80*t)",
+  "stimulus": "Synthetic optical instrument test; not a proposed neural exposure",
+  "gates": {
+    "coincident_samples_exact": true,
+    "full_retina_relative_linearity_error_max": 1e-10,
+    "one_ms_interpolation_rmse_over_modulation_sd_max": 0.03,
+    "one_ms_error_below_ten_ms_error": true,
+    "physical_state_unchanged": true,
+    "neural_steps": 0
+  },
+  "limit": "These are numerical engineering tolerances, not physiological or welfare thresholds."
+}

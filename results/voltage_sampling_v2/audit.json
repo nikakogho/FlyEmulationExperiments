@@ -1,0 +1,836 @@
+{
+  "status": "completed",
+  "neural_steps": 0,
+  "biological_cells": 1,
+  "conditions": 20,
+  "trial_traces": 400,
+  "voltage_samples": 800000,
+  "source": [
+    {
+      "file": "elife-26117-fig1-data1-v1.xlsx",
+      "url": "https://cdn.elifesciences.org/articles/26117/elife-26117-fig1-data1-v1.xlsx",
+      "sha256": "cb457117a713ad69c985d687c33d96d46ec027b66718b214be379b048d084c0d",
+      "caption_background": 0.0,
+      "source_doi": "10.7554/eLife.26117.005"
+    },
+    {
+      "file": "elife-26117-fig1-data2-v1.xlsx",
+      "url": "https://cdn.elifesciences.org/articles/26117/elife-26117-fig1-data2-v1.xlsx",
+      "sha256": "9d32a2fb99166a39bac81522523a5d54e53f2cdeb4f86513c7ef3415c3e0fa9a",
+      "caption_background": 0.5,
+      "source_doi": "10.7554/eLife.26117.006"
+    },
+    {
+      "file": "elife-26117-fig1-data3-v1.xlsx",
+      "url": "https://cdn.elifesciences.org/articles/26117/elife-26117-fig1-data3-v1.xlsx",
+      "sha256": "22b4b6b0e358ceb4a719720395879cc49bea3fdda3ce592ec09b4d7fc18e6330",
+      "caption_background": 1.0,
+      "source_doi": "10.7554/eLife.26117.007"
+    },
+    {
+      "file": "elife-26117-fig1-data4-v1.xlsx",
+      "url": "https://cdn.elifesciences.org/articles/26117/elife-26117-fig1-data4-v1.xlsx",
+      "sha256": "4f0d4012f9781646516823cc5132035db2fe078978bf8306a7355caa7e029622",
+      "caption_background": 1.5,
+      "source_doi": "10.7554/eLife.26117.008"
+    }
+  ],
+  "measurements": [
+    {
+      "source": "elife-26117-fig1-data1-v1.xlsx",
+      "sheet": "20HzBG0",
+      "cells": "B2:X2001",
+      "declared_background": 0.0,
+      "bandwidth_hz": 20,
+      "mean_check_max_abs_mV": 1.0658141036401503e-14,
+      "sd_check_max_abs_mV": 1.2478351685274447e-12,
+      "original_interval_ms": 1,
+      "trials": 20,
+      "duration_s": 2,
+      "mean_voltage_sampling": {
+        "1000": {
+          "rmse": 0.0,
+          "normalized_rmse": 0.0,
+          "covered_samples": 2000,
+          "retained_samples": 2000
+        },
+        "500": {
+          "rmse": 0.05131002929420442,
+          "normalized_rmse": 0.003510171684639796,
+          "covered_samples": 1999,
+          "retained_samples": 1000
+        },
+        "200": {
+          "rmse": 0.2717852859131904,
+          "normalized_rmse": 0.018592683256175566,
+          "covered_samples": 1996,
+          "retained_samples": 400
+        },
+        "100": {
+          "rmse": 1.01904334785635,
+          "normalized_rmse": 0.0697064861373055,
+          "covered_samples": 1991,
+          "retained_samples": 200
+        }
+      },
+      "split_trial_mean_rmse_mV": 0.23228110344726186
+    },
+    {
+      "source": "elife-26117-fig1-data1-v1.xlsx",
+      "sheet": "50HzBG0",
+      "cells": "B2:X2001",
+      "declared_background": 0.0,
+      "bandwidth_hz": 50,
+      "mean_check_max_abs_mV": 7.105427357601002e-15,
+      "sd_check_max_abs_mV": 4.5236037138352003e-13,
+      "original_interval_ms": 1,
+      "trials": 20,
+      "duration_s": 2,
+      "mean_voltage_sampling": {
+        "1000": {
+          "rmse": 0.0,
+          "normalized_rmse": 0.0,
+          "covered_samples": 2000,
+          "retained_samples": 2000
+        },
+        "500": {
+          "rmse": 0.0744030458716017,
+          "normalized_rmse": 0.00800499786031749,
+          "covered_samples": 1999,
+          "retained_samples": 1000
+        },
+        "200": {
+          "rmse": 0.4460328142417904,
+          "normalized_rmse": 0.047961154644932315,
+          "covered_samples": 1996,
+          "retained_samples": 400
+        },
+        "100": {
+          "rmse": 1.554634018583468,
+          "normalized_rmse": 0.16696808315253914,
+          "covered_samples": 1991,
+          "retained_samples": 200
+        }
+      },
+      "split_trial_mean_rmse_mV": 0.19113796609663236
+    },
+    {
+      "source": "elife-26117-fig1-data1-v1.xlsx",
+      "sheet": "100HzBG0",
+      "cells": "B2:X2001",
+      "declared_background": 0.0,
+      "bandwidth_hz": 100,
+      "mean_check_max_abs_mV": 7.105427357601002e-15,
+      "sd_check_max_abs_mV": 2.7045032879868813e-13,
+      "original_interval_ms": 1,
+      "trials": 20,
+      "duration_s": 2,
+      "mean_voltage_sampling": {
+        "1000": {
+          "rmse": 0.0,
+          "normalized_rmse": 0.0,
+          "covered_samples": 2000,
+          "retained_samples": 2000
+        },
+        "500": {
+          "rmse": 0.09592025621832147,
+          "normalized_rmse": 0.011841784441575272,
+          "covered_samples": 1999,
+          "retained_samples": 1000
+        },
+        "200": {
+          "rmse": 0.5458473132919703,
+          "normalized_rmse": 0.06735721769948222,
+          "covered_samples": 1996,
+          "retained_samples": 400
+        },
+        "100": {
+          "rmse": 1.7944484597617765,
+          "normalized_rmse": 0.22136074403929965,
+          "covered_samples": 1991,
+          "retained_samples": 200
+        }
+      },
+      "split_trial_mean_rmse_mV": 0.2595766354546982
+    },
+    {
+      "source": "elife-26117-fig1-data1-v1.xlsx",
+      "sheet": "200HzBG0",
+      "cells": "B2:X2001",
+      "declared_background": 0.0,
+      "bandwidth_hz": 200,
+      "mean_check_max_abs_mV": 7.105427357601002e-15,
+      "sd_check_max_abs_mV": 2.078337502098293e-13,
+      "original_interval_ms": 1,
+      "trials": 20,
+      "duration_s": 2,
+      "mean_voltage_sampling": {
+        "1000": {
+          "rmse": 0.0,
+          "normalized_rmse": 0.0,
+          "covered_samples": 2000,
+          "retained_samples": 2000
+        },
+        "500": {
+          "rmse": 0.0745131236455433,
+          "normalized_rmse": 0.012849879193947934,
+          "covered_samples": 1999,
+          "retained_samples": 1000
+        },
+        "200": {
+          "rmse": 0.41987290625782747,
+          "normalized_rmse": 0.07237713961291206,
+          "covered_samples": 1996,
+          "retained_samples": 400
+        },
+        "100": {
+          "rmse": 1.3900198937251196,
+          "normalized_rmse": 0.23936015448692427,
+          "covered_samples": 1991,
+          "retained_samples": 200
+        }
+      },
+      "split_trial_mean_rmse_mV": 0.2176320526734488
+    },
+    {
+      "source": "elife-26117-fig1-data1-v1.xlsx",
+      "sheet": "500HzBG0",
+      "cells": "B2:X2001",
+      "declared_background": 0.0,
+      "bandwidth_hz": 500,
+      "mean_check_max_abs_mV": 3.552713678800501e-15,
+      "sd_check_max_abs_mV": 7.016609515630989e-14,
+      "original_interval_ms": 1,
+      "trials": 20,
+      "duration_s": 2,
+      "mean_voltage_sampling": {
+        "1000": {
+          "rmse": 0.0,
+          "normalized_rmse": 0.0,
+          "covered_samples": 2000,
+          "retained_samples": 2000
+        },
+        "500": {
+          "rmse": 0.04699311740056696,
+          "normalized_rmse": 0.013117156227707828,
+          "covered_samples": 1999,
+          "retained_samples": 1000
+        },
+        "200": {
+          "rmse": 0.26045772882754914,
+          "normalized_rmse": 0.0726549226171048,
+          "covered_samples": 1996,
+          "retained_samples": 400
+        },
+        "100": {
+          "rmse": 0.8476009905427402,
+          "normalized_rmse": 0.23615268959658292,
+          "covered_samples": 1991,
+          "retained_samples": 200
+        }
+      },
+      "split_trial_mean_rmse_mV": 0.1785666508644163
+    },
+    {
+      "source": "elife-26117-fig1-data2-v1.xlsx",
+      "sheet": "20HzBG05",
+      "cells": "B2:X2001",
+      "declared_background": 0.5,
+      "bandwidth_hz": 20,
+      "mean_check_max_abs_mV": 7.105427357601002e-15,
+      "sd_check_max_abs_mV": 3.1336044870045043e-13,
+      "original_interval_ms": 1,
+      "trials": 20,
+      "duration_s": 2,
+      "mean_voltage_sampling": {
+        "1000": {
+          "rmse": 0.0,
+          "normalized_rmse": 0.0,
+          "covered_samples": 2000,
+          "retained_samples": 2000
+        },
+        "500": {
+          "rmse": 0.02457958123531806,
+          "normalized_rmse": 0.0034276423632314244,
+          "covered_samples": 1999,
+          "retained_samples": 1000
+        },
+        "200": {
+          "rmse": 0.11053266758179402,
+          "normalized_rmse": 0.015432308240904172,
+          "covered_samples": 1996,
+          "retained_samples": 400
+        },
+        "100": {
+          "rmse": 0.42003854967612475,
+          "normalized_rmse": 0.05875261554036887,
+          "covered_samples": 1991,
+          "retained_samples": 200
+        }
+      },
+      "split_trial_mean_rmse_mV": 0.18200304063847952
+    },
+    {
+      "source": "elife-26117-fig1-data2-v1.xlsx",
+      "sheet": "50HzBG05",
+      "cells": "B2:X2001",
+      "declared_background": 0.5,
+      "bandwidth_hz": 50,
+      "mean_check_max_abs_mV": 2.6645352591003757e-15,
+      "sd_check_max_abs_mV": 1.2184697695261093e-13,
+      "original_interval_ms": 1,
+      "trials": 20,
+      "duration_s": 2,
+      "mean_voltage_sampling": {
+        "1000": {
+          "rmse": 0.0,
+          "normalized_rmse": 0.0,
+          "covered_samples": 2000,
+          "retained_samples": 2000
+        },
+        "500": {
+          "rmse": 0.030268271494954146,
+          "normalized_rmse": 0.00884988032974455,
+          "covered_samples": 1999,
+          "retained_samples": 1000
+        },
+        "200": {
+          "rmse": 0.15810473062042937,
+          "normalized_rmse": 0.046200107651762516,
+          "covered_samples": 1996,
+          "retained_samples": 400
+        },
+        "100": {
+          "rmse": 0.5248378447336951,
+          "normalized_rmse": 0.15320065907709512,
+          "covered_samples": 1991,
+          "retained_samples": 200
+        }
+      },
+      "split_trial_mean_rmse_mV": 0.18965108947738174
+    },
+    {
+      "source": "elife-26117-fig1-data2-v1.xlsx",
+      "sheet": "100HzBG05",
+      "cells": "B2:X2001",
+      "declared_background": 0.5,
+      "bandwidth_hz": 100,
+      "mean_check_max_abs_mV": 1.7763568394002505e-15,
+      "sd_check_max_abs_mV": 1.605937605120289e-13,
+      "original_interval_ms": 1,
+      "trials": 20,
+      "duration_s": 2,
+      "mean_voltage_sampling": {
+        "1000": {
+          "rmse": 0.0,
+          "normalized_rmse": 0.0,
+          "covered_samples": 2000,
+          "retained_samples": 2000
+        },
+        "500": {
+          "rmse": 0.04254187540834282,
+          "normalized_rmse": 0.012289016462743736,
+          "covered_samples": 1999,
+          "retained_samples": 1000
+        },
+        "200": {
+          "rmse": 0.22619213908970823,
+          "normalized_rmse": 0.06541637513565395,
+          "covered_samples": 1996,
+          "retained_samples": 400
+        },
+        "100": {
+          "rmse": 0.6972212894522336,
+          "normalized_rmse": 0.20207572990684222,
+          "covered_samples": 1991,
+          "retained_samples": 200
+        }
+      },
+      "split_trial_mean_rmse_mV": 0.17901704325906007
+    },
+    {
+      "source": "elife-26117-fig1-data2-v1.xlsx",
+      "sheet": "200HzBG05",
+      "cells": "B2:X2001",
+      "declared_background": 0.5,
+      "bandwidth_hz": 200,
+      "mean_check_max_abs_mV": 1.7763568394002505e-15,
+      "sd_check_max_abs_mV": 7.87148124459236e-14,
+      "original_interval_ms": 1,
+      "trials": 20,
+      "duration_s": 2,
+      "mean_voltage_sampling": {
+        "1000": {
+          "rmse": 0.0,
+          "normalized_rmse": 0.0,
+          "covered_samples": 2000,
+          "retained_samples": 2000
+        },
+        "500": {
+          "rmse": 0.02903095596945903,
+          "normalized_rmse": 0.01378062612417761,
+          "covered_samples": 1999,
+          "retained_samples": 1000
+        },
+        "200": {
+          "rmse": 0.14394751368297157,
+          "normalized_rmse": 0.06835980296266173,
+          "covered_samples": 1996,
+          "retained_samples": 400
+        },
+        "100": {
+          "rmse": 0.44372975392922803,
+          "normalized_rmse": 0.21092191517716055,
+          "covered_samples": 1991,
+          "retained_samples": 200
+        }
+      },
+      "split_trial_mean_rmse_mV": 0.1545742275758273
+    },
+    {
+      "source": "elife-26117-fig1-data2-v1.xlsx",
+      "sheet": "500HzBG05",
+      "cells": "B2:X2001",
+      "declared_background": 0.5,
+      "bandwidth_hz": 500,
+      "mean_check_max_abs_mV": 8.881784197001252e-16,
+      "sd_check_max_abs_mV": 1.7041923427996153e-14,
+      "original_interval_ms": 1,
+      "trials": 20,
+      "duration_s": 2,
+      "mean_voltage_sampling": {
+        "1000": {
+          "rmse": 0.0,
+          "normalized_rmse": 0.0,
+          "covered_samples": 2000,
+          "retained_samples": 2000
+        },
+        "500": {
+          "rmse": 0.024816526927075908,
+          "normalized_rmse": 0.016843974451628628,
+          "covered_samples": 1999,
+          "retained_samples": 1000
+        },
+        "200": {
+          "rmse": 0.11162246142757551,
+          "normalized_rmse": 0.07570608888694645,
+          "covered_samples": 1996,
+          "retained_samples": 400
+        },
+        "100": {
+          "rmse": 0.33784347064631476,
+          "normalized_rmse": 0.22887442683982237,
+          "covered_samples": 1991,
+          "retained_samples": 200
+        }
+      },
+      "split_trial_mean_rmse_mV": 0.16478712215236876
+    },
+    {
+      "source": "elife-26117-fig1-data3-v1.xlsx",
+      "sheet": "20HzBG05",
+      "cells": "B2:X2001",
+      "declared_background": 1.0,
+      "bandwidth_hz": 20,
+      "mean_check_max_abs_mV": 5.3290705182007514e-14,
+      "sd_check_max_abs_mV": 1.2417844530432376e-13,
+      "original_interval_ms": 1,
+      "trials": 20,
+      "duration_s": 2,
+      "mean_voltage_sampling": {
+        "1000": {
+          "rmse": 0.0,
+          "normalized_rmse": 0.0,
+          "covered_samples": 2000,
+          "retained_samples": 2000
+        },
+        "500": {
+          "rmse": 0.020474296802979974,
+          "normalized_rmse": 0.004646771187626522,
+          "covered_samples": 1999,
+          "retained_samples": 1000
+        },
+        "200": {
+          "rmse": 0.07246878990389388,
+          "normalized_rmse": 0.016457033541748853,
+          "covered_samples": 1996,
+          "retained_samples": 400
+        },
+        "100": {
+          "rmse": 0.244662364260898,
+          "normalized_rmse": 0.05562224629078184,
+          "covered_samples": 1991,
+          "retained_samples": 200
+        }
+      },
+      "split_trial_mean_rmse_mV": 0.2554235603661017
+    },
+    {
+      "source": "elife-26117-fig1-data3-v1.xlsx",
+      "sheet": "50HzBG05",
+      "cells": "B2:X2001",
+      "declared_background": 1.0,
+      "bandwidth_hz": 50,
+      "mean_check_max_abs_mV": 2.6645352591003757e-15,
+      "sd_check_max_abs_mV": 5.4012350148013866e-14,
+      "original_interval_ms": 1,
+      "trials": 20,
+      "duration_s": 2,
+      "mean_voltage_sampling": {
+        "1000": {
+          "rmse": 0.0,
+          "normalized_rmse": 0.0,
+          "covered_samples": 2000,
+          "retained_samples": 2000
+        },
+        "500": {
+          "rmse": 0.02334650260027619,
+          "normalized_rmse": 0.01084372655247588,
+          "covered_samples": 1999,
+          "retained_samples": 1000
+        },
+        "200": {
+          "rmse": 0.09987380534542804,
+          "normalized_rmse": 0.04635624402132666,
+          "covered_samples": 1996,
+          "retained_samples": 400
+        },
+        "100": {
+          "rmse": 0.3327572562736447,
+          "normalized_rmse": 0.15426157680946728,
+          "covered_samples": 1991,
+          "retained_samples": 200
+        }
+      },
+      "split_trial_mean_rmse_mV": 0.18537815940241187
+    },
+    {
+      "source": "elife-26117-fig1-data3-v1.xlsx",
+      "sheet": "100HzBG05",
+      "cells": "B2:X2001",
+      "declared_background": 1.0,
+      "bandwidth_hz": 100,
+      "mean_check_max_abs_mV": 1.7763568394002505e-15,
+      "sd_check_max_abs_mV": 3.197442310920451e-14,
+      "original_interval_ms": 1,
+      "trials": 20,
+      "duration_s": 2,
+      "mean_voltage_sampling": {
+        "1000": {
+          "rmse": 0.0,
+          "normalized_rmse": 0.0,
+          "covered_samples": 2000,
+          "retained_samples": 2000
+        },
+        "500": {
+          "rmse": 0.02731455082877598,
+          "normalized_rmse": 0.014631698406983694,
+          "covered_samples": 1999,
+          "retained_samples": 1000
+        },
+        "200": {
+          "rmse": 0.127594228415975,
+          "normalized_rmse": 0.06838648297323849,
+          "covered_samples": 1996,
+          "retained_samples": 400
+        },
+        "100": {
+          "rmse": 0.3634796082082139,
+          "normalized_rmse": 0.19499321218428062,
+          "covered_samples": 1991,
+          "retained_samples": 200
+        }
+      },
+      "split_trial_mean_rmse_mV": 0.20196261211055985
+    },
+    {
+      "source": "elife-26117-fig1-data3-v1.xlsx",
+      "sheet": "200HzBG05",
+      "cells": "B2:X2001",
+      "declared_background": 1.0,
+      "bandwidth_hz": 200,
+      "mean_check_max_abs_mV": 8.881784197001252e-16,
+      "sd_check_max_abs_mV": 1.199040866595169e-14,
+      "original_interval_ms": 1,
+      "trials": 20,
+      "duration_s": 2,
+      "mean_voltage_sampling": {
+        "1000": {
+          "rmse": 0.0,
+          "normalized_rmse": 0.0,
+          "covered_samples": 2000,
+          "retained_samples": 2000
+        },
+        "500": {
+          "rmse": 0.02191769140703268,
+          "normalized_rmse": 0.021204536525529075,
+          "covered_samples": 1999,
+          "retained_samples": 1000
+        },
+        "200": {
+          "rmse": 0.07644522455949707,
+          "normalized_rmse": 0.07402782533075651,
+          "covered_samples": 1996,
+          "retained_samples": 400
+        },
+        "100": {
+          "rmse": 0.20833608355686314,
+          "normalized_rmse": 0.20211727844069502,
+          "covered_samples": 1991,
+          "retained_samples": 200
+        }
+      },
+      "split_trial_mean_rmse_mV": 0.16465754140901895
+    },
+    {
+      "source": "elife-26117-fig1-data3-v1.xlsx",
+      "sheet": "500HzBG05",
+      "cells": "B2:X2001",
+      "declared_background": 1.0,
+      "bandwidth_hz": 500,
+      "mean_check_max_abs_mV": 6.661338147750939e-16,
+      "sd_check_max_abs_mV": 3.941291737419306e-15,
+      "original_interval_ms": 1,
+      "trials": 20,
+      "duration_s": 2,
+      "mean_voltage_sampling": {
+        "1000": {
+          "rmse": 0.0,
+          "normalized_rmse": 0.0,
+          "covered_samples": 2000,
+          "retained_samples": 2000
+        },
+        "500": {
+          "rmse": 0.02059826197439667,
+          "normalized_rmse": 0.028214462388453078,
+          "covered_samples": 1999,
+          "retained_samples": 1000
+        },
+        "200": {
+          "rmse": 0.06677186898435003,
+          "normalized_rmse": 0.09139543747308837,
+          "covered_samples": 1996,
+          "retained_samples": 400
+        },
+        "100": {
+          "rmse": 0.17235207210967848,
+          "normalized_rmse": 0.2356162494493721,
+          "covered_samples": 1991,
+          "retained_samples": 200
+        }
+      },
+      "split_trial_mean_rmse_mV": 0.2440398795097142
+    },
+    {
+      "source": "elife-26117-fig1-data4-v1.xlsx",
+      "sheet": "20HzBG05",
+      "cells": "B2:X2001",
+      "declared_background": 1.5,
+      "bandwidth_hz": 20,
+      "mean_check_max_abs_mV": 1.7763568394002505e-15,
+      "sd_check_max_abs_mV": 3.0753177782116836e-14,
+      "original_interval_ms": 1,
+      "trials": 20,
+      "duration_s": 2,
+      "mean_voltage_sampling": {
+        "1000": {
+          "rmse": 0.0,
+          "normalized_rmse": 0.0,
+          "covered_samples": 2000,
+          "retained_samples": 2000
+        },
+        "500": {
+          "rmse": 0.017133993163855672,
+          "normalized_rmse": 0.006719250866363976,
+          "covered_samples": 1999,
+          "retained_samples": 1000
+        },
+        "200": {
+          "rmse": 0.04801233156143748,
+          "normalized_rmse": 0.01884213359431966,
+          "covered_samples": 1996,
+          "retained_samples": 400
+        },
+        "100": {
+          "rmse": 0.13894493832068067,
+          "normalized_rmse": 0.0546058643229523,
+          "covered_samples": 1991,
+          "retained_samples": 200
+        }
+      },
+      "split_trial_mean_rmse_mV": 0.18181063488283888
+    },
+    {
+      "source": "elife-26117-fig1-data4-v1.xlsx",
+      "sheet": "50HzBG05",
+      "cells": "B2:X2001",
+      "declared_background": 1.5,
+      "bandwidth_hz": 50,
+      "mean_check_max_abs_mV": 1.3322676295501878e-15,
+      "sd_check_max_abs_mV": 1.73749903353837e-14,
+      "original_interval_ms": 1,
+      "trials": 20,
+      "duration_s": 2,
+      "mean_voltage_sampling": {
+        "1000": {
+          "rmse": 0.0,
+          "normalized_rmse": 0.0,
+          "covered_samples": 2000,
+          "retained_samples": 2000
+        },
+        "500": {
+          "rmse": 0.019577734456005576,
+          "normalized_rmse": 0.013897448832753357,
+          "covered_samples": 1999,
+          "retained_samples": 1000
+        },
+        "200": {
+          "rmse": 0.07149634936565731,
+          "normalized_rmse": 0.05071522163857728,
+          "covered_samples": 1996,
+          "retained_samples": 400
+        },
+        "100": {
+          "rmse": 0.22693722602819036,
+          "normalized_rmse": 0.1607776241123122,
+          "covered_samples": 1991,
+          "retained_samples": 200
+        }
+      },
+      "split_trial_mean_rmse_mV": 0.14458430049759502
+    },
+    {
+      "source": "elife-26117-fig1-data4-v1.xlsx",
+      "sheet": "100HzBG05",
+      "cells": "B2:X2001",
+      "declared_background": 1.5,
+      "bandwidth_hz": 100,
+      "mean_check_max_abs_mV": 1.3322676295501878e-15,
+      "sd_check_max_abs_mV": 1.6986412276764895e-14,
+      "original_interval_ms": 1,
+      "trials": 20,
+      "duration_s": 2,
+      "mean_voltage_sampling": {
+        "1000": {
+          "rmse": 0.0,
+          "normalized_rmse": 0.0,
+          "covered_samples": 2000,
+          "retained_samples": 2000
+        },
+        "500": {
+          "rmse": 0.022782494194888744,
+          "normalized_rmse": 0.0189976576727984,
+          "covered_samples": 1999,
+          "retained_samples": 1000
+        },
+        "200": {
+          "rmse": 0.09347013553333416,
+          "normalized_rmse": 0.07802144132610203,
+          "covered_samples": 1996,
+          "retained_samples": 400
+        },
+        "100": {
+          "rmse": 0.2505949874069957,
+          "normalized_rmse": 0.2095179487107951,
+          "covered_samples": 1991,
+          "retained_samples": 200
+        }
+      },
+      "split_trial_mean_rmse_mV": 0.16766556360014173
+    },
+    {
+      "source": "elife-26117-fig1-data4-v1.xlsx",
+      "sheet": "200HzBG05",
+      "cells": "B2:X2001",
+      "declared_background": 1.5,
+      "bandwidth_hz": 200,
+      "mean_check_max_abs_mV": 6.661338147750939e-16,
+      "sd_check_max_abs_mV": 6.38378239159465e-15,
+      "original_interval_ms": 1,
+      "trials": 20,
+      "duration_s": 2,
+      "mean_voltage_sampling": {
+        "1000": {
+          "rmse": 0.0,
+          "normalized_rmse": 0.0,
+          "covered_samples": 2000,
+          "retained_samples": 2000
+        },
+        "500": {
+          "rmse": 0.019062201870510498,
+          "normalized_rmse": 0.025800789432176258,
+          "covered_samples": 1999,
+          "retained_samples": 1000
+        },
+        "200": {
+          "rmse": 0.06292620509491353,
+          "normalized_rmse": 0.08524291281143481,
+          "covered_samples": 1996,
+          "retained_samples": 400
+        },
+        "100": {
+          "rmse": 0.1602757456200757,
+          "normalized_rmse": 0.21750429214924485,
+          "covered_samples": 1991,
+          "retained_samples": 200
+        }
+      },
+      "split_trial_mean_rmse_mV": 0.14998500769951412
+    },
+    {
+      "source": "elife-26117-fig1-data4-v1.xlsx",
+      "sheet": "500HzBG05",
+      "cells": "B2:X2001",
+      "declared_background": 1.5,
+      "bandwidth_hz": 500,
+      "mean_check_max_abs_mV": 4.440892098500626e-16,
+      "sd_check_max_abs_mV": 3.164135620181696e-15,
+      "original_interval_ms": 1,
+      "trials": 20,
+      "duration_s": 2,
+      "mean_voltage_sampling": {
+        "1000": {
+          "rmse": 0.0,
+          "normalized_rmse": 0.0,
+          "covered_samples": 2000,
+          "retained_samples": 2000
+        },
+        "500": {
+          "rmse": 0.0193100753459938,
+          "normalized_rmse": 0.035356332264245074,
+          "covered_samples": 1999,
+          "retained_samples": 1000
+        },
+        "200": {
+          "rmse": 0.05496171667988015,
+          "normalized_rmse": 0.10056470042092547,
+          "covered_samples": 1996,
+          "retained_samples": 400
+        },
+        "100": {
+          "rmse": 0.12473561767398726,
+          "normalized_rmse": 0.227952497898195,
+          "covered_samples": 1991,
+          "retained_samples": 200
+        }
+      },
+      "split_trial_mean_rmse_mV": 0.18464183271932694
+    }
+  ],
+  "tests": {
+    "all_means_and_sample_sds_reconciled": true,
+    "exact_1ms_time_axes": true
+  },
+  "limitations": [
+    "No paired light-input waveform columns; causal kernel fitting is blocked.",
+    "Data 3 and 4 retain misleading BG05 sheet names; background comes from publisher captions, not inferred names.",
+    "Repeated trials share one cell and the same stimuli; not independent biological replication.",
+    "Voltage shifts are recorded response units, not calibrated absolute resting potentials.",
+    "Sampling comparisons use instantaneous decimation and linear interpolation, no anti-alias filter.",
+    "The published 1 kHz series cannot validate sub-millisecond biological dynamics."
+  ],
+  "code_sha256": {
+    "scripts/audit_voltage_sampling.py": "4f276023f3b20540d492a07f06b6d94c0cf7042d9ca245b554f8c7f6ce8c4d82",
+    "flyplasticity/temporal_sampling.py": "97ac7231828671982dc6b8e10ecce7d0e505f50127ea21dedee058e0beb661e2"
+  }
+}

@@ -1,0 +1,1 @@
+{"stage":"plot", "error":"Bundled Python has openpyxl but no matplotlib", "numerical_audit_completed":true, "repair":"Separate read-only extraction and project-environment plotting", "neural_steps":0}
