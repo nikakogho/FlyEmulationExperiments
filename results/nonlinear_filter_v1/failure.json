@@ -1,0 +1,6 @@
+{
+  "status": "aborted_before_fitting",
+  "error": "Expected finite nonnegative one-dimensional light input",
+  "cause": "Signed source values: DC1 20 Hz minimum -0.00982 (8 negative); 50 Hz minimum -0.04105 (15 negative).",
+  "repair": "Version 2 uses signed monotone transforms without changing observations. No evaluation performance was computed."
+}

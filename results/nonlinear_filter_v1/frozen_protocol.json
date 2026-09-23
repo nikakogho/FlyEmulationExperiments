@@ -1,0 +1,43 @@
+{
+  "version": 1,
+  "scope": "Offline static nonlinearity followed by an 81-coefficient causal FIR. No recurrent physiology, neural recipient, body, reward or connectome execution.",
+  "selection_background": 1,
+  "new_evaluation_background": 3,
+  "background_meaning": "Origin DC1 is paper BG0.5; DC3 is BG1.5. Selection uses only BG0.5 development responses. BG1.5 100/200/500 Hz prediction performance has not previously been evaluated.",
+  "training_bandwidths": [20, 50],
+  "evaluation_bandwidths": [100, 200, 500],
+  "development_fit_slice": [0, 1200],
+  "development_validation_slice": [1400, 2000],
+  "lag_samples": 80,
+  "dt_ms": 1,
+  "penalties": [0.000001, 0.0001, 0.01, 0.1, 1.0],
+  "nonlinear_candidates": [
+    {"kind": "log1p", "parameter": 0.1},
+    {"kind": "log1p", "parameter": 0.5},
+    {"kind": "log1p", "parameter": 1.0},
+    {"kind": "log1p", "parameter": 2.0},
+    {"kind": "power", "parameter": 0.5},
+    {"kind": "power", "parameter": 1.5},
+    {"kind": "power", "parameter": 2.0}
+  ],
+  "selection_rule": "Lowest pooled validation MSE selects nonlinear transform and penalty. Identity baseline selects its own penalty on the same development blocks. Ties use list order. Each raw block independently loses its first 80 target samples. No evaluation responses are accessed by selection.",
+  "evaluation_rule": "Freeze selection to a hashed file before evaluation. Refit nonlinear and identity coefficients on BG1.5 20/50 Hz only, using frozen choices. Score both on BG1.5 100/200/500 Hz, after excluding first 80 samples. Also report BG0.5 old conditions as regression checks, never fresh confirmation. No gain, offset, centering or alignment is fitted to evaluation responses.",
+  "controls": "Identity FIR, current-input regression, and selected nonlinear FIR trained on inputs shifted by 1000 samples within each training waveform. Same target samples for all scores.",
+  "shift_samples": 1000,
+  "acceptance": {
+    "development_rmse_ratio_max": 0.95,
+    "new_pooled_rmse_ratio_to_identity_max": 0.95,
+    "new_each_rmse_ratio_to_identity_max": 1.0,
+    "new_each_normalized_rmse_max": 0.35,
+    "new_each_rmse_ratio_to_current_max": 0.8,
+    "new_each_rmse_ratio_to_shifted_max": 0.8
+  },
+  "claim_limits": [
+    "This tests transfer of a fitting recipe after background-specific refitting, not one unchanged model adapting to light.",
+    "All primary recordings are from one cell; no independent-animal or independent-random-seed confirmation.",
+    "Source numbers and audit summaries were already inspected; newly reserved means prediction performance was not previously evaluated.",
+    "BG1.5 population cell identity overlaps are unresolved; population data are excluded.",
+    "Static transforms are engineering hypotheses in source units, not calibrated photon transduction or R7/R8 physiology.",
+    "A failure remains recorded; no candidate or threshold changes after new evaluation."
+  ]
+}
