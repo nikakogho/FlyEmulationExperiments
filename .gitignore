@@ -44,3 +44,6 @@ results/**/*.pt
 results/**/*.pth
 results/**/*.pkl
 results/**/model.xml
+
+# Verbose read-only Origin parser progress; compact audit/provenance is tracked.
+results/origin_extraction_v1/*export.log

@@ -1,6 +1,12 @@
 # Fly emulation experiments
 
-Latest: [numerical receptor traces and high-rate optical recording](research/temporal_sampling_delivery.md).
+Latest: [paired receptor recordings and first causal response fit](research/causal_filter_delivery.md).
+Both user-downloaded Origin files are verified and extracted. All 800,000 primary
+voltage samples agree with the independent Excel exports; paired light inputs and
+population responses are now available. The first offline filter beats controls
+but fails its overall accuracy gate. 195 tests pass; no new neural execution.
+
+Previous: [numerical receptor traces and high-rate optical recording](research/temporal_sampling_delivery.md).
 Recovered and audited 400 published voltage traces; tested fresh 1 ms/0.5 ms 3D
 optical acquisition. 186 tests pass. No new neural execution. Paired light-input
 waveforms remain missing, so a calibrated temporal response model is still pending.

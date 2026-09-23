@@ -1,0 +1,1115 @@
+{
+  "status": "passed",
+  "source": [
+    {
+      "file": "figure1.opj",
+      "bytes": 17510289,
+      "sha256": "d869a74b541b7ff7bb6018e6dc6952c62fb81a8b1a0a1921342703e6c112a7a1",
+      "md5": "291dabd46d932e790a74f82fc1669c71",
+      "dryad_api": "https://datadryad.org/api/v2/files/58484",
+      "doi": "10.5061/dryad.12751",
+      "export_sha256": "7374a39c2c635c412e54dc4694354d14a0c1b2b8f39dd531e5a0a935c1c6411b",
+      "parser_revision": "f19e74517059769f9525b477ab934b6f9b1602d5"
+    },
+    {
+      "file": "figure1_supp1.opj",
+      "bytes": 20649572,
+      "sha256": "b5684032f04a0d96598e70479fd6650216badb95bad8e8b3c84d700113da39c2",
+      "md5": "a51bd7e43b413597f50e22b8d0953008",
+      "dryad_api": "https://datadryad.org/api/v2/files/58485",
+      "doi": "10.5061/dryad.12751",
+      "export_sha256": "00ab7be95b5d25bc85250fb7f0515ea4746ca7beb7c8b0bbc80613e7672f3d1d",
+      "parser_revision": "f19e74517059769f9525b477ab934b6f9b1602d5"
+    }
+  ],
+  "excel_sources": [
+    {
+      "file": "elife-26117-fig1-data1-v1.xlsx",
+      "sha256": "cb457117a713ad69c985d687c33d96d46ec027b66718b214be379b048d084c0d"
+    },
+    {
+      "file": "elife-26117-fig1-data2-v1.xlsx",
+      "sha256": "9d32a2fb99166a39bac81522523a5d54e53f2cdeb4f86513c7ef3415c3e0fa9a"
+    },
+    {
+      "file": "elife-26117-fig1-data3-v1.xlsx",
+      "sha256": "22b4b6b0e358ceb4a719720395879cc49bea3fdda3ce592ec09b4d7fc18e6330"
+    },
+    {
+      "file": "elife-26117-fig1-data4-v1.xlsx",
+      "sha256": "4f0d4012f9781646516823cc5132035db2fe078978bf8306a7355caa7e029622"
+    }
+  ],
+  "conditions": [
+    {
+      "key": "dc0_hz20",
+      "worksheet": "WN20HzDC0",
+      "stimulus_worksheet": "WNstimDC0",
+      "stimulus_column": "20Hz",
+      "time_column": "A",
+      "samples": 2000,
+      "dt_ms": 1,
+      "excel_max_abs_mV": 3.552713678800501e-15,
+      "primary": {
+        "columns": [
+          "n1",
+          "n2",
+          "n3",
+          "n4",
+          "n5",
+          "n6",
+          "n7",
+          "n8",
+          "n9",
+          "n11",
+          "n12",
+          "n10",
+          "n13",
+          "n14",
+          "n15",
+          "n16",
+          "n17",
+          "n18",
+          "n19",
+          "n20"
+        ],
+        "mean_max_abs_mV": 7.105427357601002e-15,
+        "sd_max_abs_mV": 1.2473910793175946e-12
+      },
+      "population": {
+        "columns": [
+          "cell1",
+          "cell2",
+          "cell3",
+          "cell4",
+          "cell5",
+          "cell6",
+          "cell7",
+          "cell8",
+          "cell9",
+          "cell11",
+          "cell12",
+          "cell10",
+          "cell13",
+          "cell14",
+          "cell15",
+          "cell16"
+        ],
+        "mean_max_abs_mV": 7.105427357601002e-15,
+        "sd_max_abs_mV": 1.7763568394002505e-15
+      },
+      "paired_by": "worksheet condition names, common 1..2000 ms axes, figure graph references",
+      "source_background_units": 0
+    },
+    {
+      "key": "dc0_hz50",
+      "worksheet": "WN50HzDC0",
+      "stimulus_worksheet": "WNstimDC0",
+      "stimulus_column": "50Hz",
+      "time_column": "A",
+      "samples": 2000,
+      "dt_ms": 1,
+      "excel_max_abs_mV": 3.552713678800501e-15,
+      "primary": {
+        "columns": [
+          "n1",
+          "n2",
+          "n3",
+          "n4",
+          "n5",
+          "n6",
+          "n7",
+          "n8",
+          "n9",
+          "n10",
+          "n11",
+          "n12",
+          "n13",
+          "n14",
+          "n15",
+          "n16",
+          "n17",
+          "n18",
+          "n19",
+          "n20"
+        ],
+        "mean_max_abs_mV": 7.105427357601002e-15,
+        "sd_max_abs_mV": 4.522493490810575e-13
+      },
+      "population": {
+        "columns": [
+          "cell1",
+          "cell2",
+          "cell3",
+          "cell4",
+          "cell5",
+          "cell6",
+          "cell7",
+          "cell8",
+          "cell9",
+          "cell10",
+          "cell11",
+          "cell12",
+          "cell13",
+          "cell14",
+          "cell15",
+          "cell16"
+        ],
+        "mean_max_abs_mV": 5.329070518200751e-15,
+        "sd_max_abs_mV": 1.3322676295501878e-15
+      },
+      "paired_by": "worksheet condition names, common 1..2000 ms axes, figure graph references",
+      "source_background_units": 0
+    },
+    {
+      "key": "dc0_hz100",
+      "worksheet": "WN100HzDC0",
+      "stimulus_worksheet": "WNstimDC0",
+      "stimulus_column": "100Hz",
+      "time_column": "A",
+      "samples": 2000,
+      "dt_ms": 1,
+      "excel_max_abs_mV": 3.552713678800501e-15,
+      "primary": {
+        "columns": [
+          "n1",
+          "n2",
+          "n3",
+          "n4",
+          "n5",
+          "n6",
+          "n7",
+          "n8",
+          "n9",
+          "n11",
+          "n12",
+          "n10",
+          "n13",
+          "n14",
+          "n15",
+          "n16",
+          "n17",
+          "n18",
+          "n19",
+          "n20"
+        ],
+        "mean_max_abs_mV": 7.105427357601002e-15,
+        "sd_max_abs_mV": 2.7028379534499436e-13
+      },
+      "population": {
+        "columns": [
+          "cell1",
+          "cell2",
+          "cell3",
+          "cell4",
+          "cell5",
+          "cell6",
+          "cell7",
+          "cell8",
+          "cell9",
+          "cell11",
+          "cell12",
+          "cell10",
+          "cell13",
+          "cell14",
+          "cell15",
+          "cell16"
+        ],
+        "mean_max_abs_mV": 3.552713678800501e-15,
+        "sd_max_abs_mV": 1.1102230246251565e-15
+      },
+      "paired_by": "worksheet condition names, common 1..2000 ms axes, figure graph references",
+      "source_background_units": 0
+    },
+    {
+      "key": "dc0_hz200",
+      "worksheet": "WN200HzDC0",
+      "stimulus_worksheet": "WNstimDC0",
+      "stimulus_column": "200Hz",
+      "time_column": "A",
+      "samples": 2000,
+      "dt_ms": 1,
+      "excel_max_abs_mV": 3.552713678800501e-15,
+      "primary": {
+        "columns": [
+          "n1",
+          "n2",
+          "n3",
+          "n4",
+          "n5",
+          "n6",
+          "n7",
+          "n8",
+          "n9",
+          "n10",
+          "n11",
+          "n12",
+          "n13",
+          "n14",
+          "n15",
+          "n16",
+          "n17",
+          "n18",
+          "n19",
+          "n20"
+        ],
+        "mean_max_abs_mV": 7.105427357601002e-15,
+        "sd_max_abs_mV": 2.082223282684481e-13
+      },
+      "population": {
+        "columns": [
+          "cell1",
+          "cell2",
+          "cell3",
+          "cell4",
+          "cell5",
+          "cell6",
+          "cell7",
+          "cell8",
+          "cell9",
+          "cell10",
+          "cell11",
+          "cell12",
+          "cell13",
+          "cell14",
+          "cell15",
+          "cell16"
+        ],
+        "mean_max_abs_mV": 3.552713678800501e-15,
+        "sd_max_abs_mV": 8.881784197001252e-16
+      },
+      "paired_by": "worksheet condition names, common 1..2000 ms axes, figure graph references",
+      "source_background_units": 0
+    },
+    {
+      "key": "dc0_hz500",
+      "worksheet": "WN500HzDC0",
+      "stimulus_worksheet": "WNstimDC0",
+      "stimulus_column": "500Hz",
+      "time_column": "A",
+      "samples": 2000,
+      "dt_ms": 1,
+      "excel_max_abs_mV": 1.7763568394002505e-15,
+      "primary": {
+        "columns": [
+          "n1",
+          "n2",
+          "n3",
+          "n4",
+          "n5",
+          "n6",
+          "n7",
+          "n8",
+          "n9",
+          "n11",
+          "n12",
+          "n10",
+          "n13",
+          "n14",
+          "n15",
+          "n16",
+          "n17",
+          "n18",
+          "n19",
+          "n20"
+        ],
+        "mean_max_abs_mV": 3.552713678800501e-15,
+        "sd_max_abs_mV": 7.027711745877241e-14
+      },
+      "population": {
+        "columns": [
+          "cell1",
+          "cell2",
+          "cell3",
+          "cell4",
+          "cell5",
+          "cell6",
+          "cell7",
+          "cell8",
+          "cell9",
+          "cell11",
+          "cell12",
+          "cell10",
+          "cell13",
+          "cell14",
+          "cell15",
+          "cell16"
+        ],
+        "mean_max_abs_mV": 1.7763568394002505e-15,
+        "sd_max_abs_mV": 4.440892098500626e-16
+      },
+      "paired_by": "worksheet condition names, common 1..2000 ms axes, figure graph references",
+      "source_background_units": 0
+    },
+    {
+      "key": "dc1_hz20",
+      "worksheet": "WN20HzDC1",
+      "stimulus_worksheet": "WNstimDC1",
+      "stimulus_column": "20Hz",
+      "time_column": "A",
+      "samples": 2000,
+      "dt_ms": 1,
+      "excel_max_abs_mV": 3.552713678800501e-15,
+      "primary": {
+        "columns": [
+          "n1",
+          "n2",
+          "n3",
+          "n4",
+          "n5",
+          "n6",
+          "n7",
+          "n8",
+          "n9",
+          "n10",
+          "n11",
+          "n12",
+          "n13",
+          "n14",
+          "n15",
+          "n16",
+          "n17",
+          "n18",
+          "n19",
+          "n20"
+        ],
+        "mean_max_abs_mV": 7.105427357601002e-15,
+        "sd_max_abs_mV": 3.138045379103005e-13
+      },
+      "population": {
+        "columns": [
+          "n1",
+          "n2",
+          "n3",
+          "n4",
+          "n5",
+          "n6",
+          "n7"
+        ],
+        "mean_max_abs_mV": 3.552713678800501e-15,
+        "sd_max_abs_mV": 1.7763568394002505e-15
+      },
+      "paired_by": "worksheet condition names, common 1..2000 ms axes, figure graph references",
+      "source_background_units": 0.5
+    },
+    {
+      "key": "dc1_hz50",
+      "worksheet": "WN50HzDC1",
+      "stimulus_worksheet": "WNstimDC1",
+      "stimulus_column": "50Hz",
+      "time_column": "A",
+      "samples": 2000,
+      "dt_ms": 1,
+      "excel_max_abs_mV": 1.7763568394002505e-15,
+      "primary": {
+        "columns": [
+          "n1",
+          "n2",
+          "n3",
+          "n4",
+          "n5",
+          "n6",
+          "n7",
+          "n8",
+          "n9",
+          "n10",
+          "n11",
+          "n12",
+          "n13",
+          "n14",
+          "n15",
+          "n16",
+          "n17",
+          "n18",
+          "n19",
+          "n20"
+        ],
+        "mean_max_abs_mV": 3.552713678800501e-15,
+        "sd_max_abs_mV": 1.2234657731369225e-13
+      },
+      "population": {
+        "columns": [
+          "n1",
+          "n2",
+          "n3",
+          "n4",
+          "n5",
+          "n6",
+          "n7"
+        ],
+        "mean_max_abs_mV": 2.6645352591003757e-15,
+        "sd_max_abs_mV": 8.881784197001252e-16
+      },
+      "paired_by": "worksheet condition names, common 1..2000 ms axes, figure graph references",
+      "source_background_units": 0.5
+    },
+    {
+      "key": "dc1_hz100",
+      "worksheet": "WN100HzDC1",
+      "stimulus_worksheet": "WNstimDC1",
+      "stimulus_column": "100Hz",
+      "time_column": "A",
+      "samples": 2000,
+      "dt_ms": 1,
+      "excel_max_abs_mV": 1.7763568394002505e-15,
+      "primary": {
+        "columns": [
+          "n1",
+          "n2",
+          "n3",
+          "n4",
+          "n5",
+          "n6",
+          "n7",
+          "n8",
+          "n9",
+          "n10",
+          "n11",
+          "n12",
+          "n13",
+          "n14",
+          "n15",
+          "n16",
+          "n17",
+          "n18",
+          "n19",
+          "n20"
+        ],
+        "mean_max_abs_mV": 5.329070518200751e-15,
+        "sd_max_abs_mV": 1.6103784972187896e-13
+      },
+      "population": {
+        "columns": [
+          "n1",
+          "n2",
+          "n3",
+          "n4",
+          "n5",
+          "n6",
+          "n7"
+        ],
+        "mean_max_abs_mV": 3.552713678800501e-15,
+        "sd_max_abs_mV": 8.881784197001252e-16
+      },
+      "paired_by": "worksheet condition names, common 1..2000 ms axes, figure graph references",
+      "source_background_units": 0.5
+    },
+    {
+      "key": "dc1_hz200",
+      "worksheet": "WN200HzDC1",
+      "stimulus_worksheet": "WNstimDC1",
+      "stimulus_column": "200Hz",
+      "time_column": "A",
+      "samples": 2000,
+      "dt_ms": 1,
+      "excel_max_abs_mV": 8.881784197001252e-16,
+      "primary": {
+        "columns": [
+          "n1",
+          "n2",
+          "n3",
+          "n4",
+          "n5",
+          "n6",
+          "n7",
+          "n8",
+          "n9",
+          "n10",
+          "n11",
+          "n12",
+          "n13",
+          "n14",
+          "n15",
+          "n16",
+          "n17",
+          "n18",
+          "n19",
+          "n20"
+        ],
+        "mean_max_abs_mV": 2.6645352591003757e-15,
+        "sd_max_abs_mV": 7.888134589961737e-14
+      },
+      "population": {
+        "columns": [
+          "n1",
+          "n2",
+          "n3",
+          "n4",
+          "n5",
+          "n6",
+          "n7"
+        ],
+        "mean_max_abs_mV": 2.6645352591003757e-15,
+        "sd_max_abs_mV": 6.661338147750939e-16
+      },
+      "paired_by": "worksheet condition names, common 1..2000 ms axes, figure graph references",
+      "source_background_units": 0.5
+    },
+    {
+      "key": "dc1_hz500",
+      "worksheet": "WN500HzDC1",
+      "stimulus_worksheet": "WNstimDC1",
+      "stimulus_column": "500Hz",
+      "time_column": "A",
+      "samples": 2000,
+      "dt_ms": 1,
+      "excel_max_abs_mV": 8.881784197001252e-16,
+      "primary": {
+        "columns": [
+          "n1",
+          "n2",
+          "n3",
+          "n4",
+          "n5",
+          "n6",
+          "n7",
+          "n8",
+          "n9",
+          "n10",
+          "n11",
+          "n12",
+          "n13",
+          "n14",
+          "n15",
+          "n16",
+          "n17",
+          "n18",
+          "n19",
+          "n20"
+        ],
+        "mean_max_abs_mV": 1.7763568394002505e-15,
+        "sd_max_abs_mV": 1.6819878823071122e-14
+      },
+      "population": {
+        "columns": [
+          "n1",
+          "n2",
+          "n3",
+          "n4",
+          "n5",
+          "n6",
+          "n7"
+        ],
+        "mean_max_abs_mV": 8.881784197001252e-16,
+        "sd_max_abs_mV": 4.440892098500626e-16
+      },
+      "paired_by": "worksheet condition names, common 1..2000 ms axes, figure graph references",
+      "source_background_units": 0.5
+    },
+    {
+      "key": "dc2_hz20",
+      "worksheet": "WN20HzDC2",
+      "stimulus_worksheet": "WNstimDC2",
+      "stimulus_column": "20Hz",
+      "time_column": "A",
+      "samples": 2000,
+      "dt_ms": 1,
+      "excel_max_abs_mV": 4.973799150320701e-14,
+      "primary": {
+        "columns": [
+          "n1",
+          "n2",
+          "n3",
+          "n4",
+          "n5",
+          "n6",
+          "n7",
+          "n8",
+          "n9",
+          "n10",
+          "n11",
+          "n12",
+          "n13",
+          "n14",
+          "n15",
+          "n16",
+          "n17",
+          "n18",
+          "n19",
+          "n20"
+        ],
+        "mean_max_abs_mV": 3.552713678800501e-15,
+        "sd_max_abs_mV": 1.1968204205459188e-13
+      },
+      "population": {
+        "columns": [
+          "n1",
+          "n2",
+          "n3",
+          "n4",
+          "n5",
+          "n6",
+          "n7",
+          "n8"
+        ],
+        "mean_max_abs_mV": 3.552713678800501e-15,
+        "sd_max_abs_mV": 8.881784197001252e-16
+      },
+      "paired_by": "worksheet condition names, common 1..2000 ms axes, figure graph references",
+      "source_background_units": 1.0
+    },
+    {
+      "key": "dc2_hz50",
+      "worksheet": "WN50HzDC2",
+      "stimulus_worksheet": "WNstimDC2",
+      "stimulus_column": "50Hz",
+      "time_column": "A",
+      "samples": 2000,
+      "dt_ms": 1,
+      "excel_max_abs_mV": 1.7763568394002505e-15,
+      "primary": {
+        "columns": [
+          "n1",
+          "n2",
+          "n3",
+          "n4",
+          "n5",
+          "n6",
+          "n7",
+          "n8",
+          "n9",
+          "n10",
+          "n11",
+          "n12",
+          "n13",
+          "n14",
+          "n15",
+          "n16",
+          "n17",
+          "n18",
+          "n19",
+          "n20"
+        ],
+        "mean_max_abs_mV": 1.7763568394002505e-15,
+        "sd_max_abs_mV": 5.3290705182007514e-14
+      },
+      "population": {
+        "columns": [
+          "n1",
+          "n2",
+          "n3",
+          "n4",
+          "n5",
+          "n6",
+          "n7",
+          "n8"
+        ],
+        "mean_max_abs_mV": 8.881784197001252e-16,
+        "sd_max_abs_mV": 4.440892098500626e-16
+      },
+      "paired_by": "worksheet condition names, common 1..2000 ms axes, figure graph references",
+      "source_background_units": 1.0
+    },
+    {
+      "key": "dc2_hz100",
+      "worksheet": "WN100HzDC2",
+      "stimulus_worksheet": "WNstimDC2",
+      "stimulus_column": "100Hz",
+      "time_column": "A",
+      "samples": 2000,
+      "dt_ms": 1,
+      "excel_max_abs_mV": 8.881784197001252e-16,
+      "primary": {
+        "columns": [
+          "n1",
+          "n2",
+          "n3",
+          "n4",
+          "n5",
+          "n6",
+          "n7",
+          "n8",
+          "n9",
+          "n10",
+          "n11",
+          "n12",
+          "n13",
+          "n14",
+          "n15",
+          "n16",
+          "n17",
+          "n18",
+          "n19",
+          "n20"
+        ],
+        "mean_max_abs_mV": 1.7763568394002505e-15,
+        "sd_max_abs_mV": 3.241851231905457e-14
+      },
+      "population": {
+        "columns": [
+          "n1",
+          "n2",
+          "n3",
+          "n4",
+          "n5",
+          "n6",
+          "n7",
+          "n8"
+        ],
+        "mean_max_abs_mV": 8.881784197001252e-16,
+        "sd_max_abs_mV": 4.440892098500626e-16
+      },
+      "paired_by": "worksheet condition names, common 1..2000 ms axes, figure graph references",
+      "source_background_units": 1.0
+    },
+    {
+      "key": "dc2_hz200",
+      "worksheet": "WN200HzDC2",
+      "stimulus_worksheet": "WNstimDC2",
+      "stimulus_column": "200Hz",
+      "time_column": "A",
+      "samples": 2000,
+      "dt_ms": 1,
+      "excel_max_abs_mV": 8.881784197001252e-16,
+      "primary": {
+        "columns": [
+          "n1",
+          "n2",
+          "n3",
+          "n4",
+          "n5",
+          "n6",
+          "n7",
+          "n8",
+          "n9",
+          "n10",
+          "n11",
+          "n12",
+          "n13",
+          "n14",
+          "n15",
+          "n16",
+          "n17",
+          "n18",
+          "n19",
+          "n20"
+        ],
+        "mean_max_abs_mV": 8.881784197001252e-16,
+        "sd_max_abs_mV": 1.1934897514720433e-14
+      },
+      "population": {
+        "columns": [
+          "n1",
+          "n2",
+          "n3",
+          "n4",
+          "n5",
+          "n6",
+          "n7",
+          "n8"
+        ],
+        "mean_max_abs_mV": 4.440892098500626e-16,
+        "sd_max_abs_mV": 2.220446049250313e-16
+      },
+      "paired_by": "worksheet condition names, common 1..2000 ms axes, figure graph references",
+      "source_background_units": 1.0
+    },
+    {
+      "key": "dc2_hz500",
+      "worksheet": "WN500HzDC2",
+      "stimulus_worksheet": "WNstimDC2",
+      "stimulus_column": "500Hz",
+      "time_column": "A",
+      "samples": 2000,
+      "dt_ms": 1,
+      "excel_max_abs_mV": 4.440892098500626e-16,
+      "primary": {
+        "columns": [
+          "n1",
+          "n2",
+          "n3",
+          "n4",
+          "n5",
+          "n6",
+          "n7",
+          "n8",
+          "n9",
+          "n10",
+          "n11",
+          "n12",
+          "n13",
+          "n14",
+          "n15",
+          "n16",
+          "n17",
+          "n18",
+          "n19",
+          "n20"
+        ],
+        "mean_max_abs_mV": 4.440892098500626e-16,
+        "sd_max_abs_mV": 3.83026943495679e-15
+      },
+      "population": {
+        "columns": [
+          "n1",
+          "n2",
+          "n3",
+          "n4",
+          "n5",
+          "n6",
+          "n7",
+          "n8"
+        ],
+        "mean_max_abs_mV": 8.881784197001252e-16,
+        "sd_max_abs_mV": 1.1102230246251565e-16
+      },
+      "paired_by": "worksheet condition names, common 1..2000 ms axes, figure graph references",
+      "source_background_units": 1.0
+    },
+    {
+      "key": "dc3_hz20",
+      "worksheet": "WN20HzDC3",
+      "stimulus_worksheet": "WNstimDC3",
+      "stimulus_column": "20Hz",
+      "time_column": "A",
+      "samples": 2000,
+      "dt_ms": 1,
+      "excel_max_abs_mV": 8.881784197001252e-16,
+      "primary": {
+        "columns": [
+          "n1",
+          "n2",
+          "n3",
+          "n4",
+          "n5",
+          "n6",
+          "n7",
+          "n8",
+          "n9",
+          "n10",
+          "n11",
+          "n12",
+          "n13",
+          "n14",
+          "n15",
+          "n16",
+          "n17",
+          "n18",
+          "n19",
+          "n20"
+        ],
+        "mean_max_abs_mV": 1.7763568394002505e-15,
+        "sd_max_abs_mV": 3.1030733538273125e-14
+      },
+      "population": {
+        "columns": [
+          "n1",
+          "n2",
+          "n3",
+          "n4"
+        ],
+        "mean_max_abs_mV": 8.881784197001252e-16,
+        "sd_max_abs_mV": 4.440892098500626e-16
+      },
+      "paired_by": "worksheet condition names, common 1..2000 ms axes, figure graph references",
+      "source_background_units": 1.5
+    },
+    {
+      "key": "dc3_hz50",
+      "worksheet": "WN50HzDC3",
+      "stimulus_worksheet": "WNstimDC3",
+      "stimulus_column": "50Hz",
+      "time_column": "A",
+      "samples": 2000,
+      "dt_ms": 1,
+      "excel_max_abs_mV": 8.881784197001252e-16,
+      "primary": {
+        "columns": [
+          "n1",
+          "n2",
+          "n3",
+          "n4",
+          "n5",
+          "n6",
+          "n7",
+          "n8",
+          "n9",
+          "n10",
+          "n11",
+          "n12",
+          "n13",
+          "n14",
+          "n15",
+          "n16",
+          "n17",
+          "n18",
+          "n19",
+          "n20"
+        ],
+        "mean_max_abs_mV": 1.7763568394002505e-15,
+        "sd_max_abs_mV": 1.7486012637846216e-14
+      },
+      "population": {
+        "columns": [
+          "n1",
+          "n2",
+          "n3",
+          "n4"
+        ],
+        "mean_max_abs_mV": 8.881784197001252e-16,
+        "sd_max_abs_mV": 4.440892098500626e-16
+      },
+      "paired_by": "worksheet condition names, common 1..2000 ms axes, figure graph references",
+      "source_background_units": 1.5
+    },
+    {
+      "key": "dc3_hz100",
+      "worksheet": "WN100HzDC3",
+      "stimulus_worksheet": "WNstimDC3",
+      "stimulus_column": "100Hz",
+      "time_column": "A",
+      "samples": 2000,
+      "dt_ms": 1,
+      "excel_max_abs_mV": 8.881784197001252e-16,
+      "primary": {
+        "columns": [
+          "n1",
+          "n2",
+          "n3",
+          "n4",
+          "n5",
+          "n6",
+          "n7",
+          "n8",
+          "n9",
+          "n10",
+          "n11",
+          "n12",
+          "n13",
+          "n14",
+          "n15",
+          "n16",
+          "n17",
+          "n18",
+          "n19",
+          "n20"
+        ],
+        "mean_max_abs_mV": 8.881784197001252e-16,
+        "sd_max_abs_mV": 1.709743457922741e-14
+      },
+      "population": {
+        "columns": [
+          "n1",
+          "n2",
+          "n3",
+          "n4"
+        ],
+        "mean_max_abs_mV": 8.881784197001252e-16,
+        "sd_max_abs_mV": 3.3306690738754696e-16
+      },
+      "paired_by": "worksheet condition names, common 1..2000 ms axes, figure graph references",
+      "source_background_units": 1.5
+    },
+    {
+      "key": "dc3_hz200",
+      "worksheet": "WN200HzDC3",
+      "stimulus_worksheet": "WNstimDC3",
+      "stimulus_column": "200Hz",
+      "time_column": "A",
+      "samples": 2000,
+      "dt_ms": 1,
+      "excel_max_abs_mV": 4.440892098500626e-16,
+      "primary": {
+        "columns": [
+          "n1",
+          "n2",
+          "n3",
+          "n4",
+          "n5",
+          "n6",
+          "n7",
+          "n8",
+          "n9",
+          "n11",
+          "n12",
+          "n10",
+          "n13",
+          "n14",
+          "n15",
+          "n16",
+          "n17",
+          "n18",
+          "n19",
+          "n20"
+        ],
+        "mean_max_abs_mV": 8.881784197001252e-16,
+        "sd_max_abs_mV": 6.2727600891321345e-15
+      },
+      "population": {
+        "columns": [
+          "n1",
+          "n2",
+          "n3",
+          "n4"
+        ],
+        "mean_max_abs_mV": 4.440892098500626e-16,
+        "sd_max_abs_mV": 1.6653345369377348e-16
+      },
+      "paired_by": "worksheet condition names, common 1..2000 ms axes, figure graph references",
+      "source_background_units": 1.5
+    },
+    {
+      "key": "dc3_hz500",
+      "worksheet": "WN500HzDC3",
+      "stimulus_worksheet": "WNstimDC3",
+      "stimulus_column": "500Hz",
+      "time_column": "A",
+      "samples": 2000,
+      "dt_ms": 1,
+      "excel_max_abs_mV": 4.440892098500626e-16,
+      "primary": {
+        "columns": [
+          "n1",
+          "n2",
+          "n3",
+          "n4",
+          "n5",
+          "n6",
+          "n7",
+          "n8",
+          "n9",
+          "n10",
+          "n11",
+          "n12",
+          "n13",
+          "n14",
+          "n15",
+          "n16",
+          "n17",
+          "n18",
+          "n19",
+          "n20"
+        ],
+        "mean_max_abs_mV": 4.440892098500626e-16,
+        "sd_max_abs_mV": 2.831068712794149e-15
+      },
+      "population": {
+        "columns": [
+          "n1",
+          "n2",
+          "n3",
+          "n4"
+        ],
+        "mean_max_abs_mV": 2.220446049250313e-16,
+        "sd_max_abs_mV": 1.1102230246251565e-16
+      },
+      "paired_by": "worksheet condition names, common 1..2000 ms axes, figure graph references",
+      "source_background_units": 1.5
+    }
+  ],
+  "stimulus_samples": 40000,
+  "primary_voltage_samples": 800000,
+  "population_cell_condition_traces": 175,
+  "duplicate_excluded": "BG0.5 supplement n1 equals primary mean in all five conditions",
+  "integrity_note": "A positional comparison initially failed because Origin column order differs. Matching n1..n20 by name reconciles all samples.",
+  "timing_limit": "Axes agree as published; instrument latency and sub-ms timing are not independently measured.",
+  "excluded": "80,000-sample responseReps records and non-BG0.5 cell identities are not used in fitting.",
+  "welfare": "Stored numeric data only; no neural or body model advanced.",
+  "arrays_sha256": "9a140ca35d2b9ad906bd907c066bebe8d6d3e33f321db95eccb8545c2481b3df",
+  "code_sha256": {
+    "scripts/audit_origin_receptors.py": "1c5b6d2bf550a8055a73ccbcbc1ba360e5a27bb5657f1c4e1d6d8d950704ec86",
+    "scripts/export_origin_project.py": "c03bf2e67e3bf8f1582e9232542ce31a4b1ef5659a237bf048810c3a09d8736d",
+    "flyplasticity/origin_data.py": "692157a07a646f44d9dc4ee3c042178e3dc5c5ccea8b2d43f583e6be4fbb5161",
+    "scripts/origin_reader.Dockerfile": "751bc580d932b40ed72d6949de2ea74e4724af7d93494f15776a5c7ebe75d472"
+  }
+}

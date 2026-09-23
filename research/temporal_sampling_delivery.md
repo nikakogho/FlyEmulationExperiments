@@ -1,5 +1,9 @@
 # Numerical receptor traces and high-rate 3D optical acquisition
 
+Follow-up: the user supplied both Origin files. The missing-input blocker is
+resolved; see [the extraction audit and first causal fit](causal_filter_delivery.md).
+The remainder of this document preserves the earlier checkpoint as recorded.
+
 2026-09-23. New numerical data and an optical timing fixture are available.
 No temporal photoreceptor model was fitted or executed. No connectome ran.
 

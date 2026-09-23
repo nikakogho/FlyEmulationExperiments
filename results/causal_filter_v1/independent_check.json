@@ -1,0 +1,7 @@
+{
+  "status": "passed",
+  "meaning": "Saved numerical evidence is internally consistent; model acceptance remains failed",
+  "max_convolution_disagreement_mV": 5.329070518200751e-15,
+  "script_sha256": "c531a41cf74568a3a1c1bbb446ccc652b43e5be3e446010836262dd51a9cea66",
+  "report_sha256": "c355062e4ea3b1069095a28e0adbbb4b416de8ad0487591e2eaf06b40bd55e11"
+}

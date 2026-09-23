@@ -1,0 +1,365 @@
+{
+  "status": "failed",
+  "same_cell_gate": false,
+  "transfer_gate": true,
+  "protocol_sha256": "80df5c3dc1e89fc52708ba238ebb87bfeda5fc9192a8ee7d845441440bca8a86",
+  "audit_sha256": "00d672ca43c73699ea6a4b597c87ffec704a6c43e2ef6e10ff19c24286633086",
+  "data_sha256": "9a140ca35d2b9ad906bd907c066bebe8d6d3e33f321db95eccb8545c2481b3df",
+  "predictions_sha256": "3501fcc3365741c62340fbef048709df2b0d705751665437084aa16172ff1189",
+  "development": [
+    {
+      "penalty": 1e-06,
+      "rmse_mV": 2.1185037973124103,
+      "normalized_rmse": 0.39614110593915197,
+      "r_squared": 0.8430722241853056,
+      "samples": 1040
+    },
+    {
+      "penalty": 0.0001,
+      "rmse_mV": 2.1184569990909554,
+      "normalized_rmse": 0.396132355093755,
+      "r_squared": 0.8430791572478752,
+      "samples": 1040
+    },
+    {
+      "penalty": 0.01,
+      "rmse_mV": 2.1149492709856097,
+      "normalized_rmse": 0.39547644156990464,
+      "r_squared": 0.8435983841632058,
+      "samples": 1040
+    },
+    {
+      "penalty": 0.1,
+      "rmse_mV": 2.099001803060405,
+      "normalized_rmse": 0.3924944088783258,
+      "r_squared": 0.8459481389992536,
+      "samples": 1040
+    },
+    {
+      "penalty": 1.0,
+      "rmse_mV": 2.040072156584087,
+      "normalized_rmse": 0.38147509640064814,
+      "r_squared": 0.8544767508261162,
+      "samples": 1040
+    }
+  ],
+  "selected_penalty": 1.0,
+  "same_cell_test": [
+    {
+      "bandwidth_hz": 100,
+      "fir": {
+        "rmse_mV": 1.5652183386338938,
+        "normalized_rmse": 0.4472720572165557,
+        "r_squared": 0.7999477068332701,
+        "samples": 1920
+      },
+      "current_input": {
+        "rmse_mV": 3.8828064417386545,
+        "normalized_rmse": 1.1095390221953896,
+        "r_squared": -0.2310768417743012,
+        "samples": 1920
+      },
+      "shifted_training": {
+        "rmse_mV": 4.288943065260868,
+        "normalized_rmse": 1.2255953950540874,
+        "r_squared": -0.5020840723777844,
+        "samples": 1920
+      },
+      "rmse_ratio_to_current_input": 0.4031152111545936,
+      "rmse_ratio_to_shifted_training": 0.36494267114704443,
+      "passes": false
+    },
+    {
+      "bandwidth_hz": 200,
+      "fir": {
+        "rmse_mV": 0.8365826001204599,
+        "normalized_rmse": 0.40384257844526195,
+        "r_squared": 0.8369111718346824,
+        "samples": 1920
+      },
+      "current_input": {
+        "rmse_mV": 2.5614949975378454,
+        "normalized_rmse": 1.2365076016777945,
+        "r_squared": -0.5289510490069715,
+        "samples": 1920
+      },
+      "shifted_training": {
+        "rmse_mV": 2.5601456579595263,
+        "normalized_rmse": 1.235856236499475,
+        "r_squared": -0.5273406372946461,
+        "samples": 1920
+      },
+      "rmse_ratio_to_current_input": 0.32659934956913755,
+      "rmse_ratio_to_shifted_training": 0.32677148564555836,
+      "passes": false
+    },
+    {
+      "bandwidth_hz": 500,
+      "fir": {
+        "rmse_mV": 0.3905951610263572,
+        "normalized_rmse": 0.267745684142015,
+        "r_squared": 0.9283122486233243,
+        "samples": 1920
+      },
+      "current_input": {
+        "rmse_mV": 2.213329154893773,
+        "normalized_rmse": 1.5171957769556499,
+        "r_squared": -1.301883025612058,
+        "samples": 1920
+      },
+      "shifted_training": {
+        "rmse_mV": 1.8363317119889155,
+        "normalized_rmse": 1.258771074496164,
+        "r_squared": -0.5845046179882272,
+        "samples": 1920
+      },
+      "rmse_ratio_to_current_input": 0.17647405048758036,
+      "rmse_ratio_to_shifted_training": 0.21270403297850085,
+      "passes": true
+    }
+  ],
+  "transfer": [
+    {
+      "bandwidth_hz": 100,
+      "source_column": "n2",
+      "rmse_mV": 1.5967628068956867,
+      "normalized_rmse": 0.4623889955777366,
+      "r_squared": 0.7861964167686118,
+      "samples": 1920
+    },
+    {
+      "bandwidth_hz": 100,
+      "source_column": "n3",
+      "rmse_mV": 1.9341392463041136,
+      "normalized_rmse": 0.49214026937251765,
+      "r_squared": 0.7577979552619458,
+      "samples": 1920
+    },
+    {
+      "bandwidth_hz": 100,
+      "source_column": "n4",
+      "rmse_mV": 1.4314014304021714,
+      "normalized_rmse": 0.5811300796003597,
+      "r_squared": 0.6622878305836797,
+      "samples": 1920
+    },
+    {
+      "bandwidth_hz": 100,
+      "source_column": "n5",
+      "rmse_mV": 1.6277598241071813,
+      "normalized_rmse": 0.8252012050807027,
+      "r_squared": 0.319042971133356,
+      "samples": 1920
+    },
+    {
+      "bandwidth_hz": 100,
+      "source_column": "n6",
+      "rmse_mV": 1.5610533220018838,
+      "normalized_rmse": 0.8225026811107128,
+      "r_squared": 0.32348933956568904,
+      "samples": 1920
+    },
+    {
+      "bandwidth_hz": 100,
+      "source_column": "n7",
+      "rmse_mV": 1.4765371080127399,
+      "normalized_rmse": 0.4496036929175768,
+      "r_squared": 0.7978565193148773,
+      "samples": 1920
+    },
+    {
+      "bandwidth_hz": 200,
+      "source_column": "n2",
+      "rmse_mV": 0.8909941238090853,
+      "normalized_rmse": 0.42572771876082033,
+      "r_squared": 0.8187559094787079,
+      "samples": 1920
+    },
+    {
+      "bandwidth_hz": 200,
+      "source_column": "n3",
+      "rmse_mV": 1.0899608415802815,
+      "normalized_rmse": 0.46037964194332515,
+      "r_squared": 0.7880505852841357,
+      "samples": 1920
+    },
+    {
+      "bandwidth_hz": 200,
+      "source_column": "n4",
+      "rmse_mV": 0.8383473279459778,
+      "normalized_rmse": 0.5323949291972597,
+      "r_squared": 0.7165556393650447,
+      "samples": 1920
+    },
+    {
+      "bandwidth_hz": 200,
+      "source_column": "n5",
+      "rmse_mV": 0.9187919808141329,
+      "normalized_rmse": 0.6786791053718942,
+      "r_squared": 0.5393946719316054,
+      "samples": 1920
+    },
+    {
+      "bandwidth_hz": 200,
+      "source_column": "n6",
+      "rmse_mV": 0.8333063052875681,
+      "normalized_rmse": 0.6550876295058963,
+      "r_squared": 0.5708601976683456,
+      "samples": 1920
+    },
+    {
+      "bandwidth_hz": 200,
+      "source_column": "n7",
+      "rmse_mV": 0.8121196204667929,
+      "normalized_rmse": 0.4175655396033157,
+      "r_squared": 0.8256390201357918,
+      "samples": 1920
+    },
+    {
+      "bandwidth_hz": 500,
+      "source_column": "n2",
+      "rmse_mV": 0.4682734921631122,
+      "normalized_rmse": 0.32398560428106243,
+      "r_squared": 0.8950333282186348,
+      "samples": 1920
+    },
+    {
+      "bandwidth_hz": 500,
+      "source_column": "n3",
+      "rmse_mV": 0.6162403402373817,
+      "normalized_rmse": 0.36598857446305355,
+      "r_squared": 0.8660523633625019,
+      "samples": 1920
+    },
+    {
+      "bandwidth_hz": 500,
+      "source_column": "n4",
+      "rmse_mV": 0.52901860924642,
+      "normalized_rmse": 0.4664041811194453,
+      "r_squared": 0.7824671398342997,
+      "samples": 1920
+    },
+    {
+      "bandwidth_hz": 500,
+      "source_column": "n5",
+      "rmse_mV": 0.6256258142077421,
+      "normalized_rmse": 0.6386236230767757,
+      "r_squared": 0.5921598680482925,
+      "samples": 1920
+    },
+    {
+      "bandwidth_hz": 500,
+      "source_column": "n6",
+      "rmse_mV": 0.7515116010523198,
+      "normalized_rmse": 1.025502475679539,
+      "r_squared": -0.05165532762486347,
+      "samples": 1920
+    },
+    {
+      "bandwidth_hz": 500,
+      "source_column": "n7",
+      "rmse_mV": 0.4304049991959403,
+      "normalized_rmse": 0.3082779684630125,
+      "r_squared": 0.9049646941603179,
+      "samples": 1920
+    }
+  ],
+  "transfer_median_nrmse": 0.47927222524598145,
+  "model": {
+    "weights_current_to_lag80": [
+      0.046019046705307265,
+      0.05242255934222892,
+      0.06403997432889942,
+      0.08106295421974576,
+      0.1043429731160197,
+      0.13348495090788629,
+      0.16954346516264407,
+      0.21005600325606671,
+      0.25489420701945714,
+      0.3010377338824759,
+      0.3480306510379898,
+      0.3920517976244575,
+      0.43202120359989266,
+      0.46441765598327245,
+      0.4895379820736047,
+      0.5044226034161832,
+      0.5106838622656803,
+      0.5067475350626199,
+      0.4941962490079878,
+      0.47382402089955816,
+      0.4478723993589336,
+      0.4169300656628346,
+      0.3831152176860144,
+      0.34711709704138466,
+      0.3109564971609113,
+      0.27561220709979667,
+      0.24243027406838338,
+      0.2122350002000645,
+      0.18635975463003474,
+      0.16338378097642683,
+      0.14401381464512292,
+      0.12772288172599167,
+      0.1144691977158718,
+      0.10318189933350222,
+      0.09416136753301581,
+      0.08576106419469434,
+      0.07832854509982883,
+      0.07030111877839391,
+      0.06204266639457441,
+      0.053046343140175554,
+      0.04375175874329809,
+      0.03412935923130471,
+      0.024901085303194983,
+      0.015830125099771903,
+      0.006852567412158547,
+      -0.0008918640781220597,
+      -0.00750575274093273,
+      -0.012093224390627072,
+      -0.015168723014326958,
+      -0.016767740410609504,
+      -0.016965193841751918,
+      -0.016532895188567515,
+      -0.0157757841051636,
+      -0.014950338053570303,
+      -0.014003628765868187,
+      -0.013959339366067608,
+      -0.013516176832575508,
+      -0.014915727906117053,
+      -0.016910962985276782,
+      -0.019962418181277575,
+      -0.0232018545441292,
+      -0.026826938299498632,
+      -0.030211015335318534,
+      -0.0334072988007263,
+      -0.03602587362454299,
+      -0.037618086342981694,
+      -0.038246757936960675,
+      -0.03691514473794172,
+      -0.03514796288343096,
+      -0.032089233451224095,
+      -0.0291343386783294,
+      -0.026072833559303347,
+      -0.024343718902217985,
+      -0.02421629826056733,
+      -0.026175247009110125,
+      -0.031533747985645094,
+      -0.04010922048195244,
+      -0.05402852492101393,
+      -0.07196107127467377,
+      -0.09553824890735359,
+      -0.12219768417536378
+    ],
+    "intercept_mV": -9.124412592662042
+  },
+  "welfare": "Offline matrix operations on recorded data. No neural recipient, recurrent cellular state, needs, reward, valence, body or connectome execution.",
+  "limitations": [
+    "Bandwidth holdout is not independent-animal or proven independent-random-seed validation.",
+    "Population traces are cell means; cell identity across backgrounds is unresolved.",
+    "Existing published relative-voltage preprocessing may use whole-record statistics.",
+    "No claim about R7/R8, absolute membrane potential, photon scale, adaptation generality, learning or absence of suffering."
+  ],
+  "code_sha256": {
+    "scripts/benchmark_causal_filter.py": "f6c11874738a9116b657d3e247d00449bd4a887c15b5b461649be8b01bf084e1",
+    "flyplasticity/causal_filter.py": "e48c849549bc79e3088cd43098953ce3e5cfaac8d36ce5485b73190cb4801786"
+  }
+}

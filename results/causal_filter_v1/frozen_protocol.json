@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "scope": "Offline causal FIR prediction of archived R1-R6 voltage responses. No neural, body or connectome execution.",
+  "declared_before_fitting": true,
+  "source": "10.5061/dryad.12751; Figure 1 and Figure 1 supplement 1",
+  "background_origin_index": 1,
+  "background_paper_units": 0.5,
+  "input_units": "Stored Origin light-input units; no conversion to absorbed photons claimed",
+  "output_units": "Published relative voltage mV; existing source preprocessing retained",
+  "dt_ms": 1,
+  "max_lag_samples": 80,
+  "lag_rationale": "Fixed engineering horizon, not a measured or universal biological time constant",
+  "training_bandwidths_hz": [20, 50],
+  "test_bandwidths_hz": [100, 200, 500],
+  "development_fit_raw_slice": [0, 1200],
+  "development_validation_raw_slice": [1400, 2000],
+  "development_rule": "Build lag windows within each slice separately; discard first 80 targets of each slice. Select lowest pooled validation MSE, tie chooses first penalty. No test-response centering, gain fit, time shifts or hyperparameter tuning.",
+  "ridge_penalties": [0.000001, 0.0001, 0.01, 0.1, 1.0],
+  "final_fit": "Refit selected penalty on both complete training waveforms after discarding first 80 samples separately. Mean of 20 primary-cell trials is target.",
+  "baselines": ["current input linear regression, identical scored samples", "causal FIR trained with each training stimulus circularly shifted by 1000 samples; same selected penalty"],
+  "negative_control_shift_samples": 1000,
+  "transfer_columns": ["n2", "n3", "n4", "n5", "n6", "n7"],
+  "excluded_duplicate": "Supplement n1 exactly equals primary 20-trial mean in all five BG0.5 conditions; excluded from transfer. Other backgrounds have unresolved identities and are not fit here.",
+  "acceptance": {
+    "same_cell_each_test_nrmse_max": 0.35,
+    "same_cell_each_rmse_ratio_to_current_input_max": 0.8,
+    "same_cell_each_rmse_ratio_to_shifted_training_max": 0.8,
+    "transfer_median_nrmse_max": 0.5,
+    "interpretation": "Engineering usefulness thresholds, not biological equivalence or welfare validation. Transfer median is across 18 cell-condition traces, not 18 independent animals. Report all failures without retuning."
+  },
+  "limitations": [
+    "Bandwidth holdout is not independent-animal or proven independent-random-seed validation.",
+    "Population traces are cell means; cell identity across backgrounds is unresolved.",
+    "Existing published relative-voltage preprocessing may use whole-record statistics.",
+    "No claim about R7/R8, absolute membrane potential, photon scale, adaptation generality, learning or absence of suffering."
+  ]
+}
