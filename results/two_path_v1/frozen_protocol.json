@@ -1,0 +1,34 @@
+{
+  "version": 1,
+  "scope": "Offline matrix regression on recorded signals only; no brain, body, recurrent cellular state, valence or reward.",
+  "selection_background": 1,
+  "reserved_background": 2,
+  "regression_backgrounds": [1, 3],
+  "training_hz": [20, 50],
+  "evaluation_hz": [100, 200, 500],
+  "fit_slice": [0, 1200],
+  "validation_slice": [1400, 2000],
+  "lag": 80,
+  "dt_ms": 1,
+  "penalties": [0.000001, 0.0001, 0.01, 0.1, 1.0],
+  "features": "Concatenate 81 raw-input lag features and 81 sign(x)*log1p(abs(x)/0.5) lag features. Common training-only ridge centering/scaling. 162 coefficients plus intercept.",
+  "selection": "Independently choose penalty for linear, compressed and combined models on BG0.5 development blocks by pooled RMSE; ties choose list order. Discard first 80 targets within each block. Commit selection before evaluation.",
+  "evaluation": "Refit each recipe on 20/50 Hz of each evaluation background with frozen penalty. New endpoint is prediction performance on BG1 (Origin DC2) 100/200/500 Hz. BG0.5 and BG1.5 are seen regression checks. No evaluation-response offset, gain, shift or normalization fit.",
+  "controls": "Linear, compressed-only, current-input linear and combined with training input shifted by 1000 samples.",
+  "shift_samples": 1000,
+  "acceptance": {
+    "development_ratio_to_linear_max": 0.95,
+    "reserved_pooled_ratio_to_linear_max": 0.95,
+    "reserved_each_ratio_to_linear_max": 1.0,
+    "reserved_each_nrmse_max": 0.35,
+    "reserved_each_ratio_to_current_max": 0.8,
+    "reserved_each_ratio_to_shifted_max": 0.8
+  },
+  "limits": [
+    "Engineering hypothesis, not an identified biological two-path mechanism.",
+    "One primary cell; shared stimulus seeds may occur. Descriptive source numbers were inspected previously, but DC2 prediction performance was not evaluated.",
+    "Background-specific refitting tests a recipe, not adaptation by an unchanged model.",
+    "Relative source units, including negative values, are retained; absolute photons, R7/R8 and welfare are not calibrated.",
+    "No retuning after reserved evaluation. Seen backgrounds cannot count as fresh confirmation."
+  ]
+}

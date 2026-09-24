@@ -1,0 +1,162 @@
+{
+  "scores": [
+    {
+      "kind": "linear",
+      "penalty": 1e-06,
+      "rmse_mV": 2.1185037973124103,
+      "normalized_rmse": 0.39614110593915197,
+      "r_squared": 0.8430722241853056,
+      "samples": 1040
+    },
+    {
+      "kind": "linear",
+      "penalty": 0.0001,
+      "rmse_mV": 2.1184569990909554,
+      "normalized_rmse": 0.396132355093755,
+      "r_squared": 0.8430791572478752,
+      "samples": 1040
+    },
+    {
+      "kind": "linear",
+      "penalty": 0.01,
+      "rmse_mV": 2.1149492709856097,
+      "normalized_rmse": 0.39547644156990464,
+      "r_squared": 0.8435983841632058,
+      "samples": 1040
+    },
+    {
+      "kind": "linear",
+      "penalty": 0.1,
+      "rmse_mV": 2.099001803060405,
+      "normalized_rmse": 0.3924944088783258,
+      "r_squared": 0.8459481389992536,
+      "samples": 1040
+    },
+    {
+      "kind": "linear",
+      "penalty": 1.0,
+      "rmse_mV": 2.040072156584087,
+      "normalized_rmse": 0.38147509640064814,
+      "r_squared": 0.8544767508261162,
+      "samples": 1040
+    },
+    {
+      "kind": "compressed",
+      "penalty": 1e-06,
+      "rmse_mV": 1.6704637167154806,
+      "normalized_rmse": 0.31236165118533027,
+      "r_squared": 0.9024301988687741,
+      "samples": 1040
+    },
+    {
+      "kind": "compressed",
+      "penalty": 0.0001,
+      "rmse_mV": 1.670445580513651,
+      "normalized_rmse": 0.31235825987913607,
+      "r_squared": 0.9024323174852781,
+      "samples": 1040
+    },
+    {
+      "kind": "compressed",
+      "penalty": 0.01,
+      "rmse_mV": 1.669056856453925,
+      "normalized_rmse": 0.3120985810031472,
+      "r_squared": 0.902594475735822,
+      "samples": 1040
+    },
+    {
+      "kind": "compressed",
+      "penalty": 0.1,
+      "rmse_mV": 1.6610534699569426,
+      "normalized_rmse": 0.3106020199008281,
+      "r_squared": 0.9035263852335256,
+      "samples": 1040
+    },
+    {
+      "kind": "compressed",
+      "penalty": 1.0,
+      "rmse_mV": 1.6499007347690067,
+      "normalized_rmse": 0.30851655899337055,
+      "r_squared": 0.9048175328268901,
+      "samples": 1040
+    },
+    {
+      "kind": "combined",
+      "penalty": 1e-06,
+      "rmse_mV": 1.6889326613128361,
+      "normalized_rmse": 0.3158151772765306,
+      "r_squared": 0.9002607738017936,
+      "samples": 1040
+    },
+    {
+      "kind": "combined",
+      "penalty": 0.0001,
+      "rmse_mV": 1.6884167870492606,
+      "normalized_rmse": 0.3157187134412721,
+      "r_squared": 0.9003216939829879,
+      "samples": 1040
+    },
+    {
+      "kind": "combined",
+      "penalty": 0.01,
+      "rmse_mV": 1.672678838877932,
+      "normalized_rmse": 0.3127758590542692,
+      "r_squared": 0.9021712619928639,
+      "samples": 1040
+    },
+    {
+      "kind": "combined",
+      "penalty": 0.1,
+      "rmse_mV": 1.6350139639901062,
+      "normalized_rmse": 0.30573286710303843,
+      "r_squared": 0.9065274139729558,
+      "samples": 1040
+    },
+    {
+      "kind": "combined",
+      "penalty": 1.0,
+      "rmse_mV": 1.6869862552482051,
+      "normalized_rmse": 0.3154512168946669,
+      "r_squared": 0.9004905297596738,
+      "samples": 1040
+    }
+  ],
+  "chosen": {
+    "linear": {
+      "kind": "linear",
+      "penalty": 1.0,
+      "rmse_mV": 2.040072156584087,
+      "normalized_rmse": 0.38147509640064814,
+      "r_squared": 0.8544767508261162,
+      "samples": 1040
+    },
+    "compressed": {
+      "kind": "compressed",
+      "penalty": 1.0,
+      "rmse_mV": 1.6499007347690067,
+      "normalized_rmse": 0.30851655899337055,
+      "r_squared": 0.9048175328268901,
+      "samples": 1040
+    },
+    "combined": {
+      "kind": "combined",
+      "penalty": 0.1,
+      "rmse_mV": 1.6350139639901062,
+      "normalized_rmse": 0.30573286710303843,
+      "r_squared": 0.9065274139729558,
+      "samples": 1040
+    }
+  },
+  "development_ratio": 0.8014490853734245,
+  "provenance": {
+    "protocol_sha256": "7ccf9619a6e97576bfed7f89a42549da11c1194845c3c77bb194051fa45d492d",
+    "data_sha256": "9a140ca35d2b9ad906bd907c066bebe8d6d3e33f321db95eccb8545c2481b3df",
+    "code_sha256": {
+      "scripts/benchmark_two_path.py": "cb2f09f72f4ba741e485bda50e6c0db1a45f1e1ccaa0ae0a37df2476c9694e75",
+      "flyplasticity/two_path_filter.py": "d8bdee5c07af052222286979e0639983a6a4006ce977f7ac7507de40fb63172a",
+      "flyplasticity/causal_filter.py": "e48c849549bc79e3088cd43098953ce3e5cfaac8d36ce5485b73190cb4801786",
+      "flyplasticity/nonlinear_filter.py": "38e4ce7a788bb8e55c1160ae632413f8af2b9f6eea204f6eb8597ea6530e00ec",
+      "scripts/benchmark_nonlinear_filter.py": "4c28127a12e55ea7ef6feb3f2e72ed040102b80f89c6bd416012c465add9f4cf"
+    }
+  }
+}
