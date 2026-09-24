@@ -1,0 +1,7 @@
+{
+  "status": "passed",
+  "model_acceptance": "failed",
+  "max_convolution_disagreement_mV": 8.881784197001252e-15,
+  "report_sha256": "82501c2156053e54114ce1b36021f052124b7fbafdba23f8f449fd20d95c0fe4",
+  "checker_sha256": "ff2b7c1d884f4dbfad1496871234ffaf2bc164ab23777222c100065f58f1f46d"
+}

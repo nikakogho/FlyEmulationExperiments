@@ -1,6 +1,11 @@
 # Fly emulation experiments
 
-Latest: [nonlinear response fit and reserved brighter-background test](research/nonlinear_filter_delivery.md).
+Latest: [two-path response filter: reserved test failed](research/two_path_delivery.md).
+Adding a linear path alongside compression increased reserved BG1 pooled error
+by 11.2% versus linear filtering alone. Candidate rejected; 208 tests and an
+independent convolution check pass. No neural execution or integration.
+
+Previous: [nonlinear response fit and reserved brighter-background test](research/nonlinear_filter_delivery.md).
 A development-selected nonlinear transform reduced pooled prediction error by
 8.4% on the reserved background, but worsened the 500 Hz condition by 10.4%.
 The overall promotion gate fails; no neural integration. 203 tests pass, with an
